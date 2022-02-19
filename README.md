@@ -1,4 +1,4 @@
-# Public iPerf Servers
+# Public iPerf3 Servers
 
 ### Europe
 
