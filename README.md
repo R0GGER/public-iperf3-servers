@@ -17,8 +17,8 @@
 
 | **COMMAND** | **RM*** | **GB/s** | **LOC** | **TESTED** |
 | :-- | --- | --- | --- | --- |
-| iperf3 -c speedtest.wtnet.de -p 5200 -P 10 -4 | -R  | 10  | DE  | yes |
-| iperf3 -c speedtest.wtnet.de -p 5200 -P 10 -6 | -R  | 10  | DE  |     |
+| iperf3 -c speedtest.wtnet.de -p {5200-5209} | -R  | 10  | DE  | yes |
+| iperf3 -c speedtest.wtnet.de -p {5200-5209} -6 | -R  | 10  | DE  |     |
 | iperf3 -c fra.speedtest.clouvider.net -p {5200-5209} |     | 10  | DE  | yes |
 | iperf3 -c iperf.deic.dk |     | 10  | IS  | yes |
 | iperf3 -c iperf.par2.as49434.net -p 9202 | -R  | 40  | FR  | yes |
@@ -32,9 +32,9 @@
 | iperf3 -c ping6-90ms.online.net -p {5200-5209} -6 |     | 10  | FR  |     |
 | iperf3 -c ping6.online.net -p {5200-5209} -6 |     | 10  | FR  |     |
 | iperf3 -c proof.ovh.net -p {5201-5210} |     |     |     | yes |
-| iperf3 -c speedtest.serverius.net -p 5002 -P 10 -4 | -R  | 10  | NL  | yes |
-| iperf3 -c speedtest.serverius.net -p 5002 -P 10 -6 | -R  | 10  | NL  | yes |
-| iperf3 -c iperf.worldstream.nl -t 60 -P 8 -i 0 |     | 10  | NL  | yes |
+| iperf3 -c speedtest.serverius.net -p 5002 | -R  | 10  | NL  | yes |
+| iperf3 -c speedtest.serverius.net -p 5002 -6 | -R  | 10  | NL  |  |
+| iperf3 -c iperf.worldstream.nl |     | 10  | NL  | yes |
 | iperf3 -c ams.speedtest.clouvider.net -p {5200-5209} |     | 10  | NL  | yes |
 | iperf3 -c ping-ams1.online.net {5200-5209} |     | 10  | NL  | yes |
 | iperf3 -c lon.speedtest.clouvider.net -p {5200-5209} |     | 10  | UK  | yes |
