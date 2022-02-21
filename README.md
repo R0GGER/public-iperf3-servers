@@ -1,8 +1,17 @@
 # Public iPerf3 Servers
 
-### iPerf3 options
+#### Install iPerf3
+```
+apt update && apt install -y iperf3 
+```
+#### Docker
+```
+docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c <host> -p <port>
+```
 
-`-c`  host
+#### iPerf3 options
+
+`-c`  host  
 `-p, --port` server port to listen on/connect to    
 `-P, --parallel` number of parallel client streams to run    
 `-i, --interval` seconds between periodic throughput reports   
@@ -11,7 +20,7 @@
 `-4, --version4` only use IPv4   
 `-6, --version6` only use IPv6    
 
-**Test date: 21-02-2022**    
+**Test date: 21-02-2022** 
 
 ### EUROPE
 
