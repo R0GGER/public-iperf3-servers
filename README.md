@@ -1,4 +1,4 @@
-# Public iPerf3 Server
+# Public iPerf3 Servers
 
 ### iPerf3 options
 
