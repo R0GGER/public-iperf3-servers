@@ -16,7 +16,7 @@
 ### EUROPE
 
 | **COMMAND** | **IPv4/6** | **RM*** | **GB/s** | **LOC** | **TESTED** |
-| --- | --- | --- | --- | --- | --- |
+| :-- | --- | --- | --- | --- | --- |
 | iperf3 -c speedtest.wtnet.de -p 5200 -P 10 | 4 + 6 | -R  | 10  | DE  | yes |
 | iperf3 -c fra.speedtest.clouvider.net -p {5200-5209} | 4   |     | 10  | DE  | yes |
 | iperf3 -c iperf.deic.dk | 4   |     | 10  | IS  | yes |
@@ -42,7 +42,7 @@ _\* RM = Reverse Mode_
 ### US
 
 | **COMMAND** | **IPv4/6** | **RM*** | **GB/s** | **LOC** | **TESTED** |
-| --- | --- | --- | --- | --- | --- |
+| :-- | --- | --- | --- | --- | --- |
 | iperf3 -c la.speedtest.clouvider.net -p {5200-5209} | 4   |     | 10  | US  | yes |
 | iperf3 -c atl.speedtest.clouvider.net -p {5200-5209} | 4   |     | 10  | US  | yes |
 | iperf3 -c nyc.speedtest.clouvider.net -p {5200-5209} | 4   |     | 10  | US  | yes |
