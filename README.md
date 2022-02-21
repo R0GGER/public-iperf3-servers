@@ -6,7 +6,7 @@ apt update && apt install -y iperf3
 ```
 #### Docker
 ```
-docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c <host> -p <port>
+docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c <HOST> -p <PORT>
 ```
 
 #### iPerf3 options
