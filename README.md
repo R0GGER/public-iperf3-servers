@@ -33,8 +33,8 @@
 | iperf3 -c proof.ovh.net -p {5201-5210} | 4   |     |     |     | yes |
 | iperf3 -c speedtest.serverius.net -p 5002 -P 10 | 4 +6 | -R  | 10  | NL  | yes |
 | iperf3 -c iperf.worldstream.nl -t 60 -P 8 -i 0 | 4   |     | 10  | NL  | yes |
-| iperf3 -c ams.speedtest.clouvider.net -p {5200-5209} | 4   |     | 10  | NL  | yes |
-| iperf3 -c ping-ams1.online.net {5200-5209} | 4   |     | 10  | NL  | yes |
+| iperf3 -c ams.speedtest.clouvider.net -p {5200-5209} | 4   |     | 10  | NL  |  |
+| iperf3 -c ping-ams1.online.net -p {5200-5209} | 4   |     | 10  | NL  | yes |
 | iperf3 -c lon.speedtest.clouvider.net -p {5200-5209} | 4   |     | 10  | UK  | yes |
 
 _\* RM = Reverse Mode_
