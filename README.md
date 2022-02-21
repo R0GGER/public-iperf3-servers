@@ -12,10 +12,16 @@
 * iperf3 -c lon.speedtest.clouvider.net -p {5200-5209}
 * iperf3 -c ams.speedtest.clouvider.net -p {5200-5209}
 * iperf3 -c fra.speedtest.clouvider.net -p {5200-5209}
+* iperf3 -c paris.testdebit.info -p 9240
+* iperf3 -c lille.testdebit.info -p 9240
+* iperf3 -c lyon.testdebit.info -p 9240
+* iperf3 -c aix-marseille.testdebit.info -p 9240
+* iperf3 -c bordeaux.testdebit.info -p 9240
+* iperf3 -c lille.testdebit.info -p 9240
 
 #### IPv6
 * iperf3 -c speedtest.serverius.net -p 5002 -P 10 -6
-* iperf3 -c speedtest.wtnet.de -p 5209 -P 10 -6   
+* iperf3 -c speedtest.wtnet.de -p 5209 -P 10 -6 
 
 #### IPv4 -R reverse mode (server sends, client receives)
 * iperf3 -c speedtest.serverius.net -p 5002 -P 10 -4 -R
