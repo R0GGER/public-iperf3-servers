@@ -18,6 +18,7 @@
 * iperf3 -c aix-marseille.testdebit.info -p 9240
 * iperf3 -c bordeaux.testdebit.info -p 9240
 * iperf3 -c lille.testdebit.info -p 9240
+* iperf3 -c iperf.par2.as49434.net -p {9210-9239}
 
 #### IPv6
 * iperf3 -c speedtest.serverius.net -p 5002 -P 10 -6
