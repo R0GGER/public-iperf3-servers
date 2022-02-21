@@ -21,6 +21,8 @@ Connection Speed: 10GB/s or more.
 * iperf3 -c lille.testdebit.info -p 9240
 * iperf3 -c iperf.par2.as49434.net -p {9210-9239}
 * iperf3 -c proof.ovh.net -p {5201-5210}
+* iperf3 -c ping-ams1.online.net {5200-5209}
+* iperf3 -c ping-90ms.online.net {5200-5209}
 
 #### IPv6
 * iperf3 -c speedtest.serverius.net -p 5002 -P 10 -6
