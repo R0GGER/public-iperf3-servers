@@ -1,6 +1,7 @@
 # Public iPerf3 Servers
 
 ### Europe
+Connection Speed: 10GB/s or more.
 
 #### IPv4
 * iperf3 -c speedtest.serverius.net -p 5002 -P 10 -4    
@@ -34,6 +35,7 @@
 * iperf3 -c speedtest.wtnet.de -p 5209 -P 10 -6 -R
 
 ### US
+Connection Speed: 10GB/s or more.
 
 #### IPv4
 * iperf3 -c la.speedtest.clouvider.net -p {5200-5209}
