@@ -69,3 +69,9 @@ docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c <HO
 | :-- | --- | --- | --- | --- |
 | iperf3 -c speedtest.iveloz.net.br -p 5201-5209 |     | 2  | BR  | yes |
 
+### Asia
+
+| **COMMAND** | **RM*** | **GB/s** | **LOC** | **TESTED** |
+| :-- | --- | --- | --- | --- |
+| iperf3 -c iperf.biznetnetworks.com -p 5201-5203 |     | 1 | ID | yes |
+
