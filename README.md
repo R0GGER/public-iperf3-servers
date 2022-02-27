@@ -5,7 +5,7 @@
 apt update && apt install -y iperf3 
 ```
 
-**Oneliner (example)**
+**Single line command (example)**
 ```
 for((i=0;i<10;i++)) ; do iperf3 -p $((5200+(RANDOM%10))) -c iperf.worldstream.nl && break ; sleep 1 || break ; done
 ```
