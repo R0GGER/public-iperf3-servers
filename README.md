@@ -1,17 +1,15 @@
 # Public iPerf3 Servers
 
-#### Install iPerf3
+#### iPerf3
 ```
 apt update && apt install -y iperf3 
 ```
-
-**Single line command (example)**
+#### Single line command:
 ```
 for((i=0;i<10;i++)) ; do iperf3 -p $((5200+(RANDOM%10))) -c iperf.worldstream.nl && break ; sleep 1 || break ; done
 ```
 
-
-#### Docker
+#### Docker - Single line command:
 ```
 docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c <HOST> -p <PORT>
 ```
