@@ -66,8 +66,6 @@ docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c <HO
 | iperf3 -c ash.speedtest.clouvider.net -p 5200-5209 |     | 10  | US  | yes |
 | iperf3 -c phx.speedtest.clouvider.net -p 5200-5209 |     | 10  | US  | yes |
 
-*\* RM = Reverse Mode (optional)*
-
 ### South America
 
 | **COMMAND** | **RM*** | **GB/s** | **LOC** | **TESTED** |
