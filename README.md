@@ -31,6 +31,7 @@ docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c <HO
 
 | **COMMAND** | **RM*** | **GB/s** | **LOC** | **TESTED** |
 | :-- | --- | --- | --- | --- |
+| iperf3 -c iperf3.privatelayer.com -p 5201 |     | 40  | CH  | yes |
 | iperf3 -c speedtest.wtnet.de -p 5200-5209 | -R  | 10  | DE  | yes |
 | iperf3 -c speedtest.wtnet.de -p 5200-5209 -6 | -R  | 10  | DE  |     |
 | iperf3 -c fra.speedtest.clouvider.net -p 5200-5209 |     | 10  | DE  | yes |
