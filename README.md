@@ -46,6 +46,8 @@ docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c <HO
 | iperf3 -c ping6-90ms.online.net -p 5200-5209 -6 |     | 10  | FR  |     |
 | iperf3 -c ping6.online.net -p 5200-5209 -6 |     | 10  | FR  |     |
 | iperf3 -c proof.ovh.net -p 5201-5210 |     |     |     | yes |
+| iperf3 -c speedtest.novoserve.com -p 5201 | -R  | 40  | NL  | yes |
+| iperf3 -c speedtest.novoserve.com -p 5206 -6 | -R | 40  | NL  | yes |
 | iperf3 -c speedtest.serverius.net -p 5002 | -R  | 10  | NL  | yes |
 | iperf3 -c speedtest.serverius.net -p 5002 -6 | -R  | 10  | NL  |     |
 | iperf3 -c iperf.worldstream.nl |     | 10  | NL  | yes |
