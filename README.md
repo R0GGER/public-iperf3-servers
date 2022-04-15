@@ -1,5 +1,8 @@
 # Public iPerf3 Servers
 
+**Test date: 14-04-2022**   
+Please create a [new issue](https://github.com/R0GGER/public-iperf3-servers/issues) if you have or know a public iperf3 server which isn't on this list.
+
 #### iPerf3
 ```
 apt update && apt install -y iperf3 
@@ -25,8 +28,6 @@ docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c <HO
 `-4, --version4` only use IPv4   
 `-6, --version6` only use IPv6    
 
-**Test date: 14-04-2022**   
-Please create a [new issue](https://github.com/R0GGER/public-iperf3-servers/issues) if you have or know a public iperf3 server which isn't on this list.
 
 ### EUROPE
 
