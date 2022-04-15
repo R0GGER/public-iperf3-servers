@@ -33,10 +33,15 @@ docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c <HO
 
 | **COMMAND** | **RM*** | **GB/s** | **LOC** | **TESTED** |
 | :-- | --- | --- | --- | --- |
+| iperf3 -c lg.vie.alwyzon.net |     |  | AUT  | yes |
 | iperf3 -c iperf3.privatelayer.com -p 5201 |     | 40  | CH  | yes |
+| iperf3 -c iperf.quickline.ch | -R |  | CH  | yes |
+| iperf3 -c iperf.quickline.ch -6 | -R |  | CH  | yes |
+| iperf3 -c speedtest.shinternet.ch | -R |  | CH  | yes |
 | iperf3 -c speedtest.wtnet.de -p 5200-5209 | -R  | 10  | DE  | yes |
 | iperf3 -c speedtest.wtnet.de -p 5200-5209 -6 | -R  | 10  | DE  |     |
 | iperf3 -c fra.speedtest.clouvider.net -p 5200-5209 |     | 10  | DE  | yes |
+| iperf3 -c lg.ip-projects.de -p 5201 |     |  | DE  | yes |
 | iperf3 -c iperf.deic.dk |     | 10  | IS  | yes |
 | iperf3 -c iperf.par2.as49434.net -p 9202 | -R  | 40  | FR  | yes |
 | iperf3 -c iperf.online.net -p 5204 |     | 10  | FR  | yes |
@@ -54,10 +59,13 @@ docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c <HO
 | iperf3 -c speedtest.novoserve.com -p 5206 -6 | -R | 40  | NL  | yes |
 | iperf3 -c speedtest.serverius.net -p 5002 | -R  | 10  | NL  | yes |
 | iperf3 -c speedtest.serverius.net -p 5002 -6 | -R  | 10  | NL  |     |
+| iperf3 -c speedtest-nl-oum.hybula.net | -R |  | NL  | yes |
 | iperf3 -c iperf.worldstream.nl |     | 10  | NL  | yes |
+| iperf3 -c speedtest.yisp.nl | -R | 10  | NL  | yes |
 | iperf3 -c ams.speedtest.clouvider.net -p 5200-5209 |     | 10  | NL  | yes |
 | iperf3 -c ping-ams1.online.net 5200-5209 |     | 10  | NL  | yes |
 | iperf3 -c lon.speedtest.clouvider.net -p 5200-5209 |     | 10  | UK  | yes |
+| iperf3 -c iperf.as42831.net -p 5300-5400 |     |  | UK  | yes |
 
 *\* RM = Reverse Mode (optional)*
 
