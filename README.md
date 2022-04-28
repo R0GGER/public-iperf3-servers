@@ -3,23 +3,24 @@
 **Test date: 14-04-2022**   
 Please create a [new issue](https://github.com/R0GGER/public-iperf3-servers/issues) if you have or know a public iperf3 server which isn't on this list.
 
-#### iPerf3
+### iPerf3
 ```
 apt update && apt install -y iperf3 
 ```
-### Command example:
-`iperf3 -c lon.speedtest.clouvider.net -p 5203`
+### Command examples:
+```
+iperf3 -c lon.speedtest.clouvider.net -p 5203
+```
 
-#### Multi-port command:
+**Bash - random port between 5200-5210:**
 ```
 for((i=0;i<10;i++)) ; do iperf3 -p $((5200+(RANDOM%10))) -c ams.speedtest.clouvider.net && break ; sleep 1 || break ; done
 ```
-or in Docker:
+**Docker - random port between 5200-5210:** 
 ```
 docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c ams.speedtest.clouvider.net -p $((5200+(RANDOM%10)))
 ```
-
-#### iPerf3 options
+### iPerf3 options
 
 `-c`  host  
 `-p, --port` server port to listen on/connect to    
@@ -30,6 +31,7 @@ docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c ams
 `-4, --version4` only use IPv4   
 `-6, --version6` only use IPv6    
 
+### Servers
 
 ### EUROPE
 
