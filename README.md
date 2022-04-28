@@ -7,12 +7,14 @@ Please create a [new issue](https://github.com/R0GGER/public-iperf3-servers/issu
 ```
 apt update && apt install -y iperf3 
 ```
-#### Single line command:
+### Command example:
+`iperf3 -c lon.speedtest.clouvider.net -p 5203`
+
+#### Multi-port command:
 ```
 for((i=0;i<10;i++)) ; do iperf3 -p $((5200+(RANDOM%10))) -c ams.speedtest.clouvider.net && break ; sleep 1 || break ; done
 ```
-
-#### Docker - Single line command:
+or in Docker:
 ```
 docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c ams.speedtest.clouvider.net -p $((5200+(RANDOM%10)))
 ```
