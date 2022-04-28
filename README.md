@@ -66,8 +66,8 @@ docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c ams
 | iperf3 -c iperf.worldstream.nl |     | 10  | NL  | yes |
 | iperf3 -c speedtest.yisp.nl | -R | 10  | NL  | yes |
 | iperf3 -c ams.speedtest.clouvider.net -p 5200-5209 |     | 10  | NL  | yes |
-| iperf3 -c lg.terrahost.com -p 9200 |     | 10  | NO  | yes |
 | iperf3 -c ping-ams1.online.net 5200-5209 |     | 10  | NL  | yes |
+| iperf3 -c lg.terrahost.com -p 9200 |     | 10  | NO  | yes |
 | iperf3 -c lon.speedtest.clouvider.net -p 5200-5209 |     | 10  | UK  | yes |
 | iperf3 -c iperf.as42831.net -p 5300-5400 |     |  | UK  | yes |
 
