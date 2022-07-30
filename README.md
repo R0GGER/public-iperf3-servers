@@ -35,15 +35,15 @@ docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c ams
 
 ### EUROPE
 
-| **COMMAND** | **RM*** | **GB/s** | **LOC** | **TESTED** |
+| **COMMAND** | **-R** | **GB/s** | **LOC** | **TESTED** |
 | :-- | --- | --- | --- | --- |
 | iperf3 -c lg.vie.alwyzon.net |     |  | AUT  | yes |
 | iperf3 -c iperf3.privatelayer.com -p 5201 |     | 40  | CH  | yes |
 | iperf3 -c iperf.quickline.ch | -R |  | CH  | yes |
 | iperf3 -c iperf.quickline.ch -6 | -R |  | CH  | yes |
 | iperf3 -c speedtest.shinternet.ch -p 5204 | -R |  | CH  | yes |
-| iperf3 -c speedtest.wtnet.de -p 5200-5209 | -R  | 10  | DE  | yes |
-| iperf3 -c speedtest.wtnet.de -p 5200-5209 -6 | -R  | 10  | DE  |     |
+| iperf3 -c speedtest.wtnet.de -p 5200-5209 | -R  | 40  | DE  | yes |
+| iperf3 -c speedtest.wtnet.de -p 5200-5209 -6 | -R  | 40  | DE  |     |
 | iperf3 -c fra.speedtest.clouvider.net -p 5200-5209 |     | 10  | DE  | yes |
 | iperf3 -c lg.ip-projects.de -p 5201 |     |  | DE  | yes |
 | iperf3 -c 178.215.228.109 -p 9210 | -R |  | DE  | yes |
@@ -73,11 +73,9 @@ docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c ams
 | iperf3 -c lon.speedtest.clouvider.net -p 5200-5209 |     | 10  | UK  | yes |
 | iperf3 -c iperf.as42831.net -p 5300-5400 |     |  | UK  | yes |
 
-*\* RM = Reverse Mode (optional)*
-
 ### US
 
-| **COMMAND** | **RM*** | **GB/s** | **LOC** | **TESTED** |
+| **COMMAND** | **-R** | **GB/s** | **LOC** | **TESTED** |
 | :-- | --- | --- | --- | --- |
 | iperf3 -c la.speedtest.clouvider.net -p 5200-5209 |     | 10  | US  | yes |
 | iperf3 -c atl.speedtest.clouvider.net -p 5200-5209 |     | 10  | US  | yes |
@@ -88,13 +86,13 @@ docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c ams
 
 ### South America
 
-| **COMMAND** | **RM*** | **GB/s** | **LOC** | **TESTED** |
+| **COMMAND** | **-R** | **GB/s** | **LOC** | **TESTED** |
 | :-- | --- | --- | --- | --- |
 | iperf3 -c speedtest.iveloz.net.br -p 5201-5209 |     | 2  | BR  | yes |
 
 ### Asia
 
-| **COMMAND** | **RM*** | **GB/s** | **LOC** | **TESTED** |
+| **COMMAND** | **-R** | **GB/s** | **LOC** | **TESTED** |
 | :-- | --- | --- | --- | --- |
 | iperf3 -c iperf.biznetnetworks.com -p 5201-5203 |     | 1 | ID | yes |
 
