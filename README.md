@@ -90,6 +90,7 @@ docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c ams
 | iperf3 -c fra.speedtest.clouvider.net -p 5200-5209 |     | 10   | DE  | yes    |
 | iperf3 -c lg.ip-projects.de -p 5201                |     |      | DE  | yes    |
 | iperf3 -c 178.215.228.109 -p 9210                  | \-R |      | DE  | yes    |
+| iperf3 -c lg.swehosting.se -p 5201                 | \-R |      | DE  | yes    |
 | iperf3 -c iperf.par2.as49434.net -p 9202           | \-R | 40   | FR  | yes    |
 | iperf3 -c iperf.online.net -p 5204                 |     | 10   | FR  | yes    |
 | iperf3 -c paris.testdebit.info -p 9240             |     | 10   | FR  | yes    |
