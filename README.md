@@ -65,23 +65,23 @@ docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c ams
 
 ### ASIA
 
-| COMMAND                                         | \-R | GB/s | COUNTRY | SITE                        | TESTED |
-| :---------------------------------------------- | --- | ---- | ------- | :-------------------------- | ------ |
-| iperf3 -c 107.151.142.227 -p 5201               | \-R | 1    | AE      | Dubai                       |        |
-| iperf3 -c 128.14.190.130 -p 5201                | \-R | 1    | AE      | Fujairah City               |        |
-| iperf3 -c 156.59.152.66 -p 5201                 | \-R | 1    | CN      | Hong Kong (China Optimized) | yes    |
-| iperf3 -c 156.59.103.69 -p 5201                 | \-R | 1    | CN      | HongKong                    | yes    |
-| iperf3 -c iperf.biznetnetworks.com -p 5201-5203 |     | 1    | ID      | Jakarta                     | yes    |
-| iperf3 -c 129.227.44.98 -p 5201                 | \-R | 1    | ID      | Jakarta                     | yes    |
-| iperf3 -c 156.59.121.194 -p 5201                | \-R | 1    | IN      | Chennai                     | yes    |
-| iperf3 -c 129.227.223.66 -p 5201                | \-R | 1    | IN      | Mumbai                      | yes    |
-| iperf3 -c 156.59.29.2 -p 5201                   | \-R | 1    | JAP     | Tokyo                       | yes    |
-| iperf3 -c 192.169.126.4  -p 5201                | \-R | 1    | JAP     | Tokyo (China Optimized)     | yes    |
-| iperf3 -c 162.221.193.194 -p 5201               | \-R | 1    | MY      | Kuala Lumpur                | yes    |
-| iperf3 -c 156.59.169.4 -p 5201                  | \-R | 1    | PH      | Manila                      | yes    |
-| iperf3 -c 129.227.231.194 -p 5201               | \-R | 1    | TH      | Bangkok                     | yes    |
-| iperf3 -c 23.90.175.130 -p 5201                 | \-R | 1    | TR      | Istanbul                    |        |
-| iperf3 -c 156.59.143.226 -p 5201                | \-R | 1    | VN      | Hanoi                       | yes    |
+| COMMAND                                         | \-R | GB/s | COUNTRY | SITE          | TESTED |
+| :---------------------------------------------- | --- | ---- | ------- | :------------ | ------ |
+| iperf3 -c 107.151.142.227 -p 5201               | \-R | 1    | AE      | Dubai         |        |
+| iperf3 -c 128.14.190.130 -p 5201                | \-R | 1    | AE      | Fujairah City |        |
+| iperf3 -c 156.59.152.66 -p 5201                 | \-R | 1    | CN      | Hong Kong     | yes    |
+| iperf3 -c 156.59.103.69 -p 5201                 | \-R | 1    | CN      | HongKong      | yes    |
+| iperf3 -c iperf.biznetnetworks.com -p 5201-5203 |     | 1    | ID      | Jakarta       | yes    |
+| iperf3 -c 129.227.44.98 -p 5201                 | \-R | 1    | ID      | Jakarta       | yes    |
+| iperf3 -c 156.59.121.194 -p 5201                | \-R | 1    | IN      | Chennai       | yes    |
+| iperf3 -c 129.227.223.66 -p 5201                | \-R | 1    | IN      | Mumbai        | yes    |
+| iperf3  -c 156.59.29.2 -p 5201                  | \-R | 1    | JAP     | Tokyo         | yes    |
+| iperf3 -c 192.169.126.4  -p 5201                | \-R | 1    | JAP     | Tokyo         | yes    |
+| iperf3 -c 162.221.193.194 -p 5201               | \-R | 1    | MY      | Kuala Lumpur  | yes    |
+| iperf3 -c 156.59.169.4 -p 5201                  | \-R | 1    | PH      | Manila        | yes    |
+| iperf3 -c 129.227.231.194 -p 5201               | \-R | 1    | TH      | Bangkok       | yes    |
+| iperf3 -c 23.90.175.130 -p 5201                 | \-R | 1    | TR      | Istanbul      |        |
+| iperf3 -c 156.59.143.226 -p 5201                | \-R | 1    | VN      | Hanoi         | yes    |
 
 ### AUSTRALIA
 
