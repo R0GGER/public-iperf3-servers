@@ -52,6 +52,7 @@ docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c ams
 | iperf3 -c 102.165.60.112 -p 5201      |     |      | SA      | Johannesburg | yes    |
 | iperf3 -c 102.134.120.74 -p 5201      |     |      | SA      | Johannesburg | yes    |
 | iperf3 -c 169.255.0.134 -p 5201       |     |      | SA      | Johannesburg | yes    |
+| iperf3 -c server-18999.prod.hosts.ooklaserver.net -p 5201       |     |      | SA      | Johannesburg | yes    |
 | iperf3 -c 156.251.131.8 -p 5201       |     |      | SC      |              | yes    |
 | iperf3 -c 154.73.174.30 -p 5201       |     |      | SN      | Dakar        | yes    |
 | iperf3 -c 154.70.95.2 -p 5201         |     |      | TG      | Lomé         | yes    |
