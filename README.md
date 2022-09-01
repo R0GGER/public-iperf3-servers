@@ -35,8 +35,8 @@ docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c ams
 * [AFRICA](#africa)
 * [AMERICA](#america)
 * [ASIA](#asia)
-* [AUSTRALIA](#australia)
 * [EUROPE](#europe)
+* [OCEANIA](#oceania)
 
 ### AFRICA
 
@@ -96,12 +96,6 @@ docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c ams
 | iperf3 -c 23.90.175.130 -p 5201                 | \-R | 1    | TR      | Istanbul      |        |
 | iperf3 -c 156.59.143.226 -p 5201                | \-R | 1    | VN      | Hanoi         | yes    |
 
-### AUSTRALIA
-
-| COMMAND                                            | \-R | GB/s | COUNTRY | SITE | TESTED |
-| :------------------------------------------------- | --- | ---- | ------- | -----| ------ |
-| ...                                                |     |      |         |      |        |
-
 ### EUROPE
 
 | COMMAND                                            | \-R | GB/s | COUNTRY  | SITE         | TESTED |
@@ -148,3 +142,9 @@ docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c ams
 | iperf3 -c lon.speedtest.clouvider.net -p 5200-5209 |     | 10   | UK       | London       | yes    |
 | iperf3 -c iperf.as42831.net -p 5300-5400           |     |      | UK       | London       | yes    |
 | iperf3 -c 23.90.177.66 -p 5201                     | \-R | 1    | UK       | London       | yes    |
+
+### OCEANIA
+
+| COMMAND                                            | \-R | GB/s | COUNTRY | SITE | TESTED |
+| :------------------------------------------------- | --- | ---- | ------- | -----| ------ |
+| ...                                                |     |      |         |      |        |
