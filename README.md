@@ -123,6 +123,8 @@ docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c ams
 | iperf3 -c ping6-90ms.online.net -p 5200-5209 -6    |     | 10   | FR       |              |        |
 | iperf3 -c ping6.online.net -p 5200-5209 -6         |     | 10   | FR       |              |        |
 | iperf3 -c speedtest.lu.buyvm.net -p 5201           |     |      | LU       | Bissen       | yes    |
+| iperf3 -c speedtest.ams1.novogara.net -p 5200-5209 |     | 20   | NL       | Amsterdam    | yes    |
+| iperf3 -c speedtest.ams1.novogara.net -p 5200-5209 -6 |     | 20   | NL       | Amsterdam    | yes    |
 | iperf3 -c speedtest.novoserve.com -p 5201          | \-R | 40   | NL       | Amsterdam    | yes    |
 | iperf3 -c speedtest.novoserve.com -p 5206 -6       | \-R | 40   | NL       | Amsterdam    | yes    |
 | iperf3 -c speedtest.serverius.net -p 5002          | \-R | 10   | NL       | Amsterdam    | yes    |
@@ -135,7 +137,9 @@ docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c ams
 | iperf3 -c 208.81.200.98 -p 5201                    | \-R | 1    | NL       | Amsterdam    | yes    |
 | iperf3 -c iperf.worldstream.nl                     |     | 10   | NL       | Naaldwijk    | yes    |
 | iperf3 -c lg.terrahost.com -p 9200                 |     | 10   | NO       | Sandefjord   | yes    |
+| iperf3 -c 31.148.48.5 -p 5201                      |     |      | RU       | Angarsk      | yes    |
 | iperf3 -c 23.90.131.2 -p 5201                      | \-R | 1    | RU       | Moscow       | yes    |
+| iperf3 -c 62.213.110.86 -p 5201                    |     |      | RU       | Moscow       | yes    |
 | iperf3 -c 23.90.191.146 -p 5201                    | \-R | 1    | SP       | Madrid       | yes    |
 | iperf3 -c iperf.volia.net -p 5201                  | \-R |      | UA       | Kyiv         | yes    |
 | iperf3 -c iperf.astra.in.ua -p 5201-5206           | \-R | 10   | UA       | Lviv         | yes    |
