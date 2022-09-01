@@ -176,3 +176,7 @@ docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c ams
 | iperf3 -c speedtest.tas.optusnet.com.au               |     |      | AU      | Sydney | yes    |
 | iperf3 -c techspeedtest.bla.optusnet.com.au           |     |      | AU      | Sydney | yes    |
 | iperf3 -c townsville.qld.speedtest.optusnet.com.au    |     |      | AU      | Sydney | yes    |
+| iperf3 -c server-28463.prod.hosts.ooklaserver.net     |     |      | NZ      | Auckland | yes  |
+| iperf3 -c server-52201.prod.hosts.ooklaserver.net     |     |      | NZ      | Auckland | yes  |
+| iperf3 -c server-5539.prod.hosts.ooklaserver.net      |     |      | NZ      | Nelson | yes  |
+| iperf3 -c server-46550.prod.hosts.ooklaserver.net     |     |      | NZ      | Wellington | yes  |
