@@ -40,9 +40,22 @@ docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c ams
 
 ### AFRICA
 
-| COMMAND                                            | \-R | GB/s | COUNTRY | SITE | TESTED |
-| :------------------------------------------------- | --- | ---- | ------- | ---- | ------ |
-| ...                                                |     |      |         |      |        |
+| COMMAND                               | \-R | GB/s | COUNTRY | SITE         | TESTED |
+| :------------------------------------ | --- | ---- | ------- | :----------- | ------ |
+| iperf3 -c 196.249.224.30 -p 5201      |     |      | AO      |              | yes    |
+| iperf3 -c 197.155.149.134 -p 5201     |     |      | ML      |              | yes    |
+| iperf3 -c 102.35.43.208 -p 5201       |     |      | RE      |              | yes    |
+| iperf3 -c 41.213.138.11 -p 5201       |     |      | RE      |              | yes    |
+| iperf3 -c 13.244.123.229 -p 5201-5203 |     |      | SA      | Cape Town    | yes    |
+| iperf3 -c 154.0.5.20 -p 5201          |     |      | SA      | Cape Town    | yes    |
+| iperf3 -c 41.168.5.158 -p 5201        |     |      | SA      | Johannesburg | yes    |
+| iperf3 -c 102.165.60.112 -p 5201      |     |      | SA      | Johannesburg | yes    |
+| iperf3 -c 102.134.120.74 -p 5201      |     |      | SA      | Johannesburg | yes    |
+| iperf3 -c 169.255.0.134 -p 5201       |     |      | SA      | Johannesburg | yes    |
+| iperf3 -c 156.251.131.8 -p 5201       |     |      | SC      |              | yes    |
+| iperf3 -c 154.73.174.30 -p 5201       |     |      | SN      | Dakar        | yes    |
+| iperf3 -c 154.70.95.2 -p 5201         |     |      | TG      | Lomé         | yes    |
+| iperf3 -c 102.176.252.66 -p 5201      |     |      | TG      | Lomé         | yes    |
 
 ### AMERICA
 
