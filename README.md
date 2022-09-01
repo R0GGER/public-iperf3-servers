@@ -145,6 +145,29 @@ docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c ams
 
 ### OCEANIA
 
-| COMMAND                                            | \-R | GB/s | COUNTRY | SITE | TESTED |
-| :------------------------------------------------- | --- | ---- | ------- | -----| ------ |
-| ...                                                |     |      |         |      |        |
+| COMMAND                                                       | \-R | GB/s | COUNTRY | SITE   | TESTED |
+| :------------------------------------------------------------ | --- | ---- | ------- | :----- | ------ |
+| iperf3 -c speed.tpgi.com.au -p 5201                           |     |      | AU      | Perth  | yes    |
+| iperf3 -c 198.142.237.64 -p 5201                              |     |      | AU      | Sydney | yes    |
+| iperf3 -c 198.142.237.65 -p 5201                              |     |      | AU      | Sydney | yes    |
+| iperf3 -c 198.142.237.67 -p 5201                              |     |      | AU      | Sydney | yes    |
+| iperf3 -c 198.142.237.69 -p 5201                              |     |      | AU      | Sydney | yes    |
+| iperf3 -c 198.142.237.70 -p 5201                              |     |      | AU      | Sydney | yes    |
+| iperf3 -c 198.142.237.72 -p 5201                              |     |      | AU      | Sydney | yes    |
+| iperf3 -c 198.142.237.73 -p 5201                              |     |      | AU      | Sydney | yes    |
+| iperf3 -c 198.142.237.97 -p 5201                              |     |      | AU      | Sydney | yes    |
+| iperf3 -c 198.142.237.132 -p 5201                             |     |      | AU      | Sydney | yes    |
+| iperf3 -c 198.142.237.192 -p 5201                             |     |      | AU      | Sydney | yes    |
+| iperf3 -c 198.142.237.194 -p 5201                             |     |      | AU      | Sydney | yes    |
+| iperf3 -c limestonecoast.sa.speedtest.optusnet.com.au -p 5201 |     |      | AU      | Sydney | yes    |
+| iperf3 -c ooklaspeedtest01.adl.optusnet.com.au -p 5201        |     |      | AU      | Sydney | yes    |
+| iperf3 -c ooklaspeedtest01.bla.optusnet.com.au -p 5201        |     |      | AU      | Sydney | yes    |
+| iperf3 -c ooklaspeedtest01.bri.optusnet.com.au -p 5201        |     |      | AU      | Sydney | yes    |
+| iperf3 -c ooklaspeedtest01.ebw.optusnet.com.au -p 5201        |     |      | AU      | Sydney | yes    |
+| iperf3 -c rockingham.wa.speedtest.optusnet.com.au -p 5201     |     |      | AU      | Sydney | yes    |
+| iperf3 -c speedtest.adl.optusnet.com.au -p 5201               |     |      | AU      | Sydney | yes    |
+| iperf3 -c speedtest.bla.optusnet.com.au -p 5201               |     |      | AU      | Sydney | yes    |
+| iperf3 -c speedtest.ebw.optusnet.com.au -p 5201               |     |      | AU      | Sydney | yes    |
+| iperf3 -c speedtest.tas.optusnet.com.au -p 5201               |     |      | AU      | Sydney | yes    |
+| iperf3 -c techspeedtest.bla.optusnet.com.au -p 5201           |     |      | AU      | Sydney | yes    |
+| iperf3 -c townsville.qld.speedtest.optusnet.com.au -p 5201    |     |      | AU      | Sydney | yes    |  
