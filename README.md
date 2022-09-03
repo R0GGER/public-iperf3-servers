@@ -1,4 +1,4 @@
-# Public iPerf3 Servers
+# Public iPerf3 Serverlist
 
 **Test date: 01-09-2022**   
 Please create a [new issue](https://github.com/R0GGER/public-iperf3-servers/issues) if you have or know a public iperf3 server which isn't on this list.
