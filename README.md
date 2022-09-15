@@ -63,6 +63,15 @@ docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c ams
 | :------------------------------------------------- | --- | ---- | ------- | :-------------- |
 | iperf3 -c speedtest.iveloz.net.br -p 5201-5209     |     | 2    | BR      | Sao Paolo       |
 | iperf3 -c 128.1.240.146 -p 5201                    | \-R | 1    | BR      | Sao Paolo       |
+| iperf3 -c 191.242.72.8                             |     |      | BR      | Boca do Acre    |
+| iperf3 -c 168.195.96.44 -p 5201-5204               |     |      | BR      | Joinville       |
+| iperf3 -c 216.40.45.41                             |     |      | CA      |                 |
+| iperf3 -c speedtest3.westmancom.com                |     |      | CA      | Brandon         |
+| iperf3 -c speedtest.switch.ca                      |     |      | CA      | Edmonton        |
+| iperf3 -c speedtest.les.net                        |     |      | CA      | Winnipeg        |
+| iperf3 -c speedtest3.sasknet.sk.ca                 |     |      | CA      | Saskatoon       |
+| iperf3 -c 74.205.217.156                           |     |      | CA      | Stittsville     |
+| iperf3 -c sp11.wom.cl                              |     |      | CL      | Santiago        |
 | iperf3 -c la.speedtest.clouvider.net -p 5200-5209  |     | 10   | US      | Los Angeles     |
 | iperf3 -c atl.speedtest.clouvider.net -p 5200-5209 |     | 10   | US      | Atlanta         |
 | iperf3 -c nyc.speedtest.clouvider.net -p 5200-5209 |     | 10   | US      | New York City   |
@@ -75,15 +84,6 @@ docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c ams
 | iperf3 -c 128.1.151.156                            |     | 1    | US      | Miami           |
 | iperf3 -c 169.197.127.197                          |     | 1    | US      | San Jose        |
 | iperf3 -c 23.236.123.190                           |     | 1    | US      | Washington D.C. |
-| iperf3 -c 216.40.45.41                             |     |      | CA      |                 |
-| iperf3 -c speedtest3.westmancom.com                |     |      | CA      | Brandon         |
-| iperf3 -c speedtest.switch.ca                      |     |      | CA      | Edmonton        |
-| iperf3 -c speedtest.les.net                        |     |      | CA      | Winnipeg        |
-| iperf3 -c speedtest3.sasknet.sk.ca                 |     |      | CA      | Saskatoon       |
-| iperf3 -c 74.205.217.156                           |     |      | CA      | Stittsville     |
-| iperf3 -c 191.242.72.8                             |     |      | BR      | Boca do Acre    |
-| iperf3 -c 168.195.96.44 -p 5201-5204               |     |      | BR      | Joinville       |
-| iperf3 -c sp11.wom.cl                              |     |      | CL      | Santiago        |
 
 ### ASIA
 
