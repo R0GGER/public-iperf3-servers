@@ -119,9 +119,7 @@ docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c ams
 | COMMAND                                               | \-R | GB/s | COUNTRY | SITE              |
 | ----------------------------------------------------- | --- | ---- | ------- | ----------------- |
 | iperf3 -c lg.vie.alwyzon.net                          |     |      | AT      | Vienna            |
-| iperf3 -c lg.vie.alwyzon.net                          |     |      | AT      | Vienna            |
 | iperf3 -c speedtest.neterra.net -p 5201               |     | 10   | BG      | Sofia             |
-| iperf3 -c speedtest.shinternet.ch -p 5204             | \-R |      | CH      | Schaffhausen      |
 | iperf3 -c iperf.quickline.ch                          | \-R |      | CH      | Zürich            |
 | iperf3 -c iperf.quickline.ch -6                       | \-R |      | CH      | Zürich            |
 | iperf3 -c iperf3.privatelayer.com -p 5201             |     | 40   | CH      |                   |
