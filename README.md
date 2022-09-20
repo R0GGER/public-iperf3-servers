@@ -126,7 +126,6 @@ docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c ams
 | iperf3 -c speedtest.shinternet.ch -p 5204             | \-R |      | CH      | Schaffhausen      |
 | iperf3 -c 178.215.228.109 -p 9210                     | \-R |      | DE      | Frankfurt         |
 | iperf3 -c fra.speedtest.clouvider.net -p 5200-5209    |     | 10   | DE      | Frankfurt         |
-| iperf3 -c fra.speedtest.clouvider.net -p 5200-5209    |     | 10   | DE      | Frankfurt         |
 | iperf3 -c lg.ip-projects.de -p 5201                   |     |      | DE      | Frankfurt         |
 | iperf3 -c speedtest.wtnet.de -p 5200-5209             | \-R | 40   | DE      | Norderstedt       |
 | iperf3 -c speedtest.wtnet.de -p 5200-5209 -6          | \-R | 40   | DE      | Norderstedt       |
