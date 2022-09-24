@@ -1,7 +1,5 @@
 # Public iPerf3 Serverlist
-
-**Test date: 01-09-2022**   
-Please create a [new issue](https://github.com/R0GGER/public-iperf3-servers/issues) if you have or know a public iperf3 server which isn't on this list.
+### Website: [iperf3serverlist.net](https://iperf3serverlist.net)
 
 ### iPerf3
 ```
@@ -30,6 +28,9 @@ docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c ams
 `-R, --reverse` run in reverse mode (server sends, client receives)    
 `-4, --version4` only use IPv4   
 `-6, --version6` only use IPv6    
+
+### Test date: 01-09-2022   
+Do you want to add/remove an IP or HOST to this list? Please create a [new issue](https://github.com/R0GGER/public-iperf3-servers/issues).
 
 ### Servers per continent
 * [AFRICA](#africa)
