@@ -1,38 +1,48 @@
 # Public iPerf3 Serverlist
-### Website: [iperf3serverlist.net](https://iperf3serverlist.net)
 
-### iPerf3
-```
+## Website: [iperf3serverlist.net](https://iperf3serverlist.net)
+
+## iPerf3
+
+```sh
 apt update && apt install -y iperf3 
 ```
-### Command examples:
-```
+
+### Command examples
+
+```sh
 iperf3 -c lon.speedtest.clouvider.net -p 5203
 ```
 
 **Bash - random port between 5200-5210:**
-```
+
+```bash
 for((i=0;i<10;i++)) ; do iperf3 -p $((5200+(RANDOM%10))) -c ams.speedtest.clouvider.net && break ; sleep 1 || break ; done
 ```
-**Docker - random port between 5200-5210:** 
-```
+
+**Docker - random port between 5200-5210:**
+
+```sh
 docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c ams.speedtest.clouvider.net -p $((5200+(RANDOM%10)))
 ```
+
 ### iPerf3 options
 
 `-c`  host  
-`-p, --port` server port to listen on/connect to    
-`-P, --parallel` number of parallel client streams to run    
-`-i, --interval` seconds between periodic throughput reports   
-`-t, --time` time in seconds to transmit for (default 10 secs)    
-`-R, --reverse` run in reverse mode (server sends, client receives)    
-`-4, --version4` only use IPv4   
-`-6, --version6` only use IPv6    
+`-p, --port` server port to listen on/connect to  
+`-P, --parallel` number of parallel client streams to run  
+`-i, --interval` seconds between periodic throughput reports  
+`-t, --time` time in seconds to transmit for (default 10 secs)  
+`-R, --reverse` run in reverse mode (server sends, client receives)  
+`-4, --version4` only use IPv4  
+`-6, --version6` only use IPv6  
 
-### Test date: 01-09-2022   
+### Test date: 01-09-2022
+
 Do you want to add/remove an IP or HOST to this list? Please create a [new issue](https://github.com/R0GGER/public-iperf3-servers/issues).
 
-### Servers per continent
+## Servers per continent
+
 * [AFRICA](#africa)
 * [AMERICA](#america)
 * [ASIA](#asia)
