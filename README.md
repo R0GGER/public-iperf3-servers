@@ -1,24 +1,25 @@
 # Public iPerf3 Serverlist
 ### Website: [iperf3serverlist.net](https://iperf3serverlist.net)
 
-### iPerf3
+### Install iPerf3
 ```
 apt update && apt install -y iperf3 
 ```
 ### Command examples:
+
+command:
 ```
 iperf3 -c lon.speedtest.clouvider.net -p 5203
 ```
-
-**Bash - random port between 5200-5210:**
+Bash - random port between 5200-5210:
 ```
 for((i=0;i<10;i++)) ; do iperf3 -p $((5200+(RANDOM%10))) -c ams.speedtest.clouvider.net && break ; sleep 1 || break ; done
 ```
-**Docker - random port between 5200-5210:** 
+Docker - random port between 5200-5210:
 ```
 docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c ams.speedtest.clouvider.net -p $((5200+(RANDOM%10)))
 ```
-### iPerf3 options
+## iPerf3 options (most used)
 
 `-c`  host  
 `-p, --port` server port to listen on/connect to    
@@ -29,15 +30,15 @@ docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c ams
 `-4, --version4` only use IPv4   
 `-6, --version6` only use IPv6    
 
-### Test date: 01-09-2022   
-Do you want to add/remove an IP or HOST to this list? Please create a [new issue](https://github.com/R0GGER/public-iperf3-servers/issues).
-
-### Servers per continent
+## Servers per continent
 * [AFRICA](#africa)
 * [AMERICA](#america)
 * [ASIA](#asia)
 * [EUROPE](#europe)
 * [OCEANIA](#oceania)
+
+### Test date: 01-09-2022   
+Do you want to add/remove an IP or HOST to this list? Please create a [new issue](https://github.com/R0GGER/public-iperf3-servers/issues).
 
 ### AFRICA
 
