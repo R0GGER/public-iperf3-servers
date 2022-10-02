@@ -210,7 +210,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c techspeedtest.bla.optusnet.com.au           |     |      | AU      | Sydney     |
 | iperf3 -c townsville.qld.speedtest.optusnet.com.au    |     |      | AU      | Sydney     |
 | iperf3 -c mirror.lagoon.nc                            |     |      | NC      |            |
-| iperf3 -c server-28463.prod.hosts.ooklaserver.net     |     |      | NZ      | Auckland   |
 | iperf3 -c server-52201.prod.hosts.ooklaserver.net     |     |      | NZ      | Auckland   |
 | iperf3 -c server-5539.prod.hosts.ooklaserver.net      |     |      | NZ      | Nelson     |
 | iperf3 -c server-46550.prod.hosts.ooklaserver.net     |     |      | NZ      | Wellington |
