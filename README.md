@@ -31,39 +31,38 @@ docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c ams
 `-6, --version6` only use IPv6    
 
 ## Servers per continent
+Do you want to add/remove an IP or HOST to this list? Please create a [new issue](https://github.com/R0GGER/public-iperf3-servers/issues).   
 * [AFRICA](#africa)
 * [AMERICA](#america)
 * [ASIA](#asia)
 * [EUROPE](#europe)
 * [OCEANIA](#oceania)
-
-### Test date: 01-09-2022   
-Do you want to add/remove an IP or HOST to this list? Please create a [new issue](https://github.com/R0GGER/public-iperf3-servers/issues).
+   
+🟠 **IP/HOST probably down or connection unstable.**
 
 ### AFRICA
 
-| COMMAND                               | \-R | GB/s | COUNTRY | SITE         |
-| :------------------------------------ | --- | ---- | ------- | :----------- |
-| iperf3 -c 196.249.224.30 -p 5201      |     |      | AO      |              |
-| iperf3 -c 197.155.149.134 -p 5201     |     |      | ML      |              |
+| COMMAND                               | \-R | GB/s | COUNTRY | SITE         |  |
+| :------------------------------------ | --- | ---- | ------- | :----------- | :--:
+| iperf3 -c 197.155.149.134 -p 5201     |     |      | ML      |              | 
 | iperf3 -c 102.35.43.208 -p 5201       |     |      | RE      |              |
 | iperf3 -c 41.213.138.11 -p 5201       |     |      | RE      |              |
 | iperf3 -c 156.251.131.8 -p 5201       |     |      | SC      |              |
 | iperf3 -c 154.73.174.30 -p 5201       |     |      | SN      | Dakar        |
 | iperf3 -c 154.70.95.2 -p 5201         |     |      | TG      | Lomé         |
 | iperf3 -c 102.176.252.66 -p 5201      |     |      | TG      | Lomé         |
-| iperf3 -c 13.244.123.229 -p 5201-5203 |     |      | ZA      | Cape Town    |
+| iperf3 -c 13.244.123.229 -p 5201-5203 |     |      | ZA      | Cape Town    | 🟠
 | iperf3 -c 154.0.5.20 -p 5201          |     |      | ZA      | Cape Town    |
-| iperf3 -c 41.168.5.158 -p 5201        |     |      | ZA      | Johannesburg |
+| iperf3 -c 41.168.5.158 -p 5201        |     |      | ZA      | Johannesburg | 🟠
 | iperf3 -c 102.165.60.112 -p 5201      |     |      | ZA      | Johannesburg |
 | iperf3 -c 102.134.120.74 -p 5201      |     |      | ZA      | Johannesburg |
 | iperf3 -c 169.255.0.134 -p 5201       |     |      | ZA      | Johannesburg |
 
 ### AMERICA
 
-| COMMAND                                            | \-R | GB/s | COUNTRY | SITE            |
-| :------------------------------------------------- | --- | ---- | ------- | :-------------- |
-| iperf3 -c speedtest.iveloz.net.br -p 5201-5209     |     | 2    | BR      | Sao Paolo       |
+| COMMAND                                            | \-R | GB/s | COUNTRY | SITE            | |
+| :------------------------------------------------- | --- | ---- | ------- | :-------------- | :--:
+| iperf3 -c speedtest.iveloz.net.br -p 5201-5209     |     | 2    | BR      | Sao Paolo       | 🟠
 | iperf3 -c 128.1.240.146 -p 5201                    | \-R | 1    | BR      | Sao Paolo       |
 | iperf3 -c 191.242.72.8                             |     |      | BR      | Boca do Acre    |
 | iperf3 -c 168.195.96.44 -p 5201-5204               |     |      | BR      | Joinville       |
@@ -79,18 +78,19 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c nyc.speedtest.clouvider.net -p 5200-5209 |     | 10   | US      | New York City   |
 | iperf3 -c dal.speedtest.clouvider.net -p 5200-5209 |     | 10   | US      | Dallas          |
 | iperf3 -c ash.speedtest.clouvider.net -p 5200-5209 |     | 10   | US      | Ashburn         |
-| iperf3 -c speedtest.lv.buyvm.net -p 5201           |     | 1    | US      | Las Vegas       |
+| iperf3 -c speedtest.lv.buyvm.net -p 5201           |     | 1    | US      | Las Vegas       | 🟠
 | iperf3 -c 23.251.106.210                           |     | 1    | US      | Chicago         |
 | iperf3 -c 23.251.111.238                           |     | 1    | US      | Dallas          |
 | iperf3 -c 107.151.178.254                          |     | 1    | US      | Los Angeles     |
 | iperf3 -c 128.1.151.156                            |     | 1    | US      | Miami           |
+| iperf3 -c speedtest.mia.buyvm.net                  |     | 1    | US      | Miami           |
 | iperf3 -c 169.197.127.197                          |     | 1    | US      | San Jose        |
 | iperf3 -c 23.236.123.190                           |     | 1    | US      | Washington D.C. |
 
 ### ASIA
 
-| COMMAND                                         | \-R | GB/s | COUNTRY | SITE          |
-| :---------------------------------------------- | --- | ---- | ------- | :------------ |
+| COMMAND                                         | \-R | GB/s | COUNTRY | SITE          | |
+| :---------------------------------------------- | --- | ---- | ------- | :------------ | :--:
 | iperf3 -c 107.151.142.227 -p 5201               | \-R | 1    | AE      | Dubai         |
 | iperf3 -c 128.14.190.130 -p 5201                | \-R | 1    | AE      | Fujairah City |
 | iperf3 -c 156.59.152.66 -p 5201                 | \-R | 1    | CN      | Hong Kong     |
@@ -118,8 +118,8 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 
 ### EUROPE
 
-| COMMAND                                               | \-R | GB/s | COUNTRY | SITE              |
-| :---------------------------------------------------- | --- | ---- | ------- | :---------------- |
+| COMMAND                                               | \-R | GB/s | COUNTRY | SITE              | |
+| :---------------------------------------------------- | --- | ---- | ------- | :---------------- | :--:
 | iperf3 -c lg.vie.alwyzon.net                          |     |      | AT      | Vienna            |
 | iperf3 -c speedtest.neterra.net -p 5201               |     | 10   | BG      | Sofia             |
 | iperf3 -c iperf.quickline.ch                          | \-R |      | CH      | Zürich            |
@@ -137,13 +137,13 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest-hki.netplaza.fi -p 5201           |     |      | FI      | Helsinki          |
 | iperf3 -c speedtest.cinia.fi -p 5201                  |     |      | FI      | Oulu              |
 | iperf3 -c speedtest.extra.telia.fi -p 5201            |     |      | FI      | Helsinki          |
-| iperf3 -c aix-marseille.testdebit.info -p 9240        |     | 10   | FR      | Marseille         |
-| iperf3 -c bordeaux.testdebit.info -p 9240             |     | 10   | FR      | Bordeaux          |
+| iperf3 -c aix-marseille.testdebit.info -p 9240        |     | 10   | FR      | Marseille         | 🟠
+| iperf3 -c bordeaux.testdebit.info -p 9240             |     | 10   | FR      | Bordeaux          | 🟠
 | iperf3 -c iperf.online.net -p 5204                    |     | 10   | FR      |                   |
 | iperf3 -c iperf.par2.as49434.net -p 9202              | \-R | 40   | FR      | Paris             |
-| iperf3 -c lille.testdebit.info -p 9240                |     | 10   | FR      | Lille             |
-| iperf3 -c lyon.testdebit.info -p 9240                 |     | 10   | FR      | Lyon              |
-| iperf3 -c paris.testdebit.info -p 9240                |     | 10   | FR      | Paris             |
+| iperf3 -c lille.testdebit.info -p 9240                |     | 10   | FR      | Lille             | 🟠
+| iperf3 -c lyon.testdebit.info -p 9240                 |     | 10   | FR      | Lyon              | 🟠
+| iperf3 -c paris.testdebit.info -p 9240                |     | 10   | FR      | Paris             | 
 | iperf3 -c ping-90ms.online.net -p 5200-5209           |     | 10   | FR      |                   |
 | iperf3 -c ping6-90ms.online.net -p 5200-5209 -6       |     | 10   | FR      |                   |
 | iperf3 -c ping6.online.net -p 5200-5209 -6            |     | 10   | FR      |                   |
@@ -154,7 +154,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speed.dimensione.com -p 5201                |     | 1    | IT      | Milan             |
 | iperf3 -c speed.dimensione.com -p 5206 -6             |     | 1    | IT      | Milan             |
 | iperf3 -c speed.itgate.net 5201-5202                  |     |      | IT      | Gerbido           |
-| iperf3 -c speedtest.lu.buyvm.net -p 5201              |     |      | LU      | Bissen            |
+| iperf3 -c speedtest.lu.buyvm.net -p 5201              |     |      | LU      | Bissen            | 🟠
 | iperf3 -c 208.81.200.98 -p 5201                       | \-R | 1    | NL      | Amsterdam         |
 | iperf3 -c ams.speedtest.clouvider.net -p 5200-5209    |     | 10   | NL      | Amsterdam         |
 | iperf3 -c iperf.worldstream.nl                        |     | 10   | NL      | Naaldwijk         |
@@ -174,8 +174,8 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 23.90.131.2 -p 5201                         | \-R | 1    | RU      | Moscow            |
 | iperf3 -c 31.148.48.5 -p 5201                         |     |      | RU      | Angarsk           |
 | iperf3 -c 62.213.110.86 -p 5201                       |     |      | RU      | Moscow            |
-| iperf3 -c iperf.astra.in.ua -p 5201-5206              | \-R | 10   | UA      | Lviv              |
-| iperf3 -c iperf.volia.net -p 5201                     | \-R |      | UA      | Kyiv              |
+| iperf3 -c iperf.astra.in.ua -p 5201-5210              | \-R | 10   | UA      | Lviv              |
+| iperf3 -c iperf.volia.net -p 5201                     | \-R |      | UA      | Kyiv              | 🟠
 | iperf3 -c speed.cosmonova.net                         |     |      | UA      | Kyiv              |
 | iperf3 -c speedtest.astra.in.ua                       |     |      | UA      | Lviv              |
 | iperf3 -c speedtest.pol.volia.net                     |     |      | UA      | Poltava           |
@@ -183,9 +183,9 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 
 ### OCEANIA
 
-| COMMAND                                               | \-R | GB/s | COUNTRY | SITE       |
-| :---------------------------------------------------- | --- | ---- | ------- | :--------- |
-| iperf3 -c speed.tpgi.com.au                           |     |      | AU      | Perth      |
+| COMMAND                                               | \-R | GB/s | COUNTRY | SITE       | |
+| :---------------------------------------------------- | --- | ---- | ------- | :--------- | :--:
+| iperf3 -c speed.tpgi.com.au                           |     |      | AU      | Perth      | 🟠
 | iperf3 -c 198.142.237.64                              |     |      | AU      | Sydney     |
 | iperf3 -c 198.142.237.65                              |     |      | AU      | Sydney     |
 | iperf3 -c 198.142.237.67                              |     |      | AU      | Sydney     |
