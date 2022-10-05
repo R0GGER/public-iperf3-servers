@@ -72,6 +72,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.les.net                        |     |      | CA      | Winnipeg        |
 | iperf3 -c speedtest3.sasknet.sk.ca                 |     |      | CA      | Saskatoon       |
 | iperf3 -c 74.205.217.156                           |     |      | CA      | Stittsville     |
+| iperf3 -c 190.196.123.30                           |     |      | CL      | Santiago        |
 | iperf3 -c sp11.wom.cl                              |     |      | CL      | Santiago        |
 | iperf3 -c la.speedtest.clouvider.net -p 5200-5209  |     | 10   | US      | Los Angeles     |
 | iperf3 -c atl.speedtest.clouvider.net -p 5200-5209 |     | 10   | US      | Atlanta         |
@@ -122,9 +123,10 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | :---------------------------------------------------- | --- | ---- | ------- | :---------------- | :--:
 | iperf3 -c lg.vie.alwyzon.net                          |     |      | AT      | Vienna            |
 | iperf3 -c speedtest.neterra.net -p 5201               |     | 10   | BG      | Sofia             |
-| iperf3 -c iperf.quickline.ch                          | \-R |      | CH      | Zürich            |
-| iperf3 -c iperf.quickline.ch -6                       | \-R |      | CH      | Zürich            |
-| iperf3 -c iperf3.privatelayer.com -p 5201             |     | 40   | CH      |                   |
+| iperf3 -c iperf.quickline.ch                          | \-R |      | CH      | Zürich            | 🟠 
+| iperf3 -c iperf.quickline.ch -6                       | \-R |      | CH      | Zürich            | 🟠
+| iperf3 -c speedtest.iway.ch                           |     | 10   | CH      | Zürich            |
+| iperf3 -c iperf3.privatelayer.com                     |     | 40   | CH      |                   |
 | iperf3 -c speedtest.shinternet.ch -p 5204             | \-R |      | CH      | Schaffhausen      |
 | iperf3 -c 178.215.228.109 -p 9210                     | \-R |      | DE      | Frankfurt         |
 | iperf3 -c fra.speedtest.clouvider.net -p 5200-5209    |     | 10   | DE      | Frankfurt         |
@@ -137,12 +139,8 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest-hki.netplaza.fi -p 5201           |     |      | FI      | Helsinki          |
 | iperf3 -c speedtest.cinia.fi -p 5201                  |     |      | FI      | Oulu              |
 | iperf3 -c speedtest.extra.telia.fi -p 5201            |     |      | FI      | Helsinki          |
-| iperf3 -c aix-marseille.testdebit.info -p 9240        |     | 10   | FR      | Marseille         | 🟠
-| iperf3 -c bordeaux.testdebit.info -p 9240             |     | 10   | FR      | Bordeaux          | 🟠
 | iperf3 -c iperf.online.net -p 5204                    |     | 10   | FR      |                   |
 | iperf3 -c iperf.par2.as49434.net -p 9202              | \-R | 40   | FR      | Paris             |
-| iperf3 -c lille.testdebit.info -p 9240                |     | 10   | FR      | Lille             | 🟠
-| iperf3 -c lyon.testdebit.info -p 9240                 |     | 10   | FR      | Lyon              | 🟠
 | iperf3 -c paris.testdebit.info -p 9240                |     | 10   | FR      | Paris             | 
 | iperf3 -c ping-90ms.online.net -p 5200-5209           |     | 10   | FR      |                   |
 | iperf3 -c ping6-90ms.online.net -p 5200-5209 -6       |     | 10   | FR      |                   |
@@ -211,5 +209,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c townsville.qld.speedtest.optusnet.com.au    |     |      | AU      | Sydney     |
 | iperf3 -c mirror.lagoon.nc                            |     |      | NC      |            |
 | iperf3 -c server-52201.prod.hosts.ooklaserver.net     |     |      | NZ      | Auckland   |
+| iperf3 -c 202.137.240.193                             |     |      | NZ      | Auckland   |
+| iperf3 -c auckland.speedtest.vodafone.co.nz           |     |      | NZ      | Auckland   |
 | iperf3 -c server-5539.prod.hosts.ooklaserver.net      |     |      | NZ      | Nelson     |
 | iperf3 -c server-46550.prod.hosts.ooklaserver.net     |     |      | NZ      | Wellington | 🟠
