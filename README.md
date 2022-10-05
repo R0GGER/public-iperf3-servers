@@ -64,7 +64,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | :------------------------------------------------- | --- | ---- | ------- | :-------------- | :--:
 | iperf3 -c speedtest.iveloz.net.br -p 5201-5209     |     | 2    | BR      | Sao Paolo       | 🟠
 | iperf3 -c 128.1.240.146 -p 5201                    | \-R | 1    | BR      | Sao Paolo       |
-| iperf3 -c 191.242.72.8                             |     |      | BR      | Boca do Acre    |
+| iperf3 -c 191.242.72.8                             |     |      | BR      | Boca do Acre    | 🟠
 | iperf3 -c 168.195.96.44 -p 5201-5204               |     |      | BR      | Joinville       |
 | iperf3 -c 216.40.45.41                             |     |      | CA      |                 |
 | iperf3 -c speedtest3.westmancom.com                |     |      | CA      | Brandon         |
@@ -212,4 +212,4 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c mirror.lagoon.nc                            |     |      | NC      |            |
 | iperf3 -c server-52201.prod.hosts.ooklaserver.net     |     |      | NZ      | Auckland   |
 | iperf3 -c server-5539.prod.hosts.ooklaserver.net      |     |      | NZ      | Nelson     |
-| iperf3 -c server-46550.prod.hosts.ooklaserver.net     |     |      | NZ      | Wellington |
+| iperf3 -c server-46550.prod.hosts.ooklaserver.net     |     |      | NZ      | Wellington | 🟠
