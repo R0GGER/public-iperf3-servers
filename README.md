@@ -77,6 +77,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c la.speedtest.clouvider.net -p 5200-5209  |     | 10   | US      | Los Angeles     |
 | iperf3 -c atl.speedtest.clouvider.net -p 5200-5209 |     | 10   | US      | Atlanta         |
 | iperf3 -c nyc.speedtest.clouvider.net -p 5200-5209 |     | 10   | US      | New York City   |
+| iperf3 -c speedtest.ny.buyvm.net                   |     | 1    | US      | New York        |
 | iperf3 -c dal.speedtest.clouvider.net -p 5200-5209 |     | 10   | US      | Dallas          |
 | iperf3 -c ash.speedtest.clouvider.net -p 5200-5209 |     | 10   | US      | Ashburn         |
 | iperf3 -c speedtest.lv.buyvm.net -p 5201           |     | 1    | US      | Las Vegas       | 🟠
