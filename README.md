@@ -44,7 +44,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 
 | COMMAND                               | \-R | GB/s | COUNTRY | SITE         |  |
 | :------------------------------------ | --- | ---- | ------- | :----------- | :--:
-| iperf3 -c 197.155.149.134 -p 5201     |     |      | ML      |              | 
+| iperf3 -c 197.155.149.134 -p 5201     |     |      | ML      |              | 🟠
 | iperf3 -c 102.35.43.208 -p 5201       |     |      | RE      |              |
 | iperf3 -c 41.213.138.11 -p 5201       |     |      | RE      |              |
 | iperf3 -c 156.251.131.8 -p 5201       |     |      | SC      |              |
