@@ -51,9 +51,9 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 154.73.174.30 -p 5201       |     |      | SN      | Dakar        |
 | iperf3 -c 154.70.95.2 -p 5201         |     |      | TG      | Lomé         |
 | iperf3 -c 102.176.252.66 -p 5201      |     |      | TG      | Lomé         |
-| iperf3 -c 13.244.123.229 -p 5201-5203 |     |      | ZA      | Cape Town    | 🟠
+| iperf3 -c 13.244.123.229 -p 5201-5203 |     |      | ZA      | Cape Town    | 
 | iperf3 -c 154.0.5.20 -p 5201          |     |      | ZA      | Cape Town    |
-| iperf3 -c 41.168.5.158 -p 5201        |     |      | ZA      | Johannesburg | 🟠
+| iperf3 -c 41.168.5.158 -p 5201        |     |      | ZA      | Johannesburg | 
 | iperf3 -c 102.165.60.112 -p 5201      |     |      | ZA      | Johannesburg |
 | iperf3 -c 102.134.120.74 -p 5201      |     |      | ZA      | Johannesburg |
 | iperf3 -c 169.255.0.134 -p 5201       |     |      | ZA      | Johannesburg |
@@ -62,7 +62,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 
 | COMMAND                                            | \-R | GB/s | COUNTRY | SITE            | |
 | :------------------------------------------------- | --- | ---- | ------- | :-------------- | :--:
-| iperf3 -c speedtest.iveloz.net.br -p 5201-5209     |     | 2    | BR      | Sao Paolo       | 🟠
 | iperf3 -c 128.1.240.146 -p 5201                    | \-R | 1    | BR      | Sao Paolo       |
 | iperf3 -c 191.242.72.8                             |     |      | BR      | Boca do Acre    | 🟠
 | iperf3 -c 168.195.96.44 -p 5201-5204               |     |      | BR      | Joinville       |
@@ -124,8 +123,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | :---------------------------------------------------- | --- | ---- | ------- | :---------------- | :--:
 | iperf3 -c lg.vie.alwyzon.net                          |     |      | AT      | Vienna            |
 | iperf3 -c speedtest.neterra.net -p 5201               |     | 10   | BG      | Sofia             |
-| iperf3 -c iperf.quickline.ch                          | \-R |      | CH      | Zürich            | 🟠 
-| iperf3 -c iperf.quickline.ch -6                       | \-R |      | CH      | Zürich            | 🟠
 | iperf3 -c speedtest.iway.ch                           |     | 10   | CH      | Zürich            |
 | iperf3 -c iperf3.privatelayer.com                     |     | 40   | CH      |                   |
 | iperf3 -c speedtest.shinternet.ch -p 5204             | \-R |      | CH      | Schaffhausen      |
