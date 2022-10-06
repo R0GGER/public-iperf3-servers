@@ -72,7 +72,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.les.net                        |     |      | CA      | Winnipeg        |
 | iperf3 -c speedtest3.sasknet.sk.ca                 |     |      | CA      | Saskatoon       |
 | iperf3 -c 74.205.217.156                           |     |      | CA      | Stittsville     |
-| iperf3 -c 190.196.123.30                           |     |      | CL      | Santiago        |
+| iperf3 -c 190.196.123.30 -p 5280                   |     |      | CL      | Santiago        |
 | iperf3 -c sp11.wom.cl                              |     |      | CL      | Santiago        |
 | iperf3 -c la.speedtest.clouvider.net -p 5200-5209  |     | 10   | US      | Los Angeles     |
 | iperf3 -c atl.speedtest.clouvider.net -p 5200-5209 |     | 10   | US      | Atlanta         |
