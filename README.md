@@ -3,7 +3,7 @@
 
 ### Install iPerf3
 ```
-apt update && apt install -y iperf3 
+apt update && apt install -y iperf
 ```
 ### Command examples:
 
@@ -45,7 +45,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | COMMAND                               | \-R | GB/s | COUNTRY | SITE         |  |
 | :------------------------------------ | --- | ---- | ------- | :----------- | :--:
 | iperf3 -c 197.155.149.134 -p 5201     |     |      | ML      |              | 🟠
-| iperf3 -c 102.35.43.208 -p 5201       |     |      | RE      |              |
+| iperf3 -c 102.35.43.208 -p 5201       |     |      | RE      |              | 🟠
 | iperf3 -c 41.213.138.11 -p 5201       |     |      | RE      |              |
 | iperf3 -c 156.251.131.8 -p 5201       |     |      | SC      |              |
 | iperf3 -c 154.73.174.30 -p 5201       |     |      | SN      | Dakar        |
@@ -63,7 +63,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | COMMAND                                            | \-R | GB/s | COUNTRY | SITE            | |
 | :------------------------------------------------- | --- | ---- | ------- | :-------------- | :--:
 | iperf3 -c 128.1.240.146 -p 5201                    | \-R | 1    | BR      | Sao Paolo       |
-| iperf3 -c 191.242.72.8                             |     |      | BR      | Boca do Acre    | 🟠
 | iperf3 -c 168.195.96.44 -p 5201-5204               |     |      | BR      | Joinville       |
 | iperf3 -c 216.40.45.41                             |     |      | CA      |                 |
 | iperf3 -c speedtest3.westmancom.com                |     |      | CA      | Brandon         |
@@ -71,7 +70,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.les.net                        |     |      | CA      | Winnipeg        |
 | iperf3 -c speedtest3.sasknet.sk.ca                 |     |      | CA      | Saskatoon       |
 | iperf3 -c 74.205.217.156                           |     |      | CA      | Stittsville     |
-| iperf3 -c 190.196.123.30 -p 5280                   |     |      | CL      | Santiago        |
 | iperf3 -c sp11.wom.cl                              |     |      | CL      | Santiago        |
 | iperf3 -c la.speedtest.clouvider.net -p 5200-5209  |     | 10   | US      | Los Angeles     |
 | iperf3 -c atl.speedtest.clouvider.net -p 5200-5209 |     | 10   | US      | Atlanta         |
@@ -182,7 +180,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 
 | COMMAND                                               | \-R | GB/s | COUNTRY | SITE       | |
 | :---------------------------------------------------- | --- | ---- | ------- | :--------- | :--:
-| iperf3 -c speed.tpgi.com.au                           |     |      | AU      | Perth      | 🟠
 | iperf3 -c 198.142.237.64                              |     |      | AU      | Sydney     |
 | iperf3 -c 198.142.237.65                              |     |      | AU      | Sydney     |
 | iperf3 -c 198.142.237.67                              |     |      | AU      | Sydney     |
@@ -211,4 +208,3 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 202.137.240.193                             |     |      | NZ      | Auckland   |
 | iperf3 -c auckland.speedtest.vodafone.co.nz           |     |      | NZ      | Auckland   |
 | iperf3 -c server-5539.prod.hosts.ooklaserver.net      |     |      | NZ      | Nelson     |
-| iperf3 -c server-46550.prod.hosts.ooklaserver.net     |     |      | NZ      | Wellington | 🟠
