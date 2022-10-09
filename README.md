@@ -106,6 +106,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 156.59.169.4 -p 5201                  | \-R | 1    | PH      | Manila        |
 | iperf3 -c 129.227.231.194 -p 5201               | \-R | 1    | TH      | Bangkok       |
 | iperf3 -c 23.90.175.130 -p 5201                 | \-R | 1    | TR      | Istanbul      |
+| iperf3 -c speedtest.uztelecom.uz -p 5200-5207   | \-R | 10   | UZ      | Tashkent      |
 | iperf3 -c 156.59.143.226 -p 5201                | \-R | 1    | VN      | Hanoi         |
 | iperf3 -c 5.34.9.254                            |     |      | KZ      | Oral          |
 | iperf3 -c 87.247.44.2                           |     |      | KZ      | Taraz         |
