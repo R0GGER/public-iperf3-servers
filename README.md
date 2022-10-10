@@ -45,7 +45,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | COMMAND                               | \-R | GB/s | COUNTRY | SITE         |  |
 | :------------------------------------ | --- | ---- | ------- | :----------- | :--:
 | iperf3 -c 197.155.149.134 -p 5201     |     |      | ML      |              | 🟠
-| iperf3 -c 102.35.43.208 -p 5201       |     |      | RE      |              | 🟠
+| iperf3 -c 197.227.5.218 -p 5201/5204  |     |      | MU      | Tamarin      |
 | iperf3 -c 41.213.138.11 -p 5201       |     |      | RE      |              |
 | iperf3 -c 156.251.131.8 -p 5201       |     |      | SC      |              |
 | iperf3 -c 154.73.174.30 -p 5201       |     |      | SN      | Dakar        |
@@ -75,6 +75,10 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c atl.speedtest.clouvider.net -p 5200-5209 |     | 10   | US      | Atlanta         |
 | iperf3 -c nyc.speedtest.clouvider.net -p 5200-5209 |     | 10   | US      | New York City   |
 | iperf3 -c speedtest.ny.buyvm.net                   |     | 1    | US      | New York        |
+| iperf3 -c nyfiosspeed1.west.verizon.net            | \-R |      | US      | New York        |
+| iperf3 -c nyfiosspeed2.west.verizon.net            | \-R |      | US      | New York        |
+| iperf3 -c nyfiosspeed3.west.verizon.net            | \-R |      | US      | New York        |
+| iperf3 -c nyfiosspeed4.west.verizon.net            | \-R |      | US      | New York        |
 | iperf3 -c dal.speedtest.clouvider.net -p 5200-5209 |     | 10   | US      | Dallas          |
 | iperf3 -c ash.speedtest.clouvider.net -p 5200-5209 |     | 10   | US      | Ashburn         |
 | iperf3 -c speedtest.lv.buyvm.net -p 5201           |     | 1    | US      | Las Vegas       | 🟠
@@ -82,7 +86,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 23.251.111.238                           |     | 1    | US      | Dallas          |
 | iperf3 -c 107.151.178.254                          |     | 1    | US      | Los Angeles     |
 | iperf3 -c 128.1.151.156                            |     | 1    | US      | Miami           |
-| iperf3 -c speedtest.mia.buyvm.net                  |     | 1    | US      | Miami           |
+| iperf3 -c speedtest.mia.buyvm.net                  |     | 1    | US      | Miami           | 🟠
 | iperf3 -c 169.197.127.197                          |     | 1    | US      | San Jose        |
 | iperf3 -c 23.236.123.190                           |     | 1    | US      | Washington D.C. |
 
@@ -93,7 +97,8 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 107.151.142.227 -p 5201               | \-R | 1    | AE      | Dubai         |
 | iperf3 -c 128.14.190.130 -p 5201                | \-R | 1    | AE      | Fujairah City |
 | iperf3 -c 156.59.152.66 -p 5201                 | \-R | 1    | CN      | Hong Kong     |
-| iperf3 -c 156.59.103.69 -p 5201                 | \-R | 1    | CN      | HongKong      |
+| iperf3 -c 156.59.103.69 -p 5201                 | \-R | 1    | CN      | Hong Kong     |
+| iperf3 -c 103.138.75.41                         | \-R | 1    | CN      | Hong Kong     |
 | iperf3 -c iperf.biznetnetworks.com -p 5201-5203 |     | 1    | ID      | Jakarta       |
 | iperf3 -c 129.227.44.98 -p 5201                 | \-R | 1    | ID      | Jakarta       |
 | iperf3 -c 156.59.121.194 -p 5201                | \-R | 1    | IN      | Chennai       |
@@ -152,7 +157,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.lu.buyvm.net -p 5201              |     |      | LU      | Bissen            | 🟠
 | iperf3 -c 208.81.200.98 -p 5201                       | \-R | 1    | NL      | Amsterdam         |
 | iperf3 -c ams.speedtest.clouvider.net -p 5200-5209    |     | 10   | NL      | Amsterdam         |
-| iperf3 -c iperf.worldstream.nl                        |     | 10   | NL      | Naaldwijk         |
 | iperf3 -c nl.iperf.014.fr -p 10420                    | \-R | 1    | NL      | Amsterdam         |
 | iperf3 -c ping-ams1.online.net 5200-5209              |     | 10   | NL      | Amsterdam         |
 | iperf3 -c speedtest-nl-oum.hybula.net                 | \-R |      | NL      | Amsterdam         |
@@ -163,9 +167,14 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.serverius.net -p 5002             | \-R | 10   | NL      | Amsterdam         |
 | iperf3 -c speedtest.serverius.net -p 5002 -6          | \-R | 10   | NL      | Amsterdam         |
 | iperf3 -c speedtest.yisp.nl                           | \-R | 10   | NL      | Amsterdam         |
+| iperf3 -c spt01.sdhd.hosting                          | \-R | 10   | NL      | Dronten           |
+| iperf3 -c lg-drn.liteserver.nl -p 5201-5240           | \-R | 1    | NL      | Dronten           |
+| iperf3 -c iperf.worldstream.nl                        |     | 10   | NL      | Naaldwijk         |
 | iperf3 -c lg.terrahost.com -p 9200                    |     | 10   | NO      | Sandefjord        |
 | iperf3 -c speedtest.fiberway.pl -p 5201               |     |      | PL      | Kazimierza Wielka |
 | iperf3 -c speedtest.midiko.pl -p 5201                 |     |      | PL      | Katowice          |
+| iperf3 -c 95.95.252.87 -p 5201/5205/5207              |     |      | PT      | Lissabon          |
+| iperf3 -c 95.95.252.95                                |     |      | PT      | Porto             |
 | iperf3 -c 23.90.131.2 -p 5201                         | \-R | 1    | RU      | Moscow            |
 | iperf3 -c 31.148.48.5 -p 5201                         |     |      | RU      | Angarsk           |
 | iperf3 -c 62.213.110.86 -p 5201                       |     |      | RU      | Moscow            |
@@ -182,7 +191,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | :---------------------------------------------------- | --- | ---- | ------- | :--------- | :--:
 | iperf3 -c 198.142.237.64                              |     |      | AU      | Sydney     |
 | iperf3 -c 198.142.237.65                              |     |      | AU      | Sydney     |
-| iperf3 -c 198.142.237.67                              |     |      | AU      | Sydney     |
+| iperf3 -c 198.142.237.67                              |     |      | AU      | Sydney     | 🟠
 | iperf3 -c 198.142.237.69                              |     |      | AU      | Sydney     |
 | iperf3 -c 198.142.237.70                              |     |      | AU      | Sydney     |
 | iperf3 -c 198.142.237.72                              |     |      | AU      | Sydney     |
@@ -194,7 +203,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c limestonecoast.sa.speedtest.optusnet.com.au |     |      | AU      | Sydney     |
 | iperf3 -c ooklaspeedtest01.adl.optusnet.com.au        |     |      | AU      | Sydney     |
 | iperf3 -c ooklaspeedtest01.bla.optusnet.com.au        |     |      | AU      | Sydney     |
-| iperf3 -c ooklaspeedtest01.bri.optusnet.com.au        |     |      | AU      | Sydney     |
+| iperf3 -c ooklaspeedtest01.bri.optusnet.com.au        |     |      | AU      | Sydney     | 🟠
 | iperf3 -c ooklaspeedtest01.ebw.optusnet.com.au        |     |      | AU      | Sydney     |
 | iperf3 -c rockingham.wa.speedtest.optusnet.com.au     |     |      | AU      | Sydney     |
 | iperf3 -c speedtest.adl.optusnet.com.au               |     |      | AU      | Sydney     |
@@ -202,7 +211,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.ebw.optusnet.com.au               |     |      | AU      | Sydney     |
 | iperf3 -c speedtest.tas.optusnet.com.au               |     |      | AU      | Sydney     |
 | iperf3 -c techspeedtest.bla.optusnet.com.au           |     |      | AU      | Sydney     |
-| iperf3 -c townsville.qld.speedtest.optusnet.com.au    |     |      | AU      | Sydney     |
+| iperf3 -c townsville.qld.speedtest.optusnet.com.au    |     |      | AU      | Sydney     | 🟠
 | iperf3 -c mirror.lagoon.nc                            |     |      | NC      |            |
 | iperf3 -c server-52201.prod.hosts.ooklaserver.net     |     |      | NZ      | Auckland   |
 | iperf3 -c 202.137.240.193                             |     |      | NZ      | Auckland   |
