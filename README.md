@@ -169,7 +169,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.yisp.nl                           | \-R | 10   | NL      | Amsterdam         |
 | iperf3 -c spt01.sdhd.hosting                          | \-R | 10   | NL      | Dronten           |
 | iperf3 -c lg-drn.liteserver.nl -p 5201-5240           | \-R | 1    | NL      | Dronten           |
-| iperf3 -c iperf.worldstream.nl                        |     | 10   | NL      | Naaldwijk         |
+| iperf3 -c iperf.worldstream.nl                        | \-R | 10   | NL      | Naaldwijk         |
 | iperf3 -c lg.terrahost.com -p 9200                    |     | 10   | NO      | Sandefjord        |
 | iperf3 -c speedtest.fiberway.pl -p 5201               |     |      | PL      | Kazimierza Wielka |
 | iperf3 -c speedtest.midiko.pl -p 5201                 |     |      | PL      | Katowice          |
