@@ -191,7 +191,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | :---------------------------------------------------- | --- | ---- | ------- | :--------- | :--:
 | iperf3 -c 198.142.237.64                              |     |      | AU      | Sydney     |
 | iperf3 -c 198.142.237.65                              |     |      | AU      | Sydney     |
-| iperf3 -c 198.142.237.67                              |     |      | AU      | Sydney     | 🟠
+| iperf3 -c 198.142.237.67                              |     |      | AU      | Sydney     | 
 | iperf3 -c 198.142.237.69                              |     |      | AU      | Sydney     |
 | iperf3 -c 198.142.237.70                              |     |      | AU      | Sydney     |
 | iperf3 -c 198.142.237.72                              |     |      | AU      | Sydney     |
@@ -203,7 +203,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c limestonecoast.sa.speedtest.optusnet.com.au |     |      | AU      | Sydney     |
 | iperf3 -c ooklaspeedtest01.adl.optusnet.com.au        |     |      | AU      | Sydney     |
 | iperf3 -c ooklaspeedtest01.bla.optusnet.com.au        |     |      | AU      | Sydney     |
-| iperf3 -c ooklaspeedtest01.bri.optusnet.com.au        |     |      | AU      | Sydney     | 🟠
+| iperf3 -c ooklaspeedtest01.bri.optusnet.com.au        |     |      | AU      | Sydney     | 
 | iperf3 -c ooklaspeedtest01.ebw.optusnet.com.au        |     |      | AU      | Sydney     |
 | iperf3 -c rockingham.wa.speedtest.optusnet.com.au     |     |      | AU      | Sydney     |
 | iperf3 -c speedtest.adl.optusnet.com.au               |     |      | AU      | Sydney     |
@@ -211,7 +211,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.ebw.optusnet.com.au               |     |      | AU      | Sydney     |
 | iperf3 -c speedtest.tas.optusnet.com.au               |     |      | AU      | Sydney     |
 | iperf3 -c techspeedtest.bla.optusnet.com.au           |     |      | AU      | Sydney     |
-| iperf3 -c townsville.qld.speedtest.optusnet.com.au    |     |      | AU      | Sydney     | 🟠
+| iperf3 -c townsville.qld.speedtest.optusnet.com.au    |     |      | AU      | Sydney     | 
 | iperf3 -c mirror.lagoon.nc                            |     |      | NC      |            |
 | iperf3 -c server-52201.prod.hosts.ooklaserver.net     |     |      | NZ      | Auckland   |
 | iperf3 -c 202.137.240.193                             |     |      | NZ      | Auckland   |
