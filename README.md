@@ -81,12 +81,12 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c nyfiosspeed4.west.verizon.net            | \-R |      | US      | New York        |
 | iperf3 -c dal.speedtest.clouvider.net -p 5200-5209 |     | 10   | US      | Dallas          |
 | iperf3 -c ash.speedtest.clouvider.net -p 5200-5209 |     | 10   | US      | Ashburn         |
-| iperf3 -c speedtest.lv.buyvm.net -p 5201           |     | 1    | US      | Las Vegas       | 🟠
+| iperf3 -c speedtest.lv.buyvm.net -p 5201           |     | 1    | US      | Las Vegas       | 
 | iperf3 -c 23.251.106.210                           |     | 1    | US      | Chicago         |
 | iperf3 -c 23.251.111.238                           |     | 1    | US      | Dallas          |
 | iperf3 -c 107.151.178.254                          |     | 1    | US      | Los Angeles     |
 | iperf3 -c 128.1.151.156                            |     | 1    | US      | Miami           |
-| iperf3 -c speedtest.mia.buyvm.net                  |     | 1    | US      | Miami           | 🟠
+| iperf3 -c speedtest.mia.buyvm.net                  |     | 1    | US      | Miami           | 
 | iperf3 -c 169.197.127.197                          |     | 1    | US      | San Jose        |
 | iperf3 -c 23.236.123.190                           |     | 1    | US      | Washington D.C. |
 
@@ -154,7 +154,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speed.dimensione.com -p 5201                |     | 1    | IT      | Milan             |
 | iperf3 -c speed.dimensione.com -p 5206 -6             |     | 1    | IT      | Milan             |
 | iperf3 -c speed.itgate.net 5201-5202                  |     |      | IT      | Gerbido           |
-| iperf3 -c speedtest.lu.buyvm.net -p 5201              |     |      | LU      | Bissen            | 🟠
+| iperf3 -c speedtest.lu.buyvm.net -p 5201              |     |      | LU      | Bissen            | 
 | iperf3 -c 208.81.200.98 -p 5201                       | \-R | 1    | NL      | Amsterdam         |
 | iperf3 -c ams.speedtest.clouvider.net -p 5200-5209    |     | 10   | NL      | Amsterdam         |
 | iperf3 -c nl.iperf.014.fr -p 10420                    | \-R | 1    | NL      | Amsterdam         |
