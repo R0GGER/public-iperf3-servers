@@ -1,13 +1,16 @@
 # Public iPerf3 Serverlist
 ### Website: [iperf3serverlist.net](https://iperf3serverlist.net)
 
-### Install iPerf3
+* [Install iPerf3](#install-iperf3)   
+* [Command examples](#command-examples)   
+* [iPerf3 options (most used)](#iperf3-options-most-used)   
+* [Servers per continent](#servers-per-continent)   
+
+## Install iPerf3
 ```
 apt update && apt install -y iperf
 ```
-### Command examples:
-
-command:
+## Command examples
 ```
 iperf3 -c lon.speedtest.clouvider.net -p 5203
 ```
@@ -80,7 +83,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c nyfiosspeed4.west.verizon.net            | -R  |      | US      | New York        |   |
 | iperf3 -c dal.speedtest.clouvider.net -p 5200-5209 |     | 10   | US      | Dallas          |   |
 | iperf3 -c ash.speedtest.clouvider.net -p 5200-5209 |     | 10   | US      | Ashburn         |   |
-| iperf3 -c speedtest.lv.buyvm.net                   |     | 1    | US      | Las Vegas       | 🟠 |
+| iperf3 -c speedtest.lv.buyvm.net                   |     | 1    | US      | Las Vegas       |   |
 | iperf3 -c 23.251.106.210                           |     | 1    | US      | Chicago         |   |
 | iperf3 -c 23.251.111.238                           |     | 1    | US      | Dallas          |   |
 | iperf3 -c 107.151.178.254                          |     | 1    | US      | Los Angeles     |   |
