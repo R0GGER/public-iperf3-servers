@@ -113,15 +113,9 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 23.90.175.130                         | -R  | 1    | TR      | Istanbul      |   |
 | iperf3 -c speedtest.uztelecom.uz -p 5200-5207   | -R  | 10   | UZ      | Tashkent      |   |
 | iperf3 -c 156.59.143.226                        | -R  | 1    | VN      | Hanoi         |   |
-| iperf3 -c 5.34.9.254                            |     |      | KZ      | Oral          | 🟠 |
 | iperf3 -c 87.247.44.2                           |     |      | KZ      | Taraz         |   |
 | iperf3 -c 91.185.23.98                          |     |      | KZ      | Aktau         |   |
-| iperf3 -c 92.55.190.254                         |     |      | KZ      | Petropavl     | 🟠 |
 | iperf3 -c 176.222.136.254                       |     |      | KZ      | Aktobe        |   |
-| iperf3 -c 212.76.28.10                          |     |      | KZ      | Atyrau        | 🟠 |
-| iperf3 -c 212.76.29.10                          |     |      | KZ      | Atyrau        | 🟠 |
-| iperf3 -c 212.76.22.10                          |     |      | KZ      | Atyrau        | 🟠 |
-| iperf3 -c 212.76.27.10                          |     |      | KZ      | Atyrau        | 🟠 |
 
 
 ### EUROPE
@@ -153,7 +147,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c iperf.online.net -p 5204                   |       | 10   | FR      |                   |    |
 | iperf3 -c iperf.par2.as49434.net -p 9202             | -R    | 40   | FR      | Paris             |    |
 | iperf3 -c paris.testdebit.info -p 9240               |       | 10   | FR      | Paris             |    |
-| iperf3 -c ping-90ms.online.net -p 5200-5209          | -6    | 10   | FR      |                   |    |
+| iperf3 -c ping-90ms.online.net -p 5200-5209          | -6    | 10   | FR      |                   |  🟠  |
 | iperf3 -c ping6.online.net -p 5200-5209              | -6    | 10   | FR      |                   |    |
 | iperf3 -c proof.ovh.net -p 5201-5210                 | -R    |      | FR      | Paris             |    |
 | iperf3 -c 23.90.177.66                               | -R    | 1    | GB      | London            |    |
@@ -162,7 +156,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speed.dimensione.com                       |       | 1    | IT      | Milan             |    |
 | iperf3 -c speed.dimensione.com -p 5206               | -6    | 1    | IT      | Milan             |    |
 | iperf3 -c speed.itgate.net 5201-5202                 |       |      | IT      | Gerbido           |    |
-| iperf3 -c speedtest.lu.buyvm.net -p 5201             |       |      | LU      | Bissen            |    |
+| iperf3 -c speedtest.lu.buyvm.net -p 5201             |       |      | LU      | Bissen            | 🟠  |
 | iperf3 -c 208.81.200.98                              | -R    | 1    | NL      | Amsterdam         |    |
 | iperf3 -c a204.speedtest.wobcom.de                   | -R -6 | 2x25 | NL      | Amsterdam         |    |
 | iperf3 -c ams.speedtest.clouvider.net -p 5200-5209   |       | 10   | NL      | Amsterdam         |    |
