@@ -58,7 +58,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 41.168.5.158                |     |      | ZA      | Johannesburg |   |
 | iperf3 -c 102.165.60.112              | -R  |      | ZA      | Johannesburg |   |
 | iperf3 -c 102.134.120.74              |     |      | ZA      | Johannesburg |   |
-| iperf3 -c 169.255.0.134               |     |      | ZA      | Johannesburg | 🟠 |
+| iperf3 -c 169.255.0.134               |     |      | ZA      | Johannesburg |   |
 
 
 ### AMERICA
@@ -125,7 +125,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.neterra.net                      |       | 10   | BG      | Sofia             |    |
 | iperf3 -c speedtest.iway.ch                          | -R    | 10   | CH      | Zürich            |    |
 | iperf3 -c speed.nimag.net                            | -R    |      | CH      | Zürich            |    |
-| iperf3 -c iperf3.privatelayer.com                    |       | 40   | CH      |                   | 🟠 |
 | iperf3 -c speedtest.shinternet.ch -p 5200-5209       | -R -6 |      | CH      | Schaffhausen      |    |
 | iperf3 -c 178.215.228.109 -p 9210                    | -R    |      | DE      | Frankfurt         |    |
 | iperf3 -c fra.speedtest.clouvider.net -p 5200-5209   | -R    | 10   | DE      | Frankfurt         |    |
@@ -140,7 +139,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.wtnet.de -p 5200-5209            | -R -6 | 40   | DE      | Norderstedt       |    |
 | iperf3 -c iperf.deic.dk                              | -R    | 10   | DK      | Copenhagen        |    |
 | iperf3 -c speedtest.hiper.dk -p 5201-5203            | -R    |      | DK      | Copenhagen        |    |
-| iperf3 -c 23.90.191.146                              | -R    | 1    | ES      | Madrid            |    |
+| iperf3 -c 23.90.191.146                              | -R    | 1    | ES      | Madrid            | 🟠   |
 | iperf3 -c speedtest-hki.netplaza.fi                  | -R    |      | FI      | Helsinki          |    |
 | iperf3 -c speedtest.cinia.fi                         |       |      | FI      | Oulu              |    |
 | iperf3 -c speedtest.extra.telia.fi                   |       |      | FI      | Helsinki          |    |
@@ -163,7 +162,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speed.dimensione.com                       | -R    | 1    | IT      | Milan             |    |
 | iperf3 -c speed.dimensione.com -p 5206               | -R -6 | 1    | IT      | Milan             |    |
 | iperf3 -c speed.itgate.net 5201-5202                 | -R    |      | IT      | Gerbido           |    |
-| iperf3 -c speedtest.lu.buyvm.net -p 5201             | -R    |      | LU      | Bissen            | 🟠  |
 | iperf3 -c 208.81.200.98                              | -R    | 1    | NL      | Amsterdam         |    |
 | iperf3 -c a204.speedtest.wobcom.de                   | -R -6 | 2x25 | NL      | Amsterdam         |    |
 | iperf3 -c ams.speedtest.clouvider.net -p 5200-5209   | -R    | 10   | NL      | Amsterdam         |    |
