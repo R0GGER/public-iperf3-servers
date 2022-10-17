@@ -139,13 +139,13 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.wtnet.de -p 5200-5209            | -R -6 | 40   | DE      | Norderstedt       |    |
 | iperf3 -c iperf.deic.dk                              | -R    | 10   | DK      | Copenhagen        |    |
 | iperf3 -c speedtest.hiper.dk -p 5201-5203            | -R    |      | DK      | Copenhagen        |    |
-| iperf3 -c 23.90.191.146                              | -R    | 1    | ES      | Madrid            | 🟠   |
+| iperf3 -c 23.90.191.146                              | -R    | 1    | ES      | Madrid            |    |
 | iperf3 -c speedtest-hki.netplaza.fi                  | -R    |      | FI      | Helsinki          |    |
 | iperf3 -c speedtest.cinia.fi                         |       |      | FI      | Oulu              |    |
 | iperf3 -c speedtest.extra.telia.fi                   |       |      | FI      | Helsinki          |    |
 | iperf3 -c iperf.online.net -p 5204                   | -R    | 10   | FR      | Vitry-sur-Seine   |    |
 | iperf3 -c iperf.par2.as49434.net -p 9202             | -R    | 40   | FR      | Paris             |    |
-| iperf3 -c aix-marseille.testdebit.info -p 9200-9240  | -6 -R | 10   | FR      | Aix-en-Provence	 |    |
+| iperf3 -c aix-marseille.testdebit.info -p 9200-9240  | -6 -R | 10   | FR      | Aix-en-Provence	|    |
 | iperf3 -c bordeaux.testdebit.info -p 9200-9240       | -6 -R | 10   | FR      | Bordeaux          |    |
 | iperf3 -c lille.testdebit.info -p 9200-9240          | -6 -R | 10   | FR      | Lille             |    |
 | iperf3 -c lyon.testdebit.info -p 9200-9240           | -6 -R | 10   | FR      | Lyon              |    |
@@ -227,4 +227,3 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 202.137.240.193                             | -R  |      | NZ      | Auckland |   |
 | iperf3 -c auckland.speedtest.vodafone.co.nz           | -R  |      | NZ      | Auckland |   |
 | iperf3 -c server-5539.prod.hosts.ooklaserver.net      | -R  |      | NZ      | Nelson   |   |
-
