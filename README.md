@@ -183,7 +183,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 95.95.252.95                               | -R    |      | PT      | Porto             |    |
 | iperf3 -c 23.90.131.2                                | -R    | 1    | RU      | Moscow            |    |
 | iperf3 -c 31.148.48.5                                | -R    |      | RU      | Angarsk           |    |
-| iperf3 -c 62.213.110.86                              | -R    |      | RU      | Moscow            |    |
+| iperf3 -c 62.213.110.86                              | -R    |      | RU      | Moscow            | 🟠 |
 | iperf3 -c speedtest.kamel.network -p 5201-5205       | -R    |      | SE      | Kista             |    |
 | iperf3 -c se-speedt01.fre.nis.telia.net -p 5201-5210 | -R -6 |      | SE      | Viken             |    |
 | iperf3 -c iperf.astra.in.ua -p 5201-5210             | -R    | 10   | UA      | Lviv              |    |
