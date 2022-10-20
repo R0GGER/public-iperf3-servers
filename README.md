@@ -84,7 +84,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c dal.speedtest.clouvider.net -p 5200-5209 | -R  | 10   | US      | Dallas          |   |
 | iperf3 -c ash.speedtest.clouvider.net -p 5200-5209 | -R  | 10   | US      | Ashburn         |   |
 | iperf3 -c speedtest.lv.buyvm.net                   | -R  | 1    | US      | Las Vegas       |   |
-| iperf3 -c 23.251.106.210                           | -R  | 1    | US      | Chicago         |   |
+| iperf3 -c 23.251.106.210                           | -R  | 1    | US      | Chicago         | 🟠  |
 | iperf3 -c 23.251.111.238                           | -R  | 1    | US      | Dallas          |   |
 | iperf3 -c 107.151.178.254                          | -R  | 1    | US      | Los Angeles     |   |
 | iperf3 -c 128.1.151.156                            | -R  | 1    | US      | Miami           |   |
@@ -152,7 +152,8 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c bouygues.testdebit.info -p 9200-9240       | -6 -R | 10   | FR      | Paris             |    |
 | iperf3 -c paris.testdebit.info -p 9200-9240          | -6 -R | 10   | FR      | Paris             |    |
 | iperf3 -c scaleway.testdebit.info -p 5200-5209       | -6 -R | 10   | FR      | Vitry-sur-Seine   |    |
-| iperf3 -c ping-90ms.online.net -p 5200-5209          | -6    | 10   | FR      | Vitry-sur-Seine   |    |
+| iperf3 -c ping-90ms.online.net -p 5200-5209          | -R    | 10   | FR      | Vitry-sur-Seine   |    |
+| iperf3 -c ping6-90ms.online.net -p 5200-5209         | -6 -R | 10   | FR      | Vitry-sur-Seine   |    |
 | iperf3 -c ping.online.net -p 5200-5209               | -R    | 10   | FR      | Vitry-sur-Seine   |    |
 | iperf3 -c ping6.online.net -p 5200-5209              | -6 -R | 10   | FR      | Vitry-sur-Seine   |    |
 | iperf3 -c proof.ovh.net -p 5201-5210                 | -R    | 10   | FR      | Paris             |    |
@@ -162,6 +163,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speed.dimensione.com                       | -R    | 1    | IT      | Milan             |    |
 | iperf3 -c speed.dimensione.com -p 5206               | -R -6 | 1    | IT      | Milan             |    |
 | iperf3 -c speed.itgate.net 5201-5202                 | -R    |      | IT      | Gerbido           |    |
+| iperf3 -c speedtest.lu.buyvm.net                     | -R    |      | LU      | Bissen            |  🟠  |
 | iperf3 -c 208.81.200.98                              | -R    | 1    | NL      | Amsterdam         |    |
 | iperf3 -c a204.speedtest.wobcom.de                   | -R -6 | 2x25 | NL      | Amsterdam         |    |
 | iperf3 -c ams.speedtest.clouvider.net -p 5200-5209   | -R    | 10   | NL      | Amsterdam         |    |
