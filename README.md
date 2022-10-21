@@ -51,7 +51,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 41.213.138.11               | -R  |      | RE      |              |   |
 | iperf3 -c 156.251.131.8               |     |      | SC      |              |   |
 | iperf3 -c 154.73.174.30               |     |      | SN      | Dakar        |   |
-| iperf3 -c 154.70.95.2                 | -R  |      | TG      | Lomé         |   |
+| iperf3 -c 154.70.95.2                 | -R  |      | TG      | Lomé         | 🟠  |
 | iperf3 -c 102.176.252.66              |     |      | TG      | Lomé         |   |
 | iperf3 -c 13.244.123.229 -p 5201-5203 |     |      | ZA      | Cape Town    |   |
 | iperf3 -c 154.0.5.20                  |     |      | ZA      | Cape Town    |   |
@@ -67,7 +67,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | perf3 -c 128.1.240.146                             | -R  | 1    | BR      | Sao Paolo       |   |
 | iperf3 -c 168.195.96.44 -p 5201-5204               |     |      | BR      | Joinville       |   |
 | iperf3 -c 216.40.45.41                             |     |      | CA      |                 |   |
-| iperf3 -c speedtest3.westmancom.com                |     |      | CA      | Brandon         |   |
+| iperf3 -c speedtest3.westmancom.com                |     |      | CA      | Brandon         | 🟠  |
 | iperf3 -c speedtest.switch.ca                      |     |      | CA      | Edmonton        |   |
 | iperf3 -c speedtest.les.net                        | -R  |      | CA      | Winnipeg        |   |
 | iperf3 -c speedtest3.sasknet.sk.ca                 | -R  |      | CA      | Saskatoon       |   |
@@ -89,8 +89,8 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 107.151.178.254                          | -R  | 1    | US      | Los Angeles     |   |
 | iperf3 -c 128.1.151.156                            | -R  | 1    | US      | Miami           |   |
 | iperf3 -c speedtest.mia.buyvm.net                  | -R  | 1    | US      | Miami           |   |
-| iperf3 -c 169.197.127.197                          | -R  | 1    | US      | San Jose        |   |
-| iperf3 -c 23.236.123.190                           | -R  | 1    | US      | Washington D.C. |
+| iperf3 -c 169.197.127.197                          | -R  | 1    | US      | San Jose        | 🟠  |
+| iperf3 -c 23.236.123.190                           | -R  | 1    | US      | Washington D.C. |   |
 
 
 ### ASIA
@@ -99,16 +99,16 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 107.151.142.227                       | -R  | 1    | AE      | Dubai         |   |
 | iperf3 -c 128.14.190.130                        | -R  | 1    | AE      | Fujairah City |   |
 | iperf3 -c 156.59.152.66                         | -R  | 1    | CN      | Hong Kong     |   |
-| iperf3 -c 156.59.103.69                         | -R  | 1    | CN      | Hong Kong     |   |
+| iperf3 -c 156.59.103.69                         | -R  | 1    | CN      | Hong Kong     | 🟠  |
 | iperf3 -c 103.138.75.41                         | -R  | 1    | CN      | Hong Kong     |   |
 | iperf3 -c iperf.biznetnetworks.com -p 5201-5203 | -R  | 1    | ID      | Jakarta       |   |
 | iperf3 -c 129.227.44.98                         | -R  | 1    | ID      | Jakarta       |   |
-| iperf3 -c 156.59.121.194                        | -R  | 1    | IN      | Chennai       |   |
+| iperf3 -c 156.59.121.194                        | -R  | 1    | IN      | Chennai       | 🟠  |
 | iperf3 -c 129.227.223.66                        | -R  | 1    | IN      | Mumbai        |   |
 | iperf3  -c 156.59.29.2                          | -R  | 1    | JAP     | Tokyo         |   |
 | iperf3 -c 192.169.126.4                         | -R  | 1    | JAP     | Tokyo         |   |
 | iperf3 -c 162.221.193.194                       | -R  | 1    | MY      | Kuala Lumpur  |   |
-| iperf3 -c 156.59.169.4                          | -R  | 1    | PH      | Manila        |   |
+| iperf3 -c 156.59.169.4                          | -R  | 1    | PH      | Manila        | 🟠  |
 | iperf3 -c 129.227.231.194                       | -R  | 1    | TH      | Bangkok       |   |
 | iperf3 -c 23.90.175.130                         | -R  | 1    | TR      | Istanbul      |   |
 | iperf3 -c speedtest.uztelecom.uz -p 5200-5207   | -R  | 10   | UZ      | Tashkent      |   |
@@ -142,7 +142,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 23.90.191.146                              | -R    | 1    | ES      | Madrid            |    |
 | iperf3 -c speedtest-hki.netplaza.fi                  | -R    |      | FI      | Helsinki          |    |
 | iperf3 -c speedtest.cinia.fi                         |       |      | FI      | Oulu              |    |
-| iperf3 -c speedtest.extra.telia.fi                   |       |      | FI      | Helsinki          |    |
+| iperf3 -c speedtest.extra.telia.fi                   |       |      | FI      | Helsinki          |  🟠  |
 | iperf3 -c iperf.online.net -p 5204                   | -R    | 10   | FR      | Vitry-sur-Seine   |    |
 | iperf3 -c iperf.par2.as49434.net -p 9202             | -R    | 40   | FR      | Paris             |    |
 | iperf3 -c aix-marseille.testdebit.info -p 9200-9240  | -6 -R | 10   | FR      | Aix-en-Provence	|    |
@@ -157,14 +157,14 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c ping.online.net -p 5200-5209               | -R    | 10   | FR      | Vitry-sur-Seine   |    |
 | iperf3 -c ping6.online.net -p 5200-5209              | -6 -R | 10   | FR      | Vitry-sur-Seine   |    |
 | iperf3 -c proof.ovh.net -p 5201-5210                 | -R    | 10   | FR      | Paris             |    |
-| iperf3 -c 23.90.177.66                               | -R    | 1    | GB      | London            |    |
+| iperf3 -c 23.90.177.66                               | -R    | 1    | GB      | London            |  🟠  |
 | iperf3 -c iperf.as42831.net -p 5300-5400             | -R    |      | GB      | London            |    |
 | iperf3 -c lon.speedtest.clouvider.net -p 5200-5209   | -R    | 10   | GB      | London            |    |
 | iperf3 -c speed.dimensione.com                       | -R    | 1    | IT      | Milan             |    |
 | iperf3 -c speed.dimensione.com -p 5206               | -R -6 | 1    | IT      | Milan             |    |
 | iperf3 -c speed.itgate.net 5201-5202                 | -R    |      | IT      | Gerbido           |    |
 | iperf3 -c speedtest.lu.buyvm.net                     | -R    |      | LU      | Bissen            |  🟠  |
-| iperf3 -c 208.81.200.98                              | -R    | 1    | NL      | Amsterdam         |    |
+| iperf3 -c 208.81.200.98                              | -R    | 1    | NL      | Amsterdam         |  🟠  |
 | iperf3 -c a204.speedtest.wobcom.de                   | -R -6 | 2x25 | NL      | Amsterdam         |    |
 | iperf3 -c ams.speedtest.clouvider.net -p 5200-5209   | -R    | 10   | NL      | Amsterdam         |    |
 | iperf3 -c nl.iperf.014.fr -p 10420                   | -R    | 1    | NL      | Amsterdam         |    |
