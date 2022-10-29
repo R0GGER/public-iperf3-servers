@@ -69,6 +69,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.les.net                        | -R  |      | CA      | Winnipeg        |   |
 | iperf3 -c speedtest3.sasknet.sk.ca                 | -R  |      | CA      | Saskatoon       |   |
 | iperf3 -c 74.205.217.156                           |     |      | CA      | Stittsville     |   |
+| iperf3 -c vern.cc                                  |     | 1    | CA      | Beauharnois     |   |
 | iperf3 -c sp11.wom.cl                              |     |      | CL      | Santiago        |   |
 | iperf3 -c la.speedtest.clouvider.net -p 5200-5209  | -R  | 10   | US      | Los Angeles     |   |
 | iperf3 -c atl.speedtest.clouvider.net -p 5200-5209 | -R  | 10   | US      | Atlanta         |   |
@@ -82,6 +83,8 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c ash.speedtest.clouvider.net -p 5200-5209 | -R  | 10   | US      | Ashburn         |   |
 | iperf3 -c speedtest.lv.buyvm.net                   | -R  | 1    | US      | Las Vegas       |   |
 | iperf3 -c speedtest.mia.buyvm.net                  | -R  | 1    | US      | Miami           |   |
+| iperf3 -c lists.vern.cc                            |     | 1    | US      | Atlanta         |   |
+| iperf3 -c iceberg.vern.cc                          |     | 1    | US      | New Jersey      |   |
 
 
 ### ASIA
@@ -89,6 +92,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |:------------------------------------------------|-----|------|---------|:--------------|---|
 | iperf3 -c 103.138.75.41                         | -R  | 1    | CN      | Hong Kong     |   |
 | iperf3 -c iperf.biznetnetworks.com -p 5201-5203 | -R  | 1    | ID      | Jakarta       |   |
+| iperf3 -c tildevarsh.in                         |     | 1    | IN      | Mumbai        |   |
 | iperf3 -c speedtest.uztelecom.uz -p 5200-5207   | -R  | 10   | UZ      | Tashkent      |   |
 | iperf3 -c 156.59.143.226                        | -R  | 1    | VN      | Hanoi         |   |
 | iperf3 -c 87.247.44.2                           | -R  |      | KZ      | Taraz         |   |
