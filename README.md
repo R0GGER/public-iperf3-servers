@@ -66,12 +66,14 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.seatelecom.com.br              | -R  |      | BR      | Castanhal       |   |
 | iperf3 -c 168.195.96.44 -p 5201-5204               |     |      | BR      | Joinville       |   |
 | iperf3 -c 216.40.45.41                             |     |      | CA      |                 |   |
+| iperf3 -c vern.cc                                  | -R  | 1    | CA      | Beauharnois     |   |
 | iperf3 -c speedtest.switch.ca                      |     |      | CA      | Edmonton        | 🟠  |
 | iperf3 -c speedtest3.sasknet.sk.ca                 | -R  |      | CA      | Saskatoon       |   |
 | iperf3 -c 74.205.217.156                           |     |      | CA      | Stittsville     |   |
 | iperf3 -c sp11.wom.cl                              |     |      | CL      | Santiago        |   |
 | iperf3 -c speedtest.les.net                        | -R  |      | CA      | Winnipeg        |   |
 | iperf3 -c speedtest.masnet.ec                      | -R  | 1    | EC      | Santa Ana       |   |
+| iperf3 -c lists.vern.cc                            | -R  | 1    | US      | Atlanta         |   |
 | iperf3 -c atl.speedtest.clouvider.net -p 5200-5209 | -R  | 10   | US      | Atlanta         |   |
 | iperf3 -c ash.speedtest.clouvider.net -p 5200-5209 | -R  | 10   | US      | Ashburn         |   |
 | iperf3 -c speedtest13.suddenlink.net               | -R  | 10   | US      | Charleston      |   |
@@ -82,6 +84,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c la.speedtest.clouvider.net -p 5200-5209  | -R  | 10   | US      | Los Angeles     |   |
 | iperf3 -c speedtest.tds.net                        | -R  |      | US      | Madison         |   |
 | iperf3 -c speedtest.mia.buyvm.net                  | -R  | 1    | US      | Miami           |   |
+| iperf3 -c iceberg.vern.cc                          | -R  | 1    | US      | New Jersey      |   |
 | iperf3 -c nyc.speedtest.clouvider.net -p 5200-5209 | -R  | 10   | US      | New York City   |   |
 | iperf3 -c speedtest.ny.buyvm.net                   | -R  | 1    | US      | New York        |   |
 | iperf3 -c nyfiosspeed1.west.verizon.net            | -R  |      | US      | New York        |   |
@@ -98,6 +101,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c oke.net.id                            | -R  | 1    | ID      | Jakarta       |   |
 | iperf3 -c  speed.netfiber.net.il                | -R  | 1    | IL      | Jerusalem     |   |
 | iperf3 -c speed.rimon.net.il                    | -R  | 1    | IL      | Jerusalem     |   |
+| iperf3 -c tildevarsh.in                         | -R  | 1    | IN      | Mumbai        |   |
 | iperf3 -c in-speedtest.host-palace.com          | -R  | 1    | IN      | Suri          |   |
 | iperf3 -c 87.247.44.2                           | -R  |      | KZ      | Taraz         |   |
 | iperf3 -c 91.185.23.98                          | -R  |      | KZ      | Aktau         |   |
