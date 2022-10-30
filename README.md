@@ -47,17 +47,16 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | COMMAND                               | OPT | GB/s | COUNTRY | SITE         |   |
 |:--------------------------------------|-----|------|---------|:-------------|---|
 | iperf3 -c 197.155.149.134             | -R  |      | ML      |              |   |
-| iperf3 -c 197.227.5.218 -p 5201/5204  | -R  |      | MU      | Tamarin      |   |
+| iperf3 -c speedtestlondon.telecom.mu	-p 5201/5204  | -R  |      | MU      | Tamarin      |   |
 | iperf3 -c 41.213.138.11               | -R  |      | RE      |              |   |
-| iperf3 -c 156.251.131.8               |     |      | SC      |              | 🟠  |
+| iperf3 -c 156.251.131.8               | -R  |      | SC      |              |   |
 | iperf3 -c 154.73.174.30               |     |      | SN      | Dakar        |   |
-| iperf3 -c 102.176.252.66              |     |      | TG      | Lomé         |   |
 | iperf3 -c 13.244.123.229 -p 5201-5203 |     |      | ZA      | Cape Town    |   |
 | iperf3 -c 154.0.5.20                  |     |      | ZA      | Cape Town    |   |
 | iperf3 -c 41.168.5.158                |     |      | ZA      | Johannesburg |   |
 | iperf3 -c 102.165.60.112              | -R  |      | ZA      | Johannesburg |   |
 | iperf3 -c 102.134.120.74              |     |      | ZA      | Johannesburg |   |
-| iperf3 -c 169.255.0.134               |     |      | ZA      | Johannesburg |   |
+| iperf3 -c speedtest.rocketnet.co.za   | -R  |      | ZA      | Johannesburg |   |
 
 
 ### AMERICA
