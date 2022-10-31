@@ -62,11 +62,10 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 ### AMERICA
 | COMMAND                                            | OPT | GB/s | COUNTRY | SITE            |   |
 :----------------------------------------------------|-----|------|---------|:----------------|---|
-| iperf3 -c speedtest.seatelecom.com.br              | -R  |      | BR      | Castanhal       |   |
+| iperf3 -c speedtest.seatelecom.com.br              | -R  |      | BR      | Castanhal       | 🟠  |
 | iperf3 -c 168.195.96.44 -p 5201-5204               |     |      | BR      | Joinville       |   |
 | iperf3 -c 216.40.45.41                             |     |      | CA      |                 |   |
 | iperf3 -c vern.cc                                  | -R  | 1    | CA      | Beauharnois     |   |
-| iperf3 -c speedtest.switch.ca                      |     |      | CA      | Edmonton        | 🟠  |
 | iperf3 -c speedtest3.sasknet.sk.ca                 | -R  |      | CA      | Saskatoon       |   |
 | iperf3 -c 74.205.217.156                           |     |      | CA      | Stittsville     |   |
 | iperf3 -c sp11.wom.cl                              |     |      | CL      | Santiago        |   |
@@ -115,7 +114,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c lg.vie.alwyzon.net                         | -R    |      | AT      | Vienna            |    |
 | iperf3 -c speedtest.neterra.net                      |       | 10   | BG      | Sofia             |    |
 | iperf3 -c speedtest.iway.ch                          | -R    | 10   | CH      | Zürich            |    |
-| iperf3 -c speed.nimag.net                            | -R    |      | CH      | Zürich            | 🟠   |
 | iperf3 -c speedtest.shinternet.ch -p 5200-5209       | -R -6 |      | CH      | Schaffhausen      |    |
 | iperf3 -c 178.215.228.109 -p 9210                    | -R    |      | DE      | Frankfurt         |    |
 | iperf3 -c fra.speedtest.clouvider.net -p 5200-5209   | -R    | 10   | DE      | Frankfurt         |    |
