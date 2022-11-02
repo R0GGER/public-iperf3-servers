@@ -62,7 +62,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 ### AMERICA
 | COMMAND                                            | OPT | GB/s | COUNTRY | SITE            |   |
 :----------------------------------------------------|-----|------|---------|:----------------|---|
-| iperf3 -c speedtest.seatelecom.com.br              | -R  |      | BR      | Castanhal       | 🟠  |
 | iperf3 -c 168.195.96.44 -p 5201-5204               |     |      | BR      | Joinville       |   |
 | iperf3 -c 216.40.45.41                             |     |      | CA      |                 |   |
 | iperf3 -c vern.cc                                  | -R  | 1    | CA      | Beauharnois     |   |
@@ -214,6 +213,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c townsville.qld.speedtest.optusnet.com.au    | -R  |      | AU      | Sydney   |   |
 | iperf3 -c mirror.lagoon.nc                            | -R  |      | NC      |          |   |
 | iperf3 -c server-52201.prod.hosts.ooklaserver.net     | -R  |      | NZ      | Auckland |   |
-| iperf3 -c 202.137.240.193                             | -R  |      | NZ      | Auckland |   |
+| iperf3 -c 202.137.240.193                             | -R  |      | NZ      | Auckland | 🟠  |
 | iperf3 -c auckland.speedtest.vodafone.co.nz           | -R  |      | NZ      | Auckland |   |
 | iperf3 -c server-5539.prod.hosts.ooklaserver.net      | -R  |      | NZ      | Nelson   |   |
