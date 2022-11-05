@@ -77,7 +77,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest15.suddenlink.net               | -R  | 10   | US      | Charleston      |   |
 | iperf3 -c charlottesville.speedtest.ting.com       | -R  |      | US      | Charlottesville |   |
 | iperf3 -c dal.speedtest.clouvider.net -p 5200-5209 | -R  | 10   | US      | Dallas          |   |
-| iperf3 -c speedtest.lv.buyvm.net                   | -R  | 1    | US      | Las Vegas       | 🟠   |
 | iperf3 -c la.speedtest.clouvider.net -p 5200-5209  | -R  | 10   | US      | Los Angeles     |   |
 | iperf3 -c speedtest.tds.net                        | -R  |      | US      | Madison         |   |
 | iperf3 -c speedtest.mia.buyvm.net                  | -R  | 1    | US      | Miami           |   |
@@ -213,6 +212,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c townsville.qld.speedtest.optusnet.com.au    | -R  |      | AU      | Sydney   |   |
 | iperf3 -c mirror.lagoon.nc                            | -R  |      | NC      |          |   |
 | iperf3 -c server-52201.prod.hosts.ooklaserver.net     | -R  |      | NZ      | Auckland |   |
-| iperf3 -c 202.137.240.193                             | -R  |      | NZ      | Auckland | 🟠  |
+| iperf3 -c 202.137.240.193                             | -R  |      | NZ      | Auckland |   |
 | iperf3 -c auckland.speedtest.vodafone.co.nz           | -R  |      | NZ      | Auckland |   |
 | iperf3 -c server-5539.prod.hosts.ooklaserver.net      | -R  |      | NZ      | Nelson   |   |
