@@ -95,9 +95,9 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 103.138.75.41                         | -R  | 1    | CN      | Hong Kong     |   |
 | iperf3 -c iperf.biznetnetworks.com -p 5201-5203 | -R  | 1    | ID      | Jakarta       |   |
 | iperf3 -c oke.net.id                            | -R  | 1    | ID      | Jakarta       |   |
-| iperf3 -c  speed.netfiber.net.il                | -R  | 1    | IL      | Jerusalem     |   |
+| iperf3 -c speed.netfiber.net.il                 | -R  | 1    | IL      | Jerusalem     |   |
 | iperf3 -c speed.rimon.net.il                    | -R  | 1    | IL      | Jerusalem     |   |
-| iperf3 -c tildevarsh.in                         | -R  | 1    | IN      | Mumbai        |   |
+| iperf3 -c tildevarsh.in                         | -R  | 1    | IN      | Mumbai        | 🟠  |
 | iperf3 -c in-speedtest.host-palace.com          | -R  | 1    | IN      | Suri          |   |
 | iperf3 -c 87.247.44.2                           | -R  |      | KZ      | Taraz         |   |
 | iperf3 -c 91.185.23.98                          | -R  |      | KZ      | Aktau         |   |
