@@ -68,7 +68,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest3.sasknet.sk.ca                 | -R  |      | CA      | Saskatoon       |   |
 | iperf3 -c 74.205.217.156                           |     |      | CA      | Stittsville     |   |
 | iperf3 -c sp11.wom.cl                              |     |      | CL      | Santiago        |   |
-| iperf3 -c speedtest.les.net                        | -R  |      | CA      | Winnipeg        |   |
+| iperf3 -c speedtest.les.net                        | -R  |      | CA      | Winnipeg        | 🟠  |
 | iperf3 -c speedtest.masnet.ec                      | -R  | 1    | EC      | Santa Ana       |   |
 | iperf3 -c lists.vern.cc                            | -R  | 1    | US      | Atlanta         |   |
 | iperf3 -c atl.speedtest.clouvider.net -p 5200-5209 | -R  | 10   | US      | Atlanta         |   |
@@ -116,11 +116,11 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 178.215.228.109 -p 9210                    | -R    |      | DE      | Frankfurt         |    |
 | iperf3 -c fra.speedtest.clouvider.net -p 5200-5209   | -R    | 10   | DE      | Frankfurt         |    |
 | iperf3 -c lg.ip-projects.de                          |       |      | DE      | Frankfurt         |    |
-| iperf3 -c speedtest.wobcom.de :small_blue_diamond:   | -R -6 | 2x25 | DE      | Wolfsburg         |    |
+| iperf3 -c speedtest.wobcom.de :small_blue_diamond:   | -R -6 | 2x25 | DE      | Wolfsburg         | 🟠   |
 | iperf3 -c a400.speedtest.wobcom.de                   | -R -6 | 2x25 | DE      | Wolfsburg         |    |
 | iperf3 -c a209.speedtest.wobcom.de                   | -R -6 | 2x25 | DE      | Berlin            |    |
 | iperf3 -c a110.speedtest.wobcom.de                   | -R -6 | 2x25 | DE      | Berlin            | 🟠   |
-| iperf3 -c a210.speedtest.wobcom.de                   | -R -6 | 2x25 | DE      | Frankfurt         |    |
+| iperf3 -c a210.speedtest.wobcom.de                   | -R -6 | 2x25 | DE      | Frankfurt         | 🟠   |
 | iperf3 -c a205.speedtest.wobcom.de                   | -R -6 | 2x25 | DE      | Frankfurt         |    |
 | iperf3 -c a208.speedtest.wobcom.de                   | -R -6 | 2x25 | DE      | Düsseldorf        |    |
 | iperf3 -c speedtest.wtnet.de -p 5200-5209            | -R -6 | 40   | DE      | Norderstedt       |    |
@@ -213,5 +213,5 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c mirror.lagoon.nc                            | -R  |      | NC      |          |   |
 | iperf3 -c server-52201.prod.hosts.ooklaserver.net     | -R  |      | NZ      | Auckland |   |
 | iperf3 -c 202.137.240.193                             | -R  |      | NZ      | Auckland |   |
-| iperf3 -c auckland.speedtest.vodafone.co.nz           | -R  |      | NZ      | Auckland |   |
+| iperf3 -c auckland.speedtest.vodafone.co.nz           | -R  |      | NZ      | Auckland | 🟠  |
 | iperf3 -c server-5539.prod.hosts.ooklaserver.net      | -R  |      | NZ      | Nelson   |   |
