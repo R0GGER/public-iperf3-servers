@@ -64,13 +64,12 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 :----------------------------------------------------|-----|------|---------|:----------------|---|
 | iperf3 -c 168.195.96.44 -p 5201-5204               |     |      | BR      | Joinville       |   |
 | iperf3 -c 216.40.45.41                             |     |      | CA      |                 |   |
-| iperf3 -c vern.cc                                  | -R  | 1    | CA      | Beauharnois     |   |
+| iperf3 -c vern.cc                                  | -R  | 1    | CA      | Beauharnois     | 🟠  |
 | iperf3 -c speedtest3.sasknet.sk.ca                 | -R  |      | CA      | Saskatoon       |   |
 | iperf3 -c 74.205.217.156                           |     |      | CA      | Stittsville     |   |
 | iperf3 -c sp11.wom.cl                              |     |      | CL      | Santiago        |   |
-| iperf3 -c speedtest.les.net                        | -R  |      | CA      | Winnipeg        | 🟠  |
 | iperf3 -c speedtest.masnet.ec                      | -R  | 1    | EC      | Santa Ana       |   |
-| iperf3 -c lists.vern.cc                            | -R  | 1    | US      | Atlanta         |   |
+| iperf3 -c lists.vern.cc                            | -R  | 1    | US      | Atlanta         | 🟠  |
 | iperf3 -c atl.speedtest.clouvider.net -p 5200-5209 | -R  | 10   | US      | Atlanta         |   |
 | iperf3 -c ash.speedtest.clouvider.net -p 5200-5209 | -R  | 10   | US      | Ashburn         |   |
 | iperf3 -c speedtest13.suddenlink.net               | -R  | 10   | US      | Charleston      |   |
@@ -99,9 +98,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speed.rimon.net.il                    | -R  | 1    | IL      | Jerusalem     |   |
 | iperf3 -c tildevarsh.in                         | -R  | 1    | IN      | Mumbai        | 🟠  |
 | iperf3 -c in-speedtest.host-palace.com          | -R  | 1    | IN      | Suri          |   |
-| iperf3 -c 87.247.44.2                           | -R  |      | KZ      | Taraz         |   |
 | iperf3 -c 91.185.23.98                          | -R  |      | KZ      | Aktau         |   |
-| iperf3 -c 176.222.136.254                       | -R  |      | KZ      | Aktobe        |   |
 | iperf3 -c gpon.time.net.my                      | -R  | 1    | MY      | Kuala Lumpur  |   |
 | iperf3 -c speedtest.uztelecom.uz -p 5200-5207   | -R  | 10   | UZ      | Tashkent      |   |
 | iperf3 -c 156.59.143.226                        | -R  | 1    | VN      | Hanoi         |   |
@@ -213,5 +210,4 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c mirror.lagoon.nc                            | -R  |      | NC      |          |   |
 | iperf3 -c server-52201.prod.hosts.ooklaserver.net     | -R  |      | NZ      | Auckland |   |
 | iperf3 -c 202.137.240.193                             | -R  |      | NZ      | Auckland |   |
-| iperf3 -c auckland.speedtest.vodafone.co.nz           | -R  |      | NZ      | Auckland | 🟠  |
 | iperf3 -c server-5539.prod.hosts.ooklaserver.net      | -R  |      | NZ      | Nelson   |   |
