@@ -46,8 +46,9 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 ### AFRICA
 | COMMAND                               | OPT | GB/s | COUNTRY | SITE         |   |
 |:--------------------------------------|-----|------|---------|:-------------|---|
+| iperf3 -c speed.mymanga.pro           | -R  |      | KE      |  Nairobi     |   |
 | iperf3 -c 197.155.149.134             | -R  |      | ML      |              |   |
-| iperf3 -c speedtestlondon.telecom.mu	-p 5201/5204  | -R  |      | MU      | Tamarin      |   |
+| iperf3 -c speedtestlondon.telecom.mu -p 5201/5204 | -R  |      | MU      | Tamarin      |   |
 | iperf3 -c 41.213.138.11               | -R  |      | RE      |              |   |
 | iperf3 -c 156.251.131.8               | -R  |      | SC      |              |   |
 | iperf3 -c 154.73.174.30               |     |      | SN      | Dakar        |   |
@@ -64,12 +65,12 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 :----------------------------------------------------|-----|------|---------|:----------------|---|
 | iperf3 -c 168.195.96.44 -p 5201-5204               |     |      | BR      | Joinville       |   |
 | iperf3 -c 216.40.45.41                             |     |      | CA      |                 |   |
-| iperf3 -c vern.cc                                  | -R  | 1    | CA      | Beauharnois     | 🟠  |
+| iperf3 -c vern.cc                                  | -R  | 1    | CA      | Beauharnois     |   |
 | iperf3 -c speedtest3.sasknet.sk.ca                 | -R  |      | CA      | Saskatoon       |   |
 | iperf3 -c 74.205.217.156                           |     |      | CA      | Stittsville     |   |
 | iperf3 -c sp11.wom.cl                              |     |      | CL      | Santiago        |   |
 | iperf3 -c speedtest.masnet.ec                      | -R  | 1    | EC      | Santa Ana       |   |
-| iperf3 -c lists.vern.cc                            | -R  | 1    | US      | Atlanta         | 🟠  |
+| iperf3 -c lists.vern.cc                            | -R  | 1    | US      | Atlanta         |   |
 | iperf3 -c atl.speedtest.clouvider.net -p 5200-5209 | -R  | 10   | US      | Atlanta         |   |
 | iperf3 -c ash.speedtest.clouvider.net -p 5200-5209 | -R  | 10   | US      | Ashburn         |   |
 | iperf3 -c speedtest13.suddenlink.net               | -R  | 10   | US      | Charleston      |   |
@@ -78,7 +79,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c dal.speedtest.clouvider.net -p 5200-5209 | -R  | 10   | US      | Dallas          |   |
 | iperf3 -c la.speedtest.clouvider.net -p 5200-5209  | -R  | 10   | US      | Los Angeles     |   |
 | iperf3 -c speedtest.tds.net                        | -R  |      | US      | Madison         |   |
-| iperf3 -c speedtest.mia.buyvm.net                  | -R  | 1    | US      | Miami           |   |
+| iperf3 -c speedtest.mia.buyvm.net                  | -R  | 1    | US      | Miami           | 🟠 |
 | iperf3 -c iceberg.vern.cc                          | -R  | 1    | US      | New Jersey      |   |
 | iperf3 -c nyc.speedtest.clouvider.net -p 5200-5209 | -R  | 10   | US      | New York City   |   |
 | iperf3 -c speedtest.ny.buyvm.net                   | -R  | 1    | US      | New York        |   |
@@ -96,7 +97,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c oke.net.id                            | -R  | 1    | ID      | Jakarta       |   |
 | iperf3 -c speed.netfiber.net.il                 | -R  | 1    | IL      | Jerusalem     |   |
 | iperf3 -c speed.rimon.net.il                    | -R  | 1    | IL      | Jerusalem     |   |
-| iperf3 -c tildevarsh.in                         | -R  | 1    | IN      | Mumbai        | 🟠  |
 | iperf3 -c in-speedtest.host-palace.com          | -R  | 1    | IN      | Suri          |   |
 | iperf3 -c 91.185.23.98                          | -R  |      | KZ      | Aktau         |   |
 | iperf3 -c gpon.time.net.my                      | -R  | 1    | MY      | Kuala Lumpur  |   |
@@ -108,8 +108,9 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |:-----------------------------------------------------|-------|------|---------|:------------------|----|
 | iperf3 -c lg.vie.alwyzon.net                         | -R    |      | AT      | Vienna            |    |
 | iperf3 -c speedtest.neterra.net                      |       | 10   | BG      | Sofia             |    |
-| iperf3 -c speedtest.iway.ch                          | -R    | 10   | CH      | Zürich            |    |
+| iperf3 -c speed.nimag.net	                           | -R -6 | 10   | CH      | Lausanne          |    |
 | iperf3 -c speedtest.shinternet.ch -p 5200-5209       | -R -6 |      | CH      | Schaffhausen      |    |
+| iperf3 -c speedtest.iway.ch                          | -R    | 10   | CH      | Zürich            |    |
 | iperf3 -c 178.215.228.109 -p 9210                    | -R    |      | DE      | Frankfurt         |    |
 | iperf3 -c fra.speedtest.clouvider.net -p 5200-5209   | -R    | 10   | DE      | Frankfurt         |    |
 | iperf3 -c lg.ip-projects.de                          |       |      | DE      | Frankfurt         |    |
@@ -170,12 +171,12 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.ownit.se                         | -R    | 10   | SE      | Stockholm         |    |
 | iperf3 -c speedtestv6.ownit.se                       | -R -6 | 10   | SE      | Stockholm         |    |
 | iperf3 -c se-speedt01.fre.nis.telia.net -p 5201-5210 | -R -6 |      | SE      | Viken             |    |
-| iperf3 -c iperf.astra.in.ua -p 5201-5210             | -R    | 10   | UA      | Lviv              |    |
+| iperf3 -c iperf.astra.in.ua -p 5201-5210             | -R    | 10   | UA      | Lviv              | 🟠 |
 | iperf3 -c iperf.volia.net                            | -R    |      | UA      | Kyiv              | 🟠 |
 | iperf3 -c speed.cosmonova.net                        | -R    |      | UA      | Kyiv              |    |
 | iperf3 -c speedtest.astra.in.ua                      | -R    |      | UA      | Lviv              |    |
 | iperf3 -c speedtest.pol.volia.net                    | -R    |      | UA      | Poltava           |    |
-| iperf3 -c speedtest.solver.net.ua                    | -R    |      | UA      | Poltava           |    |
+| iperf3 -c speedtest.solver.net.ua                    | -R    |      | UA      | Poltava           | 🟠 |
 
 :small_blue_diamond: speedtest.wobcom.de connects to the nearest *.speedtest.wobcom.de server.
 
@@ -208,6 +209,8 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c techspeedtest.bla.optusnet.com.au           | -R  |      | AU      | Sydney   |   |
 | iperf3 -c townsville.qld.speedtest.optusnet.com.au    | -R  |      | AU      | Sydney   |   |
 | iperf3 -c mirror.lagoon.nc                            | -R  |      | NC      |          |   |
-| iperf3 -c server-52201.prod.hosts.ooklaserver.net     | -R  |      | NZ      | Auckland |   |
 | iperf3 -c 202.137.240.193                             | -R  |      | NZ      | Auckland |   |
+| iperf3 -c server-52201.prod.hosts.ooklaserver.net     | -R  |      | NZ      | Auckland |   |
+| iperf3 -c speedtest4.nownz.co.nz                      | -R  |  10  | NZ      | Auckland |   |
+| iperf3 -c speedtest5.nownz.co.nz                      | -R  |  10  | NZ      | Auckland |   |
 | iperf3 -c server-5539.prod.hosts.ooklaserver.net      | -R  |      | NZ      | Nelson   |   |
