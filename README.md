@@ -44,20 +44,23 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 🟠 **IP/HOST probably down or connection unstable.**
 
 ### AFRICA
-| COMMAND                               | OPT | GB/s | COUNTRY | SITE         |   |
-|:--------------------------------------|-----|------|---------|:-------------|---|
-| iperf3 -c speed.mymanga.pro           | -R  |      | KE      |  Nairobi     |   |
-| iperf3 -c 197.155.149.134             | -R  |      | ML      |              |   |
-| iperf3 -c speedtestlondon.telecom.mu -p 5201/5204 | -R  |      | MU      | Tamarin      |   |
-| iperf3 -c 41.213.138.11               | -R  |      | RE      |              |   |
-| iperf3 -c 156.251.131.8               | -R  |      | SC      |              |   |
-| iperf3 -c 154.73.174.30               |     |      | SN      | Dakar        |   |
-| iperf3 -c 13.244.123.229 -p 5201-5203 |     |      | ZA      | Cape Town    |   |
-| iperf3 -c 154.0.5.20                  |     |      | ZA      | Cape Town    |   |
-| iperf3 -c 41.168.5.158                |     |      | ZA      | Johannesburg |   |
-| iperf3 -c 102.165.60.112              | -R  |      | ZA      | Johannesburg |   |
-| iperf3 -c 102.134.120.74              |     |      | ZA      | Johannesburg |   |
-| iperf3 -c speedtest.rocketnet.co.za   | -R  |      | ZA      | Johannesburg |   |
+| COMMAND                                            | OPT | GB/s | COUNTRY | SITE         |   |
+|:---------------------------------------------------|-----|------|---------|:-------------|---|
+| iperf3 -c speed.mymanga.pro                        | -R  |      | KE      | Nairobi      |   |
+| iperf3 -c 197.155.149.134                          | -R  |      | ML      |              |   |
+| iperf3 -c speedtest.telecom.mu -p 5201-5209        | -R  |      | MU      | Port Louis   |   |
+| iperf3 -c speedtestfl.telecom.mu -p 5201-5209      | -R  |      | MU      | Floreal      |   |
+| iperf3 -c speedtestrh.telecom.mu -p 5201-5209      | -R  |      | MU      | Rose Hill    |   |
+| iperf3 -c speedtestlondon.telecom.mu -p 5201-5209  | -R  |      | MU      | Tamarin      |   |
+| iperf3 -c 41.213.138.11                            | -R  |      | RE      |              |   |
+| iperf3 -c 156.251.131.8                            | -R  |      | SC      |              |   |
+| iperf3 -c 154.73.174.30                            |     |      | SN      | Dakar        |   |
+| iperf3 -c 13.244.123.229 -p 5201-5203              |     |      | ZA      | Cape Town    |   |
+| iperf3 -c 154.0.5.20                               |     |      | ZA      | Cape Town    |   |
+| iperf3 -c 41.168.5.158                             |     |      | ZA      | Johannesburg |   |
+| iperf3 -c 102.165.60.112                           | -R  |      | ZA      | Johannesburg |   |
+| iperf3 -c 102.134.120.74                           |     |      | ZA      | Johannesburg |   |
+| iperf3 -c speedtest.rocketnet.co.za                | -R  |      | ZA      | Johannesburg |   |
 
 
 ### AMERICA
@@ -152,9 +155,9 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c ams.speedtest.clouvider.net -p 5200-5209   | -R    | 10   | NL      | Amsterdam         |    |
 | iperf3 -c nl.iperf.014.fr -p 10420                   | -R    | 1    | NL      | Amsterdam         |    |
 | iperf3 -c ping-ams1.online.net 5200-5209             | -R    | 10   | NL      | Amsterdam         |    |
-| iperf3 -c speedtest-nl-oum.hybula.net                | -R    |      | NL      | Amsterdam         |    |
+| iperf3 -c speedtest-nl-oum.hybula.net                | -R    |      | NL      | Amsterdam         | 🟠   |
 | iperf3 -c speedtest.ams1.novogara.net -p 5200-5209   | -R -6 | 20   | NL      | Amsterdam         |    |
-| iperf3 -c speedtest.novoserve.com                    | -R    | 40   | NL      | Amsterdam         |    |
+| iperf3 -c speedtest.novoserve.com                    | -R    | 40   | NL      | Amsterdam         | 🟠   |
 | iperf3 -c speedtest.novoserve.com -p 5206            | -R -6 | 40   | NL      | Amsterdam         |    |
 | iperf3 -c speedtest.serverius.net -p 5002            | -R -6 | 10   | NL      | Amsterdam         |    |
 | iperf3 -c speedtest.yisp.nl                          | -R    | 10   | NL      | Amsterdam         |    |
