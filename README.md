@@ -53,7 +53,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtestrh.telecom.mu -p 5201-5209      | -R  |      | MU      | Rose Hill    |   |
 | iperf3 -c speedtestlondon.telecom.mu -p 5201-5209  | -R  |      | MU      | Tamarin      |   |
 | iperf3 -c 41.213.138.11                            | -R  |      | RE      |              |   |
-| iperf3 -c 156.251.131.8                            | -R  |      | SC      |              |   |
 | iperf3 -c 154.73.174.30                            |     |      | SN      | Dakar        |   |
 | iperf3 -c 13.244.123.229 -p 5201-5203              |     |      | ZA      | Cape Town    |   |
 | iperf3 -c 154.0.5.20                               |     |      | ZA      | Cape Town    |   |
@@ -82,7 +81,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c dal.speedtest.clouvider.net -p 5200-5209 | -R  | 10   | US      | Dallas          |   |
 | iperf3 -c la.speedtest.clouvider.net -p 5200-5209  | -R  | 10   | US      | Los Angeles     |   |
 | iperf3 -c speedtest.tds.net                        | -R  |      | US      | Madison         |   |
-| iperf3 -c speedtest.mia.buyvm.net                  | -R  | 1    | US      | Miami           | 🟠 |
+| iperf3 -c speedtest.mia.buyvm.net                  | -R  | 1    | US      | Miami           |   |
 | iperf3 -c iceberg.vern.cc                          | -R  | 1    | US      | New Jersey      |   |
 | iperf3 -c nyc.speedtest.clouvider.net -p 5200-5209 | -R  | 10   | US      | New York City   |   |
 | iperf3 -c speedtest.ny.buyvm.net                   | -R  | 1    | US      | New York        |   |
@@ -115,13 +114,10 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.shinternet.ch -p 5200-5209       | -R -6 |      | CH      | Schaffhausen      |    |
 | iperf3 -c speedtest.iway.ch                          | -R    | 10   | CH      | Zürich            |    |
 | iperf3 -c 178.215.228.109 -p 9210                    | -R    |      | DE      | Frankfurt         |    |
-| iperf3 -c fra.speedtest.clouvider.net -p 5200-5209   | -R    | 10   | DE      | Frankfurt         |    |
+| iperf3 -c fra.speedtest.clouvider.net -p 5200-5209   | -R    | 10   | DE      | Frankfurt         | 🟠   |
 | iperf3 -c lg.ip-projects.de                          |       |      | DE      | Frankfurt         |    |
-| iperf3 -c speedtest.wobcom.de :small_blue_diamond:   | -R -6 | 2x25 | DE      | Wolfsburg         | 🟠   |
 | iperf3 -c a400.speedtest.wobcom.de                   | -R -6 | 2x25 | DE      | Wolfsburg         |    |
 | iperf3 -c a209.speedtest.wobcom.de                   | -R -6 | 2x25 | DE      | Berlin            |    |
-| iperf3 -c a110.speedtest.wobcom.de                   | -R -6 | 2x25 | DE      | Berlin            | 🟠   |
-| iperf3 -c a210.speedtest.wobcom.de                   | -R -6 | 2x25 | DE      | Frankfurt         | 🟠   |
 | iperf3 -c a205.speedtest.wobcom.de                   | -R -6 | 2x25 | DE      | Frankfurt         |    |
 | iperf3 -c a208.speedtest.wobcom.de                   | -R -6 | 2x25 | DE      | Düsseldorf        |    |
 | iperf3 -c speedtest.wtnet.de -p 5200-5209            | -R -6 | 40   | DE      | Norderstedt       |    |
@@ -174,15 +170,12 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.ownit.se                         | -R    | 10   | SE      | Stockholm         |    |
 | iperf3 -c speedtestv6.ownit.se                       | -R -6 | 10   | SE      | Stockholm         |    |
 | iperf3 -c se-speedt01.fre.nis.telia.net -p 5201-5210 | -R -6 |      | SE      | Viken             |    |
-| iperf3 -c iperf.astra.in.ua -p 5201-5210             | -R    | 10   | UA      | Lviv              | 🟠 |
+| iperf3 -c iperf.astra.in.ua -p 5201-5210             | -R    | 10   | UA      | Lviv              |    |
 | iperf3 -c iperf.volia.net                            | -R    |      | UA      | Kyiv              | 🟠 |
 | iperf3 -c speed.cosmonova.net                        | -R    |      | UA      | Kyiv              |    |
 | iperf3 -c speedtest.astra.in.ua                      | -R    |      | UA      | Lviv              |    |
 | iperf3 -c speedtest.pol.volia.net                    | -R    |      | UA      | Poltava           |    |
-| iperf3 -c speedtest.solver.net.ua                    | -R    |      | UA      | Poltava           | 🟠 |
-
-:small_blue_diamond: speedtest.wobcom.de connects to the nearest *.speedtest.wobcom.de server.
-
+| iperf3 -c speedtest.solver.net.ua                    | -R    |      | UA      | Poltava           |    |
 
 ### OCEANIA
 | COMMAND                                               | OPT | GB/s | COUNTRY | SITE     |   |
