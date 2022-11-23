@@ -94,7 +94,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 ### ASIA
 | COMMAND                                         | OPT | GB/s | COUNTRY | SITE          |   |
 |:------------------------------------------------|-----|------|---------|:--------------|---|
-| iperf3 -c 103.138.75.41                         | -R  | 1    | CN      | Hong Kong     |   |
+| iperf3 -c 103.138.75.41                         | -R  | 1    | CN      | Hong Kong     | 🟠  |
 | iperf3 -c iperf.biznetnetworks.com -p 5201-5203 | -R  | 1    | ID      | Jakarta       |   |
 | iperf3 -c oke.net.id                            | -R  | 1    | ID      | Jakarta       |   |
 | iperf3 -c speed.netfiber.net.il                 | -R  | 1    | IL      | Jerusalem     |   |
@@ -114,7 +114,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.shinternet.ch -p 5200-5209       | -R -6 |      | CH      | Schaffhausen      |    |
 | iperf3 -c speedtest.iway.ch                          | -R    | 10   | CH      | Zürich            |    |
 | iperf3 -c 178.215.228.109 -p 9210                    | -R    |      | DE      | Frankfurt         |    |
-| iperf3 -c fra.speedtest.clouvider.net -p 5200-5209   | -R    | 10   | DE      | Frankfurt         | 🟠   |
+| iperf3 -c fra.speedtest.clouvider.net -p 5200-5209   | -R    | 10   | DE      | Frankfurt         |    |
 | iperf3 -c lg.ip-projects.de                          |       |      | DE      | Frankfurt         |    |
 | iperf3 -c a400.speedtest.wobcom.de                   | -R -6 | 2x25 | DE      | Wolfsburg         |    |
 | iperf3 -c a209.speedtest.wobcom.de                   | -R -6 | 2x25 | DE      | Berlin            |    |
@@ -150,11 +150,10 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c a204.speedtest.wobcom.de                   | -R -6 | 2x25 | NL      | Amsterdam         |    |
 | iperf3 -c ams.speedtest.clouvider.net -p 5200-5209   | -R    | 10   | NL      | Amsterdam         |    |
 | iperf3 -c nl.iperf.014.fr -p 10420                   | -R    | 1    | NL      | Amsterdam         |    |
-| iperf3 -c ping-ams1.online.net 5200-5209             | -R    | 10   | NL      | Amsterdam         |    |
-| iperf3 -c speedtest-nl-oum.hybula.net                | -R    |      | NL      | Amsterdam         | 🟠   |
+| iperf3 -c ping-ams1.online.net -p 5200-5209          | -R    | 10   | NL      | Amsterdam         |    |
+| iperf3 -c speedtest-nl-oum.hybula.net -p 5202-5206   | -R -6 | 40   | NL      | Amsterdam         |    |
 | iperf3 -c speedtest.ams1.novogara.net -p 5200-5209   | -R -6 | 20   | NL      | Amsterdam         |    |
-| iperf3 -c speedtest.novoserve.com                    | -R    | 40   | NL      | Amsterdam         | 🟠   |
-| iperf3 -c speedtest.novoserve.com -p 5206            | -R -6 | 40   | NL      | Amsterdam         |    |
+| iperf3 -c speedtest.novoserve.com -p 5202-5206       | -R -6 | 40   | NL      | Amsterdam         |    |
 | iperf3 -c speedtest.serverius.net -p 5002            | -R -6 | 10   | NL      | Amsterdam         |    |
 | iperf3 -c speedtest.yisp.nl                          | -R    | 10   | NL      | Amsterdam         |    |
 | iperf3 -c spt01.sdhd.hosting                         | -R    | 10   | NL      | Dronten           |    |
@@ -175,7 +174,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speed.cosmonova.net                        | -R    |      | UA      | Kyiv              |    |
 | iperf3 -c speedtest.astra.in.ua                      | -R    |      | UA      | Lviv              |    |
 | iperf3 -c speedtest.pol.volia.net                    | -R    |      | UA      | Poltava           |    |
-| iperf3 -c speedtest.solver.net.ua                    | -R    |      | UA      | Poltava           |    |
+| iperf3 -c speedtest.solver.net.ua                    | -R    |      | UA      | Poltava           | 🟠   |
 
 ### OCEANIA
 | COMMAND                                               | OPT | GB/s | COUNTRY | SITE     |   |
