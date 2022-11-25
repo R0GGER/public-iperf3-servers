@@ -116,6 +116,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 178.215.228.109 -p 9210                    | -R    |      | DE      | Frankfurt         |    |
 | iperf3 -c fra.speedtest.clouvider.net -p 5200-5209   | -R    | 10   | DE      | Frankfurt         |    |
 | iperf3 -c lg.ip-projects.de                          |       |      | DE      | Frankfurt         |    |
+| iperf3 -c speedtest.wobcom.de :small_blue_diamond:   | -R -6 | 2x25 | DE      | Wolfsburg         | 🟠   |
 | iperf3 -c a400.speedtest.wobcom.de                   | -R -6 | 2x25 | DE      | Wolfsburg         |    |
 | iperf3 -c a209.speedtest.wobcom.de                   | -R -6 | 2x25 | DE      | Berlin            |    |
 | iperf3 -c a205.speedtest.wobcom.de                   | -R -6 | 2x25 | DE      | Frankfurt         |    |
@@ -176,13 +177,15 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.pol.volia.net                    | -R    |      | UA      | Poltava           |    |
 | iperf3 -c speedtest.solver.net.ua                    | -R    |      | UA      | Poltava           | 🟠   |
 
+:small_blue_diamond: speedtest.wobcom.de connects to the nearest *.speedtest.wobcom.de server.
+
 ### OCEANIA
 | COMMAND                                               | OPT | GB/s | COUNTRY | SITE     |   |
 |:------------------------------------------------------|-----|------|---------|:---------|---|
 | iperf3 -c speedtest.optitel.com                       | -R  | 10   | AU      | Perth    |   |
 | iperf3 -c 198.142.237.64                              | -R  |      | AU      | Sydney   |   |
 | iperf3 -c 198.142.237.65                              | -R  |      | AU      | Sydney   |   |
-| iperf3 -c 198.142.237.67                              | -R  |      | AU      | Sydney   |   |
+| iperf3 -c 198.142.237.67                              | -R  |      | AU      | Sydney   | 🟠  |
 | iperf3 -c 198.142.237.69                              | -R  |      | AU      | Sydney   |   |
 | iperf3 -c 198.142.237.70                              | -R  |      | AU      | Sydney   |   |
 | iperf3 -c 198.142.237.72                              | -R  |      | AU      | Sydney   |   |
@@ -194,7 +197,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c limestonecoast.sa.speedtest.optusnet.com.au | -R  |      | AU      | Sydney   |   |
 | iperf3 -c ooklaspeedtest01.adl.optusnet.com.au        | -R  |      | AU      | Sydney   |   |
 | iperf3 -c ooklaspeedtest01.bla.optusnet.com.au        | -R  |      | AU      | Sydney   |   |
-| iperf3 -c ooklaspeedtest01.bri.optusnet.com.au        | -R  |      | AU      | Sydney   |   |
+| iperf3 -c ooklaspeedtest01.bri.optusnet.com.au        | -R  |      | AU      | Sydney   | 🟠  |
 | iperf3 -c ooklaspeedtest01.ebw.optusnet.com.au        | -R  |      | AU      | Sydney   |   |
 | iperf3 -c rockingham.wa.speedtest.optusnet.com.au     | -R  |      | AU      | Sydney   |   |
 | iperf3 -c speedtest.adl.optusnet.com.au               | -R  |      | AU      | Sydney   |   |
@@ -202,10 +205,11 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.ebw.optusnet.com.au               | -R  |      | AU      | Sydney   |   |
 | iperf3 -c speedtest.tas.optusnet.com.au               | -R  |      | AU      | Sydney   |   |
 | iperf3 -c techspeedtest.bla.optusnet.com.au           | -R  |      | AU      | Sydney   |   |
-| iperf3 -c townsville.qld.speedtest.optusnet.com.au    | -R  |      | AU      | Sydney   |   |
+| iperf3 -c townsville.qld.speedtest.optusnet.com.au    | -R  |      | AU      | Sydney   | 🟠  |
 | iperf3 -c mirror.lagoon.nc                            | -R  |      | NC      |          |   |
 | iperf3 -c 202.137.240.193                             | -R  |      | NZ      | Auckland |   |
 | iperf3 -c server-52201.prod.hosts.ooklaserver.net     | -R  |      | NZ      | Auckland |   |
 | iperf3 -c speedtest4.nownz.co.nz                      | -R  |  10  | NZ      | Auckland |   |
 | iperf3 -c speedtest5.nownz.co.nz                      | -R  |  10  | NZ      | Auckland |   |
+| iperf3 -c auckland.speedtest.vodafone.co.nz           | -R  |      | NZ      | Auckland |   |
 | iperf3 -c server-5539.prod.hosts.ooklaserver.net      | -R  |      | NZ      | Nelson   |   |
