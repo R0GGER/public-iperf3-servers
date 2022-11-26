@@ -94,7 +94,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 ### ASIA
 | COMMAND                                         | OPT | GB/s | COUNTRY | SITE          |   |
 |:------------------------------------------------|-----|------|---------|:--------------|---|
-| iperf3 -c 103.138.75.41                         | -R  | 1    | CN      | Hong Kong     | 🟠  |
 | iperf3 -c iperf.biznetnetworks.com -p 5201-5203 | -R  | 1    | ID      | Jakarta       |   |
 | iperf3 -c oke.net.id                            | -R  | 1    | ID      | Jakarta       |   |
 | iperf3 -c speed.netfiber.net.il                 | -R  | 1    | IL      | Jerusalem     |   |
@@ -175,7 +174,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speed.cosmonova.net                        | -R    |      | UA      | Kyiv              |    |
 | iperf3 -c speedtest.astra.in.ua                      | -R    |      | UA      | Lviv              |    |
 | iperf3 -c speedtest.pol.volia.net                    | -R    |      | UA      | Poltava           |    |
-| iperf3 -c speedtest.solver.net.ua                    | -R    |      | UA      | Poltava           | 🟠   |
+| iperf3 -c speedtest.solver.net.ua                    | -R    |      | UA      | Poltava           |    |
 
 :small_blue_diamond: speedtest.wobcom.de connects to the nearest *.speedtest.wobcom.de server.
 
@@ -185,7 +184,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.optitel.com                       | -R  | 10   | AU      | Perth    |   |
 | iperf3 -c 198.142.237.64                              | -R  |      | AU      | Sydney   |   |
 | iperf3 -c 198.142.237.65                              | -R  |      | AU      | Sydney   |   |
-| iperf3 -c 198.142.237.67                              | -R  |      | AU      | Sydney   | 🟠  |
+| iperf3 -c 198.142.237.67                              | -R  |      | AU      | Sydney   |   |
 | iperf3 -c 198.142.237.69                              | -R  |      | AU      | Sydney   |   |
 | iperf3 -c 198.142.237.70                              | -R  |      | AU      | Sydney   |   |
 | iperf3 -c 198.142.237.72                              | -R  |      | AU      | Sydney   |   |
@@ -197,7 +196,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c limestonecoast.sa.speedtest.optusnet.com.au | -R  |      | AU      | Sydney   |   |
 | iperf3 -c ooklaspeedtest01.adl.optusnet.com.au        | -R  |      | AU      | Sydney   |   |
 | iperf3 -c ooklaspeedtest01.bla.optusnet.com.au        | -R  |      | AU      | Sydney   |   |
-| iperf3 -c ooklaspeedtest01.bri.optusnet.com.au        | -R  |      | AU      | Sydney   | 🟠  |
+| iperf3 -c ooklaspeedtest01.bri.optusnet.com.au        | -R  |      | AU      | Sydney   |   |
 | iperf3 -c ooklaspeedtest01.ebw.optusnet.com.au        | -R  |      | AU      | Sydney   |   |
 | iperf3 -c rockingham.wa.speedtest.optusnet.com.au     | -R  |      | AU      | Sydney   |   |
 | iperf3 -c speedtest.adl.optusnet.com.au               | -R  |      | AU      | Sydney   |   |
@@ -205,7 +204,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.ebw.optusnet.com.au               | -R  |      | AU      | Sydney   |   |
 | iperf3 -c speedtest.tas.optusnet.com.au               | -R  |      | AU      | Sydney   |   |
 | iperf3 -c techspeedtest.bla.optusnet.com.au           | -R  |      | AU      | Sydney   |   |
-| iperf3 -c townsville.qld.speedtest.optusnet.com.au    | -R  |      | AU      | Sydney   | 🟠  |
+| iperf3 -c townsville.qld.speedtest.optusnet.com.au    | -R  |      | AU      | Sydney   |   |
 | iperf3 -c mirror.lagoon.nc                            | -R  |      | NC      |          |   |
 | iperf3 -c 202.137.240.193                             | -R  |      | NZ      | Auckland |   |
 | iperf3 -c server-52201.prod.hosts.ooklaserver.net     | -R  |      | NZ      | Auckland |   |
