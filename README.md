@@ -181,31 +181,27 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 ### OCEANIA
 | COMMAND                                               | OPT | GB/s | COUNTRY | SITE      |   |
 |:------------------------------------------------------|-----|------|---------|:----------|---|
-| iperf3 -c speedtest.optitel.com                       | -R  | 10   | AU      | Perth     |   |
+| iperf3 -c limestonecoast.sa.speedtest.optusnet.com.au | -R  |      | AU      | Adelaide  |   |
+| iperf3 -c ooklaspeedtest01.adl.optusnet.com.au        | -R  |      | AU      | Adelaide  |   |
+| iperf3 -c speedtest.adl.optusnet.com.au               | -R  |      | AU      | Adelaide  |   |
+| iperf3 -c ooklaspeedtest01.bla.optusnet.com.au        | -R  |      | AU      | Adelaide  |   |
+| iperf3 -c ooklaspeedtest01.bri.optusnet.com.au        | -R  |      | AU      | Brisbane  |   |
+| iperf3 -c speedtest.tas.optusnet.com.au               | -R  |      | AU      | Hobart    |   |
 | iperf3 -c speedtest.mel.optusnet.com.au               | -R  |      | AU      | Melbourne |   |
+| iperf3 -c rockingham.wa.speedtest.optusnet.com.au     | -R  |      | AU      | Perth     |   |
+| iperf3 -c speedtest.optitel.com                       | -R  | 10   | AU      | Perth     |   |
 | iperf3 -c 198.142.237.64                              | -R  |      | AU      | Sydney    |   |
 | iperf3 -c 198.142.237.65                              | -R  |      | AU      | Sydney    |   |
-| iperf3 -c 198.142.237.67                              | -R  |      | AU      | Sydney    |   |
 | iperf3 -c 198.142.237.69                              | -R  |      | AU      | Sydney    |   |
 | iperf3 -c 198.142.237.70                              | -R  |      | AU      | Sydney    |   |
 | iperf3 -c 198.142.237.72                              | -R  |      | AU      | Sydney    |   |
-| iperf3 -c 198.142.237.73                              | -R  |      | AU      | Sydney    |   |
 | iperf3 -c 198.142.237.97                              | -R  |      | AU      | Sydney    |   |
 | iperf3 -c 198.142.237.132                             | -R  |      | AU      | Sydney    |   |
-| iperf3 -c 198.142.237.192                             | -R  |      | AU      | Sydney    |   |
-| iperf3 -c 198.142.237.194                             | -R  |      | AU      | Sydney    |   |
-| iperf3 -c limestonecoast.sa.speedtest.optusnet.com.au | -R  |      | AU      | Sydney    |   |
-| iperf3 -c ooklaspeedtest01.adl.optusnet.com.au        | -R  |      | AU      | Sydney    |   |
-| iperf3 -c ooklaspeedtest01.bla.optusnet.com.au        | -R  |      | AU      | Sydney    |   |
-| iperf3 -c ooklaspeedtest01.bri.optusnet.com.au        | -R  |      | AU      | Sydney    |   |
-| iperf3 -c ooklaspeedtest01.ebw.optusnet.com.au        | -R  |      | AU      | Sydney    |   |
-| iperf3 -c rockingham.wa.speedtest.optusnet.com.au     | -R  |      | AU      | Sydney    |   |
-| iperf3 -c speedtest.adl.optusnet.com.au               | -R  |      | AU      | Sydney    |   |
 | iperf3 -c speedtest.bla.optusnet.com.au               | -R  |      | AU      | Sydney    |   |
-| iperf3 -c speedtest.ebw.optusnet.com.au               | -R  |      | AU      | Sydney    |   |
-| iperf3 -c speedtest.tas.optusnet.com.au               | -R  |      | AU      | Sydney    |   |
 | iperf3 -c techspeedtest.bla.optusnet.com.au           | -R  |      | AU      | Sydney    |   |
-| iperf3 -c townsville.qld.speedtest.optusnet.com.au    | -R  |      | AU      | Sydney    |   |
+| iperf3 -c ooklaspeedtest01.ebw.optusnet.com.au        | -R  |      | AU      | Sydney    |   |
+| iperf3 -c speedtest.ebw.optusnet.com.au               | -R  |      | AU      | Sydney    |   |
+| iperf3 -c townsville.qld.speedtest.optusnet.com.au    | -R  |      | AU      | Townsville|   |
 | iperf3 -c mirror.lagoon.nc                            | -R  |      | NC      |           |   |
 | iperf3 -c 202.137.240.193                             | -R  |      | NZ      | Auckland  |   |
 | iperf3 -c server-52201.prod.hosts.ooklaserver.net     | -R  |      | NZ      | Auckland  |   |
