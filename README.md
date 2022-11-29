@@ -184,7 +184,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c limestonecoast.sa.speedtest.optusnet.com.au | -R  |      | AU      | Adelaide  |   |
 | iperf3 -c ooklaspeedtest01.adl.optusnet.com.au        | -R  |      | AU      | Adelaide  |   |
 | iperf3 -c speedtest.adl.optusnet.com.au               | -R  |      | AU      | Adelaide  |   |
-| iperf3 -c ooklaspeedtest01.bla.optusnet.com.au        | -R  |      | AU      | Adelaide  |   |
 | iperf3 -c ooklaspeedtest01.bri.optusnet.com.au        | -R  |      | AU      | Brisbane  |   |
 | iperf3 -c speedtest.tas.optusnet.com.au               | -R  |      | AU      | Hobart    |   |
 | iperf3 -c speedtest.mel.optusnet.com.au               | -R  |      | AU      | Melbourne |   |
@@ -199,6 +198,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 198.142.237.132                             | -R  |      | AU      | Sydney    |   |
 | iperf3 -c speedtest.bla.optusnet.com.au               | -R  |      | AU      | Sydney    |   |
 | iperf3 -c techspeedtest.bla.optusnet.com.au           | -R  |      | AU      | Sydney    |   |
+| iperf3 -c ooklaspeedtest01.bla.optusnet.com.au        | -R  |      | AU      | Sydney    |   |
 | iperf3 -c ooklaspeedtest01.ebw.optusnet.com.au        | -R  |      | AU      | Sydney    |   |
 | iperf3 -c speedtest.ebw.optusnet.com.au               | -R  |      | AU      | Sydney    |   |
 | iperf3 -c townsville.qld.speedtest.optusnet.com.au    | -R  |      | AU      | Townsville|   |
