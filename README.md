@@ -67,12 +67,12 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 :----------------------------------------------------|-----|------|---------|:----------------|---|
 | iperf3 -c 168.195.96.44 -p 5201-5204               |     |      | BR      | Joinville       |   |
 | iperf3 -c 216.40.45.41                             |     |      | CA      |                 |   |
-| iperf3 -c vern.cc                                  | -R  | 1    | CA      | Beauharnois     |   |
+| iperf3 -c vern.cc -p 5201-5203                     | -R  | 1    | CA      | Beauharnois     |   |
 | iperf3 -c speedtest3.sasknet.sk.ca                 | -R  |      | CA      | Saskatoon       |   |
 | iperf3 -c 74.205.217.156                           |     |      | CA      | Stittsville     |   |
 | iperf3 -c sp11.wom.cl                              |     |      | CL      | Santiago        |   |
 | iperf3 -c speedtest.masnet.ec                      | -R  | 1    | EC      | Santa Ana       |   |
-| iperf3 -c lists.vern.cc                            | -R  | 1    | US      | Atlanta         |   |
+| iperf3 -c lists.vern.cc -p 5201-5202               | -R  | 1    | US      | Atlanta         |   |
 | iperf3 -c atl.speedtest.clouvider.net -p 5200-5209 | -R  | 10   | US      | Atlanta         |   |
 | iperf3 -c ash.speedtest.clouvider.net -p 5200-5209 | -R  | 10   | US      | Ashburn         |   |
 | iperf3 -c speedtest13.suddenlink.net               | -R  | 10   | US      | Charleston      |   |
