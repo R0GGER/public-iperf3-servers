@@ -81,7 +81,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c dal.speedtest.clouvider.net -p 5200-5209 | -R  | 10   | US      | Dallas          |   |
 | iperf3 -c la.speedtest.clouvider.net -p 5200-5209  | -R  | 10   | US      | Los Angeles     |   |
 | iperf3 -c speedtest.tds.net                        | -R  |      | US      | Madison         |   |
-| iperf3 -c speedtest.mia.buyvm.net                  | -R  | 1    | US      | Miami           |   |
+| iperf3 -c speedtest.mia.buyvm.net                  | -R  | 1    | US      | Miami           |   🟠|
 | iperf3 -c iceberg.vern.cc                          | -R  | 1    | US      | New Jersey      |   |
 | iperf3 -c nyc.speedtest.clouvider.net -p 5200-5209 | -R  | 10   | US      | New York City   |   |
 | iperf3 -c speedtest.ny.buyvm.net                   | -R  | 1    | US      | New York        |   |
@@ -181,22 +181,22 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 ### OCEANIA
 | COMMAND                                               | OPT | GB/s | COUNTRY | SITE      |   |
 |:------------------------------------------------------|-----|------|---------|:----------|---|
-| iperf3 -c limestonecoast.sa.speedtest.optusnet.com.au | -R  |      | AU      | Adelaide  |   |
-| iperf3 -c ooklaspeedtest01.adl.optusnet.com.au        | -R  |      | AU      | Adelaide  |   |
+| iperf3 -c limestonecoast.sa.speedtest.optusnet.com.au | -R  |      | AU      | Adelaide  |   🟠|
+| iperf3 -c ooklaspeedtest01.adl.optusnet.com.au        | -R  |      | AU      | Adelaide  |   🟠|
 | iperf3 -c speedtest.adl.optusnet.com.au               | -R  |      | AU      | Adelaide  |   |
 | iperf3 -c ooklaspeedtest01.bri.optusnet.com.au        | -R  |      | AU      | Brisbane  |   |
 | iperf3 -c speedtest.tas.optusnet.com.au               | -R  |      | AU      | Hobart    |   |
 | iperf3 -c speedtest.mel.optusnet.com.au               | -R  |      | AU      | Melbourne |   |
-| iperf3 -c rockingham.wa.speedtest.optusnet.com.au     | -R  |      | AU      | Perth     |   |
+| iperf3 -c rockingham.wa.speedtest.optusnet.com.au     | -R  |      | AU      | Perth     |   🟠|
 | iperf3 -c speedtest.optitel.com                       | -R  | 10   | AU      | Perth     |   |
-| iperf3 -c 198.142.237.64                              | -R  |      | AU      | Sydney    |   |
+| iperf3 -c 198.142.237.64                              | -R  |      | AU      | Sydney    |   🟠|
 | iperf3 -c 198.142.237.65                              | -R  |      | AU      | Sydney    |   |
-| iperf3 -c 198.142.237.69                              | -R  |      | AU      | Sydney    |   |
-| iperf3 -c 198.142.237.70                              | -R  |      | AU      | Sydney    |   |
-| iperf3 -c 198.142.237.72                              | -R  |      | AU      | Sydney    |   |
-| iperf3 -c 198.142.237.97                              | -R  |      | AU      | Sydney    |   |
+| iperf3 -c 198.142.237.69                              | -R  |      | AU      | Sydney    |   🟠|
+| iperf3 -c 198.142.237.70                              | -R  |      | AU      | Sydney    |   🟠|
+| iperf3 -c 198.142.237.72                              | -R  |      | AU      | Sydney    |   🟠|
+| iperf3 -c 198.142.237.97                              | -R  |      | AU      | Sydney    |   🟠|
 | iperf3 -c 198.142.237.132                             | -R  |      | AU      | Sydney    |   |
-| iperf3 -c speedtest.bla.optusnet.com.au               | -R  |      | AU      | Sydney    |   |
+| iperf3 -c speedtest.bla.optusnet.com.au               | -R  |      | AU      | Sydney    |   🟠|
 | iperf3 -c techspeedtest.bla.optusnet.com.au           | -R  |      | AU      | Sydney    |   |
 | iperf3 -c ooklaspeedtest01.bla.optusnet.com.au        | -R  |      | AU      | Sydney    |   |
 | iperf3 -c ooklaspeedtest01.ebw.optusnet.com.au        | -R  |      | AU      | Sydney    |   |
