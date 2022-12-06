@@ -118,6 +118,8 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.wobcom.de :small_blue_diamond:   | -R -6 | 2x25 | DE      | Wolfsburg         |    |
 | iperf3 -c a400.speedtest.wobcom.de                   | -R -6 | 2x25 | DE      | Wolfsburg         |    |
 | iperf3 -c a209.speedtest.wobcom.de                   | -R -6 | 2x25 | DE      | Berlin            |    |
+| iperf3 -c a110.speedtest.wobcom.de                   | -R -6 | 2x25 | DE      | Berlin            |    |
+| iperf3 -c a210.speedtest.wobcom.de                   | -R -6 | 2x25 | DE      | Frankfurt         |    |
 | iperf3 -c a205.speedtest.wobcom.de                   | -R -6 | 2x25 | DE      | Frankfurt         |    |
 | iperf3 -c a208.speedtest.wobcom.de                   | -R -6 | 2x25 | DE      | Düsseldorf        |    |
 | iperf3 -c speedtest.wtnet.de -p 5200-5209            | -R -6 | 40   | DE      | Norderstedt       |    |
