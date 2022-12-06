@@ -95,7 +95,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | COMMAND                                         | OPT | GB/s | COUNTRY | SITE          |   |
 |:------------------------------------------------|-----|------|---------|:--------------|---|
 | iperf3 -c iperf.biznetnetworks.com -p 5201-5203 | -R  | 1    | ID      | Jakarta       |   |
-| iperf3 -c oke.net.id                            | -R  | 1    | ID      | Jakarta       |   🟠|
+| iperf3 -c oke.net.id                            | -R  | 1    | ID      | Jakarta       |   |
 | iperf3 -c speed.netfiber.net.il                 | -R  | 1    | IL      | Jerusalem     |   |
 | iperf3 -c speed.rimon.net.il                    | -R  | 1    | IL      | Jerusalem     |   |
 | iperf3 -c in-speedtest.host-palace.com          | -R  | 1    | IN      | Suri          |   |
@@ -174,7 +174,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speed.cosmonova.net                        | -R    |      | UA      | Kyiv              |    |
 | iperf3 -c speedtest.astra.in.ua                      | -R    |      | UA      | Lviv              |    |
 | iperf3 -c speedtest.pol.volia.net                    | -R    |      | UA      | Poltava           |    |
-| iperf3 -c speedtest.solver.net.ua                    | -R    |      | UA      | Poltava           |    🟠|
+| iperf3 -c speedtest.solver.net.ua                    | -R    |      | UA      | Poltava           |    |
 
 :small_blue_diamond: speedtest.wobcom.de connects to the nearest *.speedtest.wobcom.de server.
 
@@ -185,17 +185,17 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c ooklaspeedtest01.adl.optusnet.com.au        | -R  |      | AU      | Adelaide  |   |
 | iperf3 -c speedtest.adl.optusnet.com.au               | -R  |      | AU      | Adelaide  |   |
 | iperf3 -c ooklaspeedtest01.bri.optusnet.com.au        | -R  |      | AU      | Brisbane  |   |
-| iperf3 -c speedtest.tas.optusnet.com.au               | -R  |      | AU      | Hobart    |   |
+| iperf3 -c speedtest.tas.optusnet.com.au               | -R  |      | AU      | Hobart    |   🟠|
 | iperf3 -c speedtest.mel.optusnet.com.au               | -R  |      | AU      | Melbourne |   |
 | iperf3 -c rockingham.wa.speedtest.optusnet.com.au     | -R  |      | AU      | Perth     |   |
 | iperf3 -c speedtest.optitel.com                       | -R  | 10   | AU      | Perth     |   |
 | iperf3 -c 198.142.237.64                              | -R  |      | AU      | Sydney    |   |
-| iperf3 -c 198.142.237.65                              | -R  |      | AU      | Sydney    |   |
+| iperf3 -c 198.142.237.65                              | -R  |      | AU      | Sydney    |   🟠|
 | iperf3 -c 198.142.237.69                              | -R  |      | AU      | Sydney    |   |
 | iperf3 -c 198.142.237.70                              | -R  |      | AU      | Sydney    |   |
 | iperf3 -c 198.142.237.72                              | -R  |      | AU      | Sydney    |   |
 | iperf3 -c 198.142.237.97                              | -R  |      | AU      | Sydney    |   |
-| iperf3 -c 198.142.237.132                             | -R  |      | AU      | Sydney    |   |
+| iperf3 -c 198.142.237.132                             | -R  |      | AU      | Sydney    |   🟠|
 | iperf3 -c speedtest.bla.optusnet.com.au               | -R  |      | AU      | Sydney    |   |
 | iperf3 -c techspeedtest.bla.optusnet.com.au           | -R  |      | AU      | Sydney    |   |
 | iperf3 -c ooklaspeedtest01.bla.optusnet.com.au        | -R  |      | AU      | Sydney    |   |
