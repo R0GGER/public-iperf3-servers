@@ -1,40 +1,40 @@
 # Public iPerf3 Serverlist
+   
+<p align="center"><br/>
+  <a href="https://iperf3serverlist.net" target="_blank"><img src="https://iperf3serverlist.net/assets/img/logo_256.png" width="150"></a><br/>  
+  <b><a href="https://iperf3serverlist.net" target="_blank">iperf3serverlist.net</a></b><br/>
+  <br/>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-green.svg?color=3F51B5&style=for-the-badge&label=License&logoColor=000000&labelColor=ececec" alt="License: MIT"></a>
+<h3 align="center">A list of public iPERF3 servers to perform bandwidth and speedtests across different geographical regions.</h3>  
+  </a><br/> 
+</p>
 
-### Website: [iperf3serverlist.net](https://iperf3serverlist.net)
-![banner_white_bg](https://user-images.githubusercontent.com/8298741/208271803-1486b354-4759-4b45-8733-77cf9683c489.png)    
+## Content
+* [How to use iperf3](#how-to-use-iperf3)
+* [Documentation](#documentation)
+* [Servers per continent](#servers-per-continent)
+* [API / JSON](#api--json)
 
-* [Install iPerf3](#install-iperf3)   
-* [Command examples](#command-examples)   
-* [iPerf3 options (most used)](#iperf3-options-most-used)   
-* [Servers per continent](#servers-per-continent)   
-
-## Install iPerf3
+## How to use iperf3
 ```
-apt update && apt install -y iperf
+apt update && apt install -y iperf3
 ```
-## Command examples
 ```
-iperf3 -c lon.speedtest.clouvider.net -p 5203
+iperf3 -c speedtest.serverius.net -p 5002
+``` 
 ```
-Bash - random port between 5200-5210:
+docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c ams.speedtest.clouvider.net -p $((5201+(RANDOM%10)))
 ```
-for((i=0;i<10;i++)) ; do iperf3 -p $((5200+(RANDOM%10))) -c ams.speedtest.clouvider.net && break ; sleep 1 || break ; done
-```
-Docker - random port between 5200-5210:
-```
-docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c ams.speedtest.clouvider.net -p $((5200+(RANDOM%10)))
-```
-## iPerf3 options (most used)
-
+**Options**    
 `-c`  host  
-`-p, --port` server port to listen on/connect to    
-`-P, --parallel` number of parallel client streams to run    
-`-i, --interval` seconds between periodic throughput reports   
-`-t, --time` time in seconds to transmit for (default 10 secs)    
-`-R, --reverse` run in reverse mode (server sends, client receives)    
+`-p, --port` server port to listen on/connect to (default: 5201)   
+`-R, --reverse` run in reverse mode (server sends, client receives)(download)    
 `-4, --version4` only use IPv4   
-`-6, --version6` only use IPv6    
+`-6, --version6` only use IPv6 
 
+## Documentation
+In our documentation you can find more command examples, all iperf3 options and how to install iperf3 on Linux, macOS and Windows at: https://iperf3serverlist.net/iperf3.html
+  
 ## Servers per continent
 Do you want to add/remove an IP or HOST to this list? Please create a [new issue](https://github.com/R0GGER/public-iperf3-servers/issues).   
 * [AFRICA](#africa)
@@ -132,7 +132,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.extra.telia.fi                   |       |      | FI      | Helsinki          |    |
 | iperf3 -c iperf.online.net -p 5204                   | -R    | 10   | FR      | Vitry-sur-Seine   |    |
 | iperf3 -c iperf.par2.as49434.net -p 9202             | -R    | 40   | FR      | Paris             |    |
-| iperf3 -c aix-marseille.testdebit.info -p 9200-9240  | -6 -R | 10   | FR      | Aix-en-Provence	|    |
+| iperf3 -c aix-marseille.testdebit.info -p 9200-9240  | -6 -R | 10   | FR      | Aix-en-Provence	 |    |
 | iperf3 -c bordeaux.testdebit.info -p 9200-9240       | -6 -R | 10   | FR      | Bordeaux          |    |
 | iperf3 -c lille.testdebit.info -p 9200-9240          | -6 -R | 10   | FR      | Lille             |    |
 | iperf3 -c lyon.testdebit.info -p 9200-9240           | -6 -R | 10   | FR      | Lyon              |    |
@@ -211,3 +211,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest5.nownz.co.nz                      | -R  |  10  | NZ      | Auckland  |   |
 | iperf3 -c auckland.speedtest.vodafone.co.nz           | -R  |      | NZ      | Auckland  |   |
 | iperf3 -c server-5539.prod.hosts.ooklaserver.net      | -R  |      | NZ      | Nelson    |   |
+
+## API / JSON
+Work in progress.   
+Contact me via Discord (R0GGER[#]7459) or e-mail (iperf3serverlist[at]hibbit.net) if you want to test.
