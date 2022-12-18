@@ -1,5 +1,7 @@
 # Public iPerf3 Serverlist
-### Website: [iperf3serverlist.net](https://iperf3serverlist.net)
+
+![banner_white_bg](https://user-images.githubusercontent.com/8298741/208271803-1486b354-4759-4b45-8733-77cf9683c489.png)    
+**Website: [iperf3serverlist.net](https://iperf3serverlist.net)**
 
 * [Install iPerf3](#install-iperf3)   
 * [Command examples](#command-examples)   
@@ -81,7 +83,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c dal.speedtest.clouvider.net -p 5200-5209 | -R  | 10   | US      | Dallas          |   |
 | iperf3 -c la.speedtest.clouvider.net -p 5200-5209  | -R  | 10   | US      | Los Angeles     |   |
 | iperf3 -c speedtest.tds.net                        | -R  |      | US      | Madison         |   |
-| iperf3 -c speedtest.mia.buyvm.net                  | -R  | 1    | US      | Miami           |   🟠|
 | iperf3 -c iceberg.vern.cc                          | -R  | 1    | US      | New Jersey      |   |
 | iperf3 -c nyc.speedtest.clouvider.net -p 5200-5209 | -R  | 10   | US      | New York City   |   |
 | iperf3 -c speedtest.ny.buyvm.net                   | -R  | 1    | US      | New York        |   |
@@ -109,7 +110,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |:-----------------------------------------------------|-------|------|---------|:------------------|----|
 | iperf3 -c lg.vie.alwyzon.net                         | -R    |      | AT      | Vienna            |    |
 | iperf3 -c speedtest.neterra.net                      |       | 10   | BG      | Sofia             |    |
-| iperf3 -c speed.nimag.net	                           | -R -6 | 10   | CH      | Lausanne          |    |
+| iperf3 -c speed.nimag.net	                         | -R -6 | 10   | CH      | Lausanne          |    |
 | iperf3 -c speedtest.shinternet.ch -p 5200-5209       | -R -6 |      | CH      | Schaffhausen      |    |
 | iperf3 -c speedtest.iway.ch                          | -R    | 10   | CH      | Zürich            |    |
 | iperf3 -c 178.215.228.109 -p 9210                    | -R    |      | DE      | Frankfurt         |    |
@@ -157,7 +158,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.ams1.novogara.net -p 5200-5209   | -R -6 | 20   | NL      | Amsterdam         |    |
 | iperf3 -c speedtest.novoserve.com -p 5202-5206       | -R -6 | 40   | NL      | Amsterdam         |    |
 | iperf3 -c speedtest.serverius.net -p 5002            | -R -6 | 10   | NL      | Amsterdam         |    |
-| iperf3 -c speedtest.yisp.nl                          | -R    | 10   | NL      | Amsterdam         |    |
+| iperf3 -c speedtest.yisp.nl                          | -R    | 10   | NL      | Amsterdam         |    🟠|
 | iperf3 -c spt01.sdhd.hosting                         | -R    | 10   | NL      | Dronten           |    |
 | iperf3 -c lg-drn.liteserver.nl -p 5201-5240          | -R    | 1    | NL      | Dronten           |    |
 | iperf3 -c iperf.worldstream.nl                       | -R -6 | 10   | NL      | Naaldwijk         |    |
@@ -165,7 +166,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.fiberway.pl                      | -R    |      | PL      | Kazimierza Wielka |    |
 | iperf3 -c speedtest.midiko.pl                        | -R    |      | PL      | Katowice          |    |
 | iperf3 -c 95.95.252.87 -p 5201/5205/5207             | -R    |      | PT      | Lissabon          |    |
-| iperf3 -c 95.95.252.95                               | -R    |      | PT      | Porto             |    |
 | iperf3 -c 31.148.48.5                                | -R    |      | RU      | Angarsk           |    |
 | iperf3 -c speedtest.kamel.network -p 5201-5205       | -R    |      | SE      | Kista             |    |
 | iperf3 -c speedtest.ownit.se                         | -R    | 10   | SE      | Stockholm         |    |
@@ -187,17 +187,17 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c ooklaspeedtest01.adl.optusnet.com.au        | -R  |      | AU      | Adelaide  |   |
 | iperf3 -c speedtest.adl.optusnet.com.au               | -R  |      | AU      | Adelaide  |   |
 | iperf3 -c ooklaspeedtest01.bri.optusnet.com.au        | -R  |      | AU      | Brisbane  |   |
-| iperf3 -c speedtest.tas.optusnet.com.au               | -R  |      | AU      | Hobart    |   🟠|
+| iperf3 -c speedtest.tas.optusnet.com.au               | -R  |      | AU      | Hobart    |   |
 | iperf3 -c speedtest.mel.optusnet.com.au               | -R  |      | AU      | Melbourne |   |
 | iperf3 -c rockingham.wa.speedtest.optusnet.com.au     | -R  |      | AU      | Perth     |   |
 | iperf3 -c speedtest.optitel.com                       | -R  | 10   | AU      | Perth     |   |
 | iperf3 -c 198.142.237.64                              | -R  |      | AU      | Sydney    |   |
-| iperf3 -c 198.142.237.65                              | -R  |      | AU      | Sydney    |   🟠|
+| iperf3 -c 198.142.237.65                              | -R  |      | AU      | Sydney    |   |
 | iperf3 -c 198.142.237.69                              | -R  |      | AU      | Sydney    |   |
 | iperf3 -c 198.142.237.70                              | -R  |      | AU      | Sydney    |   |
 | iperf3 -c 198.142.237.72                              | -R  |      | AU      | Sydney    |   |
 | iperf3 -c 198.142.237.97                              | -R  |      | AU      | Sydney    |   |
-| iperf3 -c 198.142.237.132                             | -R  |      | AU      | Sydney    |   🟠|
+| iperf3 -c 198.142.237.132                             | -R  |      | AU      | Sydney    |   |
 | iperf3 -c speedtest.bla.optusnet.com.au               | -R  |      | AU      | Sydney    |   |
 | iperf3 -c techspeedtest.bla.optusnet.com.au           | -R  |      | AU      | Sydney    |   |
 | iperf3 -c ooklaspeedtest01.bla.optusnet.com.au        | -R  |      | AU      | Sydney    |   |
