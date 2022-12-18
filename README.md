@@ -4,7 +4,7 @@
   <a href="https://iperf3serverlist.net" target="_blank"><img src="https://iperf3serverlist.net/assets/img/logo_256.png" width="150"></a><br/>  
   <b><a href="https://iperf3serverlist.net" target="_blank">iperf3serverlist.net</a></b><br/>
   <br/>
-  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-green.svg?color=3F51B5&style=for-the-badge&label=License&logoColor=000000&labelColor=ececec" alt="License: MIT"></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-green.svg?color=0066ff&style=for-the-badge&label=License&logoColor=000000&labelColor=ececec" alt="License: MIT"></a>
 <h3 align="center">A list of public iPERF3 servers to perform bandwidth and speedtests across different geographical regions.</h3>  
   </a><br/> 
 </p>
