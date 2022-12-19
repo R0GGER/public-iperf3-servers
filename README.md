@@ -13,7 +13,8 @@
 * [How to use iperf3](#how-to-use-iperf3)
 * [Documentation](#documentation)
 * [Servers per continent](#servers-per-continent)
-* [API / JSON](#api--json)
+* [JSON](#json)
+* [Contact](#contact)
 
 ## How to use iperf3
 ```
@@ -212,6 +213,8 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c auckland.speedtest.vodafone.co.nz           | -R  |      | NZ      | Auckland  |   |
 | iperf3 -c server-5539.prod.hosts.ooklaserver.net      | -R  |      | NZ      | Nelson    |   |
 
-## API / JSON
-Work in progress.   
-Contact me via Discord (R0GGER[#]7459) or e-mail (iperf3serverlist[at]hibbit.net) if you want to test.
+## JSON
+[serverlist.json](https://iperf3serverlist.net/serverlist.json) (daily updated)
+
+## Contact
+Contact me via Discord (R0GGER[#]7459) or e-mail (iperf3serverlist[at]hibbit.net)
