@@ -13,7 +13,7 @@
 * [How to use iperf3](#how-to-use-iperf3)
 * [Documentation](#documentation)
 * [Servers per continent](#servers-per-continent)
-* [JSON](#json)
+* [serverlist.json](#serverlistjson)
 * [Contact](#contact)
 
 ## How to use iperf3
@@ -86,7 +86,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.tds.net                        | -R  |      | US      | Madison         |   |
 | iperf3 -c iceberg.vern.cc                          | -R  | 1    | US      | New Jersey      |   |
 | iperf3 -c nyc.speedtest.clouvider.net -p 5200-5209 | -R  | 10   | US      | New York City   |   |
-| iperf3 -c speedtest.ny.buyvm.net                   | -R  | 1    | US      | New York        |   |
+| iperf3 -c speedtest.ny.buyvm.net                   | -R  | 1    | US      | New York        |   🟠|
 | iperf3 -c nyfiosspeed1.west.verizon.net            | -R  |      | US      | New York        |   |
 | iperf3 -c nyfiosspeed2.west.verizon.net            | -R  |      | US      | New York        |   |
 | iperf3 -c nyfiosspeed3.west.verizon.net            | -R  |      | US      | New York        |   |
@@ -133,7 +133,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.extra.telia.fi                   |       |      | FI      | Helsinki          |    |
 | iperf3 -c iperf.online.net -p 5204                   | -R    | 10   | FR      | Vitry-sur-Seine   |    |
 | iperf3 -c iperf.par2.as49434.net -p 9202             | -R    | 40   | FR      | Paris             |    |
-| iperf3 -c aix-marseille.testdebit.info -p 9200-9240  | -6 -R | 10   | FR      | Aix-en-Provence	 |    |
+| iperf3 -c aix-marseille.testdebit.info -p 9200-9240  | -6 -R | 10   | FR      | Aix-en-Provence	  |    |
 | iperf3 -c bordeaux.testdebit.info -p 9200-9240       | -6 -R | 10   | FR      | Bordeaux          |    |
 | iperf3 -c lille.testdebit.info -p 9200-9240          | -6 -R | 10   | FR      | Lille             |    |
 | iperf3 -c lyon.testdebit.info -p 9200-9240           | -6 -R | 10   | FR      | Lyon              |    |
@@ -213,8 +213,8 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c auckland.speedtest.vodafone.co.nz           | -R  |      | NZ      | Auckland  |   |
 | iperf3 -c server-5539.prod.hosts.ooklaserver.net      | -R  |      | NZ      | Nelson    |   |
 
-## JSON
-[serverlist.json](https://iperf3serverlist.net/serverlist.json) (daily updated)
+## serverlist.json
+[https://iperf3serverlist.net/serverlist.json](https://iperf3serverlist.net/serverlist.json) (daily updated)
 
 ## Contact
 Contact me via Discord (R0GGER[#]7459) or e-mail (iperf3serverlist[at]hibbit.net)
