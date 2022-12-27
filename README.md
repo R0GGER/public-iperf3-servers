@@ -86,7 +86,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.tds.net                        | -R  |      | US      | Madison         |   |
 | iperf3 -c iceberg.vern.cc                          | -R  | 1    | US      | New Jersey      |   |
 | iperf3 -c nyc.speedtest.clouvider.net -p 5200-5209 | -R  | 10   | US      | New York City   |   |
-| iperf3 -c speedtest.ny.buyvm.net                   | -R  | 1    | US      | New York        |   🟠|
 | iperf3 -c nyfiosspeed1.west.verizon.net            | -R  |      | US      | New York        |   |
 | iperf3 -c nyfiosspeed2.west.verizon.net            | -R  |      | US      | New York        |   |
 | iperf3 -c nyfiosspeed3.west.verizon.net            | -R  |      | US      | New York        |   |
@@ -115,7 +114,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.shinternet.ch -p 5200-5209       | -R -6 |      | CH      | Schaffhausen      |    |
 | iperf3 -c speedtest.iway.ch                          | -R    | 10   | CH      | Zürich            |    |
 | iperf3 -c 178.215.228.109 -p 9210                    | -R    |      | DE      | Frankfurt         |    |
-| iperf3 -c fra.speedtest.clouvider.net -p 5200-5209   | -R    | 10   | DE      | Frankfurt         |    🟠|
 | iperf3 -c lg.ip-projects.de                          |       |      | DE      | Frankfurt         |    |
 | iperf3 -c speedtest.wobcom.de :small_blue_diamond:   | -R -6 | 2x25 | DE      | Wolfsburg         |    |
 | iperf3 -c a400.speedtest.wobcom.de                   | -R -6 | 2x25 | DE      | Wolfsburg         |    |
@@ -159,7 +157,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.ams1.novogara.net -p 5200-5209   | -R -6 | 20   | NL      | Amsterdam         |    |
 | iperf3 -c speedtest.novoserve.com -p 5202-5206       | -R -6 | 40   | NL      | Amsterdam         |    |
 | iperf3 -c speedtest.serverius.net -p 5002            | -R -6 | 10   | NL      | Amsterdam         |    |
-| iperf3 -c speedtest.yisp.nl                          | -R    | 10   | NL      | Amsterdam         |    🟠|
 | iperf3 -c spt01.sdhd.hosting                         | -R    | 10   | NL      | Dronten           |    |
 | iperf3 -c lg-drn.liteserver.nl -p 5201-5240          | -R    | 1    | NL      | Dronten           |    |
 | iperf3 -c iperf.worldstream.nl                       | -R -6 | 10   | NL      | Naaldwijk         |    |
