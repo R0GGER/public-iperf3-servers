@@ -192,6 +192,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 ### OCEANIA
 | COMMAND                                               | OPT | GB/s | COUNTRY | SITE      |   |
 |:------------------------------------------------------|-----|------|---------|:----------|---|
+| iperf3 -c speedtest.optusnet.com.au -p 5201-5203      | -R  |      | AU      |           |   |
 | iperf3 -c limestonecoast.sa.speedtest.optusnet.com.au | -R  |      | AU      | Adelaide  |   |
 | iperf3 -c ooklaspeedtest01.adl.optusnet.com.au        | -R  |      | AU      | Adelaide  |   |
 | iperf3 -c speedtest.adl.optusnet.com.au               | -R  |      | AU      | Adelaide  |   |
