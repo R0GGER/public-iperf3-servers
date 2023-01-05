@@ -111,7 +111,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |:-----------------------------------------------------|-------|------|---------|:------------------|----|
 | iperf3 -c lg.vie.alwyzon.net                         | -R    |      | AT      | Vienna            |    |
 | iperf3 -c speedtest.neterra.net                      |       | 10   | BG      | Sofia             |    |
-| iperf3 -c speed.nimag.net	                           | -R -6 | 10   | CH      | Lausanne          |    |
+| iperf3 -c speed.nimag.net	                         | -R -6 | 10   | CH      | Lausanne          |    |
 | iperf3 -c speedtest.shinternet.ch -p 5200-5209       | -R -6 |      | CH      | Schaffhausen      |    |
 | iperf3 -c speedtest.iway.ch                          | -R    | 10   | CH      | Zürich            |    |
 | iperf3 -c a209.speedtest.wobcom.de                   | -R -6 | 2x25 | DE      | Berlin            |    |
@@ -132,7 +132,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest-hki.netplaza.fi                  | -R    |      | FI      | Helsinki          |    |
 | iperf3 -c speedtest.extra.telia.fi                   |       |      | FI      | Helsinki          |    |
 | iperf3 -c speedtest.cinia.fi                         |       |      | FI      | Oulu              |    |
-| iperf3 -c aix-marseille.testdebit.info -p 9200-9240  | -6 -R | 10   | FR      | Aix-en-Provence	  |    |
+| iperf3 -c aix-marseille.testdebit.info -p 9200-9240  | -6 -R | 10   | FR      | Aix-en-Provence	 |    |
 | iperf3 -c bordeaux.testdebit.info -p 9200-9240       | -6 -R | 10   | FR      | Bordeaux          |    |
 | iperf3 -c lille.testdebit.info -p 9200-9240          | -6 -R | 10   | FR      | Lille             |    |
 | iperf3 -c lyon.testdebit.info -p 9200-9240           | -6 -R | 10   | FR      | Lyon              |    |
@@ -151,7 +151,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c iperf.as42831.net -p 5300-5400             | -R    |      | GB      | London            |    |
 | iperf3 -c lon.speedtest.clouvider.net -p 5200-5209   | -R    | 10   | GB      | London            |    |
 | iperf3 -c speedtest-london.its-tg.net                | -R    |      | GB      | London            |    |
-| iperf3 -c speedtest-mer-a.mythic-beasts.com -p 5200-5206   | -R    |      | GB      | London            |    |
 | iperf3 -c speedtest1.vodafone.hu                     | -R    |      | HU      | Budapest          |    |
 | iperf3 -c it1.speedtest.aruba.it                     | -R    |      | IT      | Arezzo            |    |
 | iperf3 -c speed.itgate.net 5201-5202                 | -R    |      | IT      | Gerbido           |    |
@@ -201,7 +200,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.tas.optusnet.com.au               | -R  |      | AU      | Hobart    |   |
 | iperf3 -c speedtest.mel.optusnet.com.au               | -R  |      | AU      | Melbourne |   |
 | iperf3 -c speed.me1.gigacomm.net.au                   | -R  |      | AU      | Melbourne |   |
-| iperf3 -c newcastle.nsw.speedtest.optusnet.com.au -p 5201-5203  | -R  |      | AU      | Newcastle |   |
 | iperf3 -c rockingham.wa.speedtest.optusnet.com.au     | -R  |      | AU      | Perth     |   |
 | iperf3 -c speedtest.optitel.com                       | -R  | 10   | AU      | Perth     |   |
 | iperf3 -c speedtest-perth.launtel.net.au              | -R  |      | AU      | Perth     |   |
