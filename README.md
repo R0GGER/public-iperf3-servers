@@ -49,7 +49,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 ### AFRICA
 | COMMAND                                            | OPT | GB/s | COUNTRY | SITE         |   |
 |:---------------------------------------------------|-----|------|---------|:-------------|---|
-| iperf3 -c speed.mymanga.pro                        | -R  |      | KE      | Nairobi      |   |
 | iperf3 -c 197.155.149.134                          | -R  |      | ML      |              |   |
 | iperf3 -c speedtest.telecom.mu -p 5201-5209        | -R  |      | MU      | Port Louis   |   |
 | iperf3 -c speedtestfl.telecom.mu -p 5201-5209      | -R  |      | MU      | Floreal      |   |
@@ -74,9 +73,10 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest3.sasknet.sk.ca                 | -R  |      | CA      | Saskatoon       |   |
 | iperf3 -c 74.205.217.156                           |     |      | CA      | Stittsville     |   |
 | iperf3 -c sp11.wom.cl                              |     |      | CL      | Santiago        |   |
-| iperf3 -c speedtest.masnet.ec                      | -R  | 1    | EC      | Santa Ana       |   |
+| iperf3 -c speedtest.masnet.ec -p 5201-5209         | -R  | 1    | EC      | Santa Ana       |   |
 | iperf3 -c lists.vern.cc -p 5201-5202               | -R  | 1    | US      | Atlanta         |   |
 | iperf3 -c atl.speedtest.clouvider.net -p 5200-5209 | -R  | 10   | US      | Atlanta         |   |
+| iperf3 -c speedtest10g.bhm.slfiber.com             | -R  |      | US      | Atlanta         |   |
 | iperf3 -c ash.speedtest.clouvider.net -p 5200-5209 | -R  | 10   | US      | Ashburn         |   |
 | iperf3 -c speedtest13.suddenlink.net               | -R  | 10   | US      | Charleston      |   |
 | iperf3 -c speedtest15.suddenlink.net               | -R  | 10   | US      | Charleston      |   |
@@ -104,50 +104,62 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c gpon.time.net.my                      | -R  | 1    | MY      | Kuala Lumpur  |   |
 | iperf3 -c speedtest.uztelecom.uz -p 5200-5207   | -R  | 10   | UZ      | Tashkent      |   |
 | iperf3 -c 156.59.143.226                        | -R  | 1    | VN      | Hanoi         |   |
+| iperf3 -c speedtestdng.fpt.vn                   | -R  | 1    | VN      | Hanoi         |   |
 
 ### EUROPE
 | COMMAND                                              | OPT   | GB/s | COUNTRY | SITE              |    |
 |:-----------------------------------------------------|-------|------|---------|:------------------|----|
 | iperf3 -c lg.vie.alwyzon.net                         | -R    |      | AT      | Vienna            |    |
 | iperf3 -c speedtest.neterra.net                      |       | 10   | BG      | Sofia             |    |
-| iperf3 -c speed.nimag.net	                         | -R -6 | 10   | CH      | Lausanne          |    |
+| iperf3 -c speed.nimag.net	                           | -R -6 | 10   | CH      | Lausanne          |    |
 | iperf3 -c speedtest.shinternet.ch -p 5200-5209       | -R -6 |      | CH      | Schaffhausen      |    |
 | iperf3 -c speedtest.iway.ch                          | -R    | 10   | CH      | Zürich            |    |
-| iperf3 -c 178.215.228.109 -p 9210                    | -R    |      | DE      | Frankfurt         |    |
-| iperf3 -c lg.ip-projects.de                          |       |      | DE      | Frankfurt         |    |
-| iperf3 -c speedtest.wobcom.de :small_blue_diamond:   | -R -6 | 2x25 | DE      | Wolfsburg         |    |
-| iperf3 -c a400.speedtest.wobcom.de                   | -R -6 | 2x25 | DE      | Wolfsburg         |    |
 | iperf3 -c a209.speedtest.wobcom.de                   | -R -6 | 2x25 | DE      | Berlin            |    |
 | iperf3 -c a110.speedtest.wobcom.de                   | -R -6 | 2x25 | DE      | Berlin            |    |
+| iperf3 -c a208.speedtest.wobcom.de                   | -R -6 | 2x25 | DE      | Düsseldorf        |    |
+| iperf3 -c 178.215.228.109 -p 9210                    | -R    |      | DE      | Frankfurt         |    |
+| iperf3 -c fra.speedtest.clouvider.net -p 5200-5209   | -R    | 10   | DE      | Frankfurt         |    |
 | iperf3 -c a210.speedtest.wobcom.de                   | -R -6 | 2x25 | DE      | Frankfurt         |    |
 | iperf3 -c a205.speedtest.wobcom.de                   | -R -6 | 2x25 | DE      | Frankfurt         |    |
-| iperf3 -c a208.speedtest.wobcom.de                   | -R -6 | 2x25 | DE      | Düsseldorf        |    |
+| iperf3 -c lg.ip-projects.de                          |       |      | DE      | Frankfurt         |    |
+| iperf3 -c speedtest.studiofunk.de -p 5200 / 5209     | -R -6 |      | DE      | Hamburg           |    |
 | iperf3 -c speedtest.wtnet.de -p 5200-5209            | -R -6 | 40   | DE      | Norderstedt       |    |
+| iperf3 -c speedtest.wobcom.de :small_blue_diamond:   | -R -6 | 2x25 | DE      | Wolfsburg         |    |
+| iperf3 -c a400.speedtest.wobcom.de                   | -R -6 | 2x25 | DE      | Wolfsburg         |    |
 | iperf3 -c iperf.deic.dk                              | -R    | 10   | DK      | Copenhagen        |    |
 | iperf3 -c speedtest.hiper.dk -p 5201-5203            | -R    |      | DK      | Copenhagen        |    |
 | iperf3 -c speed.fiberby.dk -p 9201-9240              | -R -6 | 10   | DK      | Copenhagen        |    |
 | iperf3 -c speedtest-hki.netplaza.fi                  | -R    |      | FI      | Helsinki          |    |
-| iperf3 -c speedtest.cinia.fi                         |       |      | FI      | Oulu              |    |
 | iperf3 -c speedtest.extra.telia.fi                   |       |      | FI      | Helsinki          |    |
-| iperf3 -c iperf.online.net -p 5204                   | -R    | 10   | FR      | Vitry-sur-Seine   |    |
-| iperf3 -c iperf.par2.as49434.net -p 9202             | -R    | 40   | FR      | Paris             |    |
+| iperf3 -c speedtest.cinia.fi                         |       |      | FI      | Oulu              |    |
 | iperf3 -c aix-marseille.testdebit.info -p 9200-9240  | -6 -R | 10   | FR      | Aix-en-Provence	  |    |
 | iperf3 -c bordeaux.testdebit.info -p 9200-9240       | -6 -R | 10   | FR      | Bordeaux          |    |
 | iperf3 -c lille.testdebit.info -p 9200-9240          | -6 -R | 10   | FR      | Lille             |    |
 | iperf3 -c lyon.testdebit.info -p 9200-9240           | -6 -R | 10   | FR      | Lyon              |    |
 | iperf3 -c bouygues.testdebit.info -p 9200-9240       | -6 -R | 10   | FR      | Paris             |    |
 | iperf3 -c paris.testdebit.info -p 9200-9240          | -6 -R | 10   | FR      | Paris             |    |
-| iperf3 -c scaleway.testdebit.info -p 5200-5209       | -6 -R | 10   | FR      | Vitry-sur-Seine   |    |
+| iperf3 -c proof.ovh.net -p 5201-5210                 | -R    | 10   | FR      | Paris             |    |
+| iperf3 -c iperf.par2.as49434.net -p 9202             | -R    | 40   | FR      | Paris             |    |
+| iperf3 -c speedtest.milkywan.fr -p 9200-9240         | -6 -R | 10   | FR      | Paris             |    |
+| iperf3 -c iperf.online.net -p 5204                   | -R    | 10   | FR      | Vitry-sur-Seine   |    |
+| iperf3 -c scaleway.testdebit.info -p 5200-5209       | -6 -R | 10   | FR      | Vitry-sur-Seine   |    🟠|
 | iperf3 -c ping-90ms.online.net -p 5200-5209          | -R    | 10   | FR      | Vitry-sur-Seine   |    |
 | iperf3 -c ping6-90ms.online.net -p 5200-5209         | -6 -R | 10   | FR      | Vitry-sur-Seine   |    |
 | iperf3 -c ping.online.net -p 5200-5209               | -R    | 10   | FR      | Vitry-sur-Seine   |    |
 | iperf3 -c ping6.online.net -p 5200-5209              | -6 -R | 10   | FR      | Vitry-sur-Seine   |    |
-| iperf3 -c proof.ovh.net -p 5201-5210                 | -R    | 10   | FR      | Paris             |    |
+| iperf3 -c speedtest10.gibfibre.com                   | -R    | 10   | GI      | Gibraltar         |    |
 | iperf3 -c iperf.as42831.net -p 5300-5400             | -R    |      | GB      | London            |    |
 | iperf3 -c lon.speedtest.clouvider.net -p 5200-5209   | -R    | 10   | GB      | London            |    |
+| iperf3 -c speedtest-london.its-tg.net                | -R    |      | GB      | London            |    |
+| iperf3 -c speedtest-mer-a.mythic-beasts.com -p 5200-5206   | -R    |      | GB      | London            |    |
+| iperf3 -c speedtest1.vodafone.hu                     | -R    |      | HU      | Budapest          |    |
+| iperf3 -c it1.speedtest.aruba.it                     | -R    |      | IT      | Arezzo            |    |
+| iperf3 -c speed.itgate.net 5201-5202                 | -R    |      | IT      | Gerbido           |    |
 | iperf3 -c speed.dimensione.com                       | -R    | 1    | IT      | Milan             |    |
 | iperf3 -c speed.dimensione.com -p 5206               | -R -6 | 1    | IT      | Milan             |    |
-| iperf3 -c speed.itgate.net 5201-5202                 | -R    |      | IT      | Gerbido           |    |
+| iperf3 -c 217.61.40.96                               | -R    |      | IT      | Ponte San Pietro  |    |
+| iperf3 -c 81.7.127.242                               | -R    |      | LT      | Elektrėnai        |    |
+| iperf3 -c 80.92.72.3                                 | -R    |      | LU      | Bettembourg       |    |
 | iperf3 -c speedtest.lu.buyvm.net                     | -R    |      | LU      | Bissen            |    |
 | iperf3 -c a204.speedtest.wobcom.de                   | -R -6 | 2x25 | NL      | Amsterdam         |    |
 | iperf3 -c ams.speedtest.clouvider.net -p 5200-5209   | -R    | 10   | NL      | Amsterdam         |    |
@@ -169,9 +181,9 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.ownit.se                         | -R    | 10   | SE      | Stockholm         |    |
 | iperf3 -c speedtestv6.ownit.se                       | -R -6 | 10   | SE      | Stockholm         |    |
 | iperf3 -c se-speedt01.fre.nis.telia.net -p 5201-5210 | -R -6 |      | SE      | Viken             |    |
-| iperf3 -c iperf.astra.in.ua -p 5201-5210             | -R    | 10   | UA      | Lviv              |    |
 | iperf3 -c iperf.volia.net                            | -R    |      | UA      | Kyiv              |    🟠|
 | iperf3 -c speed.cosmonova.net                        | -R    |      | UA      | Kyiv              |    |
+| iperf3 -c iperf.astra.in.ua -p 5201-5210             | -R    | 10   | UA      | Lviv              |    |
 | iperf3 -c speedtest.astra.in.ua                      | -R    |      | UA      | Lviv              |    |
 | iperf3 -c speedtest.pol.volia.net                    | -R    |      | UA      | Poltava           |    |
 | iperf3 -c speedtest.solver.net.ua                    | -R    |      | UA      | Poltava           |    |
@@ -185,10 +197,15 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c ooklaspeedtest01.adl.optusnet.com.au        | -R  |      | AU      | Adelaide  |   |
 | iperf3 -c speedtest.adl.optusnet.com.au               | -R  |      | AU      | Adelaide  |   |
 | iperf3 -c ooklaspeedtest01.bri.optusnet.com.au        | -R  |      | AU      | Brisbane  |   |
+| iperf3 -c speedtest4.kiska.pw                         | -R -6 |    | AU      | Brisbane  |   |
 | iperf3 -c speedtest.tas.optusnet.com.au               | -R  |      | AU      | Hobart    |   |
 | iperf3 -c speedtest.mel.optusnet.com.au               | -R  |      | AU      | Melbourne |   |
+| iperf3 -c speed.me1.gigacomm.net.au                   | -R  |      | AU      | Melbourne |   |
+| iperf3 -c newcastle.nsw.speedtest.optusnet.com.au -p 5201-5203  | -R  |      | AU      | Newcastle |   |
 | iperf3 -c rockingham.wa.speedtest.optusnet.com.au     | -R  |      | AU      | Perth     |   |
 | iperf3 -c speedtest.optitel.com                       | -R  | 10   | AU      | Perth     |   |
+| iperf3 -c speedtest-perth.launtel.net.au              | -R  |      | AU      | Perth     |   |
+| iperf3 -c speedtest5.kiska.pw                         | -R  |      | AU      | Perth     |   |
 | iperf3 -c 198.142.237.64                              | -R  |      | AU      | Sydney    |   |
 | iperf3 -c 198.142.237.65                              | -R  |      | AU      | Sydney    |   |
 | iperf3 -c 198.142.237.69                              | -R  |      | AU      | Sydney    |   |
@@ -196,6 +213,10 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 198.142.237.72                              | -R  |      | AU      | Sydney    |   |
 | iperf3 -c 198.142.237.97                              | -R  |      | AU      | Sydney    |   |
 | iperf3 -c 198.142.237.132                             | -R  |      | AU      | Sydney    |   |
+| iperf3 -c speed.sy3.gigacomm.net.au                   | -R  |      | AU      | Sydney    |   |
+| iperf3 -c speedtest01.syd.optusnet.com.au -p 5201-5203| -R  |      | AU      | Sydney    |   |
+| iperf3 -c speedtest2.kiska.pw                         | -R  |      | AU      | Sydney    |   |
+| iperf3 -c speedtest3.kiska.pw                         | -R  |      | AU      | Sydney    |   |
 | iperf3 -c speedtest.bla.optusnet.com.au               | -R  |      | AU      | Sydney    |   |
 | iperf3 -c techspeedtest.bla.optusnet.com.au           | -R  |      | AU      | Sydney    |   |
 | iperf3 -c ooklaspeedtest01.bla.optusnet.com.au        | -R  |      | AU      | Sydney    |   |
