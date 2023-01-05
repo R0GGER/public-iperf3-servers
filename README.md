@@ -103,7 +103,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 91.185.23.98                          | -R  |      | KZ      | Aktau         |   |
 | iperf3 -c gpon.time.net.my                      | -R  | 1    | MY      | Kuala Lumpur  |   |
 | iperf3 -c speedtest.uztelecom.uz -p 5200-5207   | -R  | 10   | UZ      | Tashkent      |   |
-| iperf3 -c 156.59.143.226                        | -R  | 1    | VN      | Hanoi         |   |
 | iperf3 -c speedtestdng.fpt.vn                   | -R  | 1    | VN      | Hanoi         |   |
 
 ### EUROPE
