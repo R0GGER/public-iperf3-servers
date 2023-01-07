@@ -110,7 +110,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |:-----------------------------------------------------|-------|------|---------|:------------------|----|
 | iperf3 -c lg.vie.alwyzon.net                         | -R    |      | AT      | Vienna            |    |
 | iperf3 -c speedtest.neterra.net                      |       | 10   | BG      | Sofia             |    |
-| iperf3 -c speed.nimag.net	                         | -R -6 | 10   | CH      | Lausanne          |    |
+| iperf3 -c speed.nimag.net	                           | -R -6 | 10   | CH      | Lausanne          |    |
 | iperf3 -c speedtest.shinternet.ch -p 5200-5209       | -R -6 |      | CH      | Schaffhausen      |    |
 | iperf3 -c speedtest.iway.ch                          | -R    | 10   | CH      | Zürich            |    |
 | iperf3 -c a209.speedtest.wobcom.de                   | -R -6 | 2x25 | DE      | Berlin            |    |
@@ -131,7 +131,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest-hki.netplaza.fi                  | -R    |      | FI      | Helsinki          |    |
 | iperf3 -c speedtest.extra.telia.fi                   |       |      | FI      | Helsinki          |    |
 | iperf3 -c speedtest.cinia.fi                         |       |      | FI      | Oulu              |    |
-| iperf3 -c aix-marseille.testdebit.info -p 9200-9240  | -6 -R | 10   | FR      | Aix-en-Provence	 |    |
+| iperf3 -c aix-marseille.testdebit.info -p 9200-9240  | -6 -R | 10   | FR      | Aix-en-Provence	  |    |
 | iperf3 -c bordeaux.testdebit.info -p 9200-9240       | -6 -R | 10   | FR      | Bordeaux          |    |
 | iperf3 -c lille.testdebit.info -p 9200-9240          | -6 -R | 10   | FR      | Lille             |    |
 | iperf3 -c lyon.testdebit.info -p 9200-9240           | -6 -R | 10   | FR      | Lyon              |    |
@@ -146,7 +146,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c ping6-90ms.online.net -p 5200-5209         | -6 -R | 10   | FR      | Vitry-sur-Seine   |    |
 | iperf3 -c ping.online.net -p 5200-5209               | -R    | 10   | FR      | Vitry-sur-Seine   |    |
 | iperf3 -c ping6.online.net -p 5200-5209              | -6 -R | 10   | FR      | Vitry-sur-Seine   |    |
-| iperf3 -c speedtest10.gibfibre.com                   | -R    | 10   | GI      | Gibraltar         |    |
 | iperf3 -c iperf.as42831.net -p 5300-5400             | -R    |      | GB      | London            |    |
 | iperf3 -c lon.speedtest.clouvider.net -p 5200-5209   | -R    | 10   | GB      | London            |    |
 | iperf3 -c speedtest-london.its-tg.net                | -R    |      | GB      | London            |    |
