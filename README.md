@@ -59,7 +59,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 13.244.123.229 -p 5201-5203              |     |      | ZA      | Cape Town    |   |
 | iperf3 -c 154.0.5.20                               |     |      | ZA      | Cape Town    |   |
 | iperf3 -c 41.168.5.158                             |     |      | ZA      | Johannesburg |   |
-| iperf3 -c 102.165.60.112                           | -R  |      | ZA      | Johannesburg |   |
+| iperf3 -c 102.165.60.112                           | -R  |      | ZA      | Johannesburg |   🟠|
 | iperf3 -c 102.134.120.74                           |     |      | ZA      | Johannesburg |   |
 | iperf3 -c speedtest.rocketnet.co.za                | -R  |      | ZA      | Johannesburg |   |
 
@@ -76,7 +76,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.masnet.ec -p 5201-5209         | -R  | 1    | EC      | Santa Ana       |   |
 | iperf3 -c lists.vern.cc -p 5201-5202               | -R  | 1    | US      | Atlanta         |   |
 | iperf3 -c atl.speedtest.clouvider.net -p 5200-5209 | -R  | 10   | US      | Atlanta         |   |
-| iperf3 -c speedtest10g.bhm.slfiber.com             | -R  |      | US      | Atlanta         |   |
 | iperf3 -c ash.speedtest.clouvider.net -p 5200-5209 | -R  | 10   | US      | Ashburn         |   |
 | iperf3 -c speedtest13.suddenlink.net               | -R  | 10   | US      | Charleston      |   |
 | iperf3 -c speedtest15.suddenlink.net               | -R  | 10   | US      | Charleston      |   |
@@ -139,9 +138,8 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c paris.testdebit.info -p 9200-9240          | -6 -R | 10   | FR      | Paris             |    |
 | iperf3 -c proof.ovh.net -p 5201-5210                 | -R    | 10   | FR      | Paris             |    |
 | iperf3 -c iperf.par2.as49434.net -p 9202             | -R    | 40   | FR      | Paris             |    |
-| iperf3 -c speedtest.milkywan.fr -p 9200-9240         | -6 -R | 10   | FR      | Paris             |    |
 | iperf3 -c iperf.online.net -p 5204                   | -R    | 10   | FR      | Vitry-sur-Seine   |    |
-| iperf3 -c scaleway.testdebit.info -p 5200-5209       | -6 -R | 10   | FR      | Vitry-sur-Seine   |    🟠|
+| iperf3 -c scaleway.testdebit.info -p 5200-5209       | -6 -R | 10   | FR      | Vitry-sur-Seine   |    |
 | iperf3 -c ping-90ms.online.net -p 5200-5209          | -R    | 10   | FR      | Vitry-sur-Seine   |    |
 | iperf3 -c ping6-90ms.online.net -p 5200-5209         | -6 -R | 10   | FR      | Vitry-sur-Seine   |    |
 | iperf3 -c ping.online.net -p 5200-5209               | -R    | 10   | FR      | Vitry-sur-Seine   |    |
@@ -155,7 +153,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speed.dimensione.com                       | -R    | 1    | IT      | Milan             |    |
 | iperf3 -c speed.dimensione.com -p 5206               | -R -6 | 1    | IT      | Milan             |    |
 | iperf3 -c 217.61.40.96                               | -R    |      | IT      | Ponte San Pietro  |    |
-| iperf3 -c 81.7.127.242                               | -R    |      | LT      | Elektrėnai        |    |
+| iperf3 -c 81.7.127.242                               | -R    |      | LT      | Elektrėnai        |    🟠|
 | iperf3 -c 80.92.72.3                                 | -R    |      | LU      | Bettembourg       |    |
 | iperf3 -c speedtest.lu.buyvm.net                     | -R    |      | LU      | Bissen            |    |
 | iperf3 -c a204.speedtest.wobcom.de                   | -R -6 | 2x25 | NL      | Amsterdam         |    |
@@ -213,7 +211,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speed.sy3.gigacomm.net.au                   | -R  |      | AU      | Sydney    |   |
 | iperf3 -c speedtest01.syd.optusnet.com.au -p 5201-5203| -R  |      | AU      | Sydney    |   |
 | iperf3 -c speedtest2.kiska.pw                         | -R  |      | AU      | Sydney    |   |
-| iperf3 -c speedtest3.kiska.pw                         | -R  |      | AU      | Sydney    |   |
 | iperf3 -c speedtest.bla.optusnet.com.au               | -R  |      | AU      | Sydney    |   |
 | iperf3 -c techspeedtest.bla.optusnet.com.au           | -R  |      | AU      | Sydney    |   |
 | iperf3 -c ooklaspeedtest01.bla.optusnet.com.au        | -R  |      | AU      | Sydney    |   |
