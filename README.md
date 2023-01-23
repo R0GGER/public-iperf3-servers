@@ -83,7 +83,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c dal.speedtest.clouvider.net -p 5200-5209 | -R  | 10   | US      | Dallas          |   |
 | iperf3 -c la.speedtest.clouvider.net -p 5200-5209  | -R  | 10   | US      | Los Angeles     |   |
 | iperf3 -c speedtest.tds.net                        | -R  |      | US      | Madison         |   |
-| iperf3 -c iceberg.vern.cc                          | -R  | 1    | US      | New Jersey      |   |
+| iperf3 -c iceberg.vern.cc                          | -R  | 1    | US      | New Jersey      |   🟠|
 | iperf3 -c nyc.speedtest.clouvider.net -p 5200-5209 | -R  | 10   | US      | New York City   |   |
 | iperf3 -c nyfiosspeed1.west.verizon.net            | -R  |      | US      | New York        |   |
 | iperf3 -c nyfiosspeed2.west.verizon.net            | -R  |      | US      | New York        |   |
@@ -154,7 +154,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speed.dimensione.com -p 5206               | -R -6 | 1    | IT      | Milan             |    |
 | iperf3 -c 217.61.40.96                               | -R    |      | IT      | Ponte San Pietro  |    |
 | iperf3 -c 81.7.127.242                               | -R    |      | LT      | Elektrėnai        |    🟠|
-| iperf3 -c 80.92.72.3                                 | -R    |      | LU      | Bettembourg       |    |
+| iperf3 -c 80.92.72.3                                 | -R    |      | LU      | Bettembourg       |    🟠|
 | iperf3 -c speedtest.lu.buyvm.net                     | -R    |      | LU      | Bissen            |    |
 | iperf3 -c a204.speedtest.wobcom.de                   | -R -6 | 2x25 | NL      | Amsterdam         |    |
 | iperf3 -c ams.speedtest.clouvider.net -p 5200-5209   | -R    | 10   | NL      | Amsterdam         |    |
@@ -168,8 +168,8 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c lg-drn.liteserver.nl -p 5201-5240          | -R    | 1    | NL      | Dronten           |    |
 | iperf3 -c iperf.worldstream.nl                       | -R -6 | 10   | NL      | Naaldwijk         |    |
 | iperf3 -c lg.terrahost.com -p 9200                   |       | 10   | NO      | Sandefjord        |    |
-| iperf3 -c speedtest.fiberway.pl                      | -R    |      | PL      | Kazimierza Wielka |    |
-| iperf3 -c speedtest.midiko.pl                        | -R    |      | PL      | Katowice          |    |
+| iperf3 -c speedtest.fiberway.pl                      | -R    |      | PL      | Kazimierza Wielka |    🟠|
+| iperf3 -c speedtest.midiko.pl                        | -R    |      | PL      | Katowice          |    🟠|
 | iperf3 -c 95.95.252.87 -p 5201/5205/5207             | -R    |      | PT      | Lissabon          |    |
 | iperf3 -c 31.148.48.5                                | -R    |      | RU      | Angarsk           |    |
 | iperf3 -c speedtest.kamel.network -p 5201-5205       | -R    |      | SE      | Kista             |    |
@@ -222,7 +222,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c server-52201.prod.hosts.ooklaserver.net     | -R  |      | NZ      | Auckland  |   |
 | iperf3 -c speedtest4.nownz.co.nz                      | -R  |  10  | NZ      | Auckland  |   |
 | iperf3 -c speedtest5.nownz.co.nz                      | -R  |  10  | NZ      | Auckland  |   |
-| iperf3 -c auckland.speedtest.vodafone.co.nz           | -R  |      | NZ      | Auckland  |   |
+| iperf3 -c auckland.speedtest.vodafone.co.nz           | -R  |      | NZ      | Auckland  |   🟠|
 | iperf3 -c server-5539.prod.hosts.ooklaserver.net      | -R  |      | NZ      | Nelson    |   |
 
 ## serverlist.json
