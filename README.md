@@ -222,7 +222,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c server-52201.prod.hosts.ooklaserver.net     | -R  |      | NZ      | Auckland  |   |
 | iperf3 -c speedtest4.nownz.co.nz                      | -R  |  10  | NZ      | Auckland  |   |
 | iperf3 -c speedtest5.nownz.co.nz                      | -R  |  10  | NZ      | Auckland  |   |
-| iperf3 -c auckland.speedtest.vodafone.co.nz           | -R  |      | NZ      | Auckland  |   🟠|
+| iperf3 -c auckland.speedtest.vodafone.co.nz           | -R  |      | NZ      | Auckland  |   |
 | iperf3 -c server-5539.prod.hosts.ooklaserver.net      | -R  |      | NZ      | Nelson    |   |
 
 ## serverlist.json
