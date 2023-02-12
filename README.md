@@ -98,7 +98,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speed.rimon.net.il                    | -R  | 1    | IL      | Jerusalem     |   |
 | iperf3 -c in-speedtest.host-palace.com          | -R  | 1    | IN      | Suri          |   |
 | iperf3 -c 91.185.23.98                          | -R  |      | KZ      | Aktau         |   |
-| iperf3 -c gpon.time.net.my                      | -R  | 1    | MY      | Kuala Lumpur  |   |
 | iperf3 -c speedtest.uztelecom.uz -p 5200-5207   | -R  | 10   | UZ      | Tashkent      |   |
 | iperf3 -c speedtestdng.fpt.vn                   | -R  | 1    | VN      | Hanoi         |   |
 
@@ -148,8 +147,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest1.vodafone.hu                     | -R    |      | HU      | Budapest          |    |
 | iperf3 -c it1.speedtest.aruba.it                     | -R    |      | IT      | Arezzo            |    |
 | iperf3 -c speed.itgate.net 5201-5202                 | -R    |      | IT      | Gerbido           |    |
-| iperf3 -c speed.dimensione.com                       | -R    | 1    | IT      | Milan             |    |
-| iperf3 -c speed.dimensione.com -p 5206               | -R -6 | 1    | IT      | Milan             |    |
 | iperf3 -c 217.61.40.96                               | -R    |      | IT      | Ponte San Pietro  |    |
 | iperf3 -c 80.92.72.3                                 | -R    |      | LU      | Bettembourg       |    |
 | iperf3 -c speedtest.lu.buyvm.net                     | -R    |      | LU      | Bissen            |    |
@@ -184,10 +181,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | COMMAND                                               | OPT | GB/s | COUNTRY | SITE      |   |
 |:------------------------------------------------------|-----|------|---------|:----------|---|
 | iperf3 -c speedtest.optusnet.com.au -p 5201-5203      | -R  |      | AU      |           |   |
-| iperf3 -c limestonecoast.sa.speedtest.optusnet.com.au | -R  |      | AU      | Adelaide  |   |
-| iperf3 -c ooklaspeedtest01.adl.optusnet.com.au        | -R  |      | AU      | Adelaide  |   |
-| iperf3 -c speedtest.adl.optusnet.com.au               | -R  |      | AU      | Adelaide  |   |
-| iperf3 -c ooklaspeedtest01.bri.optusnet.com.au        | -R  |      | AU      | Brisbane  |   |
 | iperf3 -c speedtest4.kiska.pw                         | -R -6 |    | AU      | Brisbane  |   |
 | iperf3 -c speedtest.tas.optusnet.com.au               | -R  |      | AU      | Hobart    |   |
 | iperf3 -c speedtest.mel.optusnet.com.au               | -R  |      | AU      | Melbourne |   |
@@ -195,30 +188,18 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c rockingham.wa.speedtest.optusnet.com.au     | -R  |      | AU      | Perth     |   |
 | iperf3 -c speedtest.optitel.com                       | -R  | 10   | AU      | Perth     |   |
 | iperf3 -c speedtest-perth.launtel.net.au              | -R  |      | AU      | Perth     |   |
-| iperf3 -c speedtest5.kiska.pw                         | -R  |      | AU      | Perth     |   |
-| iperf3 -c 198.142.237.64                              | -R  |      | AU      | Sydney    |   |
 | iperf3 -c 198.142.237.65                              | -R  |      | AU      | Sydney    |   |
-| iperf3 -c 198.142.237.69                              | -R  |      | AU      | Sydney    |   |
-| iperf3 -c 198.142.237.70                              | -R  |      | AU      | Sydney    |   |
 | iperf3 -c 198.142.237.72                              | -R  |      | AU      | Sydney    |   |
 | iperf3 -c 198.142.237.97                              | -R  |      | AU      | Sydney    |   |
 | iperf3 -c 198.142.237.132                             | -R  |      | AU      | Sydney    |   |
 | iperf3 -c speed.sy3.gigacomm.net.au                   | -R  |      | AU      | Sydney    |   |
-| iperf3 -c speedtest01.syd.optusnet.com.au -p 5201-5203| -R  |      | AU      | Sydney    |   |
 | iperf3 -c speedtest2.kiska.pw                         | -R  |      | AU      | Sydney    |   |
-| iperf3 -c speedtest.bla.optusnet.com.au               | -R  |      | AU      | Sydney    |   |
-| iperf3 -c techspeedtest.bla.optusnet.com.au           | -R  |      | AU      | Sydney    |   |
-| iperf3 -c ooklaspeedtest01.bla.optusnet.com.au        | -R  |      | AU      | Sydney    |   |
-| iperf3 -c ooklaspeedtest01.ebw.optusnet.com.au        | -R  |      | AU      | Sydney    |   |
-| iperf3 -c speedtest.ebw.optusnet.com.au               | -R  |      | AU      | Sydney    |   |
-| iperf3 -c townsville.qld.speedtest.optusnet.com.au    | -R  |      | AU      | Townsville|   |
 | iperf3 -c mirror.lagoon.nc                            | -R  |      | NC      |           |   |
 | iperf3 -c 202.137.240.193                             | -R  |      | NZ      | Auckland  |   |
 | iperf3 -c server-52201.prod.hosts.ooklaserver.net     | -R  |      | NZ      | Auckland  |   |
 | iperf3 -c speedtest4.nownz.co.nz                      | -R  |  10  | NZ      | Auckland  |   |
 | iperf3 -c speedtest5.nownz.co.nz                      | -R  |  10  | NZ      | Auckland  |   |
 | iperf3 -c auckland.speedtest.vodafone.co.nz           | -R  |      | NZ      | Auckland  |   |
-| iperf3 -c server-5539.prod.hosts.ooklaserver.net      | -R  |      | NZ      | Nelson    |   |
 
 ## serverlist.json
 [https://iperf3serverlist.net/serverlist.json](https://iperf3serverlist.net/serverlist.json) (daily updated)
