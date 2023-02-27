@@ -54,7 +54,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtestfl.telecom.mu -p 5201-5209      | -R  |      | MU      | Floreal      |   |
 | iperf3 -c speedtestrh.telecom.mu -p 5201-5209      | -R  |      | MU      | Rose Hill    |   |
 | iperf3 -c speedtestlondon.telecom.mu -p 5201-5209  | -R  |      | MU      | Tamarin      |   |
-| iperf3 -c 41.213.138.11                            | -R  |      | RE      |              |   |
 | iperf3 -c 154.73.174.30                            |     |      | SN      | Dakar        |   |
 | iperf3 -c 13.244.123.229 -p 5201-5203              |     |      | ZA      | Cape Town    |   |
 | iperf3 -c 154.0.5.20                               |     |      | ZA      | Cape Town    |   |
@@ -93,13 +92,11 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | COMMAND                                         | OPT | GB/s | COUNTRY | SITE          |   |
 |:------------------------------------------------|-----|------|---------|:--------------|---|
 | iperf3 -c iperf.biznetnetworks.com -p 5201-5203 | -R  | 1    | ID      | Jakarta       |   |
-| iperf3 -c oke.net.id                            | -R  | 1    | ID      | Jakarta       |   |
 | iperf3 -c speed.netfiber.net.il                 | -R  | 1    | IL      | Jerusalem     |   |
 | iperf3 -c speed.rimon.net.il                    | -R  | 1    | IL      | Jerusalem     |   |
 | iperf3 -c in-speedtest.host-palace.com          | -R  | 1    | IN      | Suri          |   |
 | iperf3 -c 91.185.23.98                          | -R  |      | KZ      | Aktau         |   |
 | iperf3 -c speedtest.uztelecom.uz -p 5200-5207   | -R  | 10   | UZ      | Tashkent      |   |
-| iperf3 -c speedtestdng.fpt.vn                   | -R  | 1    | VN      | Hanoi         |   |
 
 ### EUROPE
 | COMMAND                                              | OPT   | GB/s | COUNTRY | SITE              |    |
@@ -187,7 +184,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speed.me1.gigacomm.net.au                   | -R  |      | AU      | Melbourne |   |
 | iperf3 -c rockingham.wa.speedtest.optusnet.com.au     | -R  |      | AU      | Perth     |   |
 | iperf3 -c speedtest.optitel.com                       | -R  | 10   | AU      | Perth     |   |
-| iperf3 -c speedtest-perth.launtel.net.au              | -R  |      | AU      | Perth     |   |
 | iperf3 -c 198.142.237.65                              | -R  |      | AU      | Sydney    |   |
 | iperf3 -c 198.142.237.72                              | -R  |      | AU      | Sydney    |   |
 | iperf3 -c 198.142.237.97                              | -R  |      | AU      | Sydney    |   |
@@ -196,7 +192,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest2.kiska.pw                         | -R  |      | AU      | Sydney    |   |
 | iperf3 -c mirror.lagoon.nc                            | -R  |      | NC      |           |   |
 | iperf3 -c 202.137.240.193                             | -R  |      | NZ      | Auckland  |   |
-| iperf3 -c server-52201.prod.hosts.ooklaserver.net     | -R  |      | NZ      | Auckland  |   |
 | iperf3 -c speedtest4.nownz.co.nz                      | -R  |  10  | NZ      | Auckland  |   |
 | iperf3 -c speedtest5.nownz.co.nz                      | -R  |  10  | NZ      | Auckland  |   |
 | iperf3 -c auckland.speedtest.vodafone.co.nz           | -R  |      | NZ      | Auckland  |   |
