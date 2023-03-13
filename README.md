@@ -153,7 +153,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c ping-ams1.online.net -p 5200-5209          | -R    | 10   | NL      | Amsterdam         |    |
 | iperf3 -c speedtest-nl-oum.hybula.net -p 5202-5206   | -R -6 | 40   | NL      | Amsterdam         |    |
 | iperf3 -c speedtest.ams1.novogara.net -p 5200-5209   | -R -6 | 20   | NL      | Amsterdam         |    |
-| iperf3 -c speedtest.novoserve.com -p 5202-5206       | -R -6 | 40   | NL      | Amsterdam         |    |
+| iperf3 -c speedtest.novoserve.com -p 5201-5206       | -R -6 | 40   | NL      | Amsterdam         |    |
 | iperf3 -c speedtest.serverius.net -p 5002            | -R -6 | 10   | NL      | Amsterdam         |    |
 | iperf3 -c spt01.sdhd.hosting                         | -R    | 10   | NL      | Dronten           |    |
 | iperf3 -c lg-drn.liteserver.nl -p 5201-5240          | -R    | 1    | NL      | Dronten           |    |
