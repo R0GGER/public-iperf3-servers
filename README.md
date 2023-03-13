@@ -49,7 +49,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 ### AFRICA
 | COMMAND                                            | OPT | GB/s | COUNTRY | SITE         |   |
 |:---------------------------------------------------|-----|------|---------|:-------------|---|
-| iperf3 -c 197.155.149.134                          | -R  |      | ML      |              |   |
+| iperf3 -c 197.155.149.134                          | -R  |      | ML      |              |  🟠 |
 | iperf3 -c speedtest.telecom.mu -p 5201-5209        | -R  |      | MU      | Port Louis   |   |
 | iperf3 -c speedtestfl.telecom.mu -p 5201-5209      | -R  |      | MU      | Floreal      |   |
 | iperf3 -c speedtestrh.telecom.mu -p 5201-5209      | -R  |      | MU      | Rose Hill    |   |
