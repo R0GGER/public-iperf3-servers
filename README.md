@@ -101,8 +101,9 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 ### EUROPE
 | COMMAND                                              | OPT   | GB/s | COUNTRY | SITE              |    |
 |:-----------------------------------------------------|-------|------|---------|:------------------|----|
+| iperf3 -c lg.vie.alwyzon.net -p 5202-5203            | -R    |      | AT      | Vienna            |    |
 | iperf3 -c speedtest.neterra.net                      |       | 10   | BG      | Sofia             |    |
-| iperf3 -c speed.nimag.net	                           | -R -6 | 10   | CH      | Lausanne          |    |
+| iperf3 -c speed.nimag.net	                         | -R -6 | 10   | CH      | Lausanne          |    |
 | iperf3 -c speedtest.shinternet.ch -p 5200-5209       | -R -6 |      | CH      | Schaffhausen      |    |
 | iperf3 -c speedtest.iway.ch                          | -R    | 10   | CH      | Zürich            |    |
 | iperf3 -c a209.speedtest.wobcom.de                   | -R -6 | 2x25 | DE      | Berlin            |    |
