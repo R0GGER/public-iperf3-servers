@@ -109,7 +109,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.init7.net                        | -R -6 | 20   | CH      | Winterthur        |    
 | iperf3 -c speed.inno.ch                              | -R    |      | CH      | Zürich            |    
 | iperf3 -c speedtest.iway.ch                          | -R    | 10   | CH      | Zürich            |    
-| iperf3 -c rychlost.poda.cz                           | -R    |      | CZ      | Mikulov           |    
+| iperf3 -c rychlost.poda.cz                           | -R    |      | CZ      | Ostrava           |    
 | iperf3 -c a209.speedtest.wobcom.de                   | -R -6 | 2x25 | DE      | Berlin            |    
 | iperf3 -c a110.speedtest.wobcom.de                   | -R -6 | 2x25 | DE      | Berlin            |    
 | iperf3 -c a208.speedtest.wobcom.de                   | -R -6 | 2x25 | DE      | Düsseldorf        |   
