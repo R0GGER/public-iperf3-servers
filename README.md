@@ -65,6 +65,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 ### AMERICA
 | COMMAND                                            | OPT | GB/s | COUNTRY | SITE            |   |
 :----------------------------------------------------|-----|------|---------|:----------------|---|
+| iperf3 -c speed.unifique.com.br                    | -R  |      | BR      | Blumenau        |   |
 | iperf3 -c 168.195.96.44 -p 5201-5204               |     |      | BR      | Joinville       |   |
 | iperf3 -c 216.40.45.41                             |     |      | CA      |                 |   |
 | iperf3 -c vern.cc -p 5201-5203                     | -R  | 1    | CA      | Beauharnois     |   |
@@ -103,9 +104,12 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |:-----------------------------------------------------|-------|------|---------|:------------------|----|
 | iperf3 -c lg.vie.alwyzon.net -p 5202-5203            | -R    |      | AT      | Vienna            |    |
 | iperf3 -c speedtest.neterra.net                      |       | 10   | BG      | Sofia             |    |
-| iperf3 -c speed.nimag.net	                         | -R -6 | 10   | CH      | Lausanne          |    |
+| iperf3 -c speed.nimag.net	                           | -R -6 | 10   | CH      | Lausanne          |    |
 | iperf3 -c speedtest.shinternet.ch -p 5200-5209       | -R -6 |      | CH      | Schaffhausen      |    |
+| iperf3 -c speedtest.init7.net                        | -R -6 | 20   | CH      | Winterthur        |    |
+| iperf3 -c speed.inno.ch                              | -R    |      | CH      | Zürich            |    |
 | iperf3 -c speedtest.iway.ch                          | -R    | 10   | CH      | Zürich            |    |
+| iperf3 -c rychlost.poda.cz                           | -R    |      | CZ      | Mikulov           |    |
 | iperf3 -c a209.speedtest.wobcom.de                   | -R -6 | 2x25 | DE      | Berlin            |    |
 | iperf3 -c a110.speedtest.wobcom.de                   | -R -6 | 2x25 | DE      | Berlin            |    |
 | iperf3 -c a208.speedtest.wobcom.de                   | -R -6 | 2x25 | DE      | Düsseldorf        |    |
@@ -159,6 +163,9 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c lg-drn.liteserver.nl -p 5201-5240          | -R    | 1    | NL      | Dronten           |    |
 | iperf3 -c iperf.worldstream.nl                       | -R -6 | 10   | NL      | Naaldwijk         |    |
 | iperf3 -c lg.terrahost.com -p 9200                   |       | 10   | NO      | Sandefjord        |    |
+| iperf3 -c speedtest.snt.net.pl                       | -R    |      | PL      | Warsaw            |    |
+| iperf3 -c speedtest.pgnet.com.pl                     | -R    |      | PL      | Warsaw            |    |
+| iperf3 -c speedtest-w5-rnp.play.pl                   | -R    |      | PL      | Warsaw            |    |
 | iperf3 -c 95.95.252.87 -p 5201/5205/5207             | -R    |      | PT      | Lissabon          |    |
 | iperf3 -c 31.148.48.5                                | -R    |      | RU      | Angarsk           |    |
 | iperf3 -c speedtest.kamel.network -p 5201-5205       | -R    |      | SE      | Kista             |    |
