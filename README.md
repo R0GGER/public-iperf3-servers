@@ -44,7 +44,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 * [EUROPE](#europe)
 * [OCEANIA](#oceania)
    
-:sparkles: Servers with a uptime of 90% or less in 30 days will be removed from the lists.
+:sparkles: Servers with an uptime of 90% or less in 30 days will be removed from the lists.
 
 ### AFRICA
 | COMMAND                                            | OPT | GB/s | COUNTRY | SITE         
