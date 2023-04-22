@@ -49,7 +49,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 ### AFRICA
 | COMMAND                                            | OPT | GB/s | COUNTRY | SITE         
 |:---------------------------------------------------|-----|------|---------|:-------------|
-| iperf3 -c 197.155.149.134                          | -R  |      | ML      |              | 
 | iperf3 -c speedtest.telecom.mu -p 5201-5209        | -R  |      | MU      | Port Louis   |
 | iperf3 -c speedtestfl.telecom.mu -p 5201-5209      | -R  |      | MU      | Floreal      |   
 | iperf3 -c speedtestrh.telecom.mu -p 5201-5209      | -R  |      | MU      | Rose Hill    |   
@@ -65,9 +64,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 ### AMERICA
 | COMMAND                                            | OPT | GB/s | COUNTRY | SITE            |  
 :----------------------------------------------------|-----|------|---------|:----------------|
-| iperf3 -c speed.unifique.com.br                    | -R  |      | BR      | Blumenau        |   
 | iperf3 -c 168.195.96.44 -p 5201-5204               |     |      | BR      | Joinville       |   
-| iperf3 -c 216.40.45.41                             |     |      | CA      |                 |   
 | iperf3 -c vern.cc -p 5201-5203                     | -R  | 1    | CA      | Beauharnois     |   
 | iperf3 -c speedtest3.sasknet.sk.ca                 | -R  |      | CA      | Saskatoon       |   
 | iperf3 -c 74.205.217.156                           |     |      | CA      | Stittsville     |   
@@ -164,7 +161,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c iperf.worldstream.nl                       | -R -6 | 10   | NL      | Naaldwijk         |    
 | iperf3 -c lg.terrahost.com -p 9200                   |       | 10   | NO      | Sandefjord        |    
 | iperf3 -c speedtest.snt.net.pl                       | -R    |      | PL      | Warsaw            |    
-| iperf3 -c speedtest.pgnet.com.pl                     | -R    |      | PL      | Warsaw            |    
 | iperf3 -c speedtest-w5-rnp.play.pl                   | -R    |      | PL      | Warsaw            |    
 | iperf3 -c 95.95.252.87 -p 5201/5205/5207             | -R    |      | PT      | Lissabon          |    
 | iperf3 -c 31.148.48.5                                | -R    |      | RU      | Angarsk           |    
