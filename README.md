@@ -74,7 +74,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |iperf3 -c speedtest.sao1.edgoo.net -p 9201-9240     |-R     |    |BR     |São Paulo           |
 |iperf3 -c vern.cc                                   |-R     |1   |CA     |Beauharnois         |
 |iperf3 -c speedtest3.sasknet.sk.ca                  |-R     |    |CA     |Saskatoon           |
-|iperf3 -c 40gspeedtest.mnsi.net                     |-R     |40  |CA     |Windsor             |
 |iperf3 -c sp11.wom.cl                               |       |    |CL     |Santiago            |
 |iperf3 -c speedtest.masnet.ec -p 5201-5209          |-R     |1   |EC     |Santa Ana           |
 |iperf3 -c cdjspeedtest.axtel.mx                     |-R     |    |MX     |Mexico City         |
@@ -108,7 +107,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |iperf3 -c speed.netfiber.net.il                     |-R     |1   |IL     |Jerusalem           |
 |iperf3 -c speed.rimon.net.il                        |-R     |1   |IL     |Jerusalem           |
 |iperf3 -c in-speedtest.host-palace.com              |-R     |1   |IN     |Suri                |
-|iperf3 -c 148.78.27.163 -p 5010-5011                |-R     |    |KR     |Seoul               |
 |iperf3 -c 91.185.23.98                              |-R     |    |KZ     |Aktau               |
 |iperf3 -c iperf.myren.net.my -p 5201-5210           |-R     |    |MY     |Kuala Lumpur        |
 |iperf3 -c  speedtest.singapore.globalxtreme.net     |-R     |    |SG     |Singapore           |
