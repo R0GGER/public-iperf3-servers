@@ -21,13 +21,14 @@
 apt update && apt install -y iperf3
 ```
 ```bash
-iperf3 -c speedtest.serverius.net -p 5002
+iperf3 -c speedtest.serverius.net -p 5002 --bidir
 ``` 
 ```bash
 docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c ams.speedtest.clouvider.net -p $((5201+(RANDOM%10)))
 ```
 **Options**    
 `-c` host  
+`--bidir` run in bidirectional mode. Client and server send and receive data.
 `-p, --port` server port to listen on/connect to (default: 5201)   
 `-R, --reverse` run in reverse mode (server sends, client receives)(download)    
 `-4, --version4` only use IPv4   
@@ -54,7 +55,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |iperf3 -c speedtestfl.telecom.mu -p 5201-5209       |-R     |    |MU     |Floreal             |
 |iperf3 -c speedtest.telecom.mu -p 5201-5209         |-R     |    |MU     |Port Louis          |
 |iperf3 -c speedtestrh.telecom.mu -p 5201-5209       |-R     |    |MU     |Rose Hill           |
-|iperf3 -c speedtestlondon.telecom.mu -p 5201-5209   |-R     |    |MU     |Tamarin             |
 |iperf3 -c sl-01-kgl.rw.seacomnet.com -p 5201-5209   |-R     |    |RW     |Kigali              |
 |iperf3 -c 154.73.174.30                             |       |    |SN     |Dakar               |
 |iperf3 -c 41.226.22.119 -p 9202-9240                |-R     |    |TN     |Tunis               |
@@ -68,7 +68,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 ### AMERICA
 |COMMAND                                             |OPTIONS|GB/S|COUNTRY|SITE                |
 |:---------------------------------------------------|:-----:|:--:|:-----:|:-------------------|
-|iperf3 -c speedtest.link.bm                         |-R     |    |BM     |Saint George        |
 |iperf3 -c vstnetfiber.net.br -p 5201-5209           |-R     |    |BR     |Campo Novo          |
 |iperf3 -c 168.195.96.44 -p 5201-5204                |       |    |BR     |Joinville           |
 |iperf3 -c speedtest.sao1.edgoo.net -p 9201-9240     |-R     |    |BR     |São Paulo           |
@@ -86,7 +85,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |iperf3 -c speedtest15.suddenlink.net                |-R     |10  |US     |Charleston          |
 |iperf3 -c charlottesville.speedtest.ting.com        |-R     |    |US     |Charlottesville     |
 |iperf3 -c dal.speedtest.clouvider.net -p 5200-5209  |-R     |10  |US     |Dallas              |
-|iperf3 -c las-vegas.speedtest.centurylink.net       |-R     |    |US     |Las Vegas           |
 |iperf3 -c la.speedtest.clouvider.net -p 5200-5209   |-R     |10  |US     |Los Angeles         |
 |iperf3 -c speedtest.tds.net                         |-R     |    |US     |Madison             |
 |iperf3 -c nyfiosspeed1.west.verizon.net             |-R     |    |US     |New York            |
@@ -109,14 +107,12 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |iperf3 -c in-speedtest.host-palace.com              |-R     |1   |IN     |Suri                |
 |iperf3 -c 91.185.23.98                              |-R     |    |KZ     |Aktau               |
 |iperf3 -c iperf.myren.net.my -p 5201-5210           |-R     |    |MY     |Kuala Lumpur        |
-|iperf3 -c  speedtest.singapore.globalxtreme.net     |-R     |    |SG     |Singapore           |
 |iperf3 -c speedtest.uztelecom.uz -p 5200-5207       |-R     |10  |UZ     |Tashkent            |
 
 ### EUROPE
 |COMMAND                                             |OPTIONS|GB/S|COUNTRY|SITE                |
 |:---------------------------------------------------|:-----:|:--:|:-----:|:-------------------|
 |iperf3 -c speedtest.neterra.net                     |       |10  |BG     |Sofia               |
-|iperf3 -c speed.nimag.net                           |-R     |10  |CH     |Lausanne            |
 |iperf3 -c speedtest.shinternet.ch -p 5200-5209      |-R,-6  |10  |CH     |Schaffhausen        |
 |iperf3 -c speedtest.init7.net                       |-R,-6  |20  |CH     |Winterthur          |
 |iperf3 -c speedtest.iway.ch                         |-R     |10  |CH     |Zurich              |
@@ -197,14 +193,12 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |iperf3 -c speedtest.optusnet.com.au -p 5201-5203    |-R     |    |AU     |                    |
 |iperf3 -c speedtest4.kiska.pw                       |-R,-6  |    |AU     |Brisbane            |
 |iperf3 -c speedtest.tas.optusnet.com.au             |-R     |    |AU     |Hobart              |
-|iperf3 -c speed.me1.gigacomm.net.au                 |-R     |    |AU     |Melbourne           |
 |iperf3 -c speedtest.optitel.com.au                  |-R     |10  |AU     |Perth               |
 |iperf3 -c rockingham.wa.speedtest.optusnet.com.au   |-R     |    |AU     |Perth               |
 |iperf3 -c 198.142.237.65                            |-R     |    |AU     |Sydney              |
 |iperf3 -c 198.142.237.72                            |-R     |    |AU     |Sydney              |
 |iperf3 -c 198.142.237.97                            |-R     |    |AU     |Sydney              |
 |iperf3 -c 198.142.237.132                           |-R     |    |AU     |Sydney              |
-|iperf3 -c speed.sy3.gigacomm.net.au                 |-R     |    |AU     |Sydney              |
 |iperf3 -c speedtest2.kiska.pw                       |-R     |    |AU     |Sydney              |
 |iperf3 -c mirror.lagoon.nc                          |-R     |1   |NC     |                    |
 |iperf3 -c 202.137.240.193                           |-R     |    |NZ     |Auckland            |
