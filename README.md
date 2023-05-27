@@ -21,7 +21,7 @@
 apt update && apt install -y iperf3
 ```
 ```bash
-iperf3 -c speedtest.serverius.net -p 5002 --bidir
+iperf3 -c ams.speedtest.clouvider.net -p 5203 --bidir
 ``` 
 ```bash
 docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c ams.speedtest.clouvider.net -p $((5201+(RANDOM%10)))
