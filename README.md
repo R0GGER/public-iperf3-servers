@@ -28,7 +28,7 @@ docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c ams
 ```
 **Options**    
 `-c` host  
-`--bidir` run in bidirectional mode. Client and server send and receive data.
+`--bidir` run in bidirectional mode. Client and server send and receive data.    
 `-p, --port` server port to listen on/connect to (default: 5201)   
 `-R, --reverse` run in reverse mode (server sends, client receives)(download)    
 `-4, --version4` only use IPv4   
