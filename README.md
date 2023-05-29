@@ -210,4 +210,4 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 [https://iperf3serverlist.net/serverlist.json](https://iperf3serverlist.net/serverlist.json) (daily updated)
 
 ## Contact
-Contact me via Discord (R0GGER[#]7459) or e-mail (iperf3serverlist[at]hibbit.net)
+Contact me via e-mail - r0gger[at]iperf3serverlist.net
