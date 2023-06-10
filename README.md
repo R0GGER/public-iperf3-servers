@@ -107,7 +107,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |iperf3 -c in-speedtest.host-palace.com              |-R     |1   |IN     |Suri                |
 |iperf3 -c 91.185.23.98                              |-R     |    |KZ     |Aktau               |
 |iperf3 -c iperf.myren.net.my -p 5201-5210           |-R     |    |MY     |Kuala Lumpur        |
-|iperf3 -c speedtest.uztelecom.uz -p 5200-5207       |-R     |10  |UZ     |Tashkent            |
+|iperf3 -c speedtest.uztelecom.uz -p 5200-5209       |-R -6  |10  |UZ     |Tashkent            |
 
 ### EUROPE
 |COMMAND                                             |OPTIONS|GB/S|COUNTRY|SITE                |
