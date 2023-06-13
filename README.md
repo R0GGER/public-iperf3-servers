@@ -68,7 +68,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 ### AMERICA
 |COMMAND                                             |OPTIONS|GB/S|COUNTRY|SITE                |
 |:---------------------------------------------------|:-----:|:--:|:-----:|:-------------------|
-|iperf3 -c vstnetfiber.net.br -p 5201-5209           |-R     |    |BR     |Campo Novo          |
 |iperf3 -c 168.195.96.44 -p 5201-5204                |       |    |BR     |Joinville           |
 |iperf3 -c speedtest.sao1.edgoo.net -p 9201-9240     |-R     |    |BR     |São Paulo           |
 |iperf3 -c vern.cc                                   |-R     |1   |CA     |Beauharnois         |
@@ -116,7 +115,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |iperf3 -c speedtest.shinternet.ch -p 5200-5209      |-R,-6  |10  |CH     |Schaffhausen        |
 |iperf3 -c speedtest.init7.net                       |-R,-6  |20  |CH     |Winterthur          |
 |iperf3 -c speedtest.iway.ch                         |-R     |10  |CH     |Zurich              |
-|iperf3 -c speed.inno.ch                             |-R     |    |CH     |Zurich              |
 |iperf3 -c rychlost.poda.cz                          |-R     |    |CZ     |Mikulov             |
 |iperf3 -c a209.speedtest.wobcom.de                  |-R,-6  |    |DE     |Berlin              |
 |iperf3 -c a110.speedtest.wobcom.de                  |-R,-6  |    |DE     |Berlin              |
