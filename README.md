@@ -177,7 +177,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |iperf3 -c speedtest.ownit.se                        |-R     |1   |SE     |Stockholm           |
 |iperf3 -c speedtestv6.ownit.se                      |-R,-6  |1   |SE     |Stockholm           |
 |iperf3 -c se-speedt01.fre.nis.telia.net -p 5201-5210|-R,-6  |1   |SE     |Viken               |
-|iperf3 -c speed.cosmonova.net                       |-R     |    |UA     |Kyiv                |
+|iperf3 -c speed.cosmonova.net -p 5202               |-R     |    |UA     |Kyiv                |
 |iperf3 -c speedtest.pol.volia.net                   |-R     |    |UA     |Poltava             |
 |iperf3 -c speedtest.solver.net.ua                   |-R     |    |UA     |Poltava             |
 |iperf3 -c v4.speedtest.cfn.ltd                      |-R     |    |UK     |Cambridge           |
