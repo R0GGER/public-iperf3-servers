@@ -68,7 +68,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 ### AMERICA
 |COMMAND                                             |OPTIONS|GB/S|COUNTRY|SITE                |
 |:---------------------------------------------------|:-----:|:--:|:-----:|:-------------------|
-|iperf3 -c 168.195.96.44 -p 5201-5204                |       |    |BR     |Joinville           |
 |iperf3 -c speedtest.sao1.edgoo.net -p 9201-9240     |-R     |    |BR     |São Paulo           |
 |iperf3 -c vern.cc                                   |-R     |1   |CA     |Beauharnois         |
 |iperf3 -c speedtest3.sasknet.sk.ca                  |-R     |    |CA     |Saskatoon           |
@@ -78,6 +77,10 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |iperf3 -c speedgauge2.optonline.net                 |-R     |    |US     |                    |
 |iperf3 -c charlotte02.speedtest.windstream.net      |-R,-6  |    |US     |                    |
 |iperf3 -c ash.speedtest.clouvider.net -p 5200-5209  |-R     |10  |US     |Ashburn             |
+|iperf3 -c fiosspeed1.west.verizon.net               |-R     |    |US     |Ashburn             |
+|iperf3 -c fiosspeed2.west.verizon.net               |-R     |    |US     |Ashburn             |
+|iperf3 -c fiosspeed3.west.verizon.net               |-R     |    |US     |Ashburn             |
+|iperf3 -c fiosspeed4.west.verizon.net               |-R     |    |US     |Ashburn             |
 |iperf3 -c lists.vern.cc                             |-R     |1   |US     |Atlanta             |
 |iperf3 -c atl.speedtest.clouvider.net -p 5200-5209  |-R     |10  |US     |Atlanta             |
 |iperf3 -c speedtest13.suddenlink.net                |-R     |10  |US     |Charleston          |
@@ -86,10 +89,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |iperf3 -c dal.speedtest.clouvider.net -p 5200-5209  |-R     |10  |US     |Dallas              |
 |iperf3 -c la.speedtest.clouvider.net -p 5200-5209   |-R     |10  |US     |Los Angeles         |
 |iperf3 -c speedtest.tds.net                         |-R     |    |US     |Madison             |
-|iperf3 -c nyfiosspeed1.west.verizon.net             |-R     |    |US     |New York            |
-|iperf3 -c nyfiosspeed2.west.verizon.net             |-R     |    |US     |New York            |
-|iperf3 -c nyfiosspeed3.west.verizon.net             |-R     |    |US     |New York            |
-|iperf3 -c nyfiosspeed4.west.verizon.net             |-R     |    |US     |New York            |
 |iperf3 -c nyc.speedtest.clouvider.net -p 5200-5209  |-R     |10  |US     |New York City       |
 
 ### ASIA
@@ -97,13 +96,12 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |:---------------------------------------------------|:-----:|:--:|:-----:|:-------------------|
 |iperf3 -c speedtest.beeonline.az                    |-R     |    |AZ     |Baku                |
 |iperf3 -c speedtest.izone.az -p 5201-5208           |-R     |    |AZ     |Baku                |
-|iperf3 -c 2.58.65.127                               |-R     |    |HK     |Hong Kong           |
 |iperf3 -c iperf.biznetnetworks.com -p 5201-5203     |-R     |1   |ID     |Jakarta             |
 |iperf3 -c maritimeai.msngroup.id -p 9200-9240       |-R     |    |ID     |Jakarta             |
 |iperf3 -c speedtest.myrepublic.net.id -p 9200-9240  |-R     |    |ID     |Jakarta             |
 |iperf3 -c speed.netfiber.net.il                     |-R     |1   |IL     |Jerusalem           |
 |iperf3 -c speed.rimon.net.il                        |-R     |1   |IL     |Jerusalem           |
-|iperf3 -c in-speedtest.host-palace.com              |-R     |1   |IN     |Suri                |
+|iperf3 -c speedtest.host-palace.com -p 5202-5208    |-R     |1   |IN     |Suri                |
 |iperf3 -c 91.185.23.98                              |-R     |    |KZ     |Aktau               |
 |iperf3 -c iperf.myren.net.my -p 5201-5210           |-R     |    |MY     |Kuala Lumpur        |
 |iperf3 -c speedtest.uztelecom.uz -p 5200-5209       |-R -6  |10  |UZ     |Tashkent            |
@@ -111,7 +109,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 ### EUROPE
 |COMMAND                                             |OPTIONS|GB/S|COUNTRY|SITE                |
 |:---------------------------------------------------|:-----:|:--:|:-----:|:-------------------|
-|iperf3 -c speedtest.neterra.net                     |       |10  |BG     |Sofia               |
 |iperf3 -c speedtest.shinternet.ch -p 5200-5209      |-R,-6  |10  |CH     |Schaffhausen        |
 |iperf3 -c speedtest.init7.net                       |-R,-6  |20  |CH     |Winterthur          |
 |iperf3 -c speedtest.iway.ch                         |-R     |10  |CH     |Zurich              |
@@ -169,7 +166,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |iperf3 -c lg-drn.liteserver.nl -p 5200-5240         |-R     |1   |NL     |Dronten             |
 |iperf3 -c iperf.worldstream.nl                      |-R,-6  |10  |NL     |Naaldwijk           |
 |iperf3 -c lg.terrahost.com -p 9200                  |       |10  |NO     |Sandefjord          |
-|iperf3 -c speedtest.snt.net.pl                      |-R     |    |PL     |Warsaw              |
 |iperf3 -c speedtest-w5-rnp.play.pl                  |-R     |    |PL     |Warsaw              |
 |iperf3 -c 95.95.252.87 -p 5201-5209                 |-R     |    |PT     |Lissabon            |
 |iperf3 -c 31.148.48.5                               |-R     |    |RU     |Angarsk             |
@@ -202,7 +198,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |iperf3 -c 202.137.240.193                           |-R     |    |NZ     |Auckland            |
 |iperf3 -c speedtest4.nownz.co.nz                    |-R     |10  |NZ     |Auckland            |
 |iperf3 -c speedtest5.nownz.co.nz                    |-R     |10  |NZ     |Auckland            |
-|iperf3 -c auckland.speedtest.vodafone.co.nz         |-R     |    |NZ     |Auckland            |
 
 ## serverlist.json
 [https://iperf3serverlist.net/serverlist.json](https://iperf3serverlist.net/serverlist.json) (daily updated)
