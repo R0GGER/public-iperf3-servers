@@ -116,12 +116,12 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |iperf3 -c a209.speedtest.wobcom.de                  |-R,-6  |    |DE     |Berlin              |
 |iperf3 -c a110.speedtest.wobcom.de                  |-R,-6  |    |DE     |Berlin              |
 |iperf3 -c a208.speedtest.wobcom.de                  |-R,-6  |    |DE     |Dusseldorf          |
-|iperf3 -c 178.215.228.109 -p 9210                   |-R     |    |DE     |Frankfurt           |
+|iperf3 -c 178.215.228.109 -p 9201-9240              |-R     |    |DE     |Frankfurt           |
 |iperf3 -c fra.speedtest.clouvider.net -p 5200-5209  |-R     |10  |DE     |Frankfurt           |
 |iperf3 -c speedtest.ip-projects.de                  |-R,-6  |    |DE     |Frankfurt           |
 |iperf3 -c a210.speedtest.wobcom.de                  |-R,-6  |    |DE     |Frankfurt           |
 |iperf3 -c a205.speedtest.wobcom.de                  |-R,-6  |    |DE     |Frankfurt           |
-|iperf3 -c speedtest.studiofunk.de -p 5200 / 5209    |-R,-6  |    |DE     |Hamburg             |
+|iperf3 -c speedtest.studiofunk.de -p 5209           |-R,-6  |    |DE     |Hamburg             |
 |iperf3 -c speedtest.wtnet.de -p 5200-5209           |-R,-6  |40  |DE     |Norderstedt         |
 |iperf3 -c speedtest.wobcom.de :small_blue_diamond:  |-R,-6  |    |DE     |Wolfsburg           |
 |iperf3 -c a400.speedtest.wobcom.de                  |-R,-6  |    |DE     |Wolfsburg           |
@@ -173,10 +173,9 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |iperf3 -c speedtest.ownit.se                        |-R     |1   |SE     |Stockholm           |
 |iperf3 -c speedtestv6.ownit.se                      |-R,-6  |1   |SE     |Stockholm           |
 |iperf3 -c se-speedt01.fre.nis.telia.net -p 5201-5210|-R,-6  |1   |SE     |Viken               |
-|iperf3 -c speed.cosmonova.net -p 5202               |-R     |    |UA     |Kyiv                |
+|iperf3 -c speed.cosmonova.net                       |-R     |    |UA     |Kyiv                |
 |iperf3 -c speedtest.pol.volia.net                   |-R     |    |UA     |Poltava             |
 |iperf3 -c speedtest.solver.net.ua                   |-R     |    |UA     |Poltava             |
-|iperf3 -c v4.speedtest.cfn.ltd                      |-R     |    |UK     |Cambridge           |
 |iperf3 -c speedtest-london.its-tg.net               |-R     |    |UK     |London              |
 
 :small_blue_diamond: speedtest.wobcom.de connects to the nearest *.speedtest.wobcom.de server.
@@ -194,7 +193,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |iperf3 -c 198.142.237.97                            |-R     |    |AU     |Sydney              |
 |iperf3 -c 198.142.237.132                           |-R     |    |AU     |Sydney              |
 |iperf3 -c speedtest2.kiska.pw                       |-R     |    |AU     |Sydney              |
-|iperf3 -c mirror.lagoon.nc                          |-R     |1   |NC     |                    |
+|iperf3 -c speedtest.lagoon.nc -p 5202-5210          |-R     |10  |NC     |Noumea              |
 |iperf3 -c 202.137.240.193                           |-R     |    |NZ     |Auckland            |
 |iperf3 -c speedtest4.nownz.co.nz                    |-R     |10  |NZ     |Auckland            |
 |iperf3 -c speedtest5.nownz.co.nz                    |-R     |10  |NZ     |Auckland            |
