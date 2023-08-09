@@ -118,7 +118,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |iperf3 -c a208.speedtest.wobcom.de                  |-R,-6  |    |DE     |Dusseldorf          |
 |iperf3 -c 178.215.228.109 -p 9210                   |-R     |    |DE     |Frankfurt           |
 |iperf3 -c fra.speedtest.clouvider.net -p 5200-5209  |-R     |10  |DE     |Frankfurt           |
-|iperf3 -c speedtest.ip-projects.de                  |       |    |DE     |Frankfurt           |
+|iperf3 -c speedtest.ip-projects.de                  |-R,-6  |    |DE     |Frankfurt           |
 |iperf3 -c a210.speedtest.wobcom.de                  |-R,-6  |    |DE     |Frankfurt           |
 |iperf3 -c a205.speedtest.wobcom.de                  |-R,-6  |    |DE     |Frankfurt           |
 |iperf3 -c speedtest.studiofunk.de -p 5200 / 5209    |-R,-6  |    |DE     |Hamburg             |
