@@ -64,6 +64,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |iperf3 -c 41.168.5.158                              |       |    |ZA     |Johannesburg        |
 |iperf3 -c speedtest.rocketnet.co.za                 |       |    |ZA     |Johannesburg        |
 |iperf3 -c speedtest1.bitco.co.za                    |-R     |    |ZA     |Johannesburg        |
+|iperf3 -c iperf3 -c tengig.cisp.co.za               |-R     |    |ZA     |Johannesburg        |
 
 ### AMERICA
 |COMMAND                                             |OPTIONS|GB/S|COUNTRY|SITE                |
@@ -90,6 +91,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |iperf3 -c la.speedtest.clouvider.net -p 5200-5209   |-R     |10  |US     |Los Angeles         |
 |iperf3 -c speedtest.tds.net                         |-R     |    |US     |Madison             |
 |iperf3 -c nyc.speedtest.clouvider.net -p 5200-5209  |-R     |10  |US     |New York City       |
+|iperf3 -c lg.phx.plasmarack.com                     |-R     |    |US     |Phoenix             |
 
 ### ASIA
 |COMMAND                                             |OPTIONS|GB/S|COUNTRY|SITE                |
@@ -102,8 +104,10 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |iperf3 -c speed.netfiber.net.il                     |-R     |1   |IL     |Jerusalem           |
 |iperf3 -c speed.rimon.net.il                        |-R     |1   |IL     |Jerusalem           |
 |iperf3 -c speedtest.host-palace.com -p 5202-5208    |-R     |1   |IN     |Suri                |
+|iperf3 -c lg-jp-tyo.webhorizon.net                  |-R     |    |JP     |Tokyo               |
 |iperf3 -c 91.185.23.98                              |-R     |    |KZ     |Aktau               |
 |iperf3 -c iperf.myren.net.my -p 5201-5210           |-R     |    |MY     |Kuala Lumpur        |
+|iperf3 -c lg-sg-sin.webhorizon.net                  |-R     |    |SG     |Singapore           |
 |iperf3 -c speedtest.uztelecom.uz -p 5200-5209       |-R -6  |10  |UZ     |Tashkent            |
 
 ### EUROPE
@@ -121,6 +125,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |iperf3 -c speedtest.ip-projects.de                  |-R,-6  |10  |DE     |Frankfurt           |
 |iperf3 -c a210.speedtest.wobcom.de                  |-R,-6  |    |DE     |Frankfurt           |
 |iperf3 -c a205.speedtest.wobcom.de                  |-R,-6  |    |DE     |Frankfurt           |
+|iperf3 -c lg-de-fra.webhorizon.net                  |-R     |    |DE     |Frankfurt           |
 |iperf3 -c speedtest.studiofunk.de -p 5209           |-R,-6  |    |DE     |Hamburg             |
 |iperf3 -c speedtest.wtnet.de -p 5200-5209           |-R,-6  |40  |DE     |Norderstedt         |
 |iperf3 -c speedtest.wobcom.de :small_blue_diamond:  |-R,-6  |    |DE     |Wolfsburg           |
@@ -162,10 +167,13 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |iperf3 -c speedtest.ams1.novogara.net -p 5200-5209  |-R,-6  |20  |NL     |Amsterdam           |
 |iperf3 -c speedtest.novoserve.com -p 5201-5206      |-R,-6  |40  |NL     |Amsterdam           |
 |iperf3 -c speedtest.serverius.net -p 5002           |-R,-6  |10  |NL     |Amsterdam           |
+|iperf3 -c lg.ams-nl.terrahost.com -p 9200-9240      |-R     |10  |NL     |Amsterdam           |
+|iperf3 -c lg-nl-dtc.webhorizon.net                  |-R     |    |NL     |Doetinchem          |
 |iperf3 -c spt01.sdhd.hosting                        |-R     |10  |NL     |Dronten             |
 |iperf3 -c lg-drn.liteserver.nl -p 5200-5240         |-R     |1   |NL     |Dronten             |
 |iperf3 -c iperf.worldstream.nl                      |-R,-6  |10  |NL     |Naaldwijk           |
-|iperf3 -c lg.terrahost.com -p 9200                  |       |10  |NO     |Sandefjord          |
+|iperf3 -c lg-no-trf.webhorizon.net                  |-R     |    |NO     |Sandefjord          |
+|iperf3 -c lg.terrahost.com -p 9200-9240             |-R     |10  |NO     |Sandefjord          |
 |iperf3 -c speedtest-w5-rnp.play.pl                  |-R     |    |PL     |Warsaw              |
 |iperf3 -c 95.95.252.87 -p 5201-5209                 |-R     |    |PT     |Lissabon            |
 |iperf3 -c 31.148.48.5                               |-R     |    |RU     |Angarsk             |
