@@ -139,9 +139,9 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |iperf3 -c bouygues.testdebit.info -p 9200-9240      |-R,-6  |10  |FR     |Paris               |
 |iperf3 -c paris.testdebit.info -p 9200-9240         |-R,-6  |10  |FR     |Paris               |
 |iperf3 -c proof.ovh.net -p 5201-5210                |-R     |10  |FR     |Paris               |
-|iperf3 -c iperf.online.net -p 5204                  |-R     |10  |FR     |Vienna              |
+|iperf3 -c iperf.online.net -p 5209                  |-R     |10  |FR     |Vienna              |
 |iperf3 -c scaleway.testdebit.info -p 5200-5209      |-R,-6  |10  |FR     |Vitry-sur-Seine     |
-|iperf3 -c ping-90ms.online.net -p 5200-5209         |-R     |10  |FR     |Vitry-sur-Seine     |
+|iperf3 -c ping-90ms.online.net -p 5209              |-R     |10  |FR     |Vitry-sur-Seine     |
 |iperf3 -c ping6-90ms.online.net -p 5200-5209        |-R,-6  |10  |FR     |Vitry-sur-Seine     |
 |iperf3 -c ping.online.net -p 5200-5209              |-R     |10  |FR     |Vitry-sur-Seine     |
 |iperf3 -c ping6.online.net -p 5200-5209             |-R,-6  |10  |FR     |Vitry-sur-Seine     |
