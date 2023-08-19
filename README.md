@@ -119,7 +119,8 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |iperf3 -c rychlost.poda.cz                          |-R     |    |CZ     |Mikulov             |
 |iperf3 -c a209.speedtest.wobcom.de                  |-R,-6  |    |DE     |Berlin              |
 |iperf3 -c a110.speedtest.wobcom.de                  |-R,-6  |    |DE     |Berlin              |
-|iperf3 -c a208.speedtest.wobcom.de                  |-R,-6  |    |DE     |Dusseldorf          |
+|iperf3 -c lg.rltx.net                               |-R     |    |DE     |Düsseldorf          |
+|iperf3 -c a208.speedtest.wobcom.de                  |-R,-6  |    |DE     |Düsseldorf          |
 |iperf3 -c 178.215.228.109 -p 9201-9240              |-R     |    |DE     |Frankfurt           |
 |iperf3 -c fra.speedtest.clouvider.net -p 5200-5209  |-R     |10  |DE     |Frankfurt           |
 |iperf3 -c speedtest.ip-projects.de                  |-R,-6  |10  |DE     |Frankfurt           |
@@ -160,7 +161,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |iperf3 -c speedtest.lu.buyvm.net                    |-R     |    |LU     |Bissen              |
 |iperf3 -c speedtest.airstream.md                    |-R,-6  |    |MD     |Chisinau            |
 |iperf3 -c ams.speedtest.clouvider.net -p 5200-5209  |-R     |10  |NL     |Amsterdam           |
-|iperf3 -c nl.iperf.014.fr -p 10420                  |-R     |1   |NL     |Amsterdam           |
 |iperf3 -c ping-ams1.online.net -p 5200-5209         |-R     |10  |NL     |Amsterdam           |
 |iperf3 -c a204.speedtest.wobcom.de                  |-R,-6  |    |NL     |Amsterdam           |
 |iperf3 -c speedtest-nl-oum.hybula.net -p 5202-5206  |-R,-6  |40  |NL     |Amsterdam           |
