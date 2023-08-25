@@ -59,7 +59,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |iperf3 -c 154.73.174.30                             |       |    |SN     |Dakar               |
 |iperf3 -c 41.226.22.119 -p 9202-9240                |-R     |    |TN     |Tunis               |
 |iperf3 -c 196.179.245.2 -p 9200-9240                |-R     |    |TN     |Tunis               |
-|iperf3 -c 13.244.123.229 -p 5201-5203               |       |    |ZA     |Cape Town           |
 |iperf3 -c 154.0.5.20                                |       |    |ZA     |Cape Town           |
 |iperf3 -c 41.168.5.158                              |       |    |ZA     |Johannesburg        |
 |iperf3 -c speedtest.rocketnet.co.za                 |       |    |ZA     |Johannesburg        |
