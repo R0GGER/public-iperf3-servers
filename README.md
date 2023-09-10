@@ -201,7 +201,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |iperf3 -c 198.142.237.132                           |-R     |    |AU     |Sydney              |
 |iperf3 -c speedtest2.kiska.pw                       |-R     |    |AU     |Sydney              |
 |iperf3 -c speedtest.lagoon.nc -p 5202-5210          |-R     |10  |NC     |Noumea              |
-|iperf3 -c 202.137.240.193                           |-R     |    |NZ     |Auckland            |
 |iperf3 -c speedtest4.nownz.co.nz                    |-R     |10  |NZ     |Auckland            |
 |iperf3 -c speedtest5.nownz.co.nz                    |-R     |10  |NZ     |Auckland            |
 
