@@ -4,7 +4,8 @@
   <a href="https://iperf3serverlist.net" target="_blank"><img src="https://iperf3serverlist.net/assets/img/logo_256.png" width="150"></a><br/>  
   <b><a href="https://iperf3serverlist.net" target="_blank">iperf3serverlist.net</a></b><br/>
   <br/>
-  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-green.svg?color=0066ff&style=for-the-badge&label=License&logoColor=000000&labelColor=ececec" alt="License: MIT"></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-green.svg?color=0066ff&style=for-the-badge&label=License&logoColor=000000&labelColor=ececec" alt="License: MIT"></a> <br/>
+   <a href="https://stand-with-ukraine.pp.ua"><img src="https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraineFlat.svg" alt="#StandWithUkraine" /></a>
 <h3 align="center">A list of public iPERF3 servers to perform bandwidth and speedtests across different geographical regions.</h3>  
   </a><br/> 
 </p>
@@ -172,7 +173,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |iperf3 -c lg.terrahost.com -p 9200-9240             |-R     |10  |NO     |Sandefjord          |
 |iperf3 -c speedtest-w5-rnp.play.pl                  |-R     |    |PL     |Warsaw              |
 |iperf3 -c 95.95.252.87 -p 5201-5209                 |-R     |    |PT     |Lissabon            |
-|iperf3 -c 31.148.48.5                               |-R     |    |RU     |Angarsk             |
 |iperf3 -c speedtest.kamel.network -p 5201-5205      |-R     |1   |SE     |Kista               |
 |iperf3 -c speedtest.ownit.se                        |-R     |1   |SE     |Stockholm           |
 |iperf3 -c speedtestv6.ownit.se                      |-R,-6  |1   |SE     |Stockholm           |
