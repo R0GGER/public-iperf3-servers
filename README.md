@@ -70,7 +70,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |COMMAND                                             |OPTIONS|GB/S|COUNTRY|SITE                |
 |:---------------------------------------------------|:-----:|:--:|:-----:|:-------------------|
 |iperf3 -c speedtest.sao1.edgoo.net -p 9201-9240     |-R     |    |BR     |São Paulo           |
-|iperf3 -c vern.cc -p 5203                           |-R     |1   |CA     |Beauharnois         |
 |iperf3 -c speedtest3.sasknet.sk.ca                  |-R     |    |CA     |Saskatoon           |
 |iperf3 -c sp11.wom.cl                               |       |    |CL     |Santiago            |
 |iperf3 -c speedtest.masnet.ec -p 5201-5209          |-R     |1   |EC     |Santa Ana           |
@@ -82,7 +81,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |iperf3 -c fiosspeed2.west.verizon.net               |-R     |    |US     |Ashburn             |
 |iperf3 -c fiosspeed3.west.verizon.net               |-R     |    |US     |Ashburn             |
 |iperf3 -c fiosspeed4.west.verizon.net               |-R     |    |US     |Ashburn             |
-|iperf3 -c lists.vern.cc -p 5203                     |-R     |1   |US     |Atlanta             |
 |iperf3 -c atl.speedtest.clouvider.net -p 5200-5209  |-R     |10  |US     |Atlanta             |
 |iperf3 -c speedtest13.suddenlink.net                |-R     |10  |US     |Charleston          |
 |iperf3 -c speedtest15.suddenlink.net                |-R     |10  |US     |Charleston          |
@@ -104,7 +102,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |iperf3 -c speed.netfiber.net.il                     |-R     |1   |IL     |Jerusalem           |
 |iperf3 -c speed.rimon.net.il                        |-R     |1   |IL     |Jerusalem           |
 |iperf3 -c speedtest.host-palace.com -p 5202-5208    |-R     |1   |IN     |Suri                |
-|iperf3 -c lg-jp-tyo.webhorizon.net                  |-R     |    |JP     |Tokyo               |
 |iperf3 -c 91.185.23.98                              |-R     |    |KZ     |Aktau               |
 |iperf3 -c iperf.myren.net.my -p 5201-5210           |-R     |    |MY     |Kuala Lumpur        |
 |iperf3 -c lg-sg-sin.webhorizon.net -p 9200-9209     |-R     |    |SG     |Singapore           |
