@@ -57,14 +57,13 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |iperf3 -c speedtest.telecom.mu -p 5201-5209         |-R     |    |MU     |Port Louis          |
 |iperf3 -c speedtestrh.telecom.mu -p 5201-5209       |-R     |    |MU     |Rose Hill           |
 |iperf3 -c sl-01-kgl.rw.seacomnet.com -p 5201-5209   |-R     |    |RW     |Kigali              |
-|iperf3 -c 154.73.174.30                             |       |    |SN     |Dakar               |
 |iperf3 -c 41.226.22.119 -p 9202-9240                |-R     |    |TN     |Tunis               |
 |iperf3 -c 196.179.245.2 -p 9200-9240                |-R     |    |TN     |Tunis               |
 |iperf3 -c 154.0.5.20                                |       |    |ZA     |Cape Town           |
 |iperf3 -c 41.168.5.158                              |       |    |ZA     |Johannesburg        |
 |iperf3 -c speedtest.rocketnet.co.za                 |       |    |ZA     |Johannesburg        |
 |iperf3 -c speedtest1.bitco.co.za                    |-R     |    |ZA     |Johannesburg        |
-|iperf3 -c iperf3 -c tengig.cisp.co.za               |-R     |    |ZA     |Johannesburg        |
+|iperf3 -c iperf3 -c tengig.cisp.co.za -p 17001      |-R     |    |ZA     |Johannesburg        |
 
 ### AMERICA
 |COMMAND                                             |OPTIONS|GB/S|COUNTRY|SITE                |
@@ -116,7 +115,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |iperf3 -c rychlost.poda.cz                          |-R     |    |CZ     |Mikulov             |
 |iperf3 -c a209.speedtest.wobcom.de                  |-R,-6  |    |DE     |Berlin              |
 |iperf3 -c a110.speedtest.wobcom.de                  |-R,-6  |    |DE     |Berlin              |
-|iperf3 -c lg.rltx.net                               |-R     |    |DE     |Düsseldorf          |
 |iperf3 -c a208.speedtest.wobcom.de                  |-R,-6  |    |DE     |Düsseldorf          |
 |iperf3 -c 178.215.228.109 -p 9201-9240              |-R     |    |DE     |Frankfurt           |
 |iperf3 -c fra.speedtest.clouvider.net -p 5200-5209  |-R     |10  |DE     |Frankfurt           |
@@ -184,7 +182,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |COMMAND                                             |OPTIONS|GB/S|COUNTRY|SITE                |
 |:---------------------------------------------------|:-----:|:--:|:-----:|:-------------------|
 |iperf3 -c speedtest.optusnet.com.au -p 5201-5203    |-R     |    |AU     |                    |
-|iperf3 -c speedtest4.kiska.pw                       |-R,-6  |    |AU     |Brisbane            |
 |iperf3 -c speedtest.tas.optusnet.com.au             |-R     |    |AU     |Hobart              |
 |iperf3 -c speedtest.optitel.com.au                  |-R     |10  |AU     |Perth               |
 |iperf3 -c rockingham.wa.speedtest.optusnet.com.au   |-R     |    |AU     |Perth               |
