@@ -88,7 +88,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |iperf3 -c la.speedtest.clouvider.net -p 5200-5209   |-R     |10  |US     |Los Angeles         |
 |iperf3 -c speedtest.tds.net                         |-R     |    |US     |Madison             |
 |iperf3 -c nyc.speedtest.clouvider.net -p 5200-5209  |-R     |10  |US     |New York City       |
-|iperf3 -c lg.phx.plasmarack.com                     |-R     |    |US     |Phoenix             |
 
 ### ASIA
 |COMMAND                                             |OPTIONS|GB/S|COUNTRY|SITE                |
@@ -160,7 +159,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |iperf3 -c speedtest.ams1.novogara.net -p 5200-5209  |-R,-6  |20  |NL     |Amsterdam           |
 |iperf3 -c speedtest.serverius.net -p 5002           |-R,-6  |10  |NL     |Amsterdam           |
 |iperf3 -c lg.ams-nl.terrahost.com -p 9200-9240      |-R     |10  |NL     |Amsterdam           |
-|iperf3 -c lg-nl-dtc.webhorizon.net                  |-R     |    |NL     |Doetinchem          |
 |iperf3 -c spt01.sdhd.hosting                        |-R     |10  |NL     |Dronten             |
 |iperf3 -c lg-drn.liteserver.nl -p 5200-5240         |-R     |1   |NL     |Dronten             |
 |iperf3 -c iperf.worldstream.nl                      |-R,-6  |10  |NL     |Naaldwijk           |
@@ -172,7 +170,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |iperf3 -c speedtest.ownit.se                        |-R     |1   |SE     |Stockholm           |
 |iperf3 -c speedtestv6.ownit.se                      |-R,-6  |1   |SE     |Stockholm           |
 |iperf3 -c se-speedt01.fre.nis.telia.net -p 5201-5210|-R,-6  |1   |SE     |Viken               |
-|iperf3 -c speedtest.pol.volia.net                   |-R     |    |UA     |Poltava             |
 |iperf3 -c speedtest.solver.net.ua                   |-R     |    |UA     |Poltava             |
 |iperf3 -c speedtest-london.its-tg.net               |-R     |    |UK     |London              |
 
