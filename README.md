@@ -14,7 +14,6 @@
 * [How to use iperf3](#how-to-use-iperf3)
 * [Documentation](#documentation)
 * [Servers per continent](#servers-per-continent)
-* [serverlist.json](#serverlistjson)
 * [Contact](#contact)
 
 ## How to use iperf3
@@ -188,9 +187,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |iperf3 -c speedtest.lagoon.nc -p 5202-5210          |-R     |10  |NC     |Noumea              |
 |iperf3 -c speedtest4.nownz.co.nz                    |-R     |10  |NZ     |Auckland            |
 |iperf3 -c speedtest5.nownz.co.nz                    |-R     |10  |NZ     |Auckland            |
-
-## serverlist.json
-[https://iperf3serverlist.net/serverlist.json](https://iperf3serverlist.net/serverlist.json) (daily updated)
 
 ## Contact
 Contact me via e-mail - r0gger[at]iperf3serverlist.net
