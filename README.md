@@ -72,7 +72,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |iperf3 -c sp11.wom.cl                               |       |    |CL     |Santiago            |
 |iperf3 -c speedtest.masnet.ec -p 5201-5209          |-R     |1   |EC     |Santa Ana           |
 |iperf3 -c cdjspeedtest.axtel.mx                     |-R     |    |MX     |Mexico City         |
-|iperf3 -c speedgauge2.optonline.net                 |-R     |    |US     |                    |
 |iperf3 -c charlotte02.speedtest.windstream.net      |-R,-6  |    |US     |                    |
 |iperf3 -c ash.speedtest.clouvider.net -p 5200-5209  |-R     |10  |US     |Ashburn             |
 |iperf3 -c fiosspeed1.west.verizon.net               |-R     |    |US     |Ashburn             |
