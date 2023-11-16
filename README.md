@@ -83,7 +83,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest13.suddenlink.net                   	|      -R     	|    10    	|      US     	| Charleston       	|
 | iperf3 -c speedtest15.suddenlink.net                   	|      -R     	|    10    	|      US     	| Charleston       	|
 | iperf3 -c charlottesville.speedtest.ting.com           	|      -R     	|          	|      US     	| Charlottesville  	|
-| iperf3 -c speedtest.chi11.us.leaseweb.net -p 5201-5210 	|    -R, -6   	|    10    	|      US     	| Chicaco          	|
+| iperf3 -c speedtest.chi11.us.leaseweb.net -p 5201-5210 	|    -R, -6   	|    10    	|      US     	| Chicago          	|
 | iperf3 -c speedtest.dal13.us.leaseweb.net -p 5201-5210 	|    -R, -6   	|    10    	|      US     	| Dallas           	|
 | iperf3 -c dal.speedtest.clouvider.net -p 5200-5209     	|      -R     	|    10    	|      US     	| Dallas           	|
 | iperf3 -c la.speedtest.clouvider.net -p 5200-5209      	|      -R     	|    10    	|      US     	| Los Angeles      	|
