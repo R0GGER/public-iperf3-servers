@@ -160,6 +160,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.lon12.uk.leaseweb.net -p 5201-5210 	|    -R, -6   	|    10    	|      GB     	| London           	|
 | iperf3 -c iperf.as42831.net -p 5300-5400               	|      -R     	|          	|      GB     	| London           	|
 | iperf3 -c lon.speedtest.clouvider.net -p 5200-5209     	|      -R     	|    10    	|      GB     	| London           	|
+| iperf3 -c speedtest-london.its-tg.net                  	|      -R     	|          	|      GB     	| London           	|
 | iperf3 -c speedtest1.vodafone.hu                       	|      -R     	|          	|      HU     	| Budapest         	|
 | iperf3 -c it1.speedtest.aruba.it                       	|      -R     	|          	|      IT     	| Arezzo           	|
 | iperf3 -c speed.itgate.net -p 5201-5202                	|      -R     	|          	|      IT     	| Gerbido          	|
@@ -188,7 +189,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtestv6.ownit.se                         	|    -R,-6    	|     1    	|      SE     	| Stockholm        	|
 | iperf3 -c se-speedt01.fre.nis.telia.net -p 5201-5210   	|    -R,-6    	|     1    	|      SE     	| Viken            	|
 | iperf3 -c speedtest.solver.net.ua                      	|      -R     	|          	|      UA     	| Poltava          	|
-| iperf3 -c speedtest-london.its-tg.net                  	|      -R     	|          	|      UK     	| London           	|
 
 :small_blue_diamond: speedtest.wobcom.de connects to the nearest *.speedtest.wobcom.de server.
 
