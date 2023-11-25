@@ -74,7 +74,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c sp11.wom.cl                                  	|             	|          	|      CL     	| Santiago         	|
 | iperf3 -c speedtest.masnet.ec -p 5201-5209             	|      -R     	|     1    	|      EC     	| Santa Ana        	|
 | iperf3 -c cdjspeedtest.axtel.mx                        	|      -R     	|          	|      MX     	| Mexico City      	|
-| iperf3 -c speedtest.fast-net.net -p 5201               	|    -R, -6   	|    10    	|      MX     	| Villahermosa     	|
 | iperf3 -c charlotte02.speedtest.windstream.net         	|    -R,-6    	|          	|      US     	|                  	|
 | iperf3 -c ash.speedtest.clouvider.net -p 5200-5209     	|      -R     	|    10    	|      US     	| Ashburn          	|
 | iperf3 -c fiosspeed1.west.verizon.net                  	|      -R     	|          	|      US     	| Ashburn          	|
@@ -104,7 +103,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | **COMMAND**                                            	| **OPTIONS** 	| **GB/S** 	| **COUNTRY** 	| **SITE**         	|
 |:-------------------------------------------------------	|:-----------:	|:--------:	|:-----------:	|:-----------------	|
 | iperf3 -c speedtest.beeonline.az                       	|      -R     	|          	|      AZ     	| Baku             	|
-| iperf3 -c speedtest.izone.az -p 5201-5208              	|      -R     	|          	|      AZ     	| Baku             	|
 | iperf3 -c speedtest.hkg12.hk.leaseweb.net -p 5201-5210 	|    -R, -6   	|    10    	|      HK     	| Hong Kong        	|
 | iperf3 -c iperf.biznetnetworks.com -p 5201-5203        	|      -R     	|     1    	|      ID     	| Jakarta          	|
 | iperf3 -c maritimeai.msngroup.id -p 9200-9240          	|      -R     	|          	|      ID     	| Jakarta          	|
@@ -117,7 +115,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c iperf.myren.net.my -p 5201-5210              	|      -R     	|          	|      MY     	| Kuala Lumpur     	|
 | iperf3 -c lg-sg-sin.webhorizon.net -p 9200-9209        	|      -R     	|          	|      SG     	| Singapore        	|
 | iperf3 -c speedtest.sin1.sg.leaseweb.net -p 5201-5210  	|    -R, -6   	|    10    	|      SG     	| Singapore        	|
-| iperf3 -c speedtest.uztelecom.uz -p 5200-5209          	|    -R -6    	|    10    	|      UZ     	| Tashkent         	|
+| iperf3 -c speedtest.uztelecom.uz -p 5200-5209          	|    -R, -6    	|    10    	|      UZ     	| Tashkent         	|
 
 ### EUROPE
 | **COMMAND**                                            	| **OPTIONS** 	| **GB/S** 	| **COUNTRY** 	| **SITE**         	|
@@ -203,7 +201,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |:-------------------------------------------------------	|:-----------:	|:--------:	|:-----------:	|:-----------------	|
 | iperf3 -c speedtest.optusnet.com.au -p 5201-5203       	|      -R     	|          	|      AU     	|                  	|
 | iperf3 -c speedtest.tas.optusnet.com.au                	|      -R     	|          	|      AU     	| Hobart           	|
-| iperf3 -c speedtest.optitel.com.au                     	|      -R     	|    10    	|      AU     	| Perth            	|
 | iperf3 -c rockingham.wa.speedtest.optusnet.com.au      	|      -R     	|          	|      AU     	| Perth            	|
 | iperf3 -c speedtest.syd12.au.leaseweb.net -p 5201-5210 	|    -R, -6   	|    10    	|      AU     	| Sydney           	|
 | iperf3 -c 198.142.237.65                               	|      -R     	|          	|      AU     	| Sydney           	|
