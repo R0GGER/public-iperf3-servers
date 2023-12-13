@@ -67,7 +67,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 ### AMERICA
 | **COMMAND**                                            	| **OPTIONS** 	| **GB/S** 	| **COUNTRY** 	| **SITE**         	|
 |:-------------------------------------------------------	|:-----------:	|:--------:	|:-----------:	|:-----------------	|
-| iperf3 -c speedtest.sao1.edgoo.net -p 9201-9240        	|      -R     	|          	|      BR     	| São Paulo        	|
+| iperf3 -c speedtest.sao1.edgoo.net -p 5201, 9204-9240    	|      -R     	|          	|      BR     	| São Paulo        	|
 | iperf3 -c speedtest.mtl2.ca.leaseweb.net -p 5201-5210  	|    -R, -6   	|    10    	|      CA     	| Montreal         	|
 | iperf3 -c speedtest3.sasknet.sk.ca                     	|      -R     	|          	|      CA     	| Saskatoon        	|
 | iperf3 -c speedtest-west.eastlink.ca -p 5201           	|    -R     	|        	|      CA     	| Wetaskiwin        	|
