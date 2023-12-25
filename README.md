@@ -41,9 +41,10 @@ In our documentation you can find more command examples, all iperf3 options and 
 Do you want to add/remove an IP or HOST to this list? Please create a [new issue](https://github.com/R0GGER/public-iperf3-servers/issues).
 
 * [AFRICA](#africa)
-* [AMERICA](#america)
 * [ASIA](#asia)
 * [EUROPE](#europe)
+* [LATIN AMERICA](#latin-america)
+* [NORTH AMERICA](#north-america)
 * [OCEANIA](#oceania)
    
 :sparkles: Servers with an uptime of 90% or less in 30 days will be removed.
@@ -64,41 +65,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.rocketnet.co.za                    	|             	|          	|      ZA     	| Johannesburg     	|
 | iperf3 -c speedtest1.bitco.co.za                       	|      -R     	|          	|      ZA     	| Johannesburg     	|
 | iperf3 -c iperf3 -c tengig.cisp.co.za -p 17001         	|      -R     	|          	|      ZA     	| Johannesburg     	|
-
-### AMERICA
-| **COMMAND**                                            	| **OPTIONS** 	| **GB/S** 	| **COUNTRY** 	| **SITE**         	|
-|:-------------------------------------------------------	|:-----------:	|:--------:	|:-----------:	|:-----------------	|
-| iperf3 -c speedtest.sao1.edgoo.net -p 5201, 9204-9240  	|      -R     	|          	|      BR     	| São Paulo        	|
-| iperf3 -c speedtest.mtl2.ca.leaseweb.net -p 5201-5210  	|    -R, -6   	|    10    	|      CA     	| Montreal         	|
-| iperf3 -c speedtest3.sasknet.sk.ca                     	|      -R     	|          	|      CA     	| Saskatoon        	|
-| iperf3 -c speedtest-west.eastlink.ca -p 5201           	|    -R       	|           |      CA     	| Wetaskiwin        |
-| iperf3 -c sp11.wom.cl                                  	|             	|          	|      CL     	| Santiago         	|
-| iperf3 -c speedtest.masnet.ec -p 5201-5209             	|      -R     	|     1    	|      EC     	| Santa Ana        	|
-| iperf3 -c cdjspeedtest.axtel.mx                        	|      -R     	|          	|      MX     	| Mexico City      	|
-| iperf3 -c charlotte02.speedtest.windstream.net         	|    -R,-6    	|          	|      US     	|                  	|
-| iperf3 -c ash.speedtest.clouvider.net -p 5200-5209     	|      -R     	|    10    	|      US     	| Ashburn          	|
-| iperf3 -c fiosspeed1.west.verizon.net                  	|      -R     	|          	|      US     	| Ashburn          	|
-| iperf3 -c fiosspeed2.west.verizon.net                  	|      -R     	|          	|      US     	| Ashburn          	|
-| iperf3 -c fiosspeed3.west.verizon.net                  	|      -R     	|          	|      US     	| Ashburn          	|
-| iperf3 -c fiosspeed4.west.verizon.net                  	|      -R     	|          	|      US     	| Ashburn          	|
-| iperf3 -c atl.speedtest.clouvider.net -p 5200-5209     	|      -R     	|    10    	|      US     	| Atlanta          	|
-| iperf3 -c speedtest13.suddenlink.net                   	|      -R     	|    10    	|      US     	| Charleston       	|
-| iperf3 -c speedtest15.suddenlink.net                   	|      -R     	|    10    	|      US     	| Charleston       	|
-| iperf3 -c charlottesville.speedtest.ting.com           	|      -R     	|          	|      US     	| Charlottesville  	|
-| iperf3 -c speedtest.chi11.us.leaseweb.net -p 5201-5210 	|    -R, -6   	|    10    	|      US     	| Chicago          	|
-| iperf3 -c speedtest.dal13.us.leaseweb.net -p 5201-5210 	|    -R, -6   	|    10    	|      US     	| Dallas           	|
-| iperf3 -c dal.speedtest.clouvider.net -p 5200-5209     	|      -R     	|    10    	|      US     	| Dallas           	|
-| iperf3 -c la.speedtest.clouvider.net -p 5200-5209      	|      -R     	|    10    	|      US     	| Los Angeles      	|
-| iperf3 -c speedtest.lax12.us.leaseweb.net -p 5201-5210 	|    -R, -6   	|    10    	|      US     	| Los Angeles      	|
-| iperf3 -c speedtest.mia11.us.leaseweb.net -p 5201-5210 	|    -R, -6   	|    10    	|      US     	| Miami            	|
-| iperf3 -c speedtest.tds.net                            	|      -R     	|          	|      US     	| Madison          	|
-| iperf3 -c speedtest.nyc1.us.leaseweb.net -p 5201-5210  	|    -R, -6   	|    10    	|      US     	| New York         	|
-| iperf3 -c spd-uswb.hostkey.com -p 5201  	              |    -R     	  |    10    	|      US     	| New York         	|
-| iperf3 -c nyc.speedtest.clouvider.net -p 5200-5209     	|      -R     	|    10    	|      US     	| New York City    	|
-| iperf3 -c speedtest.phx1.us.leaseweb.net -p 5201-5210  	|    -R, -6   	|    10    	|      US     	| Phoenix          	|
-| iperf3 -c speedtest.sfo12.us.leaseweb.net -p 5201-5210 	|    -R, -6   	|    10    	|      US     	| San Francisco    	|
-| iperf3 -c speedtest.sea11.us.leaseweb.net -p 5201-5210 	|    -R, -6   	|    10    	|      US     	| Seattle          	|
-| iperf3 -c speedtest.wdc2.us.leaseweb.net -p 5201-5210  	|    -R, -6   	|    10    	|      US     	| Washington       	|
 
 ### ASIA
 | **COMMAND**                                            	| **OPTIONS** 	| **GB/S** 	| **COUNTRY** 	| **SITE**         	|
@@ -195,6 +161,45 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.solver.net.ua                      	|      -R     	|          	|      UA     	| Poltava          	|
 
 :small_blue_diamond: speedtest.wobcom.de connects to the nearest *.speedtest.wobcom.de server.
+
+### LATIN AMERICA
+| **COMMAND**                                            	| **OPTIONS** 	| **GB/S** 	| **COUNTRY** 	| **SITE**         	|
+|:-------------------------------------------------------	|:-----------:	|:--------:	|:-----------:	|:-----------------	|
+| iperf3 -c speedtest.sao1.edgoo.net -p 5201, 9204-9240  	|      -R     	|          	|      BR     	| São Paulo        	|
+| iperf3 -c sp11.wom.cl                                  	|             	|          	|      CL     	| Santiago         	|
+| iperf3 -c speedtest.masnet.ec -p 5201-5209             	|      -R     	|     1    	|      EC     	| Santa Ana        	|
+| iperf3 -c cdjspeedtest.axtel.mx                        	|      -R     	|          	|      MX     	| Mexico City      	|
+
+### NORTH AMERICA
+| **COMMAND**                                            	| **OPTIONS** 	| **GB/S** 	| **COUNTRY** 	| **SITE**         	|
+|:-------------------------------------------------------	|:-----------:	|:--------:	|:-----------:	|:-----------------	|
+| iperf3 -c speedtest.mtl2.ca.leaseweb.net -p 5201-5210  	|    -R, -6   	|    10    	|      CA     	| Montreal         	|
+| iperf3 -c speedtest3.sasknet.sk.ca                     	|      -R     	|          	|      CA     	| Saskatoon        	|
+| iperf3 -c speedtest-west.eastlink.ca -p 5201           	|    -R       	|           |      CA     	| Wetaskiwin        |
+| iperf3 -c charlotte02.speedtest.windstream.net         	|    -R,-6    	|          	|      US     	|                  	|
+| iperf3 -c ash.speedtest.clouvider.net -p 5200-5209     	|      -R     	|    10    	|      US     	| Ashburn          	|
+| iperf3 -c fiosspeed1.west.verizon.net                  	|      -R     	|          	|      US     	| Ashburn          	|
+| iperf3 -c fiosspeed2.west.verizon.net                  	|      -R     	|          	|      US     	| Ashburn          	|
+| iperf3 -c fiosspeed3.west.verizon.net                  	|      -R     	|          	|      US     	| Ashburn          	|
+| iperf3 -c fiosspeed4.west.verizon.net                  	|      -R     	|          	|      US     	| Ashburn          	|
+| iperf3 -c atl.speedtest.clouvider.net -p 5200-5209     	|      -R     	|    10    	|      US     	| Atlanta          	|
+| iperf3 -c speedtest13.suddenlink.net                   	|      -R     	|    10    	|      US     	| Charleston       	|
+| iperf3 -c speedtest15.suddenlink.net                   	|      -R     	|    10    	|      US     	| Charleston       	|
+| iperf3 -c charlottesville.speedtest.ting.com           	|      -R     	|          	|      US     	| Charlottesville  	|
+| iperf3 -c speedtest.chi11.us.leaseweb.net -p 5201-5210 	|    -R, -6   	|    10    	|      US     	| Chicago          	|
+| iperf3 -c speedtest.dal13.us.leaseweb.net -p 5201-5210 	|    -R, -6   	|    10    	|      US     	| Dallas           	|
+| iperf3 -c dal.speedtest.clouvider.net -p 5200-5209     	|      -R     	|    10    	|      US     	| Dallas           	|
+| iperf3 -c la.speedtest.clouvider.net -p 5200-5209      	|      -R     	|    10    	|      US     	| Los Angeles      	|
+| iperf3 -c speedtest.lax12.us.leaseweb.net -p 5201-5210 	|    -R, -6   	|    10    	|      US     	| Los Angeles      	|
+| iperf3 -c speedtest.mia11.us.leaseweb.net -p 5201-5210 	|    -R, -6   	|    10    	|      US     	| Miami            	|
+| iperf3 -c speedtest.tds.net                            	|      -R     	|          	|      US     	| Madison          	|
+| iperf3 -c speedtest.nyc1.us.leaseweb.net -p 5201-5210  	|    -R, -6   	|    10    	|      US     	| New York         	|
+| iperf3 -c spd-uswb.hostkey.com -p 5201  	              |    -R     	  |    10    	|      US     	| New York         	|
+| iperf3 -c nyc.speedtest.clouvider.net -p 5200-5209     	|      -R     	|    10    	|      US     	| New York City    	|
+| iperf3 -c speedtest.phx1.us.leaseweb.net -p 5201-5210  	|    -R, -6   	|    10    	|      US     	| Phoenix          	|
+| iperf3 -c speedtest.sfo12.us.leaseweb.net -p 5201-5210 	|    -R, -6   	|    10    	|      US     	| San Francisco    	|
+| iperf3 -c speedtest.sea11.us.leaseweb.net -p 5201-5210 	|    -R, -6   	|    10    	|      US     	| Seattle          	|
+| iperf3 -c speedtest.wdc2.us.leaseweb.net -p 5201-5210  	|    -R, -6   	|    10    	|      US     	| Washington       	|
 
 ### OCEANIA
 | **COMMAND**                                            	| **OPTIONS** 	| **GB/S** 	| **COUNTRY** 	| **SITE**         	|
