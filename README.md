@@ -165,10 +165,18 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 ### LATIN AMERICA
 | **COMMAND**                                            	| **OPTIONS** 	| **GB/S** 	| **COUNTRY** 	| **SITE**         	|
 |:-------------------------------------------------------	|:-----------:	|:--------:	|:-----------:	|:-----------------	|
+| iperf3 -c 138.199.4.1                                 	|      -R     	|    10    	|      BR     	| São Paulo        	|
 | iperf3 -c speedtest.sao1.edgoo.net -p 5201, 9204-9240  	|      -R     	|          	|      BR     	| São Paulo        	|
 | iperf3 -c sp11.wom.cl                                  	|             	|          	|      CL     	| Santiago         	|
-| iperf3 -c speedtest.masnet.ec -p 5201-5209             	|      -R     	|     1    	|      EC     	| Santa Ana        	|
+| iperf3 -c speedtest-cncp.grupogtd.com -p 5201-5205    	|      -R      	|    10    	|      CL     	| Valdivia         	|
+| iperf3 -c 169.150.228.129                              	|      -R      	|    10   	|      CO     	| Bogotá          	|
+| iperf3 -c 156.146.53.53                                	|      -R      	|    10   	|      CR     	| San Jose         	|
+| iperf3 -c speedtest.masnet.ec -p 5201-5209             	|      -R     	|    1    	|      EC     	| Santa Ana        	|
 | iperf3 -c cdjspeedtest.axtel.mx                        	|      -R     	|          	|      MX     	| Mexico City      	|
+| iperf3 -c 121.127.43.65                       	        |      -R     	|    10    	|      MX     	| Querétaro       	|
+| iperf3 -c speedtest.tigo.com.py                      	  |      -R     	|          	|      PY     	| Fernando de la Mora |
+| iperf3 -c 200.2.166.166 -p 5201-5213          	        |      -R     	|          	|      SR      	| Paramaribo       	|
+| iperf3 -c test.cixve.net -p 5205               	        |      -R     	|          	|      VE     	| Maturín         	|
 
 ### NORTH AMERICA
 | **COMMAND**                                            	| **OPTIONS** 	| **GB/S** 	| **COUNTRY** 	| **SITE**         	|
