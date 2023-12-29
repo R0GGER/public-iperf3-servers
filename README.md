@@ -11,17 +11,27 @@
 </p>
 
 ## Content
-* [How to use iperf3](#how-to-use-iperf3)
+* [Install iperf3](#install-iperf3)
+* [Commands](#commands)
 * [Documentation](#documentation)
 * [Servers per continent](#servers-per-continent)
 * [Contact](#contact)
 
-## How to use iperf3
+## Install iperf3
+**Debian:**
 ```bash
 apt update && apt install -y iperf3
 ```
+**CentOS/RockyLinux:**
 ```bash
-iperf3 -c spd-uswb.hostkey.com -p 5201 -P 10 -4 -R
+yum install epel-release && yum install iperf3
+```
+**Windows**    
+Download and extract [iperf-3.*-win64.zip](https://github.com/ar51an/iperf3-win-builds)
+
+## Commands:
+```bash
+iperf3 -c spd-uswb.hostkey.com -p 5201 -P 20
 ``` 
 ```bash
 docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c ams.speedtest.clouvider.net -p $((5201+(RANDOM%10)))
@@ -29,13 +39,14 @@ docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c ams
 **Options**    
 `-c` host  
 `--bidir` run in bidirectional mode. Client and server send and receive data.    
-`-p, --port` server port to listen on/connect to (default: 5201)   
+`-p, --port` server port to listen on/connect to (default: 5201)    
+`-P, --parallel`  number of parallel client streams to run (default =10)    
 `-R, --reverse` run in reverse mode (server sends, client receives)(download)    
-`-4, --version4` only use IPv4   
+`-4, --version4` only use IPv4 (default)   
 `-6, --version6` only use IPv6 
 
 ## Documentation
-In our documentation you can find more command examples, all iperf3 options and how to install iperf3 on Linux, macOS and Windows at: https://iperf3serverlist.net/iperf3.html
+For more information about iperf3, visit our documentation webpage: https://iperf3serverlist.net/iperf3.html
   
 ## Servers per continent
 Do you want to add/remove an IP or HOST to this list? Please create a [new issue](https://github.com/R0GGER/public-iperf3-servers/issues).
@@ -52,7 +63,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 ### AFRICA
 | **COMMAND**                                            	| **OPTIONS** 	| **GB/S** 	| **COUNTRY** 	| **SITE**         	|
 |:-------------------------------------------------------	|:-----------:	|:--------:	|:-----------:	|:-----------------	|
-| iperf3 -c monitor.ita.ao -p 9201-9240                 	|      -R     	|          	|      AO     	| Luanda           	|
+| iperf3 -c monitor.ita.ao -p 9201-9240                 	   |      -R     	|          	|      AO     	| Luanda           	|
 | iperf3 -c 105.235.237.2 -p 5201-5209                   	|      -R     	|          	|      GQ     	| Bata             	|
 | iperf3 -c speedtestfl.telecom.mu -p 5201-5209          	|      -R     	|          	|      MU     	| Floreal          	|
 | iperf3 -c speedtest.telecom.mu -p 5201-5209            	|      -R     	|          	|      MU     	| Port Louis       	|
@@ -81,7 +92,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c iperf.myren.net.my -p 5201-5210              	|      -R     	|          	|      MY     	| Kuala Lumpur     	|
 | iperf3 -c lg-sg-sin.webhorizon.net -p 9200-9209        	|      -R     	|          	|      SG     	| Singapore        	|
 | iperf3 -c speedtest.sin1.sg.leaseweb.net -p 5201-5210  	|    -R, -6   	|    10    	|      SG     	| Singapore        	|
-| iperf3 -c speedtest.uztelecom.uz -p 5200-5209          	|    -R, -6    	|    10    	|      UZ     	| Tashkent         	|
+| iperf3 -c speedtest.uztelecom.uz -p 5200-5209          	|    -R, -6   	|    10    	|      UZ     	| Tashkent         	|
 
 ### EUROPE
 | **COMMAND**                                            	| **OPTIONS** 	| **GB/S** 	| **COUNTRY** 	| **SITE**         	|
@@ -165,18 +176,18 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 ### LATIN AMERICA
 | **COMMAND**                                            	| **OPTIONS** 	| **GB/S** 	| **COUNTRY** 	| **SITE**         	|
 |:-------------------------------------------------------	|:-----------:	|:--------:	|:-----------:	|:-----------------	|
-| iperf3 -c 138.199.4.1                                 	|      -R     	|    10    	|      BR     	| São Paulo        	|
+| iperf3 -c 138.199.4.1                                 	   |      -R     	|    10    	|      BR     	| São Paulo        	|
 | iperf3 -c speedtest.sao1.edgoo.net -p 5201, 9204-9240  	|      -R     	|          	|      BR     	| São Paulo        	|
 | iperf3 -c sp11.wom.cl                                  	|             	|          	|      CL     	| Santiago         	|
-| iperf3 -c speedtest-cncp.grupogtd.com -p 5201-5205    	|      -R      	|    10    	|      CL     	| Valdivia         	|
-| iperf3 -c 169.150.228.129                              	|      -R      	|    10   	|      CO     	| Bogotá          	|
-| iperf3 -c 156.146.53.53                                	|      -R      	|    10   	|      CR     	| San Jose         	|
+| iperf3 -c speedtest-cncp.grupogtd.com -p 5201-5205    	   |      -R      |    10    	|      CL     	| Valdivia         	|
+| iperf3 -c 169.150.228.129                              	|      -R      |    10   	|      CO     	| Bogotá          	|
+| iperf3 -c 156.146.53.53                                	|      -R      |    10   	|      CR     	| San Jose         	|
 | iperf3 -c speedtest.masnet.ec -p 5201-5209             	|      -R     	|    1    	|      EC     	| Santa Ana        	|
 | iperf3 -c cdjspeedtest.axtel.mx                        	|      -R     	|          	|      MX     	| Mexico City      	|
-| iperf3 -c 121.127.43.65                       	        |      -R     	|    10    	|      MX     	| Querétaro       	|
-| iperf3 -c speedtest.tigo.com.py                      	  |      -R     	|          	|      PY     	| Fernando de la Mora |
-| iperf3 -c 200.2.166.166 -p 5201-5213          	        |      -R     	|          	|      SR      	| Paramaribo       	|
-| iperf3 -c test.cixve.net -p 5205               	        |      -R     	|          	|      VE     	| Maturín         	|
+| iperf3 -c 121.127.43.65                       	         |      -R     	|    10    	|      MX     	| Querétaro       	|
+| iperf3 -c speedtest.tigo.com.py                      	   |      -R     	|          	|      PY     	| Asuncion           |
+| iperf3 -c 200.2.166.166 -p 5201-5213          	         |      -R     	|          	|      SR      | Paramaribo       	|
+| iperf3 -c test.cixve.net -p 5205               	         |      -R     	|          	|      VE     	| Maturín         	|
 
 ### NORTH AMERICA
 | **COMMAND**                                            	| **OPTIONS** 	| **GB/S** 	| **COUNTRY** 	| **SITE**         	|
