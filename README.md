@@ -81,7 +81,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 ### ASIA
 | **COMMAND**                                            	| **OPTIONS** 	| **GB/S** 	| **COUNTRY** 	| **SITE**         	|
 |:-------------------------------------------------------	|:-----------:	|:--------:	|:-----------:	|:-----------------	|
-| iperf3 -c speedtest.beeonline.az                       	|      -R     	|          	|      AZ     	| Baku             	|
 | iperf3 -c 84.17.57.129 	                                 |    -R     	|    10    	|      HK     	| Hong Kong        	|
 | iperf3 -c speedtest.hkg12.hk.leaseweb.net -p 5201-5210 	|    -R, -6   	|    10    	|      HK     	| Hong Kong        	|
 | iperf3 -c maritimeai.msngroup.id -p 9200-9240          	|      -R     	|          	|      ID     	| Jakarta          	|
@@ -130,8 +129,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c spd-fisrv.hostkey.com -p 5201                	|    -R       	|    10    	|      FI     	| Helsinki         	|
 | iperf3 -c speedtest.cinia.fi                           	|             	|          	|      FI     	| Oulu             	|
 | iperf3 -c aix-marseille.testdebit.info -p 9200-9240    	|    -R,-6    	|    10    	|      FR     	| Aix-en-Provence  	|
-| iperf3 -c bordeaux.testdebit.info -p 9200-9240         	|    -R,-6    	|    10    	|      FR     	| Bordeaux         	|
-| iperf3 -c lille.testdebit.info -p 9200-9240            	|    -R,-6    	|    10    	|      FR     	| Lille            	|
 | iperf3 -c lyon.testdebit.info -p 9200-9240             	|    -R,-6    	|    10    	|      FR     	| Lyon             	|
 | iperf3 -c iperf.par2.as49434.net -p 9202               	|      -R     	|    40    	|      FR     	| Paris            	|
 | iperf3 -c bouygues.testdebit.info -p 9200-9240         	|    -R,-6    	|    10    	|      FR     	| Paris            	|
@@ -165,7 +162,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c spd-nlsrv.hostkey.com -p 5201              	  |    -R       	|    10    	|      NL     	| Amsterdam        	|
 | iperf3 -c lg.ams-nl.terrahost.com -p 9200-9240         	|      -R     	|    10    	|      NL     	| Amsterdam        	|
 | iperf3 -c speedtest2.serverius.net -p 5002              |    -R,-6    	|    10    	|      NL     	| Meppel         	  |
-| iperf3 -c speedtest3.serverius.net -p 5002              |    -R,-6    	|    10    	|      NL     	| Apeldoorn        	|
 | iperf3 -c spt01.sdhd.hosting                           	|      -R     	|    10    	|      NL     	| Dronten          	|
 | iperf3 -c lg-drn.liteserver.nl -p 5200-5240            	|      -R     	|     1    	|      NL     	| Dronten          	|
 | iperf3 -c iperf.worldstream.nl                         	|    -R,-6    	|    10    	|      NL     	| Naaldwijk        	|
@@ -194,7 +190,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 121.127.43.65                       	         |      -R     	|    10    	|      MX     	| Querétaro       	|
 | iperf3 -c speedtest.tigo.com.py                      	   |      -R     	|          	|      PY     	| Asuncion           |
 | iperf3 -c 200.2.166.166 -p 5201-5213          	         |      -R     	|          	|      SR      | Paramaribo       	|
-| iperf3 -c test.cixve.net -p 5205               	         |      -R     	|          	|      VE     	| Maturín         	|
 
 ### NORTH AMERICA
 | **COMMAND**                                            	| **OPTIONS** 	| **GB/S** 	| **COUNTRY** 	| **SITE**         	|
