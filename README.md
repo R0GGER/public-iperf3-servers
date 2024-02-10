@@ -34,7 +34,7 @@ Download and extract [iperf-3.*-win64.zip](https://github.com/ar51an/iperf3-win-
 iperf3 -c spd-uswb.hostkey.com -p 5201 -P 20
 ``` 
 ```bash
-docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3-speedtest -c ams.speedtest.clouvider.net -p $((5201+(RANDOM%10)))
+docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3 -c ams.speedtest.clouvider.net -p $((5201+(RANDOM%10)))
 ```
 **Options**    
 `-c` host  
