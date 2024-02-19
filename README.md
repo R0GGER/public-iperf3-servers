@@ -115,7 +115,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.ip-projects.de                     	|    -R,-6    	|    10    	|      DE     	| Frankfurt        	|
 | iperf3 -c a210.speedtest.wobcom.de                     	|    -R,-6    	|          	|      DE     	| Frankfurt        	|
 | iperf3 -c a205.speedtest.wobcom.de                     	|    -R,-6    	|          	|      DE     	| Frankfurt        	|
-| iperf3 -c lg-de-fra.webhorizon.net                     	|      -R     	|          	|      DE     	| Frankfurt        	|
 | iperf3 -c spd-desrv.hostkey.com -p 5201                	|      -R     	|    10    	|      DE     	| Frankfurt        	|
 | iperf3 -c speedtest.studiofunk.de -p 5209              	|    -R,-6    	|          	|      DE     	| Hamburg          	|
 | iperf3 -c speedtest.wtnet.de -p 5200-5209              	|    -R,-6    	|    40    	|      DE     	| Norderstedt      	|
