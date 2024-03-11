@@ -76,7 +76,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 169.150.238.161                               	|      -R     	|   10     	|      ZA     	| Johannesburg     	|
 | iperf3 -c speedtest.rocketnet.co.za                    	|             	|          	|      ZA     	| Johannesburg     	|
 | iperf3 -c speedtest1.bitco.co.za                       	|      -R     	|          	|      ZA     	| Johannesburg     	|
-| iperf3 -c iperf3 -c tengig.cisp.co.za -p 17001         	|      -R     	|          	|      ZA     	| Johannesburg     	|
+| iperf3 -c iperf3 -c tengig.cisp.co.za                  	|      -R     	|          	|      ZA     	| Johannesburg     	|
 
 ### ASIA
 | **COMMAND**                                            	| **OPTIONS** 	| **GB/S** 	| **COUNTRY** 	| **SITE**         	|
