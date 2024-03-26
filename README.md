@@ -15,6 +15,7 @@
 * [Commands](#commands)
 * [Documentation](#documentation)
 * [Servers per continent](#servers-per-continent)
+* [Export (CSV)](#export)
 * [Contact](#contact)
 
 ## Install iperf3
@@ -229,6 +230,15 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest2.kiska.pw                          	|      -R     	|          	|      AU     	| Sydney           	|
 | iperf3 -c speedtest.lagoon.nc -p 5202-5210             	|      -R     	|    10    	|      NC     	| Noumea           	|
 | iperf3 -c speedtest5.nownz.co.nz                       	|      -R     	|    10    	|      NZ     	| Auckland         	|
+
+## Export
+* Nocodb: [ALL SERVERS](https://db.iperf3serverlist.net/dashboard/#/nc/view/e4c7de35-dd8f-42d3-82f8-0a855f937e10) - Export to [csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/e4c7de35-dd8f-42d3-82f8-0a855f937e10/rows/export/csv)
+* Nocodb: [AFRICA](https://db.iperf3serverlist.net/dashboard/#/nc/view/87b6c8dc-6f9e-4c90-bb7e-ef1c1259fc48) - Export to [csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/87b6c8dc-6f9e-4c90-bb7e-ef1c1259fc48/rows/export/csv)
+* Nocodb: [ASIA](https://db.iperf3serverlist.net/dashboard/#/nc/view/82110281-21c3-47ce-b96a-7d6bcecb51c3) - Export to [csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/82110281-21c3-47ce-b96a-7d6bcecb51c3/rows/export/csv)
+* Nocodb: [EUROPE](https://db.iperf3serverlist.net/dashboard/#/nc/view/3c231f8c-ea62-42ce-84a0-cf05af10720d) - Export to [csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/3c231f8c-ea62-42ce-84a0-cf05af10720d/rows/export/csv)
+* Nocodb: [LATIN AMERICA](https://db.iperf3serverlist.net/dashboard/#/nc/view/fda8bba6-da07-48f9-a1ea-2f8d6195ba42) - Export to [csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/fda8bba6-da07-48f9-a1ea-2f8d6195ba42/rows/export/csv)
+* Nocodb: [NORTH AMERICA](https://db.iperf3serverlist.net/dashboard/#/nc/view/23cf33ca-3e09-4487-ac57-3de09aae6e6b) - Export to [csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/23cf33ca-3e09-4487-ac57-3de09aae6e6b/rows/export/csv)
+* Nocodb: [OCEANIA](https://db.iperf3serverlist.net/dashboard/#/nc/view/4606c864-71f8-4c53-9d55-cf9c38ddb0a5) - Export to [csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/4606c864-71f8-4c53-9d55-cf9c38ddb0a5/rows/export/csv)
 
 ## Contact
 Contact me via e-mail - r0gger[at]iperf3serverlist.net
