@@ -142,7 +142,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c lon.speedtest.clouvider.net -p 5200-5209     	|      -R     	|    10    	|      GB     	| London           	|
 | iperf3 -c speedtest-london.its-tg.net                  	|      -R     	|          	|      GB     	| London           	|
 | iperf3 -c speedtest1.vodafone.hu                       	|      -R     	|          	|      HU     	| Budapest         	|
-| iperf3 -c spd-icsrv.hostkey.com -p 5201                	|      -R     	|    10    	|      IC     	| Reykjavik        	|
+| iperf3 -c spd-icsrv.hostkey.com -p 5201                	|      -R     	|    10    	|      IS     	| Reykjavik        	|
 | iperf3 -c it1.speedtest.aruba.it                       	|      -R     	|          	|      IT     	| Arezzo           	|
 | iperf3 -c speed.itgate.net -p 5201-5202                	|      -R     	|          	|      IT     	| Gerbido          	|
 | iperf3 -c 217.61.40.96                                 	|      -R     	|          	|      IT     	| Ponte San Pietro 	|
