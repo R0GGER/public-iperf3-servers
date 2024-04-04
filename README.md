@@ -152,7 +152,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c ams.speedtest.clouvider.net -p 5200-5209     	|    -R, -6    	|    10    	|      NL     	| Amsterdam        	|
 | iperf3 -c ping-ams1.online.net -p 5200-5209            	|      -R     	|    10    	|      NL     	| Amsterdam        	|
 | iperf3 -c a204.speedtest.wobcom.de                     	|    -R, -6    	|          	|      NL     	| Amsterdam        	|
-| iperf3 -c speedtest.novoserve.com -p 5201-5206          |    -R, -6    	|    100   	|      NL     	| Amsterdam        	|
+| iperf3 -c speedtest.novoserve.com -p 5201-5206          |    -R, -6    	|    40   	|      NL     	| Amsterdam        	|
 | iperf3 -c speedtest.ams1.novogara.net -p 5200-5209     	|    -R, -6    	|    20    	|      NL     	| Amsterdam        	|
 | iperf3 -c spd-nlsrv.hostkey.com -p 5201              	  |      -R      	|    10    	|      NL     	| Amsterdam        	|
 | iperf3 -c lg.ams-nl.terrahost.com -p 9201-9240         	|    -R, -6    	|    10    	|      NL     	| Amsterdam        	|
