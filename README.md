@@ -100,41 +100,41 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 ### EUROPE
 | **COMMAND**                                            	| **OPTIONS** 	| **GB/S** 	| **COUNTRY** 	| **SITE**         	|
 |:-------------------------------------------------------	|:-----------:	|:--------:	|:-----------:	|:-----------------	|
-| iperf3 -c speedtest.shinternet.ch -p 5200-5209         	|    -R,-6    	|    10    	|      CH     	| Schaffhausen     	|
-| iperf3 -c speedtest.init7.net                          	|    -R,-6    	|    20    	|      CH     	| Winterthur       	|
-| iperf3 -c speedtest.iway.ch                            	|    -R,-6     	|    10    	|      CH     	| Zurich           	|
+| iperf3 -c speedtest.shinternet.ch -p 5200-5209         	|    -R, -6    	|    10    	|      CH     	| Schaffhausen     	|
+| iperf3 -c speedtest.init7.net                          	|    -R, -6    	|    20    	|      CH     	| Winterthur       	|
+| iperf3 -c speedtest.iway.ch                            	|    -R, -6    	|    10    	|      CH     	| Zurich           	|
 | iperf3 -c rychlost.poda.cz                             	|      -R     	|          	|      CZ     	| Mikulov          	|
-| iperf3 -c a209.speedtest.wobcom.de                     	|    -R,-6    	|          	|      DE     	| Berlin           	|
-| iperf3 -c a110.speedtest.wobcom.de                     	|    -R,-6    	|          	|      DE     	| Berlin           	|
-| iperf3 -c a208.speedtest.wobcom.de                     	|    -R,-6    	|          	|      DE     	| Düsseldorf       	|
+| iperf3 -c a209.speedtest.wobcom.de                     	|    -R, -6    	|          	|      DE     	| Berlin           	|
+| iperf3 -c a110.speedtest.wobcom.de                     	|    -R, -6    	|          	|      DE     	| Berlin           	|
+| iperf3 -c a208.speedtest.wobcom.de                     	|    -R, -6    	|          	|      DE     	| Düsseldorf       	|
 | iperf3 -c speedtest.fra1.de.leaseweb.net -p 5201-5210  	|    -R, -6   	|    10    	|      DE     	| Frankfurt        	|
 | iperf3 -c 178.215.228.109 -p 9201-9240                 	|      -R     	|          	|      DE     	| Frankfurt        	|
 | iperf3 -c fra.speedtest.clouvider.net -p 5200-5209     	|    -R, -6    	|    10    	|      DE     	| Frankfurt        	|
-| iperf3 -c speedtest.ip-projects.de                     	|    -R,-6    	|    10    	|      DE     	| Frankfurt        	|
-| iperf3 -c a210.speedtest.wobcom.de                     	|    -R,-6    	|          	|      DE     	| Frankfurt        	|
-| iperf3 -c a205.speedtest.wobcom.de                     	|    -R,-6    	|          	|      DE     	| Frankfurt        	|
+| iperf3 -c speedtest.ip-projects.de                     	|    -R, -6    	|    10    	|      DE     	| Frankfurt        	|
+| iperf3 -c a210.speedtest.wobcom.de                     	|    -R, -6    	|          	|      DE     	| Frankfurt        	|
+| iperf3 -c a205.speedtest.wobcom.de                     	|    -R, -6    	|          	|      DE     	| Frankfurt        	|
 | iperf3 -c spd-desrv.hostkey.com -p 5201                	|      -R     	|    10    	|      DE     	| Frankfurt        	|
-| iperf3 -c speedtest.studiofunk.de -p 5209              	|    -R,-6    	|          	|      DE     	| Hamburg          	|
-| iperf3 -c speedtest.wtnet.de -p 5200-5209              	|    -R,-6    	|    40    	|      DE     	| Norderstedt      	|
-| iperf3 -c speedtest.wobcom.de :small_blue_diamond:     	|    -R,-6    	|          	|      DE     	| Wolfsburg        	|
-| iperf3 -c a400.speedtest.wobcom.de                     	|    -R,-6    	|          	|      DE     	| Wolfsburg        	|
+| iperf3 -c speedtest.studiofunk.de -p 5209              	|    -R, -6    	|          	|      DE     	| Hamburg          	|
+| iperf3 -c speedtest.wtnet.de -p 5200-5209              	|    -R, -6    	|    40    	|      DE     	| Norderstedt      	|
+| iperf3 -c speedtest.wobcom.de :small_blue_diamond:     	|    -R, -6    	|          	|      DE     	| Wolfsburg        	|
+| iperf3 -c a400.speedtest.wobcom.de                     	|    -R, -6    	|          	|      DE     	| Wolfsburg        	|
 | iperf3 -c iperf.deic.dk                                	|      -R     	|    10    	|      DK     	| Copenhagen       	|
-| iperf3 -c speed.fiberby.dk -p 9201-9240                	|    -R,-6    	|    10    	|      DK     	| Copenhagen       	|
+| iperf3 -c speed.fiberby.dk -p 9201-9240                	|    -R, -6    	|    10    	|      DK     	| Copenhagen       	|
 | iperf3 -c speedtest.hiper.dk -p 5201-5203              	|    -R, -6    	|          	|      DK     	| Copenhagen       	|
 | iperf3 -c speedtest-hki.netplaza.fi                    	|      -R     	|          	|      FI     	| Helsinki         	|
 | iperf3 -c speedtest.extra.telia.fi                     	|      -R      	|    10    	|      FI     	| Helsinki         	|
-| iperf3 -c spd-fisrv.hostkey.com -p 5201                	|    -R       	|    10    	|      FI     	| Helsinki         	|
+| iperf3 -c spd-fisrv.hostkey.com -p 5201                	|      -R      	|    10    	|      FI     	| Helsinki         	|
 | iperf3 -c speedtest.cinia.fi                           	|             	|          	|      FI     	| Oulu             	|
-| iperf3 -c aix-marseille.testdebit.info -p 9200-9240    	|    -R,-6    	|    10    	|      FR     	| Aix-en-Provence  	|
-| iperf3 -c lyon.testdebit.info -p 9200-9240             	|    -R,-6    	|    10    	|      FR     	| Lyon             	|
+| iperf3 -c aix-marseille.testdebit.info -p 9200-9240    	|    -R, -6    	|    10    	|      FR     	| Aix-en-Provence  	|
+| iperf3 -c lyon.testdebit.info -p 9200-9240             	|    -R, -6    	|    10    	|      FR     	| Lyon             	|
 | iperf3 -c iperf.par2.as49434.net -p 9202               	|      -R     	|    40    	|      FR     	| Paris            	|
-| iperf3 -c bouygues.testdebit.info -p 9200-9240         	|    -R,-6    	|    10    	|      FR     	| Paris            	|
-| iperf3 -c paris.testdebit.info -p 9200-9240            	|    -R,-6    	|    10    	|      FR     	| Paris            	|
+| iperf3 -c bouygues.testdebit.info -p 9200-9240         	|    -R, -6    	|    10    	|      FR     	| Paris            	|
+| iperf3 -c paris.testdebit.info -p 9200-9240            	|    -R, -6    	|    10    	|      FR     	| Paris            	|
 | iperf3 -c proof.ovh.net -p 5201-5210                   	|    -R, -6    	|    10    	|      FR     	| Paris            	|
 | iperf3 -c iperf.online.net -p 5209                     	|      -R     	|    10    	|      FR     	| Vienna           	|
-| iperf3 -c scaleway.testdebit.info -p 5200-5209         	|    -R,-6    	|    10    	|      FR     	| Vitry-sur-Seine  	|
+| iperf3 -c scaleway.testdebit.info -p 5200-5209         	|    -R, -6    	|    10    	|      FR     	| Vitry-sur-Seine  	|
 | iperf3 -c ping.online.net -p 5200-5209                 	|      -R     	|    10    	|      FR     	| Vitry-sur-Seine  	|
-| iperf3 -c ping6.online.net -p 5200-5209                	|    -R,-6    	|    10    	|      FR     	| Vitry-sur-Seine  	|
+| iperf3 -c ping6.online.net -p 5200-5209                	|    -R, -6    	|    10    	|      FR     	| Vitry-sur-Seine  	|
 | iperf3 -c speedtest.lon1.uk.leaseweb.net -p 5201-5210  	|    -R, -6   	|    10    	|      GB     	| London           	|
 | iperf3 -c speedtest.lon12.uk.leaseweb.net -p 5201-5210 	|    -R, -6   	|    10    	|      GB     	| London           	|
 | iperf3 -c iperf.as42831.net -p 5300-5400               	|      -R     	|          	|      GB     	| London           	|
@@ -147,25 +147,25 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 217.61.40.96                                 	|      -R     	|          	|      IT     	| Ponte San Pietro 	|
 | iperf3 -c 80.92.72.3                                   	|      -R     	|          	|      LU     	| Bettembourg      	|
 | iperf3 -c speedtest.lu.buyvm.net                       	|      -R     	|          	|      LU     	| Bissen           	||
-| iperf3 -c speedtest.ams1.nl.leaseweb.net -p 5201-5210  	|   -R, -6,   	|    10    	|      NL     	| Amsterdam        	|
+| iperf3 -c speedtest.ams1.nl.leaseweb.net -p 5201-5210  	|    -R, -6   	|    10    	|      NL     	| Amsterdam        	|
 | iperf3 -c speedtest.ams2.nl.leaseweb.net -p 5201-5210  	|    -R, -6   	|    10    	|      NL     	| Amsterdam        	|
 | iperf3 -c ams.speedtest.clouvider.net -p 5200-5209     	|      -R     	|    10    	|      NL     	| Amsterdam        	|
 | iperf3 -c ping-ams1.online.net -p 5200-5209            	|      -R     	|    10    	|      NL     	| Amsterdam        	|
-| iperf3 -c a204.speedtest.wobcom.de                     	|    -R,-6    	|          	|      NL     	| Amsterdam        	|
-| iperf3 -c speedtest.novoserve.com -p 5201-5206          |    -R,-6    	|    100   	|      NL     	| Amsterdam        	|
-| iperf3 -c speedtest.ams1.novogara.net -p 5200-5209     	|    -R,-6    	|    20    	|      NL     	| Amsterdam        	|
-| iperf3 -c spd-nlsrv.hostkey.com -p 5201              	  |    -R       	|    10    	|      NL     	| Amsterdam        	|
+| iperf3 -c a204.speedtest.wobcom.de                     	|    -R, -6    	|          	|      NL     	| Amsterdam        	|
+| iperf3 -c speedtest.novoserve.com -p 5201-5206          |    -R, -6    	|    100   	|      NL     	| Amsterdam        	|
+| iperf3 -c speedtest.ams1.novogara.net -p 5200-5209     	|    -R, -6    	|    20    	|      NL     	| Amsterdam        	|
+| iperf3 -c spd-nlsrv.hostkey.com -p 5201              	  |      -R      	|    10    	|      NL     	| Amsterdam        	|
 | iperf3 -c lg.ams-nl.terrahost.com -p 9200-9240         	|      -R     	|    10    	|      NL     	| Amsterdam        	|
 | iperf3 -c spt01.sdhd.hosting                           	|      -R     	|    10    	|      NL     	| Dronten          	|
 | iperf3 -c lg-drn.liteserver.nl -p 5200-5240            	|      -R     	|     1    	|      NL     	| Dronten          	|
-| iperf3 -c iperf.worldstream.nl                         	|    -R,-6    	|    10    	|      NL     	| Naaldwijk        	|
+| iperf3 -c iperf.worldstream.nl                         	|    -R, -6    	|    10    	|      NL     	| Naaldwijk        	|
 | iperf3 -c lg.terrahost.com -p 9200-9240                	|      -R     	|    10    	|      NO     	| Sandefjord       	|
 | iperf3 -c speedtest-w5-rnp.play.pl                     	|      -R     	|          	|      PL     	| Warsaw           	|
 | iperf3 -c 95.95.252.87 -p 5201-5209                    	|      -R     	|          	|      PT     	| Lissabon         	|
 | iperf3 -c speedtest.kamel.network -p 5201-5205         	|      -R     	|     1    	|      SE     	| Kista            	|
 | iperf3 -c speedtest.ownit.se                           	|      -R     	|     1    	|      SE     	| Stockholm        	|
-| iperf3 -c speedtestv6.ownit.se                         	|    -R,-6    	|     1    	|      SE     	| Stockholm        	|
-| iperf3 -c se-speedt01.fre.nis.telia.net -p 5201-5210   	|    -R,-6    	|     1    	|      SE     	| Viken            	|
+| iperf3 -c speedtestv6.ownit.se                         	|    -R, -6    	|     1    	|      SE     	| Stockholm        	|
+| iperf3 -c se-speedt01.fre.nis.telia.net -p 5201-5210   	|    -R, -6    	|     1    	|      SE     	| Viken            	|
 | iperf3 -c speedtest.solver.net.ua                      	|      -R     	|          	|      UA     	| Poltava          	|
 
 :small_blue_diamond: speedtest.wobcom.de connects to the nearest *.speedtest.wobcom.de server.
@@ -190,7 +190,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.mtl2.ca.leaseweb.net -p 5201-5210  	|    -R, -6   	|    10    	|      CA     	| Montreal         	|
 | iperf3 -c speedtest3.sasknet.sk.ca                     	|      -R     	|          	|      CA     	| Saskatoon        	|
 | iperf3 -c speedtest-west.eastlink.ca -p 5201           	|      -R      	|           |      CA     	| Wetaskiwin        |
-| iperf3 -c charlotte02.speedtest.windstream.net         	|    -R,-6    	|          	|      US     	|                  	|
+| iperf3 -c charlotte02.speedtest.windstream.net         	|    -R, -6    	|          	|      US     	|                  	|
 | iperf3 -c ash.speedtest.clouvider.net -p 5200-5209     	|      -R     	|    10    	|      US     	| Ashburn          	|
 | iperf3 -c fiosspeed1.west.verizon.net                  	|      -R     	|          	|      US     	| Ashburn          	|
 | iperf3 -c fiosspeed2.west.verizon.net                  	|      -R     	|          	|      US     	| Ashburn          	|
