@@ -72,7 +72,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c sl-01-kgl.rw.seacomnet.com -p 5201-5209      	|      -R     	|          	|      RW     	| Kigali           	|
 | iperf3 -c 41.226.22.119 -p 9202-9240                   	|      -R     	|          	|      TN     	| Tunis            	|
 | iperf3 -c 196.179.245.2 -p 9200-9240                   	|      -R     	|          	|      TN     	| Tunis            	|
-| iperf3 -c 154.0.5.20                                   	|             	|          	|      ZA     	| Cape Town        	|
+| iperf3 -c 154.0.5.20                                   	|      -R     	|          	|      ZA     	| Cape Town        	|
 | iperf3 -c 169.150.238.161                               |      -R     	|    10    	|      ZA     	| Johannesburg     	|
 | iperf3 -c speedtest.rocketnet.co.za                    	|             	|          	|      ZA     	| Johannesburg     	|
 | iperf3 -c speedtest1.bitco.co.za                       	|      -R     	|          	|      ZA     	| Johannesburg     	|
@@ -124,7 +124,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest-hki.netplaza.fi                    	|      -R     	|          	|      FI     	| Helsinki         	|
 | iperf3 -c speedtest.extra.telia.fi                     	|      -R      	|    10    	|      FI     	| Helsinki         	|
 | iperf3 -c spd-fisrv.hostkey.com -p 5201                	|      -R      	|    10    	|      FI     	| Helsinki         	|
-| iperf3 -c speedtest.cinia.fi                           	|             	|          	|      FI     	| Oulu             	|
+| iperf3 -c speedtest.cinia.fi                           	|      -R      	|          	|      FI     	| Oulu             	|
 | iperf3 -c aix-marseille.testdebit.info -p 9200-9240    	|    -R, -6    	|    10    	|      FR     	| Aix-en-Provence  	|
 | iperf3 -c lyon.testdebit.info -p 9200-9240             	|    -R, -6    	|    10    	|      FR     	| Lyon             	|
 | iperf3 -c iperf.par2.as49434.net -p 9202               	|      -R     	|    40    	|      FR     	| Paris            	|
@@ -138,31 +138,31 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.lon1.uk.leaseweb.net -p 5201-5210  	|    -R, -6   	|    10    	|      GB     	| London           	|
 | iperf3 -c speedtest.lon12.uk.leaseweb.net -p 5201-5210 	|    -R, -6   	|    10    	|      GB     	| London           	|
 | iperf3 -c iperf.as42831.net -p 5300-5400               	|      -R     	|          	|      GB     	| London           	|
-| iperf3 -c lon.speedtest.clouvider.net -p 5200-5209     	|      -R     	|    10    	|      GB     	| London           	|
+| iperf3 -c lon.speedtest.clouvider.net -p 5200-5209     	|    -R, -6    	|    10    	|      GB     	| London           	|
 | iperf3 -c speedtest-london.its-tg.net                  	|      -R     	|          	|      GB     	| London           	|
 | iperf3 -c speedtest1.vodafone.hu                       	|      -R     	|          	|      HU     	| Budapest         	|
 | iperf3 -c spd-icsrv.hostkey.com -p 5201                	|      -R     	|    10    	|      IS     	| Reykjavik        	|
 | iperf3 -c it1.speedtest.aruba.it                       	|      -R     	|          	|      IT     	| Arezzo           	|
-| iperf3 -c speed.itgate.net -p 5201-5202                	|      -R     	|          	|      IT     	| Gerbido          	|
+| iperf3 -c speed.itgate.net -p 5201-5202                	|    -R, -6    	|          	|      IT     	| Gerbido          	|
 | iperf3 -c 217.61.40.96                                 	|      -R     	|          	|      IT     	| Ponte San Pietro 	|
 | iperf3 -c 80.92.72.3                                   	|      -R     	|          	|      LU     	| Bettembourg      	|
-| iperf3 -c speedtest.lu.buyvm.net                       	|      -R     	|          	|      LU     	| Bissen           	||
+| iperf3 -c speedtest.lu.buyvm.net                       	|    -R, -6    	|          	|      LU     	| Bissen           	||
 | iperf3 -c speedtest.ams1.nl.leaseweb.net -p 5201-5210  	|    -R, -6   	|    10    	|      NL     	| Amsterdam        	|
 | iperf3 -c speedtest.ams2.nl.leaseweb.net -p 5201-5210  	|    -R, -6   	|    10    	|      NL     	| Amsterdam        	|
-| iperf3 -c ams.speedtest.clouvider.net -p 5200-5209     	|      -R     	|    10    	|      NL     	| Amsterdam        	|
+| iperf3 -c ams.speedtest.clouvider.net -p 5200-5209     	|    -R, -6    	|    10    	|      NL     	| Amsterdam        	|
 | iperf3 -c ping-ams1.online.net -p 5200-5209            	|      -R     	|    10    	|      NL     	| Amsterdam        	|
 | iperf3 -c a204.speedtest.wobcom.de                     	|    -R, -6    	|          	|      NL     	| Amsterdam        	|
 | iperf3 -c speedtest.novoserve.com -p 5201-5206          |    -R, -6    	|    100   	|      NL     	| Amsterdam        	|
 | iperf3 -c speedtest.ams1.novogara.net -p 5200-5209     	|    -R, -6    	|    20    	|      NL     	| Amsterdam        	|
 | iperf3 -c spd-nlsrv.hostkey.com -p 5201              	  |      -R      	|    10    	|      NL     	| Amsterdam        	|
-| iperf3 -c lg.ams-nl.terrahost.com -p 9200-9240         	|      -R     	|    10    	|      NL     	| Amsterdam        	|
+| iperf3 -c lg.ams-nl.terrahost.com -p 9201-9240         	|    -R, -6    	|    10    	|      NL     	| Amsterdam        	|
 | iperf3 -c spt01.sdhd.hosting                           	|      -R     	|    10    	|      NL     	| Dronten          	|
 | iperf3 -c lg-drn.liteserver.nl -p 5200-5240            	|      -R     	|     1    	|      NL     	| Dronten          	|
 | iperf3 -c iperf.worldstream.nl                         	|    -R, -6    	|    10    	|      NL     	| Naaldwijk        	|
-| iperf3 -c lg.terrahost.com -p 9200-9240                	|      -R     	|    10    	|      NO     	| Sandefjord       	|
+| iperf3 -c lg.terrahost.com -p 9200-9240                	|    -R, -6    	|    10    	|      NO     	| Sandefjord       	|
 | iperf3 -c speedtest-w5-rnp.play.pl                     	|      -R     	|          	|      PL     	| Warsaw           	|
 | iperf3 -c 95.95.252.87 -p 5201-5209                    	|      -R     	|          	|      PT     	| Lissabon         	|
-| iperf3 -c speedtest.kamel.network -p 5201-5205         	|      -R     	|     1    	|      SE     	| Kista            	|
+| iperf3 -c speedtest.kamel.network -p 5201-5205         	|    -R, -6    	|     1    	|      SE     	| Kista            	|
 | iperf3 -c speedtest.ownit.se                           	|      -R     	|     1    	|      SE     	| Stockholm        	|
 | iperf3 -c speedtestv6.ownit.se                         	|    -R, -6    	|     1    	|      SE     	| Stockholm        	|
 | iperf3 -c se-speedt01.fre.nis.telia.net -p 5201-5210   	|    -R, -6    	|     1    	|      SE     	| Viken            	|
@@ -174,14 +174,14 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | **COMMAND**                                            	| **OPTIONS** 	| **GB/S** 	| **COUNTRY** 	| **SITE**         	|
 |:-------------------------------------------------------	|:-----------:	|:--------:	|:-----------:	|:-----------------	|
 | iperf3 -c 138.199.4.1                                 	|      -R     	|    10    	|      BR     	| São Paulo        	|
-| iperf3 -c speedtest.sao1.edgoo.net -p 5201, 9204-9240  	|      -R     	|          	|      BR     	| São Paulo        	|
+| iperf3 -c speedtest.sao1.edgoo.net -p 9204-9240        	|    -R, -6    	|          	|      BR     	| São Paulo        	|
 | iperf3 -c sp11.wom.cl                                  	|             	|          	|      CL     	| Santiago         	|
-| iperf3 -c speedtest-cncp.grupogtd.com -p 5201-5205    	|      -R       |    10    	|      CL     	| Valdivia         	|
+| iperf3 -c speedtest-cncp.grupogtd.com -p 5201-5205    	|    -R, -6     |    10    	|      CL     	| Valdivia         	|
 | iperf3 -c 169.150.228.129                              	|      -R       |    10   	|      CO     	| Bogotá          	|
 | iperf3 -c 156.146.53.53                                	|      -R       |    10   	|      CR     	| San Jose         	|
-| iperf3 -c speedtest.masnet.ec -p 5201-5209             	|      -R     	|     1    	|      EC     	| Santa Ana        	|
+| iperf3 -c speedtest.masnet.ec -p 5201-5209             	|    -R, -6    	|     1    	|      EC     	| Santa Ana        	|
 | iperf3 -c 121.127.43.65                       	        |      -R     	|    10    	|      MX     	| Querétaro       	|
-| iperf3 -c speedtest.tigo.com.py                      	  |      -R     	|          	|      PY     	| Asuncion          |
+| iperf3 -c speedtest.tigo.com.py                      	  |    -R, -6    	|          	|      PY     	| Asuncion          |
 | iperf3 -c 200.2.166.166 -p 5201-5213          	        |      -R     	|          	|      SR       | Paramaribo       	|
 
 ### NORTH AMERICA
@@ -189,14 +189,14 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |:-------------------------------------------------------	|:-----------:	|:--------:	|:-----------:	|:-----------------	|
 | iperf3 -c speedtest.mtl2.ca.leaseweb.net -p 5201-5210  	|    -R, -6   	|    10    	|      CA     	| Montreal         	|
 | iperf3 -c speedtest3.sasknet.sk.ca                     	|      -R     	|          	|      CA     	| Saskatoon        	|
-| iperf3 -c speedtest-west.eastlink.ca -p 5201           	|      -R      	|           |      CA     	| Wetaskiwin        |
+| iperf3 -c speedtest-west.eastlink.ca -p 5201           	|    -R, -6    	|           |      CA     	| Wetaskiwin        |
 | iperf3 -c charlotte02.speedtest.windstream.net         	|    -R, -6    	|          	|      US     	|                  	|
-| iperf3 -c ash.speedtest.clouvider.net -p 5200-5209     	|      -R     	|    10    	|      US     	| Ashburn          	|
+| iperf3 -c ash.speedtest.clouvider.net -p 5200-5209     	|    -R, -6    	|    10    	|      US     	| Ashburn          	|
 | iperf3 -c fiosspeed1.west.verizon.net                  	|      -R     	|          	|      US     	| Ashburn          	|
 | iperf3 -c fiosspeed2.west.verizon.net                  	|      -R     	|          	|      US     	| Ashburn          	|
 | iperf3 -c fiosspeed3.west.verizon.net                  	|      -R     	|          	|      US     	| Ashburn          	|
 | iperf3 -c fiosspeed4.west.verizon.net                  	|      -R     	|          	|      US     	| Ashburn          	|
-| iperf3 -c atl.speedtest.clouvider.net -p 5200-5209     	|      -R     	|    10    	|      US     	| Atlanta          	|
+| iperf3 -c atl.speedtest.clouvider.net -p 5200-5209     	|    -R, -6    	|    10    	|      US     	| Atlanta          	|
 | iperf3 -c speedtest13.suddenlink.net                   	|      -R     	|    10    	|      US     	| Charleston       	|
 | iperf3 -c speedtest15.suddenlink.net                   	|      -R     	|    10    	|      US     	| Charleston       	|
 | iperf3 -c speedtest.chi11.us.leaseweb.net -p 5201-5210 	|    -R, -6   	|    10    	|      US     	| Chicago          	|
@@ -207,7 +207,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.mia11.us.leaseweb.net -p 5201-5210 	|    -R, -6   	|    10    	|      US     	| Miami            	|
 | iperf3 -c speedtest.tds.net                            	|      -R     	|          	|      US     	| Madison          	|
 | iperf3 -c speedtest.nyc1.us.leaseweb.net -p 5201-5210  	|    -R, -6   	|    10    	|      US     	| New York         	|
-| iperf3 -c spd-uswb.hostkey.com -p 5201  	              |    -R     	  |    10    	|      US     	| New York         	|
+| iperf3 -c spd-uswb.hostkey.com -p 5201-5202  	          |      -R    	  |    10    	|      US     	| New York         	|
 | iperf3 -c nyc.speedtest.clouvider.net -p 5200-5209     	|      -R     	|    10    	|      US     	| New York City    	|
 | iperf3 -c speedtest.phx1.us.leaseweb.net -p 5201-5210  	|    -R, -6   	|    10    	|      US     	| Phoenix          	|
 | iperf3 -c speedtest.sfo12.us.leaseweb.net -p 5201-5210 	|    -R, -6   	|    10    	|      US     	| San Francisco    	|
@@ -227,7 +227,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 198.142.237.97                               	|      -R     	|          	|      AU     	| Sydney           	|
 | iperf3 -c 198.142.237.132                              	|      -R     	|          	|      AU     	| Sydney           	|
 | iperf3 -c speedtest2.kiska.pw                          	|      -R     	|          	|      AU     	| Sydney           	|
-| iperf3 -c speedtest.lagoon.nc -p 5202-5210             	|      -R     	|    10    	|      NC     	| Noumea           	|
+| iperf3 -c speedtest.lagoon.nc -p 5202-5210             	|    -R, -6    	|    10    	|      NC     	| Noumea           	|
 | iperf3 -c speedtest5.nownz.co.nz                       	|      -R     	|    10    	|      NZ     	| Auckland         	|
 
 ## Export
