@@ -82,7 +82,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |:-------------------------------------------------------	|:-----------:	|:--------:	|:-----------:	|:-----------------	|
 | iperf3 -c 84.17.57.129 	                                |      -R    	  |    10    	|      HK     	| Hong Kong        	|
 | iperf3 -c speedtest.hkg12.hk.leaseweb.net -p 5201-5210 	|    -R, -6   	|    10    	|      HK     	| Hong Kong        	|
-| iperf3 -c maritimeai.msngroup.id -p 9200-9240          	|      -R     	|          	|      ID     	| Jakarta          	|
 | iperf3 -c speedtest.myrepublic.net.id -p 9200-9240     	|      -R     	|          	|      ID     	| Jakarta          	|
 | iperf3 -c 89.187.160.1 	                                |      -R  	    |    10    	|      JP     	| Tokyo            	|
 | iperf3 -c speedtest.tyo11.jp.leaseweb.net -p 5201-5210 	|    -R, -6   	|    10    	|      JP     	| Tokyo            	|
@@ -90,7 +89,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speed.netfiber.net.il                        	|      -R     	|     1    	|      IL     	| Jerusalem        	|
 | iperf3 -c speed.rimon.net.il                           	|      -R     	|     1    	|      IL     	| Jerusalem        	|
 | iperf3 -c 84.17.57.129                           	      |      -R     	|    10   	|      IL     	| Tel Aviv        	|
-| iperf3 -c speedtest.host-palace.com -p 5202-5208       	|      -R     	|     1    	|      IN     	| Suri             	|
 | iperf3 -c 91.185.23.98                                 	|      -R     	|          	|      KZ     	| Aktau            	|
 | iperf3 -c iperf.myren.net.my -p 5201-5210              	|      -R     	|          	|      MY     	| Kuala Lumpur     	|
 | iperf3 -c 89.187.162.1                                  |      -R     	|    10    	|      SG     	| Singapore        	|
