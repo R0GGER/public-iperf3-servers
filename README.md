@@ -102,14 +102,14 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |:-------------------------------------------------------	|:-----------:	|:--------:	|:-----------:	|:-----------------	|
 | iperf3 -c speedtest.shinternet.ch -p 5200-5209         	|    -R,-6    	|    10    	|      CH     	| Schaffhausen     	|
 | iperf3 -c speedtest.init7.net                          	|    -R,-6    	|    20    	|      CH     	| Winterthur       	|
-| iperf3 -c speedtest.iway.ch                            	|      -R     	|    10    	|      CH     	| Zurich           	|
+| iperf3 -c speedtest.iway.ch                            	|    -R,-6     	|    10    	|      CH     	| Zurich           	|
 | iperf3 -c rychlost.poda.cz                             	|      -R     	|          	|      CZ     	| Mikulov          	|
 | iperf3 -c a209.speedtest.wobcom.de                     	|    -R,-6    	|          	|      DE     	| Berlin           	|
 | iperf3 -c a110.speedtest.wobcom.de                     	|    -R,-6    	|          	|      DE     	| Berlin           	|
 | iperf3 -c a208.speedtest.wobcom.de                     	|    -R,-6    	|          	|      DE     	| Düsseldorf       	|
 | iperf3 -c speedtest.fra1.de.leaseweb.net -p 5201-5210  	|    -R, -6   	|    10    	|      DE     	| Frankfurt        	|
 | iperf3 -c 178.215.228.109 -p 9201-9240                 	|      -R     	|          	|      DE     	| Frankfurt        	|
-| iperf3 -c fra.speedtest.clouvider.net -p 5200-5209     	|      -R     	|    10    	|      DE     	| Frankfurt        	|
+| iperf3 -c fra.speedtest.clouvider.net -p 5200-5209     	|    -R, -6    	|    10    	|      DE     	| Frankfurt        	|
 | iperf3 -c speedtest.ip-projects.de                     	|    -R,-6    	|    10    	|      DE     	| Frankfurt        	|
 | iperf3 -c a210.speedtest.wobcom.de                     	|    -R,-6    	|          	|      DE     	| Frankfurt        	|
 | iperf3 -c a205.speedtest.wobcom.de                     	|    -R,-6    	|          	|      DE     	| Frankfurt        	|
@@ -120,9 +120,9 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c a400.speedtest.wobcom.de                     	|    -R,-6    	|          	|      DE     	| Wolfsburg        	|
 | iperf3 -c iperf.deic.dk                                	|      -R     	|    10    	|      DK     	| Copenhagen       	|
 | iperf3 -c speed.fiberby.dk -p 9201-9240                	|    -R,-6    	|    10    	|      DK     	| Copenhagen       	|
-| iperf3 -c speedtest.hiper.dk -p 5201-5203              	|      -R     	|          	|      DK     	| Copenhagen       	|
+| iperf3 -c speedtest.hiper.dk -p 5201-5203              	|    -R, -6    	|          	|      DK     	| Copenhagen       	|
 | iperf3 -c speedtest-hki.netplaza.fi                    	|      -R     	|          	|      FI     	| Helsinki         	|
-| iperf3 -c speedtest.extra.telia.fi                     	|             	|          	|      FI     	| Helsinki         	|
+| iperf3 -c speedtest.extra.telia.fi                     	|      -R      	|    10    	|      FI     	| Helsinki         	|
 | iperf3 -c spd-fisrv.hostkey.com -p 5201                	|    -R       	|    10    	|      FI     	| Helsinki         	|
 | iperf3 -c speedtest.cinia.fi                           	|             	|          	|      FI     	| Oulu             	|
 | iperf3 -c aix-marseille.testdebit.info -p 9200-9240    	|    -R,-6    	|    10    	|      FR     	| Aix-en-Provence  	|
@@ -130,7 +130,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c iperf.par2.as49434.net -p 9202               	|      -R     	|    40    	|      FR     	| Paris            	|
 | iperf3 -c bouygues.testdebit.info -p 9200-9240         	|    -R,-6    	|    10    	|      FR     	| Paris            	|
 | iperf3 -c paris.testdebit.info -p 9200-9240            	|    -R,-6    	|    10    	|      FR     	| Paris            	|
-| iperf3 -c proof.ovh.net -p 5201-5210                   	|      -R     	|    10    	|      FR     	| Paris            	|
+| iperf3 -c proof.ovh.net -p 5201-5210                   	|    -R, -6    	|    10    	|      FR     	| Paris            	|
 | iperf3 -c iperf.online.net -p 5209                     	|      -R     	|    10    	|      FR     	| Vienna           	|
 | iperf3 -c scaleway.testdebit.info -p 5200-5209         	|    -R,-6    	|    10    	|      FR     	| Vitry-sur-Seine  	|
 | iperf3 -c ping.online.net -p 5200-5209                 	|      -R     	|    10    	|      FR     	| Vitry-sur-Seine  	|
