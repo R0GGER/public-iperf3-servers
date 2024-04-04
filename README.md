@@ -94,7 +94,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 91.185.23.98                                 	|      -R     	|          	|      KZ     	| Aktau            	|
 | iperf3 -c iperf.myren.net.my -p 5201-5210              	|      -R     	|          	|      MY     	| Kuala Lumpur     	|
 | iperf3 -c 89.187.162.1                                  |      -R     	|    10    	|      SG     	| Singapore        	|
-| iperf3 -c lg-sg-sin.webhorizon.net -p 9201-9209        	|    -R, -6    	|          	|      SG     	| Singapore        	|
+| iperf3 -c lg-sg-sin.webhorizon.net -p 9201-9209        	|    -R, -6    	|    10    	|      SG     	| Singapore        	|
 | iperf3 -c speedtest.sin1.sg.leaseweb.net -p 5201-5210  	|    -R, -6   	|    10    	|      SG     	| Singapore        	|
 | iperf3 -c 156.146.52.1                                 	|      -R     	|    10    	|      TR     	| Istanbul        	|
 | iperf3 -c speedtest.uztelecom.uz -p 5200-5209          	|    -R, -6   	|    10    	|      UZ     	| Tashkent         	|
