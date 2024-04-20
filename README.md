@@ -89,7 +89,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c lg-jp-tyo.webhorizon.net -p 5201             |   -R, -6    |    10    |     JP      | Tokyo        |
 | iperf3 -c speed.netfiber.net.il                        |     -R      |    1     |     IL      | Jerusalem    |
 | iperf3 -c speed.rimon.net.il                           |     -R      |    1     |     IL      | Jerusalem    |
-| iperf3 -c 84.17.57.129                                 |     -R      |    10    |     IL      | Tel Aviv     |
+| iperf3 -c 169.150.202.193                              |     -R      |    10    |     IL      | Tel Aviv     |
 | iperf3 -c 91.185.23.98                                 |     -R      |          |     KZ      | Aktau        |
 | iperf3 -c iperf.myren.net.my -p 5201-5210              |     -R      |          |     MY      | Kuala Lumpur |
 | iperf3 -c 89.187.162.1                                 |     -R      |    10    |     SG      | Singapore    |
