@@ -159,7 +159,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c spd-nlsrv.hostkey.com -p 5201                |     -R      |    10    |     NL      | Amsterdam        |
 | iperf3 -c lg.ams-nl.terrahost.com -p 9201-9240         |   -R, -6    |    10    |     NL      | Amsterdam        |
 | iperf3 -c spt01.sdhd.hosting                           |     -R      |    10    |     NL      | Dronten          |
-| iperf3 -c lg-drn.liteserver.nl -p 5200-5240            |     -R      |    1     |     NL      | Dronten          |
+| iperf3 -c lg-drn.liteserver.nl -p 5201-5240            |     -R      |    1     |     NL      | Dronten          |
 | iperf3 -c iperf.worldstream.nl                         |   -R, -6    |    10    |     NL      | Naaldwijk        |
 | iperf3 -c lg.terrahost.com -p 9200-9240                |   -R, -6    |    10    |     NO      | Sandefjord       |
 | iperf3 -c speedtest-w5-rnp.play.pl                     |     -R      |          |     PL      | Warsaw           |
