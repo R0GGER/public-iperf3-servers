@@ -99,9 +99,9 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speed.rimon.net.il                           |     -R      |    1     |     IL      | Jerusalem    |
 | iperf3 -c 169.150.202.193                              |     -R      |    10    |     IL      | Tel Aviv     |
 | iperf3 -c 91.185.23.98                                 |     -R      |          |     KZ      | Aktau        |
-| iperf3 -c iperf.myren.net.my -p 5201-5210              |     -R      |          |     MY      | Kuala Lumpur |
+| iperf3 -c iperf.myren.net.my -p 5203-5210              |     -R      |          |     MY      | Kuala Lumpur |
 | iperf3 -c 89.187.162.1                                 |     -R      |    10    |     SG      | Singapore    |
-| iperf3 -c lg-sg-sin.webhorizon.net -p 9201-9209        |   -R, -6    |    10    |     SG      | Singapore    |
+| iperf3 -c lg-sg-sin.webhorizon.net -p 5201             |   -R, -6    |    10    |     SG      | Singapore    |
 | iperf3 -c sgp.proof.ovh.net -p 5201-5210               |   -R, -6    |    1     |     SG      | Singapore    |
 | iperf3 -c speedtest.singnet.com.sg -p 5201-5210        |     -R      |          |     SG      | Singapore    |
 | iperf3 -c speedtest.sin1.sg.leaseweb.net -p 5201-5210  |   -R, -6    |    10    |     SG      | Singapore    |
