@@ -89,8 +89,8 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.hkg12.hk.leaseweb.net -p 5201-5210 |   -R, -6    |    10    |     HK      | Hong Kong    |
 | iperf3 -c speedtest.myrepublic.net.id -p 9200-9240     |     -R      |          |     ID      | Jakarta      |
 | iperf3 -c bom.proof.ovh.net -p 5201-5210               |   -R, -6    |    10    |     IN      | Mumbai       |
-| iperf3 -c  shahriar.iperf3.ir -p 5201-5209             |   -R, -6    |    10    |     IR      | Teheran      |
-| iperf3 -c simin.iperf3.ir -p 5201-5209                 |   -R, -6    |    10    |     IR      | Teheran      |
+| iperf3 -c  shahriar.iperf3.ir -p 5201-5208             |   -R, -6    |    10    |     IR      | Teheran      |
+| iperf3 -c simin.iperf3.ir -p 5201-5208                 |   -R, -6    |    10    |     IR      | Teheran      |
 | iperf3 -c bamdad.iperf3.ir -p 5201-5209                |   -R, -6    |    10    |     IR      | Teheran      |
 | iperf3 -c 89.187.160.1                                 |     -R      |    10    |     JP      | Tokyo        |
 | iperf3 -c speedtest.tyo11.jp.leaseweb.net -p 5201-5210 |   -R, -6    |    10    |     JP      | Tokyo        |
