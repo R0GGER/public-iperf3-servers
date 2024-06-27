@@ -68,11 +68,9 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c cust-fgt.maxnet.ao -p 9200--9240        |     -R      |          |     AO      | Luanda       |
 | iperf3 -c monitor.ita.ao -p 9201-9240             |     -R      |          |     AO      | Luanda       |
 | iperf3 -c 105.235.237.2 -p 5201-5209              |     -R      |          |     GQ      | Bata         |
-| iperf3 -c speedtest.liquidtelecom.co.ke           |     -R      |          |     KE      | Nairobi      |
 | iperf3 -c speedtestfl.telecom.mu -p 5201-5209     |     -R      |          |     MU      | Floreal      |
 | iperf3 -c speedtest.telecom.mu -p 5201-5209       |     -R      |          |     MU      | Port Louis   |
 | iperf3 -c  iperf3.ddng.isnet.net -p 5202-5203     |     -R      |          |     NG      | Lagos        |
-| iperf3 -c  154.113.144.146 -p 5201-5209           |     -R      |          |     NG      | Lagos        |
 | iperf3 -c sl-01-kgl.rw.seacomnet.com -p 5201-5209 |     -R      |          |     RW      | Kigali       |
 | iperf3 -c 41.226.22.119 -p 9202-9240              |     -R      |          |     TN      | Tunis        |
 | iperf3 -c 196.179.245.2 -p 9200-9240              |     -R      |          |     TN      | Tunis        |
@@ -105,6 +103,8 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c sgp.proof.ovh.net -p 5201-5210               |   -R, -6    |    1     |     SG      | Singapore    |
 | iperf3 -c speedtest.singnet.com.sg -p 5201-5210        |     -R      |          |     SG      | Singapore    |
 | iperf3 -c speedtest.sin1.sg.leaseweb.net -p 5201-5210  |   -R, -6    |    10    |     SG      | Singapore    |
+| iperf3 -c 202.29.80.9 -p 9200-9240                     |     -R      |          |     TH      | Phitsanulok  |
+| iperf3 -c 58.64.45.56 -p 9200-9240                     |     -R      |          |     TH      | Phitsanulok  |
 | iperf3 -c 156.146.52.1                                 |     -R      |    10    |     TR      | Istanbul     |
 | iperf3 -c speedtest.uztelecom.uz -p 5200-5209          |   -R, -6    |    10    |     UZ      | Tashkent     |
 
@@ -136,10 +136,11 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c spd-fisrv.hostkey.com -p 5201                |     -R      |    10    |     FI      | Helsinki         |
 | iperf3 -c speedtest.cinia.fi                           |     -R      |          |     FI      | Oulu             |
 | iperf3 -c aix-marseille.testdebit.info -p 9200-9240    |   -R, -6    |    10    |     FR      | Aix-en-Provence  |
-| iperf3 -c lyon.testdebit.info -p 9200-9240             |   -R, -6    |    10    |     FR      | Lyon             |
 | iperf3 -c iperf.par2.as49434.net -p 9202               |     -R      |    40    |     FR      | Paris            |
+| iperf3 -c iperf3.moji.fr -p 5200-5240                  |   -R, -6    |   100    |     FR      | Paris            |
 | iperf3 -c bouygues.testdebit.info -p 9200-9240         |   -R, -6    |    10    |     FR      | Paris            |
 | iperf3 -c paris.testdebit.info -p 9200-9240            |   -R, -6    |    10    |     FR      | Paris            |
+| iperf3 -c ping-90ms.online.net -p 5200-5209            |   -R, -6    |   100    |     FR      | Paris            |
 | iperf3 -c proof.ovh.net -p 5201-5210                   |   -R, -6    |    10    |     FR      | Paris            |
 | iperf3 -c iperf.online.net -p 5209                     |     -R      |    10    |     FR      | Vienna           |
 | iperf3 -c scaleway.testdebit.info -p 5200-5209         |   -R, -6    |    10    |     FR      | Vitry-sur-Seine  |
@@ -183,10 +184,10 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 ### LATIN AMERICA
 | **COMMAND**                                        | **OPTIONS** | **GB/S** | **COUNTRY** | **SITE**   |
 | :------------------------------------------------- | :---------: | :------: | :---------: | :--------- |
-| iperf3 -c speedtest.net-rosas.com.br -p 5201-5220  |     -R      |          |     BR      | Barbacena  |
 | iperf3 -c 138.199.4.1                              |     -R      |    10    |     BR      | São Paulo  |
 | iperf3 -c speedtest.sao1.edgoo.net -p 9204-9240    |   -R, -6    |          |     BR      | São Paulo  |
 | iperf3 -c sp11.wom.cl                              |             |          |     CL      | Santiago   |
+| iperf3 -c 79.127.209.1                             |     -R      |          |     CL      | Santiago   |
 | iperf3 -c speedtest-cncp.grupogtd.com -p 5201-5205 |   -R, -6    |    10    |     CL      | Valdivia   |
 | iperf3 -c 169.150.228.129                          |     -R      |    10    |     CO      | Bogotá     |
 | iperf3 -c 156.146.53.53                            |     -R      |    10    |     CR      | San Jose   |
@@ -199,7 +200,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | **COMMAND**                                            | **OPTIONS** | **GB/S** | **COUNTRY** | **SITE**      |
 | :----------------------------------------------------- | :---------: | :------: | :---------: | :------------ |
 | iperf3 -c speedtest.mtl2.ca.leaseweb.net -p 5201-5210  |   -R, -6    |    10    |     CA      | Montreal      |
-| iperf3 -c speedtest3.sasknet.sk.ca                     |     -R      |          |     CA      | Saskatoon     |
 | iperf3 -c speedtest-west.eastlink.ca -p 5201           |   -R, -6    |          |     CA      | Wetaskiwin    |
 | iperf3 -c charlotte02.speedtest.windstream.net         |   -R, -6    |          |     US      |               |
 | iperf3 -c ash.speedtest.clouvider.net -p 5200-5209     |   -R, -6    |    10    |     US      | Ashburn       |
@@ -229,7 +229,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | **COMMAND**                                            | **OPTIONS** | **GB/S** | **COUNTRY** | **SITE**     |
 | :----------------------------------------------------- | :---------: | :------: | :---------: | :----------- |
 | iperf3 -c speedtest.optusnet.com.au -p 5201-5203       |     -R      |          |     AU      |              |
-| iperf3 -c  speed.mel.swoop.com.au                      |     -R      |    10    |     AU      | Melbourne    |
 | iperf3 -c speed.per.swoop.com.au                       |     -R      |    10    |     AU      | Perth        |
 | iperf3 -c rockingham.wa.speedtest.optusnet.com.au      |     -R      |          |     AU      | Perth        |
 | iperf3 -c speed.syd.swoop.com.au                       |     -R      |    10    |     AU      | Sydney       |
