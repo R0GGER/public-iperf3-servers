@@ -238,7 +238,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 198.142.237.97                               |     -R      |          |     AU      | Sydney       |
 | iperf3 -c speedtest2.kiska.pw                          |     -R      |          |     AU      | Sydney       |
 | iperf3 -c speedtest.lagoon.nc -p 5202-5210             |   -R, -6    |    10    |     NC      | Noumea       |
-| iperf3 -c speedtest5.nownz.co.nz                       |     -R      |    10    |     NZ      | Auckland     |
 | iperf3 -c akl.linetest.nz -p 5300-5309                 |     -R      |    10    |     NZ      | Auckland     |
 | iperf3 -c  chch.linetest.nz -p 5300-5309               |     -R      |    10    |     NZ      | Christchurch |
 | iperf3 -c 154.81.51.4                                  |     -R      |          |     PG      | Port Moresby |
