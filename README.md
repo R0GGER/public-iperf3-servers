@@ -136,7 +136,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c spd-fisrv.hostkey.com -p 5201                |     -R      |    10    |     FI      | Helsinki         |
 | iperf3 -c speedtest.cinia.fi                           |     -R      |          |     FI      | Oulu             |
 | iperf3 -c aix-marseille.testdebit.info -p 9200-9240    |   -R, -6    |    10    |     FR      | Aix-en-Provence  |
-| iperf3 -c iperf.par2.as49434.net -p 9200-9240          |   -R, -6    |   100    |     FR      | Paris            |
+| iperf3 -c iperf.par2.as49434.net -p 9200-9240          |   -R, -6    |    40    |     FR      | Paris            |
 | iperf3 -c iperf3.moji.fr -p 5200-5240                  |   -R, -6    |   100    |     FR      | Paris            |
 | iperf3 -c bouygues.testdebit.info -p 9200-9240         |   -R, -6    |    10    |     FR      | Paris            |
 | iperf3 -c paris.testdebit.info -p 9200-9240            |   -R, -6    |    10    |     FR      | Paris            |
