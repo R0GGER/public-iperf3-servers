@@ -136,16 +136,16 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c spd-fisrv.hostkey.com -p 5201                |     -R      |    10    |     FI      | Helsinki         |
 | iperf3 -c speedtest.cinia.fi                           |     -R      |          |     FI      | Oulu             |
 | iperf3 -c aix-marseille.testdebit.info -p 9200-9240    |   -R, -6    |    10    |     FR      | Aix-en-Provence  |
-| iperf3 -c iperf.par2.as49434.net -p 9202               |     -R      |    40    |     FR      | Paris            |
+| iperf3 -c iperf.par2.as49434.net -p 9202               |   -R, -6    |   100    |     FR      | Paris            |
 | iperf3 -c iperf3.moji.fr -p 5200-5240                  |   -R, -6    |   100    |     FR      | Paris            |
 | iperf3 -c bouygues.testdebit.info -p 9200-9240         |   -R, -6    |    10    |     FR      | Paris            |
 | iperf3 -c paris.testdebit.info -p 9200-9240            |   -R, -6    |    10    |     FR      | Paris            |
 | iperf3 -c ping-90ms.online.net -p 5200-5209            |   -R, -6    |   100    |     FR      | Paris            |
 | iperf3 -c proof.ovh.net -p 5201-5210                   |   -R, -6    |    10    |     FR      | Paris            |
-| iperf3 -c iperf.online.net -p 5209                     |     -R      |    10    |     FR      | Vienna           |
+| iperf3 -c iperf.online.net -p 5209                     |     -R      |   100    |     FR      | Vienna           |
 | iperf3 -c scaleway.testdebit.info -p 5200-5209         |   -R, -6    |    10    |     FR      | Vitry-sur-Seine  |
-| iperf3 -c ping.online.net -p 5200-5209                 |     -R      |    10    |     FR      | Vitry-sur-Seine  |
-| iperf3 -c ping6.online.net -p 5200-5209                |   -R, -6    |    10    |     FR      | Vitry-sur-Seine  |
+| iperf3 -c ping.online.net -p 5200-5209                 |     -R      |   100    |     FR      | Vitry-sur-Seine  |
+| iperf3 -c ping6.online.net -p 5200-5209                |   -R, -6    |   100    |     FR      | Vitry-sur-Seine  |
 | iperf3 -c speedtest.lon1.uk.leaseweb.net -p 5201-5210  |   -R, -6    |    10    |     GB      | London           |
 | iperf3 -c speedtest.lon12.uk.leaseweb.net -p 5201-5210 |   -R, -6    |    10    |     GB      | London           |
 | iperf3 -c iperf.as42831.net -p 5300-5400               |     -R      |          |     GB      | London           |
@@ -161,7 +161,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.ams1.nl.leaseweb.net -p 5201-5210  |   -R, -6    |    10    |     NL      | Amsterdam        |
 | iperf3 -c speedtest.ams2.nl.leaseweb.net -p 5201-5210  |   -R, -6    |    10    |     NL      | Amsterdam        |
 | iperf3 -c ams.speedtest.clouvider.net -p 5200-5209     |   -R, -6    |    10    |     NL      | Amsterdam        |
-| iperf3 -c ping-ams1.online.net -p 5200-5209            |     -R      |    10    |     NL      | Amsterdam        |
+| iperf3 -c ping-ams1.online.net -p 5200-5209            |   -R, -6    |    10    |     NL      | Amsterdam        |
 | iperf3 -c a204.speedtest.wobcom.de                     |   -R, -6    |          |     NL      | Amsterdam        |
 | iperf3 -c speedtest.novoserve.com -p 5201-5206         |   -R, -6    |    40    |     NL      | Amsterdam        |
 | iperf3 -c speedtest.ams1.novogara.net -p 5200-5209     |   -R, -6    |    20    |     NL      | Amsterdam        |
