@@ -66,11 +66,10 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | **COMMAND**                                       | **OPTIONS** | **GB/S** | **COUNTRY** | **SITE**    |
 | :------------------------------------------------ | :---------: | :------: | :---------: | :----------- |
 | iperf3 -c cust-fgt.maxnet.ao -p 9200--9240        |     -R      |          |     AO      | Luanda       |
-| iperf3 -c monitor.ita.ao -p 9201-9240             |     -R      |          |     AO      | Luanda       |
+| iperf3 -c 160.242.19.254 -p 9201-9240             |     -R      |          |     AO      | Luanda       |
 | iperf3 -c 105.235.237.2 -p 5201-5209              |     -R      |          |     GQ      | Bata         |
 | iperf3 -c speedtestfl.telecom.mu -p 5201-5209     |     -R      |          |     MU      | Floreal      |
 | iperf3 -c speedtest.telecom.mu -p 5201-5209       |     -R      |          |     MU      | Port Louis   |
-| iperf3 -c iperf3.ddng.isnet.net -p 5202-5203      |     -R      |          |     NG      | Lagos        |
 | iperf3 -c sl-01-kgl.rw.seacomnet.com -p 5201-5209 |     -R      |          |     RW      | Kigali       |
 | iperf3 -c 41.226.22.119 -p 9202-9240              |     -R      |          |     TN      | Tunis        |
 | iperf3 -c 196.179.245.2 -p 9200-9240              |     -R      |          |     TN      | Tunis        |
@@ -256,13 +255,13 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 ## Export
 | CONTINENT     | .CSV                                                          | NocoDB        |
 | :------------ | :------------------------------------------------------------ | :----------- |
-| AFRICA        | [AFRICA-export.csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/87b6c8dc-6f9e-4c90-bb7e-ef1c1259fc48/rows/export/csv) | [DB](https://db.iperf3serverlist.net/dashboard/#/nc/view/87b6c8dc-6f9e-4c90-bb7e-ef1c1259fc48) |
-| ASIA          | [ASIA-export.csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/82110281-21c3-47ce-b96a-7d6bcecb51c3/rows/export/csv) | [DB](https://db.iperf3serverlist.net/dashboard/#/nc/view/82110281-21c3-47ce-b96a-7d6bcecb51c3) |
-| EUROPE        | [EUROPE-export.csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/3c231f8c-ea62-42ce-84a0-cf05af10720d/rows/export/csv) | [DB](https://db.iperf3serverlist.net/dashboard/#/nc/view/3c231f8c-ea62-42ce-84a0-cf05af10720d) |
-| LATIN AMERICA | [LATIN AMERICA-export.csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/fda8bba6-da07-48f9-a1ea-2f8d6195ba42/rows/export/csv) | [DB](https://db.iperf3serverlist.net/dashboard/#/nc/view/fda8bba6-da07-48f9-a1ea-2f8d6195ba42) |
-| NORTH AMERICA | [NORTH AMERICA-export.csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/23cf33ca-3e09-4487-ac57-3de09aae6e6b/rows/export/csv) | [DB](https://db.iperf3serverlist.net/dashboard/#/nc/view/23cf33ca-3e09-4487-ac57-3de09aae6e6b) |
-| OCEANIA       | [OCEANIA-export.csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/4606c864-71f8-4c53-9d55-cf9c38ddb0a5/rows/export/csv) | [DB](https://db.iperf3serverlist.net/dashboard/#/nc/view/4606c864-71f8-4c53-9d55-cf9c38ddb0a5) |
-| ALL SERVERS   | [ALL SERVERS-export.csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/e4c7de35-dd8f-42d3-82f8-0a855f937e10/rows/export/csv) | [DB](https://db.iperf3serverlist.net/dashboard/#/nc/view/e4c7de35-dd8f-42d3-82f8-0a855f937e10) |
+| AFRICA        | [AFRICA-export.csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/87b6c8dc-6f9e-4c90-bb7e-ef1c1259fc48/rows/export/csv) | [Shared View](https://db.iperf3serverlist.net/dashboard/#/nc/view/87b6c8dc-6f9e-4c90-bb7e-ef1c1259fc48) |
+| ASIA          | [ASIA-export.csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/82110281-21c3-47ce-b96a-7d6bcecb51c3/rows/export/csv) | [Shared View](https://db.iperf3serverlist.net/dashboard/#/nc/view/82110281-21c3-47ce-b96a-7d6bcecb51c3) |
+| EUROPE        | [EUROPE-export.csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/3c231f8c-ea62-42ce-84a0-cf05af10720d/rows/export/csv) | [Shared View](https://db.iperf3serverlist.net/dashboard/#/nc/view/3c231f8c-ea62-42ce-84a0-cf05af10720d) |
+| LATIN AMERICA | [LATIN AMERICA-export.csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/fda8bba6-da07-48f9-a1ea-2f8d6195ba42/rows/export/csv) | [Shared View](https://db.iperf3serverlist.net/dashboard/#/nc/view/fda8bba6-da07-48f9-a1ea-2f8d6195ba42) |
+| NORTH AMERICA | [NORTH AMERICA-export.csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/23cf33ca-3e09-4487-ac57-3de09aae6e6b/rows/export/csv) | [Shared View](https://db.iperf3serverlist.net/dashboard/#/nc/view/23cf33ca-3e09-4487-ac57-3de09aae6e6b) |
+| OCEANIA       | [OCEANIA-export.csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/4606c864-71f8-4c53-9d55-cf9c38ddb0a5/rows/export/csv) | [Shared View](https://db.iperf3serverlist.net/dashboard/#/nc/view/4606c864-71f8-4c53-9d55-cf9c38ddb0a5) |
+| ALL SERVERS   | [ALL SERVERS-export.csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/e4c7de35-dd8f-42d3-82f8-0a855f937e10/rows/export/csv) | [Shared View](https://db.iperf3serverlist.net/dashboard/#/nc/view/e4c7de35-dd8f-42d3-82f8-0a855f937e10) |
 
 ## Contact
 Contact me via e-mail - r0gger[at]iperf3serverlist.net
