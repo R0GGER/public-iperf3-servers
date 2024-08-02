@@ -65,7 +65,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 ### AFRICA
 | **COMMAND**                                       | **OPTIONS** | **GB/S** | **COUNTRY** | **SITE**    |
 | :------------------------------------------------ | :---------: | :------: | :---------: | :----------- |
-| iperf3 -c cust-fgt.maxnet.ao -p 9200--9240        |     -R      |          |     AO      | Luanda       |
 | iperf3 -c 160.242.19.254 -p 9201-9240             |     -R      |          |     AO      | Luanda       |
 | iperf3 -c 105.235.237.2 -p 5201-5209              |     -R      |          |     GQ      | Bata         |
 | iperf3 -c speedtestfl.telecom.mu -p 5201-5209     |     -R      |          |     MU      | Floreal      |
