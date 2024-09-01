@@ -138,8 +138,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c aix-marseille.testdebit.info -p 9200-9240    |   -R, -6    |    10    |     FR      | Aix-en-Provence  |
 | iperf3 -c iperf.par2.as49434.net -p 9200-9240          |   -R, -6    |    40    |     FR      | Paris            |
 | iperf3 -c iperf3.moji.fr -p 5200-5240                  |   -R, -6    |   100    |     FR      | Paris            |
-| iperf3 -c bouygues.testdebit.info -p 9200-9240         |   -R, -6    |    10    |     FR      | Paris            |
-| iperf3 -c paris.testdebit.info -p 9200-9240            |   -R, -6    |    10    |     FR      | Paris            |
 | iperf3 -c ping-90ms.online.net -p 5200-5209            |   -R, -6    |   100    |     FR      | Paris            |
 | iperf3 -c proof.ovh.net -p 5201-5210                   |   -R, -6    |    10    |     FR      | Paris            |
 | iperf3 -c iperf.online.net -p 5201-5209                |   -R, -6    |   100    |     FR      | Paris            |
@@ -205,6 +203,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 ### NORTH AMERICA
 | **COMMAND**                                            | **OPTIONS** | **GB/S** | **COUNTRY** | **SITE**      |
 | :----------------------------------------------------- | :---------: | :------: | :---------: | :------------ |
+| iperf3 -c bhs.proof.ovh.ca -p 5201-5210                |   -R, -6    |    10    |     CA      | Beauharnois   |
 | iperf3 -c speedtest.mtl2.ca.leaseweb.net -p 5201-5210  |   -R, -6    |    10    |     CA      | Montreal      |
 | iperf3 -c 138.199.57.129                               |     -R      |    10    |     CA      | Toronto       |
 | iperf3 -c speedtest-west.eastlink.ca -p 5201           |   -R, -6    |          |     CA      | Wetaskiwin    |
@@ -246,9 +245,8 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 198.142.237.97                               |     -R      |          |     AU      | Sydney       |
 | iperf3 -c speedtest2.kiska.pw                          |     -R      |          |     AU      | Sydney       |
 | iperf3 -c syd.proof.ovh.net -p 5201-5210               |   -R, -6    |    1     |     AU      | Sydney       |
-| iperf3 -c speedtest.lagoon.nc -p 5202-5210             |   -R, -6    |    10    |     NC      | Noumea       |
 | iperf3 -c akl.linetest.nz -p 5300-5309                 |     -R      |    10    |     NZ      | Auckland     |
-| iperf3 -c  chch.linetest.nz -p 5300-5309               |     -R      |    10    |     NZ      | Christchurch |
+| iperf3 -c chch.linetest.nz -p 5300-5309                |     -R      |    10    |     NZ      | Christchurch |
 | iperf3 -c 154.81.51.4                                  |     -R      |          |     PG      | Port Moresby |
 
 ## Export
