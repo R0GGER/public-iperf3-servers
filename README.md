@@ -157,6 +157,8 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.lon1.uk.leaseweb.net -p 5201-5210  |    -R,-6    |    10    |     GB      | London           |
 | iperf3 -c speedtest.lon12.uk.leaseweb.net -p 5201-5210 |    -R,-6    |    10    |     GB      | London           |
 | iperf3 -c lon.speedtest.clouvider.net -p 5200-5209     |    -R,-6    |    10    |     GB      | London           |
+| iperf3 -c speedtest-london.its-tg.net                  |     -R      |          |     GB      | London           |
+| iperf3 -c 185.59.221.51                                |     -R      |   2x10   |     GB      | London           |
 | iperf3 -c 169.150.252.2                                |     -R      |   2x10   |     GR      | Athens           |
 | iperf3 -c 169.150.242.129                              |     -R      |   2x10   |     HR      | Zagreb           |
 | iperf3 -c speedtest1.vodafone.hu                       |     -R      |    1     |     HU      | Budapest         |
@@ -198,8 +200,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 156.146.40.65                                |     -R      |   2x10   |     SK      | Bratislava       |
 | iperf3 -c 37.19.218.65                                 |     -R      |   2x10   |     UA      | Kyiv             |
 | iperf3 -c speedtest.solver.net.ua                      |     -R      |          |     UA      | Poltava          |
-| iperf3 -c speedtest-london.its-tg.net                  |     -R      |          |     UK      | London           |
-| iperf3 -c 185.59.221.51                                |     -R      |   2x10   |     UK      | London           |
 
 :small_blue_diamond: speedtest.wobcom.de connects to the nearest *.speedtest.wobcom.de server.
 
@@ -272,17 +272,16 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c akl.linetest.nz -p 5300-5309                 |     -R      |    10    |     NZ      | Auckland     |
 | iperf3 -c  chch.linetest.nz -p 5300-5309               |     -R      |    10    |     NZ      | Christchurch |
 | iperf3 -c 154.81.51.4                                  |     -R      |   2x10   |     PG      | Port Moresby |
-
 ## Export
 | CONTINENT     | .CSV                                                          | NocoDB       |
 | :------------ | :------------------------------------------------------------ | :----------- |
-| AFRICA        | [AFRICA-export.csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/87b6c8dc-6f9e-4c90-bb7e-ef1c1259fc48/rows/export/csv) | [Shared View](https://db.iperf3serverlist.net/dashboard/#/nc/view/87b6c8dc-6f9e-4c90-bb7e-ef1c1259fc48) |
-| ASIA          | [ASIA-export.csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/82110281-21c3-47ce-b96a-7d6bcecb51c3/rows/export/csv) | [Shared View](https://db.iperf3serverlist.net/dashboard/#/nc/view/82110281-21c3-47ce-b96a-7d6bcecb51c3) |
-| EUROPE        | [EUROPE-export.csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/3c231f8c-ea62-42ce-84a0-cf05af10720d/rows/export/csv) | [Shared View](https://db.iperf3serverlist.net/dashboard/#/nc/view/3c231f8c-ea62-42ce-84a0-cf05af10720d) |
-| LATIN AMERICA | [LATIN AMERICA-export.csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/fda8bba6-da07-48f9-a1ea-2f8d6195ba42/rows/export/csv) | [Shared View](https://db.iperf3serverlist.net/dashboard/#/nc/view/fda8bba6-da07-48f9-a1ea-2f8d6195ba42) |
-| NORTH AMERICA | [NORTH AMERICA-export.csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/23cf33ca-3e09-4487-ac57-3de09aae6e6b/rows/export/csv) | [Shared View](https://db.iperf3serverlist.net/dashboard/#/nc/view/23cf33ca-3e09-4487-ac57-3de09aae6e6b) |
-| OCEANIA       | [OCEANIA-export.csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/4606c864-71f8-4c53-9d55-cf9c38ddb0a5/rows/export/csv) | [Shared View](https://db.iperf3serverlist.net/dashboard/#/nc/view/4606c864-71f8-4c53-9d55-cf9c38ddb0a5) |
-| ALL SERVERS   | [ALL SERVERS-export.csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/e4c7de35-dd8f-42d3-82f8-0a855f937e10/rows/export/csv) | [Shared View](https://db.iperf3serverlist.net/dashboard/#/nc/view/e4c7de35-dd8f-42d3-82f8-0a855f937e10) |
+| AFRICA        | [AFRICA-export.csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/f4fd0f64-7dff-4416-8e3b-315b837b67d4/rows/export/csv) | [Shared View](https://db.iperf3serverlist.net/dashboard/#/nc/view/f4fd0f64-7dff-4416-8e3b-315b837b67d4) |
+| ASIA          | [ASIA-export.csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/bce4c994-6598-4b00-b2cd-fc48503ad7ac/rows/export/csv) | [Shared View](https://db.iperf3serverlist.net/dashboard/#/nc/view/bce4c994-6598-4b00-b2cd-fc48503ad7ac) |
+| EUROPE        | [EUROPE-export.csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/b111407c-43c4-48af-a828-301b698064a3/rows/export/csv) | [Shared View](https://db.iperf3serverlist.net/dashboard/#/nc/view/b111407c-43c4-48af-a828-301b698064a3) |
+| LATIN AMERICA | [LATIN AMERICA-export.csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/bf1834c8-7894-43c5-be9e-e909fb998b26/rows/export/csv) | [Shared View](https://db.iperf3serverlist.net/dashboard/#/nc/view/bf1834c8-7894-43c5-be9e-e909fb998b26) |
+| NORTH AMERICA | [NORTH AMERICA-export.csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/956847fb-43b7-4404-b048-440518fbc763/rows/export/csv) | [Shared View](https://db.iperf3serverlist.net/dashboard/#/nc/view/956847fb-43b7-4404-b048-440518fbc763) |
+| OCEANIA       | [OCEANIA-export.csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/99ab6c30-f9ae-4f8a-afa2-2f81bddb107f/rows/export/csv) | [Shared View](https://db.iperf3serverlist.net/dashboard/#/nc/view/99ab6c30-f9ae-4f8a-afa2-2f81bddb107f) |
+| ALL SERVERS   | [ALL SERVERS-export.csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/3ea603e9-af3a-4e86-9db6-62e7edc254e4/rows/export/csv) | [Shared View](https://db.iperf3serverlist.net/dashboard/#/nc/view/3ea603e9-af3a-4e86-9db6-62e7edc254e4) |
 
 ## Contact
 Contact me via e-mail - r0gger[at]iperf3serverlist.net
