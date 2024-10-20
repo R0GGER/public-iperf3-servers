@@ -4,7 +4,7 @@
 # Unstable!
 # curl -s https://raw.githubusercontent.com/R0GGER/public-iperf3-servers/refs/heads/main/findtest.sh | bash
 
-install_jq() {
+install_dependencies() {
     if [[ -f /etc/debian_version ]]; then
         # Debian/Ubuntu
         echo "Detected Debian/Ubuntu. Installing jq and bc with apt."
@@ -20,15 +20,15 @@ install_jq() {
 }
 
 # Check if jq is installed, if not, install it
-if ! command -v jq &> /dev/null; then
-    echo "jq is not installed. Installing jq..."
-    install_jq
+if ! command -v jq &> /dev/null || ! command -v bc &> /dev/null; then
+    echo "jq or bc is not installed. Installing jq and bc..."
+    install_dependencies
     if [[ $? -ne 0 ]]; then
-        echo "Failed to install jq. Exiting."
+        echo "Failed to install jq or bc. Exiting."
         exit 1
     fi
 else
-    echo "jq is already installed."
+    echo "jq and bc are already installed."
 fi
 
 
@@ -39,8 +39,8 @@ haversine() {
     lat2=$3
     lon2=$4
     # Convert degrees to radians
-    dlat=$(echo "$lat2 - $lat1" | bc -l)
-    dlon=$(echo "$lon2 - $lon1" | bc -l)
+    dlat=$(echo "$lat2 - $lat1" | bc -l 2>/dev/null)
+    dlon=$(echo "$lon2 - $lon1" | bc -l 2>/dev/null)
     lat1=$(echo "$lat1 * 0.017453292519943295" | bc -l 2>/dev/null)
     lat2=$(echo "$lat2 * 0.017453292519943295" | bc -l 2>/dev/null)
     dlat=$(echo "$dlat * 0.017453292519943295" | bc -l 2>/dev/null)
