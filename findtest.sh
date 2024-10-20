@@ -2,6 +2,7 @@
 
 # Find and Test 
 # Unstable!
+# curl -s https://raw.githubusercontent.com/R0GGER/public-iperf3-servers/refs/heads/main/findtest.sh | bash
 
 install_jq() {
     if [[ -f /etc/debian_version ]]; then
