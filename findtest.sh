@@ -41,22 +41,22 @@ haversine() {
     # Convert degrees to radians
     dlat=$(echo "$lat2 - $lat1" | bc -l)
     dlon=$(echo "$lon2 - $lon1" | bc -l)
-    lat1=$(echo "$lat1 * 0.017453292519943295" | bc -l)
-    lat2=$(echo "$lat2 * 0.017453292519943295" | bc -l)
-    dlat=$(echo "$dlat * 0.017453292519943295" | bc -l)
-    dlon=$(echo "$dlon * 0.017453292519943295" | bc -l)
+    lat1=$(echo "$lat1 * 0.017453292519943295" | bc -l 2>/dev/null)
+    lat2=$(echo "$lat2 * 0.017453292519943295" | bc -l 2>/dev/null)
+    dlat=$(echo "$dlat * 0.017453292519943295" | bc -l 2>/dev/null)
+    dlon=$(echo "$dlon * 0.017453292519943295" | bc -l 2>/dev/null)
 
-    a=$(echo "s($dlat/2)^2 + c($lat1) * c($lat2) * s($dlon/2)^2" | bc -l)
-    c=$(echo "2 * a(sqrt($a) / sqrt(1-$a))" | bc -l)
+    a=$(echo "s($dlat/2)^2 + c($lat1) * c($lat2) * s($dlon/2)^2" | bc -l 2>/dev/null)
+    c=$(echo "2 * a(sqrt($a) / sqrt(1-$a))" | bc -l 2>/dev/null)
     # Earth's radius in kilometers (6371)
-    distance=$(echo "6371 * $c" | bc -l)
+    distance=$(echo "6371 * $c" | bc -l 2>/dev/null)
     echo $distance
 }
 
 # Step 1: Find the location of the client (your own IP)
 CLIENT_INFO=$(curl -s ipinfo.io)
-CLIENT_LAT=$(echo $CLIENT_INFO | jq -r '.loc' | cut -d',' -f1)
-CLIENT_LON=$(echo $CLIENT_INFO | jq -r '.loc' | cut -d',' -f2)
+CLIENT_LAT=$(echo $CLIENT_INFO | jq -r '.loc' | cut -d',' -f1 2>/dev/null)
+CLIENT_LON=$(echo $CLIENT_INFO | jq -r '.loc' | cut -d',' -f2 2>/dev/null)
 
 echo "Client location: Latitude $CLIENT_LAT, Longitude $CLIENT_LON"
 
@@ -75,8 +75,8 @@ closest_distance=""
 for ip in $SERVER_IPS; do
     # Find the geolocation of the server
     SERVER_INFO=$(curl -s ipinfo.io/$ip)
-    SERVER_LAT=$(echo $SERVER_INFO | jq -r '.loc' | cut -d',' -f1)
-    SERVER_LON=$(echo $SERVER_INFO | jq -r '.loc' | cut -d',' -f2)
+    SERVER_LAT=$(echo $SERVER_INFO | jq -r '.loc' | cut -d',' -f1 2>/dev/null)
+    SERVER_LON=$(echo $SERVER_INFO | jq -r '.loc' | cut -d',' -f2 2>/dev/null)
 
     # Calculate the distance between the client and the server
     distance=$(haversine $CLIENT_LAT $CLIENT_LON $SERVER_LAT $SERVER_LON)
