@@ -84,7 +84,7 @@ for ip in $SERVER_IPS; do
     echo "Server $ip is $distance km away"
 
     # Compare distances to find the closest server
-    if [[ -z "$closest_distance" || $(echo "$distance < $closest_distance" | bc -l) -eq 1 ]]; then
+    if [[ -z "$closest_distance" || $(echo "$distance < $closest_distance" | bc -l 2>/dev/null) -eq 1 ]]; then
         closest_distance=$distance
         closest_server=$ip
     fi
