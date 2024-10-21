@@ -81,8 +81,9 @@ for ip in $SERVER_IPS; do
     # Calculate the distance between the client and the server
     distance=$(haversine $CLIENT_LAT $CLIENT_LON $SERVER_LAT $SERVER_LON)
 
-    #echo "Server $ip is $distance km away"
-
+    echo "Please wait... searching...."
+    # echo "Server $ip is $distance km away"
+    
     # Compare distances to find the closest server
     if [[ -z "$closest_distance" || $(echo "$distance < $closest_distance" | bc -l 2>/dev/null) -eq 1 ]]; then
         closest_distance=$distance
