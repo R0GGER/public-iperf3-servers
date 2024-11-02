@@ -73,7 +73,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 41.226.22.119 -p 9202-9240 | -R |  | TN \| 🇹🇳 | Tunis |
 | iperf3 -c 196.179.245.2 -p 9200-9240 | -R |  | TN \| 🇹🇳 | Tunis |
 | iperf3 -c 197.26.19.243 -p 9200-9240 | -R |  | TN \| 🇹🇳 | Tunis |
-| iperf3 -c 41.226.22.119 -p 9202-9240 | -R |  | TN \| 🇹🇳 | Tunis |
 | iperf3 -c 41.210.185.162 | -R,-6 | 2x10 | UG \| 🇺🇬 | Kampala |
 | iperf3 -c speedtest.rocketnet.co.za |  |  | ZA \| 🇿🇦 | Johannesburg |
 | iperf3 -c speedtest1.bitco.co.za | -R |  | ZA \| 🇿🇦 | Johannesburg |
@@ -87,7 +86,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.hkg12.hk.leaseweb.net -p 5201-5210 | -R,-6 | 10 | HK \| 🇭🇰 | Hong Kong |
 | iperf3 -c 84.17.57.129 | -R | 2x10 | HK \| 🇭🇰 | Hong Kong |
 | iperf3 -c jkt.speedtest.sggs.network | -R | 10 | ID \| 🇮🇩 | Jakarta |
-| iperf3 -c speedtest.myrepublic.net.id -p 9200-9240 | -R |  | ID \| 🇮🇩 | Jakarta |
 | iperf3 -c speedtest.myrepublic.net.id -p 9200-9240 | -R |  | ID \| 🇮🇩 | Jakarta |
 | iperf3 -c speed.netfiber.net.il | -R | 1 | IL \| 🇮🇱 | Jerusalem |
 | iperf3 -c speed.rimon.net.il | -R | 1 | IL \| 🇮🇱 | Jerusalem |
