@@ -168,7 +168,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.lon1.uk.leaseweb.net -p 5201-5210 | -R,-6 | 10 | GB \| 🇬🇧 | London |
 | iperf3 -c speedtest.lon12.uk.leaseweb.net -p 5201-5210 | -R,-6 | 10 | GB \| 🇬🇧 | London |
 | iperf3 -c lon.speedtest.clouvider.net -p 5200-5209 | -R,-6 | 10 | GB \| 🇬🇧 | London |
-| iperf3 -c speedtest-london.its-tg.net | -R |  | GB \| 🇬🇧 | London |
 | iperf3 -c 185.59.221.51 | -R | 2x10 | GB \| 🇬🇧 | London |
 | iperf3 -c 169.150.252.2 | -R | 2x10 | GR \| 🇬🇷 | Athens |
 | iperf3 -c 169.150.242.129 | -R | 2x10 | HR \| 🇭🇷 | Zagreb |
