@@ -200,8 +200,8 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest-w5-rnp.play.pl | -R |  | PL \| 🇵🇱 | Warsaw |
 | iperf3 -c 185.246.208.67 | -R | 2x10 | PL \| 🇵🇱 | Warsaw |
 | iperf3 -c 109.61.94.65 | -R | 2x10 | PT \| 🇵🇹 | Lisbon |
-| iperf3 -c 95.95.252.87 | -R |  | PT \| 🇵🇹 | Lissabon |
-| iperf3 -c lisboa.speedtest.net.zon.pt -p 5201-5209 | -R,-6 | 10 | PT \| 🇵🇹 | Lissabon |
+| iperf3 -c lisboa.speedtest.net.zon.pt -p 5201-5209 | -R,-6 | 10 | PT \| 🇵🇹 | Lisbon |
+| iperf3 -c porto.speedtest.net.zon.pt -p 5201-5209 | -R,-6 | 10 | PT \| 🇵🇹 | Porto |
 | iperf3 -c 185.102.217.170 | -R | 2x10 | RO \| 🇷🇴 | Bucharest |
 | iperf3 -c speedtest.kamel.network -p 5201-5205 | -R,-6 | 1 | SE \| 🇸🇪 | Kista |
 | iperf3 -c speedtest.ownit.se | -R | 1 | SE \| 🇸🇪 | Stockholm |
