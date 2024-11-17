@@ -159,7 +159,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 185.93.2.193 | -R | 2x10 | FR \| 🇫🇷 | Paris |
 | iperf3 -c iperf3.moji.fr -p 5200-5240 | -R,-6 | 100 | FR \| 🇫🇷 | Paris |
 | iperf3 -c ping-90ms.online.net -p 5200-5209 | -R,-6 | 100 | FR \| 🇫🇷 | Paris |
-| iperf3 -c iperf.online.net -p 5200-5209 | -R,-6 | 100 | FR \| 🇫🇷 | Vienna |
+| iperf3 -c iperf.online.net -p 5200-5209 | -R,-6 | 100 | FR \| 🇫🇷 | Paris |
 | iperf3 -c scaleway.testdebit.info -p 5200-5209 | -R,-6 | 10 | FR \| 🇫🇷 | Vitry-sur-Seine |
 | iperf3 -c ping.online.net -p 5200-5209 | -R,-6 | 100 | FR \| 🇫🇷 | Vitry-sur-Seine |
 | iperf3 -c ping6.online.net -p 5200-5209 | -R,-6 | 100 | FR \| 🇫🇷 | Vitry-sur-Seine |
