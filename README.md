@@ -58,7 +58,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 * [LATIN AMERICA](#latin-america)
 * [NORTH AMERICA](#north-america)
 * [OCEANIA](#oceania)
-  
 
 :sparkles: Servers with an uptime of 90% or less in 30 days will be removed.
 
@@ -75,21 +74,18 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 41.226.22.119 -p 9202-9240 | -R |  | TN \| 🇹🇳 | Tunis |
 | iperf3 -c 41.210.185.162 | -R,-6 | 2x10 | UG \| 🇺🇬 | Kampala |
 | iperf3 -c 169.150.238.161 | -R | 2x10 | ZA \| 🇿🇦 | Johannesburg |
-| iperf3 -c speedtest.rocketnet.co.za |  |  | ZA \| 🇿🇦 | Johannesburg |
 
 
 ### ASIA
 | **COMMAND** | **OPTIONS** | **GB/S** | **COUNTRY** | **SITE** |
 |:------------|:-----------:|:--------:|:-----------:|:---------|
 | iperf3 -c 84.17.57.129 | -R | 2x10 | HK \| 🇭🇰 | Hong Kong |
-| iperf3 -c hkg.speedtest.sggs.network | -R | 10 | HK \| 🇭🇰 | Hong Kong |
 | iperf3 -c speedtest.hkg12.hk.leaseweb.net -p 5201-5210 | -R,-6 | 10 | HK \| 🇭🇰 | Hong Kong |
 | iperf3 -c jkt.speedtest.sggs.network | -R | 10 | ID \| 🇮🇩 | Jakarta |
 | iperf3 -c speedtest.myrepublic.net.id -p 9200-9240 | -R |  | ID \| 🇮🇩 | Jakarta |
 | iperf3 -c speed.netfiber.net.il | -R | 1 | IL \| 🇮🇱 | Jerusalem |
 | iperf3 -c speed.rimon.net.il | -R | 1 | IL \| 🇮🇱 | Jerusalem |
 | iperf3 -c 169.150.202.193 | -R | 2x10 | IL \| 🇮🇱 | Tel Aviv |
-| iperf3 -c bom.proof.ovh.net -p 5201-5210 | -R,-6 | 10 | IN \| 🇮🇳 | Mumbai |
 | iperf3 -c bamdad.iperf3.ir -p 5201-5209 | -R,-6 | 10 | IR \| 🇮🇷 | Teheran |
 | iperf3 -c shahriar.iperf3.ir -p 5201-5208 | -R,-6 | 10 | IR \| 🇮🇷 | Teheran |
 | iperf3 -c simin.iperf3.ir -p 5201-5208 | -R,-6 | 10 | IR \| 🇮🇷 | Teheran |
@@ -119,7 +115,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.init7.net | -R,-6 | 20 | CH \| 🇨🇭 | Winterthur |
 | iperf3 -c 89.187.165.1 | -R | 2x10 | CH \| 🇨🇭 | Zürich |
 | iperf3 -c speedtest.iway.ch | -R,-6 | 10 | CH \| 🇨🇭 | Zürich |
-| iperf3 -c rychlost.poda.cz | -R |  | CZ \| 🇨🇿 | Mikulov |
+| iperf3 -c rychlost.poda.cz -p 5202 | -R |  | CZ \| 🇨🇿 | Mikulov |
 | iperf3 -c 185.152.65.113 | -R | 2x10 | CZ \| 🇨🇿 | Prague |
 | iperf3 -c a110.speedtest.wobcom.de | -R,-6 | 2x25 | DE \| 🇩🇪 | Berlin |
 | iperf3 -c a209.speedtest.wobcom.de | -R,-6 | 2x25 | DE \| 🇩🇪 | Berlin |
@@ -146,12 +142,10 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 138.199.14.66 | -R | 2x10 | FR \| 🇫🇷 | Marseille |
 | iperf3 -c 185.93.2.193 | -R | 2x10 | FR \| 🇫🇷 | Paris |
 | iperf3 -c iperf.online.net -p 5200-5209 | -R,-6 | 100 | FR \| 🇫🇷 | Paris |
-| iperf3 -c iperf.par2.as49434.net -p 9200-9240 | -R | 40 | FR \| 🇫🇷 | Paris |
 | iperf3 -c iperf3.moji.fr -p 5200-5240 | -R,-6 | 100 | FR \| 🇫🇷 | Paris |
 | iperf3 -c ping-90ms.online.net -p 5200-5209 | -R,-6 | 100 | FR \| 🇫🇷 | Paris |
 | iperf3 -c proof.ovh.net -p 5201-5210 | -R,-6 | 10 | FR \| 🇫🇷 | Paris |
 | iperf3 -c ping.online.net -p 5200-5209 | -R,-6 | 100 | FR \| 🇫🇷 | Vitry-sur-Seine |
-| iperf3 -c ping6.online.net -p 5200-5209 | -R,-6 | 100 | FR \| 🇫🇷 | Vitry-sur-Seine |
 | iperf3 -c scaleway.testdebit.info -p 5200-5209 | -R,-6 | 10 | FR \| 🇫🇷 | Vitry-sur-Seine |
 | iperf3 -c 185.59.221.51 | -R | 2x10 | GB \| 🇬🇧 | London |
 | iperf3 -c iperf.as42831.net -p 5300-5400 | -R |  | GB \| 🇬🇧 | London |
@@ -167,7 +161,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speed.itgate.net -p 5201-5202 | -R,-6 |  | IT \| 🇮🇹 | Gerbido |
 | iperf3 -c 84.17.59.129 | -R | 2x10 | IT \| 🇮🇹 | Milan |
 | iperf3 -c 217.61.40.96 | -R |  | IT \| 🇮🇹 | Ponte San Pietro |
-| iperf3 -c 80.92.72.3 | -R |  | LU \| 🇱🇺 | Bettembourg |
 | iperf3 -c speedtest.lu.buyvm.net | -R,-6 |  | LU \| 🇱🇺 | Bissen |
 | iperf3 -c 185.102.218.1 | -R | 2x10 | NL \| 🇳🇱 | Amsterdam |
 | iperf3 -c a204.speedtest.wobcom.de | -R,-6 | 2x25 | NL \| 🇳🇱 | Amsterdam |
@@ -182,20 +175,18 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.novoserve.com -p 5201-5206 | -R,-6 | 40 | NL \| 🇳🇱 | Amsterdam |
 | iperf3 -c lg-drn.liteserver.nl -p 5200-5240 | -R | 1 | NL \| 🇳🇱 | Dronten |
 | iperf3 -c speedtest.nl1.mirhosting.net -p 5201-5209 | -R,-6 | 2x 10 | NL \| 🇳🇱 | Dronten |
-| iperf3 -c spt01.sdhd.hosting | -R | 10 | NL \| 🇳🇱 | Dronten |
 | iperf3 -c iperf.worldstream.nl | -R,-6 | 10 | NL \| 🇳🇱 | Naaldwijk |
 | iperf3 -c lg.terrahost.com -p 9200-9240 | -R,-6 | 10 | NO \| 🇳🇴 | Sandefjord |
-| iperf3 -c speedtest.midiko.pl | -R |  | PL \| 🇵🇱 | Katowice |
 | iperf3 -c 185.246.208.67 | -R | 2x10 | PL \| 🇵🇱 | Warsaw |
 | iperf3 -c speedtest-w5-rnp.play.pl | -R |  | PL \| 🇵🇱 | Warsaw |
 | iperf3 -c 109.61.94.65 | -R | 2x10 | PT \| 🇵🇹 | Lisbon |
 | iperf3 -c lisboa.speedtest.net.zon.pt -p 5201-5209 | -R,-6 | 10 | PT \| 🇵🇹 | Lisbon |
 | iperf3 -c porto.speedtest.net.zon.pt -p 5201-5209 | -R,-6 | 10 | PT \| 🇵🇹 | Porto |
 | iperf3 -c 185.102.217.170 | -R | 2x10 | RO \| 🇷🇴 | Bucharest |
+| iperf3 -c speedtest1.sox.rs -p 9201-9240 | -R,-6 | 10 | RS \| 🇷🇸 | Belgrade |
 | iperf3 -c speedtest.kamel.network -p 5201-5205 | -R,-6 | 1 | SE \| 🇸🇪 | Kista |
 | iperf3 -c 185.76.9.135 | -R | 2x10 | SE \| 🇸🇪 | Stockholm |
 | iperf3 -c speedtest.ownit.se | -R | 1 | SE \| 🇸🇪 | Stockholm |
-| iperf3 -c speedtestv6.ownit.se | -R,-6 | 1 | SE \| 🇸🇪 | Stockholm |
 | iperf3 -c 156.146.40.65 | -R | 2x10 | SK \| 🇸🇰 | Bratislava |
 | iperf3 -c 37.19.218.65 | -R | 2x10 | UA \| 🇺🇦 | Kyiv |
 | iperf3 -c speedtest.solver.net.ua | -R |  | UA \| 🇺🇦 | Poltava |
@@ -225,7 +216,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.mtl2.ca.leaseweb.net -p 5201-5210 | -R,-6 | 10 | CA \| 🇨🇦 | Montreal |
 | iperf3 -c as21723.goco.ca -p 9200-9240 | -R |  | CA \| 🇨🇦 | Montréal |
 | iperf3 -c 138.199.57.129 | -R | 2x10 | CA \| 🇨🇦 | Toronto |
-| iperf3 -c speedtest-west.eastlink.ca -p 5201 | -R,-6 |  | CA \| 🇨🇦 | Wetaskiwin |
 | iperf3 -c 37.19.206.20 | -R | 2x10 | US \| 🇺🇸 | Ashburn |
 | iperf3 -c ash.speedtest.clouvider.net -p 5200-5209 | -R,-6 | 10 | US \| 🇺🇸 | Ashburn |
 | iperf3 -c 185.152.66.67 | -R | 2x10 | US \| 🇺🇸 | Atlanta |
@@ -262,14 +252,12 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 ### OCEANIA
 | **COMMAND** | **OPTIONS** | **GB/S** | **COUNTRY** | **SITE** |
 |:------------|:-----------:|:--------:|:-----------:|:---------|
-| iperf3 -c speedtest.optusnet.com.au -p 5201-5203 | -R |  | AU \| 🇦🇺 |  |
-| iperf3 -c speed.per.swoop.com.au | -R | 10 | AU \| 🇦🇺 | Perth |
 | iperf3 -c 143.244.63.144 | -R | 2x10 | AU \| 🇦🇺 | Sydney |
-| iperf3 -c 198.142.237.72 | -R |  | AU \| 🇦🇺 | Sydney |
-| iperf3 -c 198.142.237.97 | -R |  | AU \| 🇦🇺 | Sydney |
+| iperf3 -c 198.142.237.72 -p 5202 | -R |  | AU \| 🇦🇺 | Sydney |
+| iperf3 -c 198.142.237.97 -p 5202 | -R |  | AU \| 🇦🇺 | Sydney |
 | iperf3 -c speedtest.syd12.au.leaseweb.net -p 5201-5210 | -R,-6 | 10 | AU \| 🇦🇺 | Sydney |
 | iperf3 -c syd.proof.ovh.net -p 5201-5210 | -R,-6 | 1 | AU \| 🇦🇺 | Sydney |
-| iperf3 -c techspeedtest.bla.optusnet.com.au | -R |  | AU \| 🇦🇺 | Sydney |
+| iperf3 -c techspeedtest.bla.optusnet.com.au -p 5202-5203 | -R |  | AU \| 🇦🇺 | Sydney |
 | iperf3 -c akl.linetest.nz -p 5300-5309 | -R | 10 | NZ \| 🇳🇿 | Auckland |
 | iperf3 -c chch.linetest.nz -p 5300-5309 | -R | 10 | NZ \| 🇳🇿 | Christchurch |
 | iperf3 -c 154.81.51.4  | -R | 2x10 | PG \| 🇵🇬 | Port Moresby |
