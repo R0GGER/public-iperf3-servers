@@ -166,6 +166,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c a204.speedtest.wobcom.de | -R,-6 | 2x25 | NL \| 🇳🇱 | Amsterdam |
 | iperf3 -c ams.speedtest.clouvider.net -p 5200-5209 | -R,-6 | 10 | NL \| 🇳🇱 | Amsterdam |
 | iperf3 -c ams.speedtest.sggs.network | -R | 10 | NL \| 🇳🇱 | Amsterdam |
+| iperf3 -c iperf-ams-nl.eranium.net -p 5201-5210 | -R,-6 | 100 | NL \| 🇳🇱 | Amsterdam |
 | iperf3 -c lg.ams-nl.terrahost.com -p 9201-9240 | -R,-6 |  | NL \| 🇳🇱 | Amsterdam |
 | iperf3 -c ping-ams1.online.net -p 5200-5209 | -R | 10 | NL \| 🇳🇱 | Amsterdam |
 | iperf3 -c speedtest.ams1.nl.leaseweb.net -p 5201-5210 | -R,-6 | 10 | NL \| 🇳🇱 | Amsterdam |
@@ -176,6 +177,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c lg-drn.liteserver.nl -p 5200-5240 | -R | 1 | NL \| 🇳🇱 | Dronten |
 | iperf3 -c speedtest.nl1.mirhosting.net -p 5201-5209 | -R,-6 | 2x 10 | NL \| 🇳🇱 | Dronten |
 | iperf3 -c iperf.worldstream.nl | -R,-6 | 10 | NL \| 🇳🇱 | Naaldwijk |
+| iperf3 -c lg.gigahost.no -p 9201-9240 | -R,-6 | 100 | NO \| 🇳🇴 | Sandefjord |
 | iperf3 -c lg.terrahost.com -p 9200-9240 | -R,-6 | 10 | NO \| 🇳🇴 | Sandefjord |
 | iperf3 -c 185.246.208.67 | -R | 2x10 | PL \| 🇵🇱 | Warsaw |
 | iperf3 -c speedtest-w5-rnp.play.pl | -R |  | PL \| 🇵🇱 | Warsaw |
