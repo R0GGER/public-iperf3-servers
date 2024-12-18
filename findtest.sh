@@ -1,99 +1,83 @@
 #!/bin/bash
 
 # Find and Test 
-# Unstable!
 # curl -s https://raw.githubusercontent.com/R0GGER/public-iperf3-servers/refs/heads/main/findtest.sh | bash
 
-install_dependencies() {
-    if [[ -f /etc/debian_version ]]; then
-        # Debian/Ubuntu
-        echo "Detected Debian/Ubuntu. Installing jq and bc with apt."
-        sudo apt-get update && sudo apt-get install -y jq bc
-    elif [[ -f /etc/rocky-release ]] || [[ -f /etc/redhat-release ]]; then
-        # Rocky Linux/Red Hat/CentOS
-        echo "Detected Rocky Linux or RHEL-based system. Installing jq and bc with dnf."
-        sudo dnf install -y jq bc
+install_packages() {
+    if [ -f /etc/debian_version ]; then
+        echo "Detected Ubuntu/Debian. Installing required packages..."
+        sudo apt update
+        sudo apt install -y iperf3 jq curl
+    elif [ -f /etc/redhat-release ]; then
+        echo "Detected CentOS/Rocky Linux. Installing required packages..."
+        sudo yum update -y
+        sudo yum install -y epel-release
+        sudo yum install -y iperf3 jq curl
     else
-        echo "Unsupported operating system. Please install jq and bc manually."
+        echo "Unsupported Linux distribution. Please install iPerf3 and jq manually."
         exit 1
     fi
 }
 
-# Check if jq is installed, if not, install it
-if ! command -v jq &> /dev/null || ! command -v bc &> /dev/null; then
-    echo "jq or bc is not installed. Installing jq and bc..."
-    install_dependencies
-    if [[ $? -ne 0 ]]; then
-        echo "Failed to install jq or bc. Exiting."
+if ! command -v iperf3 &>/dev/null; then
+    echo "iPerf3 not found. Installing..."
+    install_packages
+fi
+
+if ! command -v jq &>/dev/null; then
+    echo "jq not found. Installing..."
+    install_packages
+fi
+
+if ! command -v curl &>/dev/null; then
+    echo "curl not found. Installing..."
+    install_packages
+fi
+
+MY_IP=$(curl -s https://api.ipify.org)
+if [ -z "$MY_IP" ]; then
+    echo "Error: Unable to retrieve my public IP address."
+    exit 1
+fi
+
+echo -e "\nMy public IP: $MY_IP"
+
+MY_CITY=$(curl -s "https://ipinfo.io/$MY_IP/json" | jq -r '.city')
+MY_COUNTRY=$(curl -s "https://ipinfo.io/$MY_IP/json" | jq -r '.country')
+
+if [ -z "$MY_CITY" ] || [ -z "$MY_COUNTRY" ]; then
+    echo "Error: Unable to determine my location."
+    exit 1
+fi
+
+echo -e "My location: $MY_CITY, $MY_COUNTRY \n"
+
+SERVER_JSON="all_servers-export.json"
+curl -s "https://export.iperf3serverlist.net/json/all_servers-export.json" -o "$SERVER_JSON"
+
+if [ ! -f "$SERVER_JSON" ]; then
+    echo "Error: Unable to download the server list."
+    exit 1
+fi
+
+NEAREST_SERVER=$(jq -r \
+    --arg MY_CITY "$MY_CITY" \
+    --arg MY_COUNTRY "$MY_COUNTRY" \
+    '.[] | select(.SITE==$MY_CITY and .COUNTRY==$MY_COUNTRY) | .IP_HOST' "$SERVER_JSON")
+
+if [ -z "$NEAREST_SERVER" ]; then
+    echo "No exact match found for city $MY_CITY, $MY_COUNTRY."
+    NEAREST_SERVER=$(jq -r \
+        --arg MY_COUNTRY "$MY_COUNTRY" \
+        '.[] | select(.COUNTRY==$MY_COUNTRY) | .IP_HOST' "$SERVER_JSON" | head -n 1)
+
+    if [ -z "$NEAREST_SERVER" ]; then
+        echo "No servers found in the country $MY_COUNTRY."
         exit 1
     fi
-else
-    echo "jq and bc are already installed."
 fi
 
+echo -e "Nearest server: $NEAREST_SERVER \n"
 
-# Function to calculate the Haversine distance between two sets of coordinates
-haversine() {
-    lat1=$1
-    lon1=$2
-    lat2=$3
-    lon2=$4
-    # Convert degrees to radians
-    dlat=$(echo "$lat2 - $lat1" | bc -l 2>/dev/null)
-    dlon=$(echo "$lon2 - $lon1" | bc -l 2>/dev/null)
-    lat1=$(echo "$lat1 * 0.017453292519943295" | bc -l 2>/dev/null)
-    lat2=$(echo "$lat2 * 0.017453292519943295" | bc -l 2>/dev/null)
-    dlat=$(echo "$dlat * 0.017453292519943295" | bc -l 2>/dev/null)
-    dlon=$(echo "$dlon * 0.017453292519943295" | bc -l 2>/dev/null)
-
-    a=$(echo "s($dlat/2)^2 + c($lat1) * c($lat2) * s($dlon/2)^2" | bc -l 2>/dev/null)
-    c=$(echo "2 * a(sqrt($a) / sqrt(1-$a))" | bc -l 2>/dev/null)
-    # Earth's radius in kilometers (6371)
-    distance=$(echo "6371 * $c" | bc -l 2>/dev/null)
-    echo $distance
-}
-
-# Step 1: Find the location of the client (your own IP)
-CLIENT_INFO=$(curl -s ipinfo.io)
-CLIENT_LAT=$(echo $CLIENT_INFO | jq -r '.loc' | cut -d',' -f1 2>/dev/null)
-CLIENT_LON=$(echo $CLIENT_INFO | jq -r '.loc' | cut -d',' -f2 2>/dev/null)
-
-echo "Client location: Latitude $CLIENT_LAT, Longitude $CLIENT_LON"
-
-# Step 2: Download the list of iperf3 servers
-SERVER_LIST_URL="https://iperf3serverlist.net"
-SERVER_LIST_FILE="/tmp/iperf3_servers.html"
-curl -s $SERVER_LIST_URL -o $SERVER_LIST_FILE
-
-# Step 3: Find the IP addresses of the servers in the list
-SERVER_IPS=$(grep -Eo '(([0-9]{1,3}\.){3}[0-9]{1,3})' $SERVER_LIST_FILE)
-
-# Step 4: Find the location of each server
-closest_server=""
-closest_distance=""
-
-for ip in $SERVER_IPS; do
-    # Find the geolocation of the server
-    SERVER_INFO=$(curl -s ipinfo.io/$ip)
-    SERVER_LAT=$(echo $SERVER_INFO | jq -r '.loc' | cut -d',' -f1 2>/dev/null)
-    SERVER_LON=$(echo $SERVER_INFO | jq -r '.loc' | cut -d',' -f2 2>/dev/null)
-
-    # Calculate the distance between the client and the server
-    distance=$(haversine $CLIENT_LAT $CLIENT_LON $SERVER_LAT $SERVER_LON)
-    
-    # echo "Server $ip is $distance km away"
-    
-    # Compare distances to find the closest server
-    if [[ -z "$closest_distance" || $(echo "$distance < $closest_distance" | bc -l 2>/dev/null) -eq 1 ]]; then
-        closest_distance=$distance
-        closest_server=$ip
-    fi
-done
-
-# Step 5: Run the iperf3 test with the closest server
-if [[ -n "$closest_server" ]]; then
-    echo "The closest server is $closest_server at a distance of $closest_distance km"
-    iperf3 -c $closest_server
-else
-    echo "No closest server found."
-fi
+echo "Starting iPerf3 test with server $NEAREST_SERVER..."
+iperf3 -c $NEAREST_SERVER
