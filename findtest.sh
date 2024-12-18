@@ -66,7 +66,7 @@ NEAREST_SERVER=$(jq -r \
     '.[] | select(.SITE==$MY_CITY and .COUNTRY==$MY_COUNTRY) | .IP_HOST' "$SERVER_JSON")
 
 if [ -z "$NEAREST_SERVER" ]; then
-    echo "No exact match found for city $MY_CITY, $MY_COUNTRY."
+    echo "No exact match found for $MY_CITY, $MY_COUNTRY."
     NEAREST_SERVER=$(jq -r \
         --arg MY_COUNTRY "$MY_COUNTRY" \
         '.[] | select(.COUNTRY==$MY_COUNTRY) | .IP_HOST' "$SERVER_JSON" | head -n 1)
