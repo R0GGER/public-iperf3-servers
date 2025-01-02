@@ -14,13 +14,13 @@ clear
 install_packages() {
     if [ -f /etc/debian_version ]; then
         echo "Detected Ubuntu/Debian. Installing required packages..."
-        sudo apt update
-        sudo apt install -y iperf3 jq curl bc
+        apt update
+        apt install -y iperf3 jq curl bc
     elif [ -f /etc/redhat-release ]; then
         echo "Detected CentOS/Rocky Linux. Installing required packages..."
-        sudo yum update -y
-        sudo yum install -y epel-release
-        sudo yum install -y iperf3 jq curl bc
+        yum update -y
+        yum install -y epel-release
+        yum install -y iperf3 jq curl bc
     else
         echo "Unsupported Linux distribution. Please install iPerf3, jq, and bc manually."
         exit 1
