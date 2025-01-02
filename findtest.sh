@@ -12,19 +12,34 @@ NC='\033[0m' # No Color
 clear
 
 install_packages() {
+    echo "Installing required packages..."
     if [ -f /etc/debian_version ]; then
-        echo "Detected Ubuntu/Debian. Installing required packages..."
-        apt update
-        apt install -y iperf3 jq curl bc
+        # Force non-interactive mode for apt
+        export DEBIAN_FRONTEND=noninteractive
+        apt-get update -qq
+        apt-get install -y iperf3 jq curl bc || {
+            echo -e "${RED}Failed to install packages on Debian/Ubuntu${NC}"
+            exit 1
+        }
     elif [ -f /etc/redhat-release ]; then
-        echo "Detected CentOS/Rocky Linux. Installing required packages..."
-        yum update -y
-        yum install -y epel-release
-        yum install -y iperf3 jq curl bc
+        yum update -y -q
+        yum install -y epel-release -q
+        yum install -y iperf3 jq curl bc -q || {
+            echo -e "${RED}Failed to install packages on CentOS/Rocky Linux${NC}"
+            exit 1
+        }
     else
-        echo "Unsupported Linux distribution. Please install iPerf3, jq, and bc manually."
+        echo -e "${RED}Unsupported Linux distribution. Please install iPerf3, jq, and bc manually.${NC}"
         exit 1
     fi
+    
+    # Verify installations
+    for cmd in iperf3 jq curl bc; do
+        if ! command -v $cmd &>/dev/null; then
+            echo -e "${RED}Failed to install $cmd. Please install it manually.${NC}"
+            exit 1
+        fi
+    done
 }
 
 haversine() {
@@ -100,8 +115,9 @@ show_top_3_servers() {
 
 for cmd in iperf3 jq curl bc; do
     if ! command -v $cmd &>/dev/null; then
-        echo "$cmd not found. Installing..."
+        echo -e "${YELLOW}$cmd not found. Installing required packages...${NC}"
         install_packages
+        break  # Only need to run install_packages once
     fi
 done
 
