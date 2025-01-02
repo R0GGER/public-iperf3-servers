@@ -13,6 +13,7 @@
 ## Content
 * [Install iperf3](#install-iperf3)
 * [Commands](#commands)
+* [Find & Test](#find--test) :new:
 * [Documentation](#documentation)
 * [Servers per continent](#servers-per-continent)
 * [Export to .CSV, .XLSX, JSON](#export)
@@ -37,6 +38,7 @@ iperf3 -c speedtest.novoserve.com -p 5201 -P 20
 ```bash
 docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3 -c ams.speedtest.clouvider.net -p $((5201+(RANDOM%10)))
 ```
+
 **Options**    
 `-c` host  
 `--bidir` run in bidirectional mode. Client and server send and receive data.    
@@ -45,6 +47,12 @@ docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3 -c ams.speedtest
 `-R, --reverse` run in reverse mode (server sends, client receives)(download)    
 `-4, --version4` only use IPv4 (default)   
 `-6, --version6` only use IPv6 
+
+### Find & Test
+This script automatically selects the nearest iperf3 server based on IP, country, and city, and then performs an iperf3 test.
+```bash
+curl -s https://raw.githubusercontent.com/R0GGER/public-iperf3-servers/refs/heads/main/findtest.sh | bash
+```
 
 ## Documentation
 For more information about iperf3, visit our documentation webpage: https://iperf3serverlist.net/iperf3.html
