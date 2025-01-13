@@ -72,12 +72,13 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 ### AFRICA
 | **COMMAND** | **OPTIONS** | **GB/S** | **COUNTRY** | **SITE** |
 |:------------|:-----------:|:--------:|:-----------:|:---------|
+| iperf3 -c 41.110.39.130 | -R,-6 | 10 | DZ \| 🇩🇿 | Algiers |
+| iperf3 -c 213.158.175.240 | -R,-6 | 10 | EG \| 🇪🇬 | Cairo |
 | iperf3 -c 102.214.66.19 | -R,-6 | 2x10 | GN \| 🇬🇳 | Accra |
 | iperf3 -c 102.214.66.39 | -R,-6 | 2x10 | GN \| 🇬🇳 | Accra |
 | iperf3 -c 105.235.237.2 -p 5201-5209 | -R |  | GQ \| 🇬🇶 | Bata |
 | iperf3 -c speedtestfl.telecom.mu -p 5201-5209 | -R |  | MU \| 🇲🇺 | Floreal |
 | iperf3 -c speedtest.telecom.mu -p 5201-5209 | -R |  | MU \| 🇲🇺 | Port Louis |
-| iperf3 -c 196.179.245.2 -p 9200-9240 | -R |  | TN \| 🇹🇳 | Tunis |
 | iperf3 -c 197.26.19.243 -p 9200-9240 | -R |  | TN \| 🇹🇳 | Tunis |
 | iperf3 -c 41.226.22.119 -p 9202-9240 | -R |  | TN \| 🇹🇳 | Tunis |
 | iperf3 -c 41.210.185.162 | -R,-6 | 2x10 | UG \| 🇺🇬 | Kampala |
@@ -89,7 +90,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 |:------------|:-----------:|:--------:|:-----------:|:---------|
 | iperf3 -c 84.17.57.129 | -R | 2x10 | HK \| 🇭🇰 | Hong Kong |
 | iperf3 -c speedtest.hkg12.hk.leaseweb.net -p 5201-5210 | -R,-6 | 10 | HK \| 🇭🇰 | Hong Kong |
-| iperf3 -c jkt.speedtest.sggs.network | -R | 10 | ID \| 🇮🇩 | Jakarta |
+| iperf3 -c 103.185.255.183 -p 5201-5230 | -R |  | ID \| 🇮🇩 | Jakarta |
 | iperf3 -c speedtest.myrepublic.net.id -p 9200-9240 | -R |  | ID \| 🇮🇩 | Jakarta |
 | iperf3 -c speed.netfiber.net.il | -R | 1 | IL \| 🇮🇱 | Jerusalem |
 | iperf3 -c speed.rimon.net.il | -R | 1 | IL \| 🇮🇱 | Jerusalem |
@@ -136,7 +137,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c spd-desrv.hostkey.com -p 5201 | -R | 10 | DE \| 🇩🇪 | Frankfurt |
 | iperf3 -c speedtest.fra1.de.leaseweb.net -p 5201-5210 | -R,-6 | 10 | DE \| 🇩🇪 | Frankfurt |
 | iperf3 -c speedtest.ip-projects.de | -R,-6 | 10 | DE \| 🇩🇪 | Frankfurt |
-| iperf3 -c speedtest.studiofunk.de -p 5209 | -R,-6 |  | DE \| 🇩🇪 | Hamburg |
 | iperf3 -c speedtest.wtnet.de -p 5200-5209 | -R,-6 | 40 | DE \| 🇩🇪 | Norderstedt |
 | iperf3 -c a400.speedtest.wobcom.de | -R,-6 | 2x25 | DE \| 🇩🇪 | Wolfsburg |
 | iperf3 -c speedtest.wobcom.de | -R,-6 | 2x25 | DE \| 🇩🇪 | Wolfsburg |
@@ -163,8 +163,8 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 169.150.252.2 | -R | 2x10 | GR \| 🇬🇷 | Athens |
 | iperf3 -c 169.150.242.129 | -R | 2x10 | HR \| 🇭🇷 | Zagreb |
 | iperf3 -c speedtest1.vodafone.hu | -R | 1 | HU \| 🇭🇺 | Budapest |
-| iperf3 -c spd-icsrv.hostkey.com -p 5201 | -R | 10 | IC \| 🇮🇨 | Reykjavik |
 | iperf3 -c 87.249.137.8 | -R | 2x10 | IR \| 🇮🇷 | Dublin |
+| iperf3 -c spd-icsrv.hostkey.com -p 5201 | -R | 10 | IS \| 🇮🇸 | Reykjavik |
 | iperf3 -c it1.speedtest.aruba.it | -R |  | IT \| 🇮🇹 | Arezzo |
 | iperf3 -c speed.itgate.net -p 5201-5202 | -R,-6 |  | IT \| 🇮🇹 | Gerbido |
 | iperf3 -c 84.17.59.129 | -R | 2x10 | IT \| 🇮🇹 | Milan |
@@ -173,17 +173,17 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 185.102.218.1 | -R | 2x10 | NL \| 🇳🇱 | Amsterdam |
 | iperf3 -c a204.speedtest.wobcom.de | -R,-6 | 2x25 | NL \| 🇳🇱 | Amsterdam |
 | iperf3 -c ams.speedtest.clouvider.net -p 5200-5209 | -R,-6 | 10 | NL \| 🇳🇱 | Amsterdam |
-| iperf3 -c ams.speedtest.sggs.network | -R | 10 | NL \| 🇳🇱 | Amsterdam |
 | iperf3 -c iperf-ams-nl.eranium.net -p 5201-5210 | -R,-6 | 100 | NL \| 🇳🇱 | Amsterdam |
 | iperf3 -c lg.ams-nl.terrahost.com -p 9201-9240 | -R,-6 |  | NL \| 🇳🇱 | Amsterdam |
 | iperf3 -c ping-ams1.online.net -p 5200-5209 | -R | 10 | NL \| 🇳🇱 | Amsterdam |
 | iperf3 -c speedtest.ams1.nl.leaseweb.net -p 5201-5210 | -R,-6 | 10 | NL \| 🇳🇱 | Amsterdam |
 | iperf3 -c speedtest.ams1.novogara.net -p 5200-5209 | -R,-6 | 20 | NL \| 🇳🇱 | Amsterdam |
 | iperf3 -c speedtest.ams2.nl.leaseweb.net -p 5201-5210 | -R,-6 | 10 | NL \| 🇳🇱 | Amsterdam |
+| iperf3 -c speedtest.macarne.com | -R,-6 | 100 | NL \| 🇳🇱 | Amsterdam |
 | iperf3 -c speedtest.nl3.mirhosting.net -p 5201-5209 | -R,-6 | 40 | NL \| 🇳🇱 | Amsterdam |
 | iperf3 -c speedtest.novoserve.com -p 5201-5206 | -R,-6 | 40 | NL \| 🇳🇱 | Amsterdam |
 | iperf3 -c lg-drn.liteserver.nl -p 5200-5240 | -R | 1 | NL \| 🇳🇱 | Dronten |
-| iperf3 -c speedtest.nl1.mirhosting.net -p 5201-5209 | -R,-6 | 2x 10 | NL \| 🇳🇱 | Dronten |
+| iperf3 -c speedtest.nl1.mirhosting.net -p 5201-5209 | -R,-6 | 40 | NL \| 🇳🇱 | Dronten |
 | iperf3 -c iperf.worldstream.nl | -R,-6 | 10 | NL \| 🇳🇱 | Naaldwijk |
 | iperf3 -c lg.gigahost.no -p 9201-9240 | -R,-6 | 100 | NO \| 🇳🇴 | Sandefjord |
 | iperf3 -c lg.terrahost.com -p 9200-9240 | -R,-6 | 10 | NO \| 🇳🇴 | Sandefjord |
@@ -242,7 +242,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 37.19.216.1 | -R | 2x10 | US \| 🇺🇸 | Houston |
 | iperf3 -c 185.152.67.2 | -R | 2x10 | US \| 🇺🇸 | Los Angeles |
 | iperf3 -c la.speedtest.clouvider.net -p 5200-5209 | -R | 10 | US \| 🇺🇸 | Los Angeles |
-| iperf3 -c lax.speedtest.sggs.network | -R | 10 | US \| 🇺🇸 | Los Angeles |
 | iperf3 -c speedtest.lax12.us.leaseweb.net -p 5201-5210 | -R,-6 | 10 | US \| 🇺🇸 | Los Angeles |
 | iperf3 -c speedtest.tds.net | -R |  | US \| 🇺🇸 | Madison |
 | iperf3 -c 195.181.162.195 | -R | 2x10 | US \| 🇺🇸 | Miami |
