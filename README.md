@@ -13,14 +13,14 @@
 ## Content
 * [Install iperf3](#install-iperf3)
 * [Commands](#commands)
-* [Find & Test](#find--test) :new:
+* [Find & Test](#find--test)
 * [Documentation](#documentation)
 * [Servers per continent](#servers-per-continent)
 * [Export to .CSV, .XLSX, JSON](#export)
 * [Contact](#contact)
 
 ## Install iperf3
-**Debian:**
+**Debian/Ubuntu:**
 ```bash
 apt update && apt install -y iperf3
 ```
@@ -95,11 +95,12 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speed.netfiber.net.il | -R | 1 | IL \| 🇮🇱 | Jerusalem |
 | iperf3 -c speed.rimon.net.il | -R | 1 | IL \| 🇮🇱 | Jerusalem |
 | iperf3 -c 169.150.202.193 | -R | 2x10 | IL \| 🇮🇱 | Tel Aviv |
-| iperf3 -c bamdad.iperf3.ir -p 5201-5209 | -R,-6 | 10 | IR \| 🇮🇷 | Teheran |
-| iperf3 -c shahriar.iperf3.ir -p 5201-5208 | -R,-6 | 10 | IR \| 🇮🇷 | Teheran |
-| iperf3 -c simin.iperf3.ir -p 5201-5208 | -R,-6 | 10 | IR \| 🇮🇷 | Teheran |
+| iperf3 -c lg-in-mum.webhorizon.net | -R,-6 | 10 | IN \| 🇮🇳 | Mumbai |
+| iperf3 -c forough.iperf3.ir -o 5201-5209 | -R | 10 | IR \| 🇮🇷 | Shiraz |
+| iperf3 -c bamdad.iperf3.ir -p 5208 | -R,-6 | 10 | IR \| 🇮🇷 | Teheran |
+| iperf3 -c shahriar.iperf3.ir -p 5207 | -R,-6 | 10 | IR \| 🇮🇷 | Teheran |
+| iperf3 -c simin.iperf3.ir -p 5201-5209 | -R,-6 | 10 | IR \| 🇮🇷 | Teheran |
 | iperf3 -c 89.187.160.1 | -R | 2x10 | JP \| 🇯🇵 | Tokyo |
-| iperf3 -c lg-jp-tyo.webhorizon.net | -R,-6 | 10 | JP \| 🇯🇵 | Tokyo |
 | iperf3 -c speedtest.tyo11.jp.leaseweb.net -p 5201-5210 | -R,-6 | 10 | JP \| 🇯🇵 | Tokyo |
 | iperf3 -c 91.185.23.98 | -R |  | KZ \| 🇰🇿 | Aktau |
 | iperf3 -c iperf.myren.net.my -p 5201-5210 | -R |  | MY \| 🇲🇾 | Kuala Lumpur |
@@ -210,7 +211,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 79.127.209.1 | -R | 2x10 | CL \| 🇨🇱 | Santiago |
 | iperf3 -c sp11.wom.cl |  |  | CL \| 🇨🇱 | Santiago |
 | iperf3 -c speedtest-cncp.grupogtd.com -p 5201-5205 | -R,-6 | 10 | CL \| 🇨🇱 | Valdivia |
-| iperf3 -c 152.204.128.194 -p 5201-5220 | -R | 10 | CO \| 🇨🇴 | Bogotá |
+| iperf3 -c 152.204.128.194 -p 55200-55300 | -R | 10 | CO \| 🇨🇴 | Bogotá |
 | iperf3 -c 169.150.228.129 | -R | 2x10 | CO \| 🇨🇴 | Bogotá |
 | iperf3 -c 156.146.53.53 | -R | 2x10 | CR \| 🇨🇷 | San Jose |
 | iperf3 -c speedtest.masnet.ec -p 5201-5209 | -R,-6 | 1 | EC \| 🇪🇨 | Santa Ana |
