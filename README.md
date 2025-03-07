@@ -13,7 +13,6 @@
 ## Content
 * [Install iperf3](#install-iperf3)
 * [Commands](#commands)
-* [Find & Test](#find--test)
 * [Documentation](#documentation)
 * [Servers per continent](#servers-per-continent)
 * [Export to .CSV, .XLSX, JSON](#export)
@@ -125,7 +124,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.init7.net | -R,-6 | 20 | CH \| 🇨🇭 | Winterthur |
 | iperf3 -c 89.187.165.1 | -R | 2x10 | CH \| 🇨🇭 | Zürich |
 | iperf3 -c speedtest.iway.ch | -R,-6 | 10 | CH \| 🇨🇭 | Zürich |
-| iperf3 -c rychlost.poda.cz -p 5202 | -R |  | CZ \| 🇨🇿 | Mikulov |
+| iperf3 -c rychlost.poda.cz -p 5203-5205 | -R |  | CZ \| 🇨🇿 | Mikulov |
 | iperf3 -c 185.152.65.113 | -R | 2x10 | CZ \| 🇨🇿 | Prague |
 | iperf3 -c a110.speedtest.wobcom.de | -R,-6 | 2x25 | DE \| 🇩🇪 | Berlin |
 | iperf3 -c a209.speedtest.wobcom.de | -R,-6 | 2x25 | DE \| 🇩🇪 | Berlin |
@@ -196,6 +195,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 185.102.217.170 | -R | 2x10 | RO \| 🇷🇴 | Bucharest |
 | iperf3 -c speedtest1.sox.rs -p 9201-9240 | -R,-6 | 10 | RS \| 🇷🇸 | Belgrade |
 | iperf3 -c speedtest.kamel.network -p 5201-5205 | -R,-6 | 1 | SE \| 🇸🇪 | Kista |
+|  iperf3 -c speedtest.cityhost.se -p 5201 | -R,-6 | 100 | SE \| 🇸🇪 | Stockholm |
 | iperf3 -c 185.76.9.135 | -R | 2x10 | SE \| 🇸🇪 | Stockholm |
 | iperf3 -c speedtest.ownit.se | -R | 1 | SE \| 🇸🇪 | Stockholm |
 | iperf3 -c 156.146.40.65 | -R | 2x10 | SK \| 🇸🇰 | Bratislava |
