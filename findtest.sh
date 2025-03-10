@@ -48,12 +48,13 @@ haversine() {
     lat2=$3
     lon2=$4
 
+    deg_to_radian=0.017453292519943295
     dlat=$(echo "$lat2 - $lat1" | bc -l)
     dlon=$(echo "$lon2 - $lon1" | bc -l)
-    lat1=$(echo "$lat1 * 0.017453292519943295" | bc -l)
-    lat2=$(echo "$lat2 * 0.017453292519943295" | bc -l)
-    dlat=$(echo "$dlat * 0.017453292519943295" | bc -l)
-    dlon=$(echo "$dlon * 0.017453292519943295" | bc -l)
+    lat1=$(echo "$lat1 * $deg_to_radian" | bc -l)
+    lat2=$(echo "$lat2 * $deg_to_radian" | bc -l)
+    dlat=$(echo "$dlat * $deg_to_radian" | bc -l)
+    dlon=$(echo "$dlon * $deg_to_radian" | bc -l)
 
     a=$(echo "s($dlat/2)^2 + c($lat1) * c($lat2) * s($dlon/2)^2" | bc -l)
     c=$(echo "2 * a(sqrt($a) / sqrt(1 - $a))" | bc -l)
