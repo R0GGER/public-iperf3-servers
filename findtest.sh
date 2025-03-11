@@ -14,15 +14,15 @@ install_packages() {
     if [ -f /etc/debian_version ]; then
         # Force non-interactive mode for apt
         export DEBIAN_FRONTEND=noninteractive
-        apt-get update -qq
-        apt-get install -y iperf3 jq curl bc || {
+        sudo apt-get update -qq
+        sudo apt-get install -y iperf3 jq curl bc || {
             echo -e "${RED}Failed to install packages on Debian/Ubuntu${NC}"
             exit 1
         }
     elif [ -f /etc/redhat-release ]; then
-        yum update -y -q
-        yum install -y epel-release -q
-        yum install -y iperf3 jq curl bc -q || {
+        sudo yum update -y -q
+        sudo yum install -y epel-release -q
+        sudo yum install -y iperf3 jq curl bc -q || {
             echo -e "${RED}Failed to install packages on CentOS/Rocky Linux${NC}"
             exit 1
         }
