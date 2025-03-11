@@ -15,19 +15,19 @@ install_packages() {
         # Force non-interactive mode for apt
         export DEBIAN_FRONTEND=noninteractive
         sudo apt-get update -qq
-        sudo apt-get install -y iperf3 jq curl bc || {
+        sudo apt-get install -y iperf3 jq curl bc sudo || {
             echo -e "${RED}Failed to install packages on Debian/Ubuntu${NC}"
             exit 1
         }
     elif [ -f /etc/redhat-release ]; then
         sudo yum update -y -q
         sudo yum install -y epel-release -q
-        sudo yum install -y iperf3 jq curl bc -q || {
+        sudo yum install -y iperf3 jq curl bc sudo -q || {
             echo -e "${RED}Failed to install packages on CentOS/Rocky Linux${NC}"
             exit 1
         }
     else
-        echo -e "${RED}Unsupported Linux distribution. Please install iPerf3, jq, and bc manually.${NC}"
+        echo -e "${RED}Unsupported Linux distribution. Please install iPerf3, jq, bc and sudo manually.${NC}"
         exit 1
     fi
     
