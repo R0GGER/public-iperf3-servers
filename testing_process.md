@@ -1,6 +1,6 @@
 # Testing Process
 
-I believe in full transparency about my testing process. In this document, I outline exactly how I evaluate servers before adding them to iperfserverlist.net or github.com/R0GGER/public-iperf3-servers and how I continuously monitor them.
+In this document, I outline exactly how I evaluate servers before adding them to iperfserverlist.net and github.com/R0GGER/public-iperf3-servers and how I continuously monitor them.
 
 ## Server Acceptance Criteria
 
@@ -9,8 +9,7 @@ Before a server is added to the public list, it must pass a comprehensive testin
 1. **Initial Testing Phase**
    - ✓ Successful ping test (10s timeout)
    - ✓ Port accessibility verification
-   - ✓ iPerf3 download performance test
-   - ✓ iPerf3 upload performance test
+   - ✓ iPerf3 performance test
 
 2. **Monitoring Period**
    - 30-day observation period
@@ -32,7 +31,7 @@ In my commitment to maintaining a reliable server list, I remove servers that:
 - Drop below 90% uptime in a 30-day period
 - Fail consecutive automated tests
 - Show persistent connectivity issues
-- Have port accessibility problems
+- Port accessibility problems
 - Display significant performance degradation
 
 ### If you have questions about my testing process, ideas or other feedback:
