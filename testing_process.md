@@ -1,15 +1,15 @@
 # Testing Process
 
-In this document, I outline exactly how I evaluate servers before adding them to iperfserverlist.net and github.com/R0GGER/public-iperf3-servers and how I continuously monitor them.
+In this document, I outline exactly how I evaluate servers before adding them to [iperf3serverlist.net](https://iperf3serverlist.net) and [github.com/R0GGER/public-iperf3-servers](https://github.com/R0GGER/public-iperf3-servers) and how I continuously monitor them.
 
-## Server Acceptance Criteria
+## Server Acceptance
 
 Before a server is added to the public list, it must pass a comprehensive testing process:
 
 1. **Initial Testing Phase**
-   - ✓ Successful ping test (10s timeout)
-   - ✓ Port accessibility verification
-   - ✓ iPerf3 performance test
+   - Successful ping test (10s timeout)
+   - Port accessibility verification
+   - iPerf3 performance test
 
 2. **Monitoring Period**
    - 30-day observation period
@@ -48,4 +48,4 @@ I perform all tests from my dedicated testing environment:
 
 ## Thank you
 
-Thank you [Censys](https://censys.com/) for providing me Research Access. 
+Thank you [Censys](https://censys.com) for providing me Research Access. 
