@@ -141,7 +141,8 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c a400.speedtest.wobcom.de | -R,-6 | 2x25 | DE \| 🇩🇪 | Wolfsburg |
 | iperf3 -c speedtest.wobcom.de | -R,-6 | 2x25 | DE \| 🇩🇪 | Wolfsburg |
 | iperf3 -c 121.127.45.65 | -R | 2x10 | DK \| 🇩🇰 | Copenhagen |
-| iperf3 -c speed.fiberby.dk -p 9201-9240 | -R,-6 | 10 | DK \| 🇩🇰 | Copenhagen |
+| iperf3 -c speed1.fiberby.dk -p 9201-9240 | -R,-6 | 25 | DK \| 🇩🇰 | Copenhagen |
+| iperf3 -c speed2.fiberby.dk -p 9201-9240 | -R,-6 | 25 | DK \| 🇩🇰 | Copenhagen |
 | iperf3 -c speedtest.hiper.dk -p 5201-5203 | -R,-6 |  | DK \| 🇩🇰 | Copenhagen |
 | iperf3 -c 185.93.3.50 | -R | 2x10 | ES \| 🇪🇸 | Madrid |
 | iperf3 -c spd-fisrv.hostkey.com -p 5201 | -R | 10 | FI \| 🇫🇮 | Helsinki |
