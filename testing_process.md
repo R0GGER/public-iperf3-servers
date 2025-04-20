@@ -2,7 +2,7 @@
 
 In this document, I outline exactly how I evaluate servers before adding them to [iperf3serverlist.net](https://iperf3serverlist.net) and [github.com/R0GGER/public-iperf3-servers](https://github.com/R0GGER/public-iperf3-servers) and how I continuously monitor them.
 
-## Server Acceptance
+## Acceptance
 
 Before a server is added to the public list, it must pass a comprehensive testing process:
 
@@ -18,14 +18,14 @@ Before a server is added to the public list, it must pass a comprehensive testin
 
 More information and test results at [test.iperf3serverlist.net](https://test.iperf3serverlist.net)
 
-## Continuous Monitoring
+## Monitoring
 
 All listed servers undergo:
-- Weekly automated testing (Every Sunday, 02:00 AM +1 GMT)
+- Weekly automated testing
 - 15-minute interval uptime checks
 - Full performance testing suite
 
-## Removal Criteria
+## Removal
 
 In my commitment to maintaining a reliable server list, I remove servers that:
 - Drop below 90% uptime in a 30-day period
@@ -48,4 +48,4 @@ I perform all tests from my dedicated testing environment:
 
 ## Thank you
 
-Thank you [Censys](https://censys.com) for providing me Research Access. 
+This project is sponsored and supported by [**HostHatch** ](https://cloud.hosthatch.com/a/772)and [**Censys**](https://censys.com/).
