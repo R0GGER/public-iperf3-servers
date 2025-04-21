@@ -7,54 +7,24 @@
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-green.svg?color=0066ff&style=for-the-badge&label=License&logoColor=000000&labelColor=ececec" alt="License: MIT"></a> <br/>
    <a href="https://stand-with-ukraine.pp.ua"><img src="https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraineFlat.svg" alt="#StandWithUkraine" /></a>
 <h3 align="center">A list of public iPERF3 servers to perform bandwidth and speedtests across different geographical regions.</h3>  
-  </a><br/> 
+  </a>
+</p>
+<p align="center">
+This project is sponsored and supported by <a href="https://cloud.hosthatch.com/a/772" target="_blank">HostHatch</a> and <a href="https://censys.com" target="_blank">Censys</a>
 </p>
 
-## Content
-* [Install iperf3](#install-iperf3)
-* [Commands](#commands)
-* [Documentation](#documentation)
+## Table of Contents
+
+* [Documentation](https://github.com/R0GGER/public-iperf3-servers/blob/main/docs.md#iperf3)
+  * [Installation](https://github.com/R0GGER/public-iperf3-servers/blob/main/docs.md#installation)
+  * [Basic Usage](https://github.com/R0GGER/public-iperf3-servers/blob/main/docs.md#basic-usage)
+  * [Test Scenarios & Protocol Differences](https://github.com/R0GGER/public-iperf3-servers/blob/main/docs.md#test-scenarios--protocol-differences)
+  * [Advanced Usage & Tips](https://github.com/R0GGER/public-iperf3-servers/blob/main/docs.md#advanced-usage--tips)
+
+* [Testing & Monitoring](https://github.com/R0GGER/public-iperf3-servers/blob/main/testing_process.md)
 * [Servers per continent](#servers-per-continent)
 * [Export to .CSV, .XLSX, JSON](#export)
 * [Contact](#contact)
-
-## Install iperf3
-**Debian/Ubuntu:**
-```bash
-apt update && apt install -y iperf3
-```
-**CentOS/RockyLinux:**
-```bash
-yum install epel-release && yum install iperf3
-```
-**Windows**    
-Download and extract [iperf-3.*-win64.zip](https://github.com/ar51an/iperf3-win-builds)
-
-## Commands:
-```bash
-iperf3 -c speedtest.novoserve.com -p 5201 -P 20
-```
-```bash
-docker run -it --rm -p 5201:5201 -p 5201:5201/udp r0gger/iperf3 -c ams.speedtest.clouvider.net -p $((5201+(RANDOM%10)))
-```
-
-**Options**    
-`-c` host  
-`--bidir` run in bidirectional mode. Client and server send and receive data.    
-`-p, --port` server port to listen on/connect to (default: 5201)    
-`-P, --parallel`  number of parallel client streams to run (default =10)    
-`-R, --reverse` run in reverse mode (server sends, client receives)(download)    
-`-4, --version4` only use IPv4 (default)   
-`-6, --version6` only use IPv6 
-
-### Find & Test
-This script automatically selects the nearest iperf3 server based on IP, country, and city, and then performs an iperf3 test.
-```bash
-curl -s https://raw.githubusercontent.com/R0GGER/public-iperf3-servers/refs/heads/main/findtest.sh | bash
-```
-
-## Documentation
-For more information about iperf3, visit our documentation webpage: https://iperf3serverlist.net/iperf3.html
 
 ## Servers per continent
 Do you want to add/remove an IP or HOST to this list? Please create a [new issue](https://github.com/R0GGER/public-iperf3-servers/issues).
