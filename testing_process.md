@@ -16,8 +16,6 @@ Before a server is added to the public list, it must pass a comprehensive testin
    - Minimum 90% uptime requirement
    - Consistent performance across all tests
 
-More information and test results at [test.iperf3serverlist.net](https://test.iperf3serverlist.net)
-
 ## Monitoring
 
 All listed servers undergo:
@@ -34,18 +32,22 @@ In my commitment to maintaining a reliable server list, I remove servers that:
 - Port accessibility problems
 - Display significant performance degradation
 
-### If you have questions about my testing process, ideas or other feedback:
-- Open an issue in this repository, [github.com/R0GGER/public-iperf3-servers/issues](https://github.com/R0GGER/public-iperf3-servers/issues)
+## Test Results
+
+- Raw test results: [test.iperf3serverlist.net](https://test.iperf3serverlist.net)
+- Uptime monitoring: [uptime.iperf3serverlist.net](https://uptime.iperf3serverlist.net/)
+- Results are filtered and analyzed in NocoDB, view pending results at: [NocoDB - New unlisted](https://db.iperf3serverlist.net/dashboard/#/nc/view/eef5bfe2-916c-45fe-b4cc-1c9e510ae422)
 
 ## Test Environment
 
 I perform all tests from my dedicated testing environment:
-- VPS running Debian 12
+- [HostHatch](https://cloud.hosthatch.com/a/772) VPS 
+- Debian 12
 - 4 CPU cores (2 dedicated, 2 fair-shared)
 - 16 GB DDR4 RAM
 - 10GB/s network connectivity
-- Location: Amsterdam, NL (HostHatch)
+- Location: Amsterdam, NL
 
 ## Thank you
 
-This project is sponsored and supported by [**HostHatch** ](https://cloud.hosthatch.com/a/772)and [**Censys**](https://censys.com/).
+This project is sponsored and supported by [**HostHatch**](https://cloud.hosthatch.com/a/772) and [**Censys**](https://censys.com/).
