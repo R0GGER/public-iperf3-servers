@@ -166,7 +166,7 @@ Runs tests simultaneously in both directions (client sends to server AND server 
 
 ### Find & Test Nearest Public Server (`findtest.sh`)
 
-This project hosts a list of public `iperf3` servers. A helper script is available to automatically find a geographically close server from the list and run a test against it.
+Find & Test is a script to find automatically the geographically closest server from the list and run a test against it.
 
 ```bash
 # Download and execute the script
