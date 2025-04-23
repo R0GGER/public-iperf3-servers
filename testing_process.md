@@ -36,7 +36,7 @@ In my commitment to maintaining a reliable server list, I remove servers that:
 
 - Raw test results: [test.iperf3serverlist.net](https://test.iperf3serverlist.net)
 - Uptime monitoring: [uptime.iperf3serverlist.net](https://uptime.iperf3serverlist.net/)
-- Results are filtered and analyzed in NocoDB, view pending results at: [NocoDB - New unlisted](https://db.iperf3serverlist.net/dashboard/#/nc/view/eef5bfe2-916c-45fe-b4cc-1c9e510ae422)
+- Results are filtered and analyzed in NocoDB. View the results under the list: [PENDING](https://db.iperf3serverlist.net/dashboard/#/nc/view/eef5bfe2-916c-45fe-b4cc-1c9e510ae422)
 
 ## Test Environment
 
