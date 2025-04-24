@@ -164,12 +164,11 @@ Runs tests simultaneously in both directions (client sends to server AND server 
 
 ## Advanced Usage & Tips
 
-### Find & Test Nearest Public Server (`findtest.sh`)
+### Find & Test (`findtest.sh`)
 
-Find & Test is a script to find automatically the geographically closest server from the list and run a test against it.
+Find & Test is a script that automatically locates the geographically closest server to the client’s location from a list and runs a test against it.
 
 ```bash
-# Download and execute the script
 curl -s https://raw.githubusercontent.com/R0GGER/public-iperf3-servers/main/findtest.sh | bash
 ```
 *Note: Requires `curl`, `bash`, `jq`, and `iperf3` to be installed.*
@@ -181,16 +180,16 @@ Running `iperf3` via Docker avoids local installation dependencies.
 **Run as Client:**
 ```bash
 # Example: Connect to a known public server using TCP
-docker run -it --rm --name iperf3-client r0gger/iperf3 -c ams.speedtest.clouvider.net
+docker run -it --rm --name iperf3-client ghcr.io/r0gger/public-iperf3-servers:main -c iperf-ams-nl.eranium.net -p 5208
 
-# Example: UDP test, mapping local UDP port if needed (less common for client)
-docker run -it --rm --name iperf3-udp-client r0gger/iperf3 -c ams.speedtest.clouvider.net -u -b 1G
+# Example: UDP test, mapping local UDP port if needed
+docker run -it --rm --name iperf3-udp-client ghcr.io/r0gger/public-iperf3-servers:main -c iperf-ams-nl.eranium.net -p 5209 -u -b 1G
 ```
 
 **Run as Server:**
 ```bash
 # Run a server listening on default TCP/UDP port 5201
-docker run -it --rm --name iperf3-server -p 5201:5201 -p 5201:5201/udp r0gger/iperf3 -s
+docker run -it --rm --name iperf3-server -p 5201:5201 -p 5201:5201/udp ghcr.io/r0gger/public-iperf3-servers:main -s
 ```
 
 ### Understanding Output (Brief)
