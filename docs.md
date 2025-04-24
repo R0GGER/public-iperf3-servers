@@ -181,7 +181,8 @@ Running `iperf3` via Docker avoids local installation dependencies.
 ```bash
 # Example: Connect to a known public server using TCP
 docker run -it --rm --name iperf3-client ghcr.io/r0gger/public-iperf3-servers:main -c iperf-ams-nl.eranium.net -p 5208
-
+```
+```bash
 # Example: UDP test, mapping local UDP port if needed
 docker run -it --rm --name iperf3-udp-client ghcr.io/r0gger/public-iperf3-servers:main -c iperf-ams-nl.eranium.net -p 5209 -u -b 1G
 ```
