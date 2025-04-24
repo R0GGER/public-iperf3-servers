@@ -1,5 +1,4 @@
-# https://hub.docker.com/r/r0gger/iperf3
-# docker pull r0gger/iperf3
+# docker pull ghcr.io/r0gger/public-iperf3-servers:main
 
 FROM alpine
 MAINTAINER R0GGER
