@@ -10,7 +10,7 @@
   </a>
 </p>
 <p align="center">
-This project is sponsored and supported by <a href="https://cloud.hosthatch.com/a/772" target="_blank">HostHatch</a> and <a href="https://censys.com" target="_blank">Censys</a>
+This project is sponsored and supported by <a href="https://cloud.hosthatch.com/a/772" target="_blank">HostHatch</a> and <a href="https://censys.com" target="_blank">Censys</a>.
 </p>
 
 ## Table of Contents
@@ -52,12 +52,14 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 197.26.19.243 -p 9200-9210 | -u |  | TN \| ![tn](https://flagcdn.com/16x12/tn.png) | Tunis |
 | iperf3 -c 41.226.22.119 -p 9202-9240 | -R,-u |  | TN \| ![tn](https://flagcdn.com/16x12/tn.png) | Tunis |
 | iperf3 -c 41.210.185.162 | -R,-6,-u | 2x10 | UG \| ![ug](https://flagcdn.com/16x12/ug.png) | Kampala |
+| iperf3 -c speedtest.dbn.websquad.co.za | -R,-u |  | ZA \| ![za](https://flagcdn.com/16x12/za.png) | Durban |
 | iperf3 -c 169.150.238.161 | -R,-u | 2x10 | ZA \| ![za](https://flagcdn.com/16x12/za.png) | Johannesburg |
 
 
 ### ASIA
 | **COMMAND** | **OPTIONS** | **GB/S** | **COUNTRY** | **SITE** |
 |:------------|:-----------:|:--------:|:-----------:|:---------|
+| iperf3 -c 86.96.154.106 -p 7004-7013 | -R,-u |  | AE \| ![ae](https://flagcdn.com/16x12/ae.png) | Dubai |
 | iperf3 -c 84.17.57.129 | -R,-u | 2x10 | HK \| ![hk](https://flagcdn.com/16x12/hk.png) | Hong Kong |
 | iperf3 -c speedtest.hkg12.hk.leaseweb.net -p 5201-5210 | -R,-6 | 10 | HK \| ![hk](https://flagcdn.com/16x12/hk.png) | Hong Kong |
 | iperf3 -c 103.185.255.183 -p 5201-5230 | -R,-u |  | ID \| ![id](https://flagcdn.com/16x12/id.png) | Jakarta |
@@ -65,7 +67,8 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speed.netfiber.net.il | -R,-u | 1 | IL \| ![il](https://flagcdn.com/16x12/il.png) | Jerusalem |
 | iperf3 -c speed.rimon.net.il | -R | 1 | IL \| ![il](https://flagcdn.com/16x12/il.png) | Jerusalem |
 | iperf3 -c 169.150.202.193 | -R,-u | 2x10 | IL \| ![il](https://flagcdn.com/16x12/il.png) | Tel Aviv |
-| iperf3 -c forough.iperf3.ir -o 5201-5209 | -R | 10 | IR \| ![ir](https://flagcdn.com/16x12/ir.png) | Shiraz |
+| iperf3 -c 49.205.75.2 -p 5001-5020 | -R,-u |  | IN \| ![in](https://flagcdn.com/16x12/in.png) | Bengaluru |
+| iperf3 -c forough.iperf3.ir -p 5201-5209 | -R | 10 | IR \| ![ir](https://flagcdn.com/16x12/ir.png) | Shiraz |
 | iperf3 -c bamdad.iperf3.ir -p 5200-5209 | -R,-6 | 10 | IR \| ![ir](https://flagcdn.com/16x12/ir.png) | Teheran |
 | iperf3 -c shahriar.iperf3.ir -p 5200-5209 | -R,-6 | 10 | IR \| ![ir](https://flagcdn.com/16x12/ir.png) | Teheran |
 | iperf3 -c 89.187.160.1 | -R,-u | 2x10 | JP \| ![jp](https://flagcdn.com/16x12/jp.png) | Tokyo |
@@ -75,8 +78,8 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c sgp.proof.ovh.net -p 5204-5209 | -R,-6,-u | 1 | SG \| ![sg](https://flagcdn.com/16x12/sg.png) | Singapore |
 | iperf3 -c speedtest.sin1.sg.leaseweb.net -p 5201-5210 | -R,-6 | 10 | SG \| ![sg](https://flagcdn.com/16x12/sg.png) | Singapore |
 | iperf3 -c speedtest.singnet.com.sg -p 5201-5210 | -R |  | SG \| ![sg](https://flagcdn.com/16x12/sg.png) | Singapore |
-| iperf3 -c 202.29.80.9 -p 9207-9223 | -R,-6,-u |  | TH \| ![th](https://flagcdn.com/16x12/th.png) | Phitsanulok |
-| iperf3 -c 58.64.45.56 -p 9207-9223 | -R |  | TH \| ![th](https://flagcdn.com/16x12/th.png) | Phitsanulok |
+| iperf3 -c 202.29.80.9 -p 9207-9223 | -R,-u | 1 | TH \| ![th](https://flagcdn.com/16x12/th.png) | Phitsanulok |
+| iperf3 -c 58.64.45.56 -p 9207-9223 | -R | 1 | TH \| ![th](https://flagcdn.com/16x12/th.png) | Phitsanulok |
 | iperf3 -c 156.146.52.1 | -R,-u | 2x10 | TR \| ![tr](https://flagcdn.com/16x12/tr.png) | Istanbul |
 | iperf3 -c speedtest.uztelecom.uz -p 5200-5209 | -R,-6,-u | 10 | UZ \| ![uz](https://flagcdn.com/16x12/uz.png) | Tashkent |
 
@@ -88,10 +91,11 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c lg.vie.alwyzon.net -p 5202-5203 | -R |  | AT \| ![at](https://flagcdn.com/16x12/at.png) | Vienna |
 | iperf3 -c 207.211.214.65 | -R,-u | 2x10 | BE \| ![be](https://flagcdn.com/16x12/be.png) | Brussels |
 | iperf3 -c 37.19.203.1 | -R,-u | 2x10 | BG \| ![bg](https://flagcdn.com/16x12/bg.png) | Sofia |
-| iperf3 -c speedtest.shinternet.ch -p 5200-5219 | -R,-6,-u | 10 | CH \| ![ch](https://flagcdn.com/16x12/ch.png) | Schaffhausen |
+| iperf3 -c speedtest.shinternet.ch -p 5200-5209 | -R,-6,-u | 10 | CH \| ![ch](https://flagcdn.com/16x12/ch.png) | Schaffhausen |
 | iperf3 -c speedtest.init7.net | -R,-6,-u | 20 | CH \| ![ch](https://flagcdn.com/16x12/ch.png) | Winterthur |
 | iperf3 -c 89.187.165.1 | -R,-u | 2x10 | CH \| ![ch](https://flagcdn.com/16x12/ch.png) | Zürich |
 | iperf3 -c speedtest.iway.ch | -R,-6,-u | 10 | CH \| ![ch](https://flagcdn.com/16x12/ch.png) | Zürich |
+| iperf3 -c 85.163.71.241 | -R,-u |  | CZ \| ![cz](https://flagcdn.com/16x12/cz.png) | Hrdlořezy |
 | iperf3 -c rychlost.poda.cz -p 5201-5209 | -R |  | CZ \| ![cz](https://flagcdn.com/16x12/cz.png) | Mikulov |
 | iperf3 -c 185.152.65.113 | -R,-u | 2x10 | CZ \| ![cz](https://flagcdn.com/16x12/cz.png) | Prague |
 | iperf3 -c a110.speedtest.wobcom.de | -R,-6 | 2x25 | DE \| ![de](https://flagcdn.com/16x12/de.png) | Berlin |
@@ -106,6 +110,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.fra1.de.leaseweb.net -p 5201-5210 | -R,-6 | 10 | DE \| ![de](https://flagcdn.com/16x12/de.png) | Frankfurt |
 | iperf3 -c speedtest.ip-projects.de | -R,-6,-u | 10 | DE \| ![de](https://flagcdn.com/16x12/de.png) | Frankfurt |
 | iperf3 -c speedtest.wtnet.de -p 5200-5209 | -R,-6,-u | 40 | DE \| ![de](https://flagcdn.com/16x12/de.png) | Norderstedt |
+| iperf3 -c speedtest.wtnet.de -p 5300-5309 | -R,-6,-u | 40 | DE \| ![de](https://flagcdn.com/16x12/de.png) | Norderstedt |
 | iperf3 -c a400.speedtest.wobcom.de | -R,-6 | 2x25 | DE \| ![de](https://flagcdn.com/16x12/de.png) | Wolfsburg |
 | iperf3 -c speedtest.wobcom.de | -R,-6 | 2x25 | DE \| ![de](https://flagcdn.com/16x12/de.png) | Wolfsburg |
 | iperf3 -c 121.127.45.65 | -R | 2x10 | DK \| ![dk](https://flagcdn.com/16x12/dk.png) | Copenhagen |
@@ -119,7 +124,9 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c iperf.online.net -p 5200-5209 | -R,-6,-u | 100 | FR \| ![fr](https://flagcdn.com/16x12/fr.png) | Paris |
 | iperf3 -c iperf3.moji.fr -p 5200-5240 | -R,-6 | 100 | FR \| ![fr](https://flagcdn.com/16x12/fr.png) | Paris |
 | iperf3 -c ping-90ms.online.net -p 5200-5209 | -R,-6 | 100 | FR \| ![fr](https://flagcdn.com/16x12/fr.png) | Paris |
-| iperf3 -c proof.ovh.net -p 5201-5210 | -6,-u | 10 | FR \| ![fr](https://flagcdn.com/16x12/fr.png) | Paris |
+| iperf3 -c ping6-90ms.online.net -p 5200-5209 | -R,-6 | 100 | FR \| ![fr](https://flagcdn.com/16x12/fr.png) | Paris |
+| iperf3 -c ping6.online.net -p 5200-5209 | -R,-6,-u | 100 | FR \| ![fr](https://flagcdn.com/16x12/fr.png) | Paris |
+| iperf3 -c sbg.proof.ovh.net -p 5201-5210 | -R,-6,-u | 10 | FR \| ![fr](https://flagcdn.com/16x12/fr.png) | Strasbourg |
 | iperf3 -c ping.online.net -p 5200-5209 | -R,-6,-u | 100 | FR \| ![fr](https://flagcdn.com/16x12/fr.png) | Vitry-sur-Seine |
 | iperf3 -c scaleway.testdebit.info -p 9200-9240 | -R,-6 | 10 | FR \| ![fr](https://flagcdn.com/16x12/fr.png) | Vitry-sur-Seine |
 | iperf3 -c 185.59.221.51 | -R,-u | 2x10 | GB \| ![gb](https://flagcdn.com/16x12/gb.png) | London |
@@ -146,7 +153,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.ams1.novogara.net -p 5200-5209 | -R,-6,-u | 20 | NL \| ![nl](https://flagcdn.com/16x12/nl.png) | Amsterdam |
 | iperf3 -c speedtest.ams2.nl.leaseweb.net -p 5201-5210 | -R,-6 | 10 | NL \| ![nl](https://flagcdn.com/16x12/nl.png) | Amsterdam |
 | iperf3 -c speedtest.nl3.mirhosting.net -p 5201-5210 | -R,-6,-u | 40 | NL \| ![nl](https://flagcdn.com/16x12/nl.png) | Amsterdam |
-| iperf3 -c speedtest.nl1.mirhosting.net -p 5201-5210 | -R,-6 | 40 | NL \| ![nl](https://flagcdn.com/16x12/nl.png) | Dronten |
 | iperf3 -c iperf.worldstream.nl | -R,-6 | 10 | NL \| ![nl](https://flagcdn.com/16x12/nl.png) | Naaldwijk |
 | iperf3 -c lg.gigahost.no -p 9201-9240 | -R,-6,-u | 100 | NO \| ![no](https://flagcdn.com/16x12/no.png) | Sandefjord |
 | iperf3 -c lg.terrahost.com -p 9200-9240 | -R,-6,-u | 10 | NO \| ![no](https://flagcdn.com/16x12/no.png) | Sandefjord |
@@ -159,13 +165,13 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 185.102.217.170 | -R,-u | 2x10 | RO \| ![ro](https://flagcdn.com/16x12/ro.png) | Bucharest |
 | iperf3 -c speedtest1.sox.rs -p 9201-9240 | -R,-6,-u | 10 | RS \| ![rs](https://flagcdn.com/16x12/rs.png) | Belgrade |
 | iperf3 -c speedtest.kamel.network -p 5201-5205 | -R,-6 | 1 | SE \| ![se](https://flagcdn.com/16x12/se.png) | Kista |
-|  iperf3 -c speedtest.cityhost.se -p 5201-5206 | -R,-6,-u | 100 | SE \| ![se](https://flagcdn.com/16x12/se.png) | Stockholm |
+| iperf3 -c speedtest.cityhost.se -p 5201-5206 | -R,-6,-u | 100 | SE \| ![se](https://flagcdn.com/16x12/se.png) | Stockholm |
 | iperf3 -c 185.76.9.135 | -R,-u | 2x10 | SE \| ![se](https://flagcdn.com/16x12/se.png) | Stockholm |
 | iperf3 -c speedtest.keff.org -p 9201-9240 | -R,-u |  | SE \| ![se](https://flagcdn.com/16x12/se.png) | Stockholm |
 | iperf3 -c speedtest.ownit.se | -R,-u | 1 | SE \| ![se](https://flagcdn.com/16x12/se.png) | Stockholm |
 | iperf3 -c 156.146.40.65 | -R,-u | 2x10 | SK \| ![sk](https://flagcdn.com/16x12/sk.png) | Bratislava |
+| iperf3 -c iperf.volia.net -p 5201 | -R |  | UA \| ![ua](https://flagcdn.com/16x12/ua.png) |  |
 | iperf3 -c 37.19.218.65 | -R,-u | 2x10 | UA \| ![ua](https://flagcdn.com/16x12/ua.png) | Kyiv |
-| iperf3 -c speedtest.solver.net.ua | -R,-u |  | UA \| ![ua](https://flagcdn.com/16x12/ua.png) | Poltava |
 
 
 ### LATIN AMERICA
@@ -176,6 +182,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 79.127.209.1 | -R,-u | 2x10 | CL \| ![cl](https://flagcdn.com/16x12/cl.png) | Santiago |
 | iperf3 -c 152.204.128.194 -p 55200-55300 | -R,-u | 10 | CO \| ![co](https://flagcdn.com/16x12/co.png) | Bogotá |
 | iperf3 -c 169.150.228.129 | -R,-u | 2x10 | CO \| ![co](https://flagcdn.com/16x12/co.png) | Bogotá |
+| iperf3 -c 170.254.229.178 -p 5201-5209 | -R,-u |  | CO \| ![co](https://flagcdn.com/16x12/co.png) | Cartago |
 | iperf3 -c 156.146.53.53 | -R,-u | 2x10 | CR \| ![cr](https://flagcdn.com/16x12/cr.png) | San Jose |
 | iperf3 -c speedtest.masnet.ec -p 5201-5209 | -R,-6 | 1 | EC \| ![ec](https://flagcdn.com/16x12/ec.png) | Santa Ana |
 | iperf3 -c 121.127.43.65 | -R,-u | 2x10 | MX \| ![mx](https://flagcdn.com/16x12/mx.png) | Querétaro |
@@ -196,9 +203,9 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest15.suddenlink.net | -R,-u | 10 | US \| ![us](https://flagcdn.com/16x12/us.png) | Charleston |
 | iperf3 -c 185.93.1.65 | -R,-u | 2x10 | US \| ![us](https://flagcdn.com/16x12/us.png) | Chicago |
 | iperf3 -c speedtest.chi11.us.leaseweb.net -p 5201-5210 | -R,-6 | 10 | US \| ![us](https://flagcdn.com/16x12/us.png) | Chicago |
+| iperf3 -c 89.187.164.1 | -R | 2x10 | US \| ![us](https://flagcdn.com/16x12/us.png) | Dallas |
 | iperf3 -c dal.speedtest.clouvider.net -p 5200-5209 | -R,-u | 10 | US \| ![us](https://flagcdn.com/16x12/us.png) | Dallas |
 | iperf3 -c speedtest.dal13.us.leaseweb.net -p 5201-5210 | -R,-6 | 10 | US \| ![us](https://flagcdn.com/16x12/us.png) | Dallas |
-| iperf3 -c 84.17.63.68 | -R,-u | 2x10 | US \| ![us](https://flagcdn.com/16x12/us.png) | Denver |
 | iperf3 -c 37.19.216.1 | -R,-u | 2x10 | US \| ![us](https://flagcdn.com/16x12/us.png) | Houston |
 | iperf3 -c 185.152.67.2 | -R,-u | 2x10 | US \| ![us](https://flagcdn.com/16x12/us.png) | Los Angeles |
 | iperf3 -c la.speedtest.clouvider.net -p 5200-5209 | -R,-u | 10 | US \| ![us](https://flagcdn.com/16x12/us.png) | Los Angeles |
@@ -221,15 +228,11 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | **COMMAND** | **OPTIONS** | **GB/S** | **COUNTRY** | **SITE** |
 |:------------|:-----------:|:--------:|:-----------:|:---------|
 | iperf3 -c 143.244.63.144 | -R,-u | 2x10 | AU \| ![au](https://flagcdn.com/16x12/au.png) | Sydney |
-| iperf3 -c 198.142.237.72 -p 5202-5203 | -R |  | AU \| ![au](https://flagcdn.com/16x12/au.png) | Sydney |
-| iperf3 -c 198.142.237.97 -p 5202-5203 | -R |  | AU \| ![au](https://flagcdn.com/16x12/au.png) | Sydney |
 | iperf3 -c speedtest.syd12.au.leaseweb.net -p 5201-5210 | -R,-6 | 10 | AU \| ![au](https://flagcdn.com/16x12/au.png) | Sydney |
 | iperf3 -c syd.proof.ovh.net -p 5207-5210 | -R,-6,-u | 1 | AU \| ![au](https://flagcdn.com/16x12/au.png) | Sydney |
-| iperf3 -c techspeedtest.bla.optusnet.com.au -p 5202-5203 | -R |  | AU \| ![au](https://flagcdn.com/16x12/au.png) | Sydney |
 | iperf3 -c akl.linetest.nz -p 5300-5309 | -R | 10 | NZ \| ![nz](https://flagcdn.com/16x12/nz.png) | Auckland |
 | iperf3 -c chch.linetest.nz -p 5300-5309 | -R | 10 | NZ \| ![nz](https://flagcdn.com/16x12/nz.png) | Christchurch |
 | iperf3 -c 154.81.51.4  | -R,-u | 2x10 | PG \| ![pg](https://flagcdn.com/16x12/pg.png) | Port Moresby |
-
 
 ## Export
 :bulb: ​More export options at [iperf3serverlist.net](https://iperf3serverlist.net/)
