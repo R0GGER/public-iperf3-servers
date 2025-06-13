@@ -45,7 +45,7 @@ sudo dnf install iperf3 -y
 ```
 
 **Windows:**
-Download the latest pre-compiled Windows binaries from a reliable source, such as builds linked from the official [iperf.fr](https://iperf.fr/iperf-download.php) or directly from: [ar51an/iperf3-win-builds](https://github.com/ar51an/iperf3-win-builds/releases).
+Download the latest pre-compiled Windows binaries from a reliable source, such as builds linked from the official [iperf.fr](https://iperf.fr/iperf-download.php) or directly from: [ar51an/iperf3-win-builds](https://github.com/ar51an/iperf3-win-builds/releases) **recommended**.
 
 Extract the archive. You need to run `iperf3.exe` from the Command Prompt (`cmd`) or PowerShell. Either navigate (`cd`) to the directory containing the `.exe` file or add the directory to your system's PATH environment variable for easier access.
 
