@@ -20,6 +20,7 @@ This project is sponsored and supported by <a href="https://cloud.hosthatch.com/
   * [Basic Usage](https://github.com/R0GGER/public-iperf3-servers/blob/main/docs.md#basic-usage)
   * [Test Scenarios & Protocol Differences](https://github.com/R0GGER/public-iperf3-servers/blob/main/docs.md#test-scenarios--protocol-differences)
   * [Advanced Usage & Tips](https://github.com/R0GGER/public-iperf3-servers/blob/main/docs.md#advanced-usage--tips)
+  * [Cool Projects](https://github.com/R0GGER/public-iperf3-servers/blob/main/docs.md#cool-projects)
 
 * [Testing & Monitoring](https://github.com/R0GGER/public-iperf3-servers/blob/main/testing_process.md)
 * [Servers per continent](#servers-per-continent)
