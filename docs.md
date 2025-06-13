@@ -166,7 +166,7 @@ Runs tests simultaneously in both directions (client sends to server AND server 
 
 ### Find & Test (`findtest.sh`)
 
-Find & Test is a script that automatically locates the geographically closest server to the client’s location from a list and runs a test against it.
+Find & Test is a script that automatically locates the geographically closest server to the client's location from a list and runs a test against it.
 
 ```bash
 curl -s https://raw.githubusercontent.com/R0GGER/public-iperf3-servers/main/findtest.sh | bash
@@ -211,6 +211,13 @@ For the most comprehensive details, consult the official `iperf3` resources:
 
 *   **Official `iperf3` Documentation:** [https://iperf.fr](https://iperf.fr)
 *   **Public Server List Project:** [https://iperf3serverlist.net/](https://iperf3serverlist.net/)
+
+------
+
+## Cool Projects
+
+*   **[iperf3-webui](https://github.com/MaddyDev-glitch/iperf3-webui)**: A modern, lightweight, web-based iPerf3 GUI built with Python 3 and Flask. Run speed tests from any device — macOS, Linux, Windows, or mobile. Public Iperf3 server list integrated from (https://github.com/R0GGER/public-iperf3-servers)
+*   More soon...
 
 ## Thank you
 
