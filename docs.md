@@ -216,8 +216,8 @@ For the most comprehensive details, consult the official `iperf3` resources:
 
 ## Cool Projects
 
-*   **[iperf3-webui](https://github.com/MaddyDev-glitch/iperf3-webui)**: A modern, lightweight, web-based iPerf3 GUI built with Python 3 and Flask. Run speed tests from any device — macOS, Linux, Windows, or mobile. Public Iperf3 server list integrated from (https://github.com/R0GGER/public-iperf3-servers)
-*   More soon...
+*   [iperf3-webui](https://github.com/MaddyDev-glitch/iperf3-webui) - A modern, lightweight, web-based iPerf3 GUI built with Python 3 and Flask. Run speed tests from any device — macOS, Linux, Windows, or mobile. Public Iperf3 server list integrated from (https://github.com/R0GGER/public-iperf3-servers) `Python`
+*   [Speedtest](https://github.com/afontenot/speedtest) - A high-performance speedtest using public iperf3 servers `cli` `Python`
 
 ## Thank you
 
