@@ -51,4 +51,3 @@ I perform all tests from my dedicated testing environment:
 ## Thank you
 
 This project is sponsored and supported by [**HostHatch**](https://cloud.hosthatch.com/a/772) and [**Censys**](https://censys.com/).
-<img src="https://pixel.iperf3serverlist.net/pxl/baa15063-05f4-45a3-a3e4-8f85a58075d8" />
