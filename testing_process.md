@@ -37,7 +37,7 @@ In my commitment to maintaining a reliable server list, I remove servers that:
 - Raw test results: [test.iperf3serverlist.net](https://test.iperf3serverlist.net)
 - Uptime monitoring: [uptime.iperf3serverlist.net](https://uptime.iperf3serverlist.net/)
 - Results are filtered and analyzed in NocoDB. View the results under the list: [PENDING](https://db.iperf3serverlist.net/dashboard/#/nc/view/eef5bfe2-916c-45fe-b4cc-1c9e510ae422)
-- New (untested) servers and existing listed servers that have failed tests and have more than 90% downtime in the last 30 days are placed on [https://pending.iperf3serverlist.net](pending.iperf3serverlist.net).
+- New (untested) servers and existing listed servers that have failed tests and have more than 90% downtime in the last 30 days are placed on [pending.iperf3serverlist.net](https://pending.iperf3serverlist.net).
    
    **Servers on this pending list undergo further testing and review to determine one of the following outcomes:**
    - Inclusion: The server is confirmed to be stable and is added to the main list.
