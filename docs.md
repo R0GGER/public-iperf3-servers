@@ -220,6 +220,7 @@ For the most comprehensive details, consult the official `iperf3` resources:
 *   [iPERF3 Speedtest](https://github.com/R0GGER/iperf3-speedtest) - A simple Python tool and web app to measure your internet speed using public iperf3 servers. `cli` `Python`
 *   [iperf3-tui](https://github.com/dmdmdm/iperf3-tui) - Draw a moving speed test graph in your terminal `Rust`
 *   [Dockerized Find & Test](https://github.com/R0GGER/dockerized-find-and-test) - This project packages the `findtest.sh` script into a Docker container, providing a simple web interface to find and test public iPerf3 servers. `Docker` `PHP`
+*   [iPERF3 Map](https://github.com/R0GGER/iPERF3-MAP) - Visualizes iPerf3 servers on a global map using Leaflet.js, allowing you to initiate speed tests directly from the map markers. `Python` `Docker`
 
 ## Thank you
 
