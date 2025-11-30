@@ -214,7 +214,7 @@ For the most comprehensive details, consult the official `iperf3` resources:
 
 ------
 
-## Cool Projects
+## Cool iPerf3 apps
 
 *   [iperf3-webui](https://github.com/MaddyDev-glitch/iperf3-webui) - A modern, lightweight, web-based iPerf3 GUI built with Python 3 and Flask. `Python` `Docker`
 *   [iPERF3 Speedtest](https://github.com/R0GGER/iperf3-speedtest) - A simple Python tool and web app to measure your internet speed using public iperf3 servers. `cli` `Python`
