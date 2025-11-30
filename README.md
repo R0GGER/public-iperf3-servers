@@ -25,6 +25,7 @@ This project is sponsored and supported by <a href="https://cloud.hosthatch.com/
 * [Testing & Monitoring](https://github.com/R0GGER/public-iperf3-servers/blob/main/testing_process.md)
 * [Servers per continent](#servers-per-continent)
 * [Export to .CSV, .XLSX, JSON](#export)
+* [Cool iPerf3 apps](#cool-iperf3-apps)
 * [Contact](#contact)
 
 ## Servers per continent
@@ -45,9 +46,9 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 160.242.19.254 -p 9201-9240 | -R,-u |  | AO \| ![ao](https://flagcdn.com/16x12/ao.png) | Luanda |
 | iperf3 -c 41.110.39.130 -p 5201 | -R,-u | 10 | DZ \| ![dz](https://flagcdn.com/16x12/dz.png) | Algiers |
 | iperf3 -c 213.158.175.240 | -R,-u | 10 | EG \| ![eg](https://flagcdn.com/16x12/eg.png) | Cairo |
+| iperf3 -c 102.214.66.19 | -R,-u | 2x10 | GH \| ![gh](https://flagcdn.com/16x12/gh.png) | Accra |
+| iperf3 -c 102.214.66.39 | -R,-u | 2x10 | GH \| ![gh](https://flagcdn.com/16x12/gh.png) | Accra |
 | iperf3 -c 212.60.92.134 -p 60001-60003 | -R |  | GM \| ![gm](https://flagcdn.com/16x12/gm.png) | Banjul |
-| iperf3 -c 102.214.66.19 | -R,-u | 2x10 | GN \| ![gn](https://flagcdn.com/16x12/gn.png) | Accra |
-| iperf3 -c 102.214.66.39 | -R,-u | 2x10 | GN \| ![gn](https://flagcdn.com/16x12/gn.png) | Accra |
 | iperf3 -c 105.235.237.2 -p 5201-5209 | -R |  | GQ \| ![gq](https://flagcdn.com/16x12/gq.png) | Bata |
 | iperf3 -c speedtestfl.telecom.mu -p 5201-5209 | -R,-u |  | MU \| ![mu](https://flagcdn.com/16x12/mu.png) | Floreal |
 | iperf3 -c speedtest.telecom.mu -p 5201-5209 | -R,-u |  | MU \| ![mu](https://flagcdn.com/16x12/mu.png) | Port Louis |
@@ -128,7 +129,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest2.lightningfibre.net.uk -p 4000-4007 | -R,-6,-u | 10 | GB \| ![gb](https://flagcdn.com/16x12/gb.png) | London |
 | iperf3 -c 169.150.252.2 | -R,-u | 2x10 | GR \| ![gr](https://flagcdn.com/16x12/gr.png) | Athens |
 | iperf3 -c 169.150.242.129 | -R,-u | 2x10 | HR \| ![hr](https://flagcdn.com/16x12/hr.png) | Zagreb |
-| iperf3 -c 87.249.137.8 | -R,-u | 2x10 | IR \| ![ir](https://flagcdn.com/16x12/ir.png) | Dublin |
+| iperf3 -c 87.249.137.8 | -R,-u | 2x10 | IE \| ![ie](https://flagcdn.com/16x12/ie.png) | Dublin |
 | iperf3 -c spd-icsrv.hostkey.com -p 5201 | -R,-6 | 10 | IS \| ![is](https://flagcdn.com/16x12/is.png) | Reykjavik |
 | iperf3 -c it1.speedtest.aruba.it | -R,-u |  | IT \| ![it](https://flagcdn.com/16x12/it.png) | Arezzo |
 | iperf3 -c 84.17.59.129 | -R,-u | 2x10 | IT \| ![it](https://flagcdn.com/16x12/it.png) | Milan |
@@ -235,6 +236,14 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | [ALL SERVERS](https://db.iperf3serverlist.net/dashboard/#/nc/view/3ea603e9-af3a-4e86-9db6-62e7edc254e4) | [ALL SERVERS-export.csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/3ea603e9-af3a-4e86-9db6-62e7edc254e4/rows/export/csv)<br />[ALL SERVERS](https://export.iperf3serverlist.net/listed_iperf3_servers.csv) (parsed) | [ALL SERVERS-export.xlsx](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/3ea603e9-af3a-4e86-9db6-62e7edc254e4/rows/export/excel) | [ALL SERVERS](https://export.iperf3serverlist.net/unparsed_iperf3_servers.json) (unparsed)<br />[ALL SERVERS](https://export.iperf3serverlist.net/listed_iperf3_servers.json) (parsed) |
 
 :arrows_counterclockwise: ​**CSV & JSON GENERATOR**: https://export.iperf3serverlist.net
+
+## Cool iPerf3 apps
+
+*   [Dockerized Find & Test](https://github.com/R0GGER/dockerized-find-and-test) - This project packages the `findtest.sh` script into a Docker container, providing a simple web interface to find and test public iPerf3 servers. `Docker` `PHP`
+*   [iPERF3 Map](https://github.com/R0GGER/iPERF3-MAP) - Visualizes iPerf3 servers on a global map using Leaflet.js, allowing you to initiate speed tests directly from the map markers. `Python` `Docker`
+*   [iPERF3 Speedtest](https://github.com/R0GGER/iperf3-speedtest) - A simple Python tool and web app to measure your internet speed using public iperf3 servers. `Python`
+*   [iperf3-tui](https://github.com/dmdmdm/iperf3-tui) - Draw a moving speed test graph in your terminal `Rust`
+*   [iPerf3-WebUI](https://github.com/MaddyDev-glitch/iperf3-webui) - A modern, lightweight, web-based iPerf3 GUI built with Python 3 and Flask. `Python` `Docker`
 
 ## Contact
 Contact me via e-mail - r0gger[at]iperf3serverlist.net
