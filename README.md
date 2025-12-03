@@ -20,12 +20,10 @@ This project is sponsored and supported by <a href="https://cloud.hosthatch.com/
   * [Basic Usage](https://github.com/R0GGER/public-iperf3-servers/blob/main/docs.md#basic-usage)
   * [Test Scenarios & Protocol Differences](https://github.com/R0GGER/public-iperf3-servers/blob/main/docs.md#test-scenarios--protocol-differences)
   * [Advanced Usage & Tips](https://github.com/R0GGER/public-iperf3-servers/blob/main/docs.md#advanced-usage--tips)
-  * [Cool Projects](https://github.com/R0GGER/public-iperf3-servers/blob/main/docs.md#cool-projects)
-
 * [Testing & Monitoring](https://github.com/R0GGER/public-iperf3-servers/blob/main/testing_process.md)
 * [Servers per continent](#servers-per-continent)
 * [Export to .CSV, .XLSX, JSON](#export)
-* [Cool iPerf3 apps](#cool-iperf3-apps)
+* [Apps](#apps)
 * [Contact](#contact)
 
 ## Servers per continent
@@ -237,7 +235,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 
 :arrows_counterclockwise: ​**CSV & JSON GENERATOR**: https://export.iperf3serverlist.net
 
-## Cool iPerf3 apps
+## Apps
 
 *   [Dockerized Find & Test](https://github.com/R0GGER/dockerized-find-and-test) - This project packages the `findtest.sh` script into a Docker container, providing a simple web interface to find and test public iPerf3 servers. `Docker` `PHP`
 *   [iPERF3 Map](https://github.com/R0GGER/iPERF3-MAP) - Visualizes iPerf3 servers on a global map using Leaflet.js, allowing you to initiate speed tests directly from the map markers. `Python` `Docker`
