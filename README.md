@@ -22,7 +22,7 @@ This project is sponsored and supported by <a href="https://cloud.hosthatch.com/
   * [Advanced Usage & Tips](https://github.com/R0GGER/public-iperf3-servers/blob/main/docs.md#advanced-usage--tips)
 * [Testing & Monitoring](https://github.com/R0GGER/public-iperf3-servers/blob/main/testing_process.md)
 * [Servers per continent](#servers-per-continent)
-* [Export to .CSV, .XLSX, JSON](#export)
+* [Export to .CSV, JSON](#export)
 * [Apps](#apps)
 * [Contact](#contact)
 
