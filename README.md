@@ -222,18 +222,25 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 154.81.51.4  | -R,-u | 2x10 | PG \| ![pg](https://flagcdn.com/16x12/pg.png) | Port Moresby |
 
 ## Export
+Below are the direct links to the database views (NocoDB) and the auto-generated export files.
 
-| CONTINENT (NocoDB)                                           | .CSV                                                         | .XLSX                                                        | .JSON                                                        |
-| :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- | ------------------------------------------------------------ |
-| [AFRICA](https://db.iperf3serverlist.net/dashboard/#/nc/view/f4fd0f64-7dff-4416-8e3b-315b837b67d4) | [AFRICA-export.csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/f4fd0f64-7dff-4416-8e3b-315b837b67d4/rows/export/csv) | [AFRICA-export.xlsx](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/f4fd0f64-7dff-4416-8e3b-315b837b67d4/rows/export/excel) |                                                              |
-| [ASIA](https://db.iperf3serverlist.net/dashboard/#/nc/view/bce4c994-6598-4b00-b2cd-fc48503ad7ac) | [ASIA-export.csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/bce4c994-6598-4b00-b2cd-fc48503ad7ac/rows/export/csv) | [ASIA-export.xlsx](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/bce4c994-6598-4b00-b2cd-fc48503ad7ac/rows/export/excel) |                                                              |
-| [EUROPE](https://db.iperf3serverlist.net/dashboard/#/nc/view/b111407c-43c4-48af-a828-301b698064a3) | [EUROPE-export.csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/b111407c-43c4-48af-a828-301b698064a3/rows/export/csv) | [EUROPE-export.xlsx](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/b111407c-43c4-48af-a828-301b698064a3/rows/export/excel) |                                                              |
-| [LATIN AMERICA](https://db.iperf3serverlist.net/dashboard/#/nc/view/bf1834c8-7894-43c5-be9e-e909fb998b26) | [LATIN AMERICA-export.csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/bf1834c8-7894-43c5-be9e-e909fb998b26/rows/export/csv) | [LATIN AMERICA-export.xlsx](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/bf1834c8-7894-43c5-be9e-e909fb998b26/rows/export/excel) |                                                              |
-| [NORTH AMERICA](https://db.iperf3serverlist.net/dashboard/#/nc/view/956847fb-43b7-4404-b048-440518fbc763) | [NORTH AMERICA-export.csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/956847fb-43b7-4404-b048-440518fbc763/rows/export/csv) | [NORTH AMERICA-export.xlsx](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/956847fb-43b7-4404-b048-440518fbc763/rows/export/excel) |                                                              |
-| [OCEANIA](https://db.iperf3serverlist.net/dashboard/#/nc/view/99ab6c30-f9ae-4f8a-afa2-2f81bddb107f) | [OCEANIA-export.csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/99ab6c30-f9ae-4f8a-afa2-2f81bddb107f/rows/export/csv) | [OCEANIA-export.xlsx](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/99ab6c30-f9ae-4f8a-afa2-2f81bddb107f/rows/export/excel) |                                                              |
-| [ALL SERVERS](https://db.iperf3serverlist.net/dashboard/#/nc/view/3ea603e9-af3a-4e86-9db6-62e7edc254e4) | [ALL SERVERS-export.csv](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/3ea603e9-af3a-4e86-9db6-62e7edc254e4/rows/export/csv)<br />[ALL SERVERS](https://export.iperf3serverlist.net/listed_iperf3_servers.csv) (parsed) | [ALL SERVERS-export.xlsx](https://db.iperf3serverlist.net/api/v1/db/public/shared-view/3ea603e9-af3a-4e86-9db6-62e7edc254e4/rows/export/excel) | [ALL SERVERS](https://export.iperf3serverlist.net/unparsed_iperf3_servers.json) (unparsed)<br />[ALL SERVERS](https://export.iperf3serverlist.net/listed_iperf3_servers.json) (parsed) |
+| Region / View                                                | .JSON                                                        | .CSV                                                         |
+| :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
+| **[ALL SERVERS](https://db.iperf3serverlist.net/dashboard/#/nc/view/3ea603e9-af3a-4e86-9db6-62e7edc254e4)** | [Parsed](https://export.iperf3serverlist.net/listed_iperf3_servers.json)<br/>[Unparsed](https://export.iperf3serverlist.net/unparsed_iperf3_servers.json) | [Parsed](https://export.iperf3serverlist.net/listed_iperf3_servers.csv)<br/>[Unparsed](https://export.iperf3serverlist.net/unparsed_iperf3_servers.csv) |
+| [AFRICA](https://db.iperf3serverlist.net/dashboard/#/nc/view/f4fd0f64-7dff-4416-8e3b-315b837b67d4) | *via DB view*                                                | *via DB view*                                                |
+| [ASIA](https://db.iperf3serverlist.net/dashboard/#/nc/view/bce4c994-6598-4b00-b2cd-fc48503ad7ac) | *via DB view*                                                | *via DB view*                                                |
+| [EUROPE](https://db.iperf3serverlist.net/dashboard/#/nc/view/b111407c-43c4-48af-a828-301b698064a3) | *via DB view*                                                | *via DB view*                                                |
+| [LATIN AMERICA](https://db.iperf3serverlist.net/dashboard/#/nc/view/bf1834c8-7894-43c5-be9e-e909fb998b26) | *via DB view*                                                | *via DB view*                                                |
+| [NORTH AMERICA](https://db.iperf3serverlist.net/dashboard/#/nc/view/956847fb-43b7-4404-b048-440518fbc763) | *via DB view*                                                | *via DB view*                                                |
+| [OCEANIA](https://db.iperf3serverlist.net/dashboard/#/nc/view/99ab6c30-f9ae-4f8a-afa2-2f81bddb107f) | *via DB view*                                                | *via DB view*                                                |
 
-:arrows_counterclockwise: ​**CSV & JSON GENERATOR**: https://export.iperf3serverlist.net
+**URL:** https://export.iperf3serverlist.net
+
+### File Types
+*   **Parsed:** Cleaned data, only containing valid host/port/options columns.
+*   **Unparsed:** Raw data containing the full command string.
+
+
 
 ## Apps
 
