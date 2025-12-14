@@ -22,7 +22,7 @@ This project is sponsored and supported by <a href="https://cloud.hosthatch.com/
   * [Advanced Usage & Tips](https://github.com/R0GGER/public-iperf3-servers/blob/main/docs.md#advanced-usage--tips)
 * [Testing & Monitoring](https://github.com/R0GGER/public-iperf3-servers/blob/main/testing_process.md)
 * [Servers per continent](#servers-per-continent)
-* [Export to .CSV, JSON](#export)
+* [Export to .CSV and .JSON](#export)
 * [Apps](#apps)
 * [Contact](#contact)
 
@@ -223,24 +223,21 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 
 ## Export
 Below are the direct links to the database views (NocoDB) and the auto-generated export files.
+**URL:** https://export.iperf3serverlist.net
 
 | Region / View                                                | .JSON                                                        | .CSV                                                         |
 | :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
 | **[ALL SERVERS](https://db.iperf3serverlist.net/dashboard/#/nc/view/3ea603e9-af3a-4e86-9db6-62e7edc254e4)** | [Parsed](https://export.iperf3serverlist.net/listed_iperf3_servers.json)<br/>[Unparsed](https://export.iperf3serverlist.net/unparsed_iperf3_servers.json) | [Parsed](https://export.iperf3serverlist.net/listed_iperf3_servers.csv)<br/>[Unparsed](https://export.iperf3serverlist.net/unparsed_iperf3_servers.csv) |
-| [AFRICA](https://db.iperf3serverlist.net/dashboard/#/nc/view/f4fd0f64-7dff-4416-8e3b-315b837b67d4) | *via DB view*                                                | *via DB view*                                                |
-| [ASIA](https://db.iperf3serverlist.net/dashboard/#/nc/view/bce4c994-6598-4b00-b2cd-fc48503ad7ac) | *via DB view*                                                | *via DB view*                                                |
-| [EUROPE](https://db.iperf3serverlist.net/dashboard/#/nc/view/b111407c-43c4-48af-a828-301b698064a3) | *via DB view*                                                | *via DB view*                                                |
-| [LATIN AMERICA](https://db.iperf3serverlist.net/dashboard/#/nc/view/bf1834c8-7894-43c5-be9e-e909fb998b26) | *via DB view*                                                | *via DB view*                                                |
-| [NORTH AMERICA](https://db.iperf3serverlist.net/dashboard/#/nc/view/956847fb-43b7-4404-b048-440518fbc763) | *via DB view*                                                | *via DB view*                                                |
-| [OCEANIA](https://db.iperf3serverlist.net/dashboard/#/nc/view/99ab6c30-f9ae-4f8a-afa2-2f81bddb107f) | *via DB view*                                                | *via DB view*                                                |
-
-**URL:** https://export.iperf3serverlist.net
+| [AFRICA](https://db.iperf3serverlist.net/dashboard/#/nc/view/f4fd0f64-7dff-4416-8e3b-315b837b67d4) |                                                | *via DB view*                                                |
+| [ASIA](https://db.iperf3serverlist.net/dashboard/#/nc/view/bce4c994-6598-4b00-b2cd-fc48503ad7ac) |                                                | *via DB view*                                                |
+| [EUROPE](https://db.iperf3serverlist.net/dashboard/#/nc/view/b111407c-43c4-48af-a828-301b698064a3) |                                                 | *via DB view*                                                |
+| [LATIN AMERICA](https://db.iperf3serverlist.net/dashboard/#/nc/view/bf1834c8-7894-43c5-be9e-e909fb998b26) |                                                | *via DB view*                                                |
+| [NORTH AMERICA](https://db.iperf3serverlist.net/dashboard/#/nc/view/956847fb-43b7-4404-b048-440518fbc763) |                                                | *via DB view*                                                |
+| [OCEANIA](https://db.iperf3serverlist.net/dashboard/#/nc/view/99ab6c30-f9ae-4f8a-afa2-2f81bddb107f) |                                                | *via DB view*                                                |
 
 ### File Types
-*   **Parsed:** Cleaned data, only containing valid host/port/options columns.
+*   **Parsed:** Cleaned data.
 *   **Unparsed:** Raw data containing the full command string.
-
-
 
 ## Apps
 
