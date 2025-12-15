@@ -49,6 +49,10 @@ Download the latest pre-compiled Windows binaries from a reliable source, such a
 
 Extract the archive. You need to run `iperf3.exe` from the Command Prompt (`cmd`) or PowerShell. Either navigate (`cd`) to the directory containing the `.exe` file or add the directory to your system's PATH environment variable for easier access.
 
+```bash
+winget install -e --id ar51an.iPerf3
+```
+
 **macOS (using Homebrew):**
 If you have [Homebrew](https://brew.sh/) installed:
 
