@@ -198,6 +198,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.lax12.us.leaseweb.net -p 5201-5210 | -R,-6 | 10 | US \| ![us](https://flagcdn.com/16x12/us.png) | Los Angeles |
 | iperf3 -c 195.181.162.195 | -R,-u | 2x10 | US \| ![us](https://flagcdn.com/16x12/us.png) | Miami |
 | iperf3 -c speedtest.mia11.us.leaseweb.net -p 5201-5210 | -R,-6 | 10 | US \| ![us](https://flagcdn.com/16x12/us.png) | Miami |
+| iperf3 -c 172.82.88.180 -p 5201-5205 | -R,-u | 2x40 | US \| ![us](https://flagcdn.com/16x12/us.png) | New York City |
 | iperf3 -c 185.59.223.8 | -R,-u | 2x10 | US \| ![us](https://flagcdn.com/16x12/us.png) | New York |
 | iperf3 -c spd-uswb.hostkey.com -p 5205 | -R | 10 | US \| ![us](https://flagcdn.com/16x12/us.png) | New York |
 | iperf3 -c nyc.speedtest.clouvider.net -p 5201-5209 | -R,-6,-u | 10 | US \| ![us](https://flagcdn.com/16x12/us.png) | New York City |
