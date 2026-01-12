@@ -51,10 +51,10 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speed.mymanga.pro -p 9200-9240 | -R |  | KE \| ![ke](https://flagcdn.com/16x12/ke.png) | Nairobi |
 | iperf3 -c speedtestfl.telecom.mu -p 5201-5209 | -R,-u |  | MU \| ![mu](https://flagcdn.com/16x12/mu.png) | Floreal |
 | iperf3 -c speedtest.telecom.mu -p 5201-5209 | -R,-u |  | MU \| ![mu](https://flagcdn.com/16x12/mu.png) | Port Louis |
-| iperf3 -c 69.48.239.124 -p 30000 | -R | 10 | SA \| ![sa](https://flagcdn.com/16x12/sa.png) | Johannesburg |
 | iperf3 -c 41.226.22.119 -p 9200-9240 | -R,-u |  | TN \| ![tn](https://flagcdn.com/16x12/tn.png) | Tunis |
 | iperf3 -c 41.210.185.162 -p 5201 | -R,-u | 2x10 | UG \| ![ug](https://flagcdn.com/16x12/ug.png) | Kampala |
 | iperf3 -c 169.150.238.161 -p 5201 | -R,-u | 2x10 | ZA \| ![za](https://flagcdn.com/16x12/za.png) | Johannesburg |
+| iperf3 -c 69.48.239.124 -p 30000 | -R | 10 | ZA \| ![za](https://flagcdn.com/16x12/za.png) | Johannesburg |
 
 
 ### ASIA
@@ -95,7 +95,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 207.211.214.65 -p 5201 | -R,-u | 2x10 | BE \| ![be](https://flagcdn.com/16x12/be.png) | Brussels |
 | iperf3 -c 37.19.203.1 -p 5201 | -R,-u | 2x10 | BG \| ![bg](https://flagcdn.com/16x12/bg.png) | Sofia |
 | iperf3 -c 212.60.47.34 -p 9201-9209 | -R |  | CH \| ![ch](https://flagcdn.com/16x12/ch.png) | Bern |
-| iperf3 -c speedtest.shinternet.ch -p 5200-5209 | -R,-6,-u | 10 | CH \| ![ch](https://flagcdn.com/16x12/ch.png) | Schaffhausen |
+| iperf3 -c speedtest.shinternet.ch -p 5200-5219 | -R,-6,-u | 10 | CH \| ![ch](https://flagcdn.com/16x12/ch.png) | Schaffhausen |
 | iperf3 -c speedtest.init7.net -p 5201-5204 | -R,-6,-u | 20 | CH \| ![ch](https://flagcdn.com/16x12/ch.png) | Winterthur |
 | iperf3 -c 89.187.165.1 -p 5201 | -R,-u | 2x10 | CH \| ![ch](https://flagcdn.com/16x12/ch.png) | Zürich |
 | iperf3 -c speedtest.iway.ch -p 5201 | -R,-6,-u | 10 | CH \| ![ch](https://flagcdn.com/16x12/ch.png) | Zürich |
@@ -137,8 +137,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c scaleway.testdebit.info -p 9200-9240 | -R,-6 | 10 | FR \| ![fr](https://flagcdn.com/16x12/fr.png) | Vitry-sur-Seine |
 | iperf3 -c 185.59.221.51 -p 5201 | -R,-u | 2x10 | GB \| ![gb](https://flagcdn.com/16x12/gb.png) | London |
 | iperf3 -c 45.92.46.189 -p 5210-5219 | -R | 1 | GB \| ![gb](https://flagcdn.com/16x12/gb.png) | London |
-| iperf3 -c 45.92.46.33 -p 5210-5219 | -R | 1 | GB \| ![gb](https://flagcdn.com/16x12/gb.png) | London |
-| iperf3 -c 45.92.46.87 -p 5210-5219 | -R | 1 | GB \| ![gb](https://flagcdn.com/16x12/gb.png) | London |
 | iperf3 -c 96.45.40.45 -p 30000 | -R | 10 | GB \| ![gb](https://flagcdn.com/16x12/gb.png) | London |
 | iperf3 -c iperf.as42831.net -p 5300-5400 | -R,-6,-u |  | GB \| ![gb](https://flagcdn.com/16x12/gb.png) | London |
 | iperf3 -c lon.speedtest.clouvider.net -p 5200-5208 | -R,-6 | 10 | GB \| ![gb](https://flagcdn.com/16x12/gb.png) | London |
@@ -245,7 +243,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 84.17.41.11 -p 5201 | -R | 2x10 | US \| ![us](https://flagcdn.com/16x12/us.png) | Seattle |
 | iperf3 -c speedtest.sea11.us.leaseweb.net -p 5201-5210 | -R,-6 | 10 | US \| ![us](https://flagcdn.com/16x12/us.png) | Seattle |
 | iperf3 -c 107.1.167.50 -p 8201-8235 | -R |  | US \| ![us](https://flagcdn.com/16x12/us.png) | Vancouver |
-| iperf3 -c 50.238.246.238 -p 8201-8229 | -R |  | US \| ![us](https://flagcdn.com/16x12/us.png) | Vancouver |
 | iperf3 -c speedtest.wdc2.us.leaseweb.net -p 5201-5210 | -R,-6 | 10 | US \| ![us](https://flagcdn.com/16x12/us.png) | Washington |
 
 
