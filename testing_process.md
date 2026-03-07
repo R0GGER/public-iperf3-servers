@@ -12,7 +12,7 @@ Before a server is added to the public list, it must pass a comprehensive testin
    - iPerf3 performance test
 
 2. **Monitoring Period**
-   - 30-day observation period
+   - [30-day](https://30d-uptime.iperf3serverlist.net/?max=90) observation period
    - Minimum 90% uptime requirement
    - Consistent performance across all tests
 
@@ -29,7 +29,7 @@ All listed servers undergo:
 ## Removal
 
 In my commitment to maintaining a reliable server list, I remove servers that:
-- Drop below 90% uptime in a 30-day period, [uptime.iperf3serverlist.net](https://uptime.iperf3serverlist.net/) 
+- Drop below 90% uptime in a 30-day period, [uptime.iperf3serverlist.net](https://uptime.iperf3serverlist.net/) and [30d-uptime.iperf3serverlist.net](https://30d-uptime.iperf3serverlist.net/?max=90)
 - Fail consecutive automated tests
 - Show persistent connectivity issues
 - Port accessibility problems
@@ -38,6 +38,7 @@ In my commitment to maintaining a reliable server list, I remove servers that:
 ## Test Results
 
 - Uptime monitoring: [uptime.iperf3serverlist.net](https://uptime.iperf3serverlist.net/)
+  - 30-day Uptime: [30d-uptime.iperf3serverlist.net](https://30d-uptime.iperf3serverlist.net/?max=90)
 - Raw test results: [test.iperf3serverlist.net](https://test.iperf3serverlist.net)
 - Raw pending test results: [pending.iperf3serverlist.net](https://pending.iperf3serverlist.net)
 - Results are filtered and analyzed in NocoDB. View the results under the list: [PENDING](https://db.iperf3serverlist.net/dashboard/#/nc/view/eef5bfe2-916c-45fe-b4cc-1c9e510ae422)
@@ -46,7 +47,6 @@ In my commitment to maintaining a reliable server list, I remove servers that:
 
 I perform all tests from my dedicated testing environment:
 - [HostHatch](https://cloud.hosthatch.com/a/772) VPS 
-- Debian 12
 - 4 CPU cores (2 dedicated, 2 fair-shared)
 - 16 GB DDR4 RAM
 - 10GB/s network connectivity
