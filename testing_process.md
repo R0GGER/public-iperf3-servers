@@ -12,7 +12,7 @@ Before a server is added to the public list, it must pass a comprehensive testin
    - iPerf3 performance test
 
 2. **Monitoring Period**
-   - [30-day](https://30d-uptime.iperf3serverlist.net/?max=90) observation period
+   - [30-day](https://30d-uptime.iperf3serverlist.net) observation period
    - Minimum 90% uptime requirement
    - Consistent performance across all tests
 
@@ -29,7 +29,7 @@ All listed servers undergo:
 ## Removal
 
 In my commitment to maintaining a reliable server list, I remove servers that:
-- Drop below 90% uptime in a 30-day period, [uptime.iperf3serverlist.net](https://uptime.iperf3serverlist.net/) and [30d-uptime.iperf3serverlist.net](https://30d-uptime.iperf3serverlist.net/?max=90)
+- Drop below 90% uptime in a 30-day period, [uptime.iperf3serverlist.net](https://uptime.iperf3serverlist.net/) and [30d-uptime.iperf3serverlist.net](https://30d-uptime.iperf3serverlist.net)
 - Fail consecutive automated tests
 - Show persistent connectivity issues
 - Port accessibility problems
