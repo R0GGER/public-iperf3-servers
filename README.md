@@ -41,14 +41,14 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 ### AFRICA
 | **COMMAND** | **OPTIONS** | **GB/S** | **COUNTRY** | **SITE** |
 |:------------|:-----------:|:--------:|:-----------:|:---------|
-| iperf3 -c 160.242.19.254 -p 9202-9240 | -R,-u |  | AO \| ![ao](https://flagcdn.com/16x12/ao.png) | Luanda |
+| iperf3 -c 160.242.19.254 -p 9203-9240 | -R,-u |  | AO \| ![ao](https://flagcdn.com/16x12/ao.png) | Luanda |
 | iperf3 -c 41.110.39.130 -p 5201 | -R,-u | 10 | DZ \| ![dz](https://flagcdn.com/16x12/dz.png) | Algiers |
 | iperf3 -c 213.158.175.240 -p 5201 | -R,-u | 10 | EG \| ![eg](https://flagcdn.com/16x12/eg.png) | Cairo |
 | iperf3 -c 102.214.66.19 -p 5201 | -R,-u | 2x10 | GH \| ![gh](https://flagcdn.com/16x12/gh.png) | Accra |
 | iperf3 -c 102.214.66.39 -p 5201 | -R,-u | 2x10 | GH \| ![gh](https://flagcdn.com/16x12/gh.png) | Accra |
 | iperf3 -c 212.60.92.134 -p 60001-60003 | -R |  | GM \| ![gm](https://flagcdn.com/16x12/gm.png) | Banjul |
 | iperf3 -c 105.235.237.2 -p 5201-5209 | -R |  | GQ \| ![gq](https://flagcdn.com/16x12/gq.png) | Bata |
-| iperf3 -c speed.mymanga.pro -p 9200-9240 | -R |  | KE \| ![ke](https://flagcdn.com/16x12/ke.png) | Nairobi |
+| iperf3 -c speed.mymanga.pro -p 9202-9240 | -R |  | KE \| ![ke](https://flagcdn.com/16x12/ke.png) | Nairobi |
 | iperf3 -c 197.227.12.18 -p 5201-5209 | -R |  | MU \| ![mu](https://flagcdn.com/16x12/mu.png) | Floreal |
 | iperf3 -c speedtestfl.telecom.mu -p 5201-5209 | -R,-u |  | MU \| ![mu](https://flagcdn.com/16x12/mu.png) | Floreal |
 | iperf3 -c 41.226.22.119 -p 9200-9240 | -R,-u |  | TN \| ![tn](https://flagcdn.com/16x12/tn.png) | Tunis |
@@ -188,6 +188,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 148.230.60.200 -p 30000 | -R | 10 | BR \| ![br](https://flagcdn.com/16x12/br.png) | Sao Paulo |
 | iperf3 -c 138.199.4.1 -p 5201 | -R,-u | 2x10 | BR \| ![br](https://flagcdn.com/16x12/br.png) | São Paulo |
 | iperf3 -c 79.127.209.1 -p 5201 | -R,-u | 2x10 | CL \| ![cl](https://flagcdn.com/16x12/cl.png) | Santiago |
+| iperf3 -c 152.204.128.194 -p 5201-5220 | -R,-u | 10 | CO \| ![co](https://flagcdn.com/16x12/co.png) | Bogotá |
 | iperf3 -c 169.150.228.129 -p 5201 | -R,-u | 2x10 | CO \| ![co](https://flagcdn.com/16x12/co.png) | Bogotá |
 | iperf3 -c 156.146.53.53 -p 5201 | -R,-u | 2x10 | CR \| ![cr](https://flagcdn.com/16x12/cr.png) | San Jose |
 | iperf3 -c speedtest.masnet.ec -p 5201-5209 | -R,-6 | 1 | EC \| ![ec](https://flagcdn.com/16x12/ec.png) | Santa Ana |
