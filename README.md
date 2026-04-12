@@ -88,7 +88,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | **COMMAND** | **OPTIONS** | **GB/S** | **COUNTRY** | **SITE** |
 |:------------|:-----------:|:--------:|:-----------:|:---------|
 | iperf3 -c 185.180.12.40 -p 5201 | -R,-u | 2x10 | AT \| ![at](https://flagcdn.com/16x12/at.png) | Vienna |
-| iperf3 -c lg.vie.alwyzon.net -p 5201-5203 | -R,-6 |  | AT \| ![at](https://flagcdn.com/16x12/at.png) | Vienna |
+| iperf3 -c iperf3-vie-at.alwyzon.net -p 5201-5210 | -R,-6 | 2x100 | AT \| ![at](https://flagcdn.com/16x12/at.png) | Vienna |
 | iperf3 -c 207.211.214.65 -p 5201 | -R,-u | 2x10 | BE \| ![be](https://flagcdn.com/16x12/be.png) | Brussels |
 | iperf3 -c 185.3.160.57 -p 5201-5240 | -R |  | BE \| ![be](https://flagcdn.com/16x12/be.png) | Liège |
 | iperf3 -c 37.19.203.1 -p 5201 | -R,-u | 2x10 | BG \| ![bg](https://flagcdn.com/16x12/bg.png) | Sofia |
@@ -141,7 +141,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.lon12.uk.leaseweb.net -p 5201-5210 | -R,-6 | 10 | GB \| ![gb](https://flagcdn.com/16x12/gb.png) | London |
 | iperf3 -c speedtest2.lightningfibre.net.uk -p 4000-4007 | -R,-6,-u | 10 | GB \| ![gb](https://flagcdn.com/16x12/gb.png) | London |
 | iperf3 -c speedtest.rapidswitch.com -p 5201-5209 | -R | 1 | GB \| ![gb](https://flagcdn.com/16x12/gb.png) | Maidenhead |
-| iperf3 -c iperf.boundlessnetworks.uk -p 5201-5250 | -R | 10 | GB \| ![gb](https://flagcdn.com/16x12/gb.png) | Manchester |
 | iperf3 -c man.speedtest.clouvider.net -p 5200-5209 | -R,-6 | 10 | GB \| ![gb](https://flagcdn.com/16x12/gb.png) | Manchester |
 | iperf3 -c 169.150.252.2 -p 5201 | -R,-u | 2x10 | GR \| ![gr](https://flagcdn.com/16x12/gr.png) | Athens |
 | iperf3 -c 169.150.242.129 -p 5201 | -R,-u | 2x10 | HR \| ![hr](https://flagcdn.com/16x12/hr.png) | Zagreb |
