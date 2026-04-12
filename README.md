@@ -88,7 +88,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | **COMMAND** | **OPTIONS** | **GB/S** | **COUNTRY** | **SITE** |
 |:------------|:-----------:|:--------:|:-----------:|:---------|
 | iperf3 -c 185.180.12.40 -p 5201 | -R,-u | 2x10 | AT \| ![at](https://flagcdn.com/16x12/at.png) | Vienna |
-| iperf3 -c iperf3-vie-at.alwyzon.net -p 5201-5210 | -R,-6 | 2x100 | AT \| ![at](https://flagcdn.com/16x12/at.png) | Vienna |
+| iperf3 -c iperf3-vie-at.alwyzon.net -p 5201-5210 | -R,-6,-u | 2x100 | AT \| ![at](https://flagcdn.com/16x12/at.png) | Vienna |
 | iperf3 -c 207.211.214.65 -p 5201 | -R,-u | 2x10 | BE \| ![be](https://flagcdn.com/16x12/be.png) | Brussels |
 | iperf3 -c 185.3.160.57 -p 5201-5240 | -R |  | BE \| ![be](https://flagcdn.com/16x12/be.png) | Liège |
 | iperf3 -c 37.19.203.1 -p 5201 | -R,-u | 2x10 | BG \| ![bg](https://flagcdn.com/16x12/bg.png) | Sofia |
