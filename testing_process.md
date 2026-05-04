@@ -41,7 +41,7 @@ In my commitment to maintaining a reliable server list, I remove servers that:
   - 30-day Uptime: [30d-uptime.iperf3serverlist.net](https://30d-uptime.iperf3serverlist.net/?max=90)
 - Raw test results: [test.iperf3serverlist.net](https://test.iperf3serverlist.net)
 - Raw pending test results: [pending.iperf3serverlist.net](https://pending.iperf3serverlist.net)
-- Results are filtered and analyzed in NocoDB. View the results under the list: [PENDING](https://db.iperf3serverlist.net/dashboard/#/nc/view/eef5bfe2-916c-45fe-b4cc-1c9e510ae422)
+- Results are filtered and analyzed in Baserow. View the results under the list: [PENDING](https://baserow.iperf3serverlist.net/public/grid/OS0x81XHiEZ9X5vYyfskqApq1kA2YIyL2qoIlaz8Yyc)
 
 ## Test Environment
 
