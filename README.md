@@ -286,6 +286,7 @@ Files are **refreshed automatically every hour**.
 *   [iPERF3 Speedtest](https://github.com/R0GGER/iperf3-speedtest) - A simple Python tool and web app to measure your internet speed using public iperf3 servers. `Python`
 *   [iperf3-tui](https://github.com/dmdmdm/iperf3-tui) - Draw a moving speed test graph in your terminal `Rust`
 *   [iPerf3-WebUI](https://github.com/MaddyDev-glitch/iperf3-webui) - A modern, lightweight, web-based iPerf3 GUI built with Python 3 and Flask. `Python` `Docker`
+*   [iPerf Reloaded](https://apps.apple.com/us/app/iperf-reloaded/id6763071099) - iPerf Reloaded brings the power of iPerf3 directly to your iPhone and iPad. `iPhone` `iPad`
 
 ## Contact
 Contact me via e-mail - r0gger[at]iperf3serverlist.net
