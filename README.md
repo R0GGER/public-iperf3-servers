@@ -176,7 +176,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c porto.speedtest.net.zon.pt -p 5201-5209 | -R, -6, -u | 10 | Europe | PT \| ![pt](https://flagcdn.com/16x12/pt.png) | Porto |
 | iperf3 -c 185.102.217.170 | -R, -u | 2x10 | Europe | RO \| ![ro](https://flagcdn.com/16x12/ro.png) | Bucharest |
 | iperf3 -c speedtest1.sox.rs -p 9202-9240 | -R, -6 | 10 | Europe | RS \| ![rs](https://flagcdn.com/16x12/rs.png) | Belgrade |
-| iperf3 -c iperf.fegis.nu -p 5201-5207 | -R | 1 | Europe | SE \| ![se](https://flagcdn.com/16x12/se.png) | Alvsjo |
+| iperf3 -c iperf.fegis.nu -p 5201-5207 | -R | 10 | Europe | SE \| ![se](https://flagcdn.com/16x12/se.png) | Alvsjo |
 | iperf3 -c speedtest.kamel.network -p 5201-5205 | -R, -6 | 1 | Europe | SE \| ![se](https://flagcdn.com/16x12/se.png) | Kista |
 | iperf3 -c 185.76.9.135 | -R, -u | 2x10 | Europe | SE \| ![se](https://flagcdn.com/16x12/se.png) | Stockholm |
 | iperf3 -c 156.146.40.65 | -R, -u | 2x10 | Europe | SK \| ![sk](https://flagcdn.com/16x12/sk.png) | Bratislava |
