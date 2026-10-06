@@ -8,7 +8,7 @@
    <a href="https://stand-with-ukraine.pp.ua"><img src="https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraineFlat.svg" alt="#StandWithUkraine" /></a>
 <h3 align="center">A list of public iPERF3 servers to perform bandwidth and speedtests across different geographical regions.</h3> 
   <p align="center">
-  <a href="https://up.iperf3serverlist.net"><img src="https://30d-uptime.iperf3serverlist.net/badge.svg?v=2" alt="Uptime"></a>
+  <a href="https://up.iperf3serverlist.net/uptime"><img src="https://up.iperf3serverlist.net/api/v1/endpoints/uptimes/30d/badge.svg?style=flat-square-large&show=full-up" alt="Uptime"></a>
 </p>
 <p align="center">
 This project is sponsored and supported by <a href="https://cloud.hosthatch.com/a/772" target="_blank">HostHatch</a> and <a href="https://censys.com" target="_blank">Censys</a>.
