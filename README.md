@@ -79,7 +79,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c 169.150.202.193 | -R, -u | 2x10 | Asia | IL \| ![il](https://flagcdn.com/16x12/il.png) | Tel Aviv |
 | iperf3 -c 49.205.75.2 -p 5008-5020 | -R, -u |  | Asia | IN \| ![in](https://flagcdn.com/16x12/in.png) | Bengaluru |
 | iperf3 -c 69.48.236.198 -p 30001-30009 | -R | 10 | Asia | IN \| ![in](https://flagcdn.com/16x12/in.png) | Pune |
-| iperf3 -c 23.249.60.154 -p 30001-30009 | -R | 10 | Asia | JP \| ![jp](https://flagcdn.com/16x12/jp.png) | Komagome |
 | iperf3 -c 66.35.31.81 -p 30001-30009 | -R | 10 | Asia | JP \| ![jp](https://flagcdn.com/16x12/jp.png) | Tokyo |
 | iperf3 -c 89.187.160.1 | -R, -u | 2x10 | Asia | JP \| ![jp](https://flagcdn.com/16x12/jp.png) | Tokyo |
 | iperf3 -c speedtest.tyo11.jp.leaseweb.net -p 5201-5210 | -R, -6 | 10 | Asia | JP \| ![jp](https://flagcdn.com/16x12/jp.png) | Tokyo |
@@ -167,7 +166,6 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 | iperf3 -c speedtest.ams2.nl.leaseweb.net -p 5201-5210 | -R, -6 | 10 | Europe | NL \| ![nl](https://flagcdn.com/16x12/nl.png) | Amsterdam |
 | iperf3 -c speedtest.netone.nl -p 5201 | -R, -6, -u | 10 | Europe | NL \| ![nl](https://flagcdn.com/16x12/nl.png) | Amsterdam |
 | iperf3 -c nl.speed.vps1.net -p 5201-5210 | -R |  | Europe | NL \| ![nl](https://flagcdn.com/16x12/nl.png) | Dronten |
-| iperf3 -c speedtest.nl1.mirhosting.net -p 5201-5210 | -R, -6 | 20 | Europe | NL \| ![nl](https://flagcdn.com/16x12/nl.png) | Dronten |
 | iperf3 -c iperf1.surfwireless.nl -p 5201-5220 | -R, -6 |  | Europe | NL \| ![nl](https://flagcdn.com/16x12/nl.png) | Lelystad |
 | iperf3 -c iperf.worldstream.nl -p 5201-5205 | -R | 10 | Europe | NL \| ![nl](https://flagcdn.com/16x12/nl.png) | Naaldwijk |
 | iperf3 -c speedsrv.multinet24.pl -p 5301-5310 | -R | 1 | Europe | PL \| ![pl](https://flagcdn.com/16x12/pl.png) | Debica |
