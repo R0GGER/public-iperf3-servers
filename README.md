@@ -38,7 +38,7 @@ Do you want to add/remove an IP or HOST to this list? Please create a [new issue
 * [NORTH AMERICA](#north-america)
 * [OCEANIA](#oceania)
 
-:sparkles: Servers with an uptime of 90% or less in 30 days will be removed.   
+:sparkles: Servers with an [uptime of 90% or less in 30 days](https://30d-uptime.iperf3serverlist.net) will be removed.   
 
 ### AFRICA
 | **COMMAND** | **OPTIONS** | **GB/S** | **CONTINENT** | **COUNTRY** | **SITE** |
